@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "skills": {
+    "productivity": {
+      "version": "1.0.0",
+      "installedAt": 1771067361034
+    },
+    "senior-dev": {
+      "version": "0.1.0",
+      "installedAt": 1771067366916
+    },
+    "web-search": {
+      "version": "1.0.0",
+      "installedAt": 1771067439946
+    },
+    "deep-research-pro": {
+      "version": "1.0.2",
+      "installedAt": 1771067520448
+    },
+    "reddit-readonly": {
+      "version": "1.0.0",
+      "installedAt": 1771067524162
+    },
+    "fast-browser-use": {
+      "version": "1.0.5",
+      "installedAt": 1771067530825
+    },
+    "web-search-pro": {
+      "version": "1.0.0",
+      "installedAt": 1771067535500
+    },
+    "linear": {
+      "version": "1.0.0",
+      "installedAt": 1771068398890
+    },
+    "playwright-mcp": {
+      "version": "1.0.0",
+      "installedAt": 1771068403957
+    },
+    "monday": {
+      "version": "1.0.3",
+      "installedAt": 1771068411140
+    },
+    "automation-workflows": {
+      "version": "0.1.0",
+      "installedAt": 1771068416059
+    },
+    "agentmail": {
+      "version": "1.1.1",
+      "installedAt": 1771068672338
+    }
+  }
+}
