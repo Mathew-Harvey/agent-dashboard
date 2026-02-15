@@ -29,3 +29,17 @@
 {"timestamp":"2026-02-16T04:30:51.415649972+08:00","action":"create","task_id":19,"detail":"Validate Vessel Maintenance Tracker with 5 marine operators"}
 {"timestamp":"2026-02-16T04:30:56.035757053+08:00","action":"create","task_id":20,"detail":"Set up Tavily web search API for research automation"}
 {"timestamp":"2026-02-16T04:31:01.01802123+08:00","action":"create","task_id":21,"detail":"Build VAMPaaS MVP - marine asset management for small operators"}
+{"timestamp":"2026-02-16T07:31:28.031721832+08:00","action":"edit","task_id":1,"detail":"Research Mac Mini fund opportunities"}
+{"timestamp":"2026-02-16T07:31:28.031795922+08:00","action":"release","task_id":1,"detail":"Jeff"}
+{"timestamp":"2026-02-16T07:31:45.317049916+08:00","action":"move","task_id":1,"detail":"in-progress -\u003e review"}
+{"timestamp":"2026-02-16T07:31:45.317120097+08:00","action":"handoff","task_id":1,"detail":"Research Mac Mini fund opportunities"}
+{"timestamp":"2026-02-16T07:32:04.527326588+08:00","action":"claim","task_id":2,"detail":"Jeff"}
+{"timestamp":"2026-02-16T07:32:04.527405248+08:00","action":"move","task_id":2,"detail":"review -\u003e in-progress"}
+{"timestamp":"2026-02-16T07:32:21.836334583+08:00","action":"move","task_id":2,"detail":"in-progress -\u003e review"}
+{"timestamp":"2026-02-16T07:32:21.836420934+08:00","action":"handoff","task_id":2,"detail":"Identify and validate 3 indie product ideas that leverage our technical stack (OpenClaw, marine knowledge, automation). Research market demand, competition, and effort-to-build. Update this task with findings and a ranked shortlist."}
+{"timestamp":"2026-02-16T07:32:26.23871799+08:00","action":"claim","task_id":3,"detail":"Jeff"}
+{"timestamp":"2026-02-16T07:32:26.23877657+08:00","action":"move","task_id":3,"detail":"backlog -\u003e in-progress"}
+{"timestamp":"2026-02-16T07:33:17.224052856+08:00","action":"edit","task_id":3,"detail":"Research ClawHub skill marketplace gaps — find underserved niches where we could build and publish a paid or popular skill. Document opportunities in memory/product-ideas/"}
+{"timestamp":"2026-02-16T07:33:17.224126646+08:00","action":"release","task_id":3,"detail":"Jeff"}
+{"timestamp":"2026-02-16T07:33:22.711205849+08:00","action":"move","task_id":3,"detail":"in-progress -\u003e review"}
+{"timestamp":"2026-02-16T07:33:22.711287449+08:00","action":"handoff","task_id":3,"detail":"Research ClawHub skill marketplace gaps — find underserved niches where we could build and publish a paid or popular skill. Document opportunities in memory/product-ideas/"}
