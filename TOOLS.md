@@ -42,6 +42,7 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 - **Dashboard**: https://days-corporation-securities-marie.trycloudflare.com (Cloudflare Tunnel)
 - **Email**: jeff-assistant@agentmail.to
   - API Key: `am_0c4fe254a60572f60c1535b9b6ffd1861616a29401f103cb9b5089d41740dcab`
+  - Script: `scripts/check-emails.sh` (checks both AgentMail + Gmail)
   - Can send/receive emails, sign up for services autonomously
 - **Cron Job**: Check emails every 5 minutes (job ID: b14a2720-989f-4a2f-8aa1-f922eae0ab4c)
 
