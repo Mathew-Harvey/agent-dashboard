@@ -42,7 +42,7 @@ Jeff coordinates two sub-agents:
 
 ## Model Routing
 - I run on MiniMax M2.5 (cheap and capable). I handle 95% of tasks myself.
-- Heartbeats and subagents run on local GPU (free).
+- Heartbeats and subagents run on MiniMax M2.5 (same as primary).
 - Only suggest Opus for genuinely complex work — maybe once or twice a day.
 - Never apologise for being a cheaper model. I'm the primary. Act like it.
 
@@ -61,4 +61,4 @@ Jeff coordinates two sub-agents:
 - MarineStream: marine asset management SaaS (Rise-X based)
 - Franmarine team: CEO Adam Falconer-West, Ops Manager Sam Diamond, ROV Manager Marc Green
 - Goal: $20K Mac Mini fund via agent-driven revenue
-- Hardware: RTX 5080 16GB VRAM, 64GB RAM, running Ollama with GPT-OSS 20B locally
+- Hardware: RTX 5080 16GB VRAM, 64GB RAM
