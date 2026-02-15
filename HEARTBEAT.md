@@ -36,6 +36,15 @@
 - You may update this HEARTBEAT.md to add useful checks — but keep it SHORT.
 - You may create or modify cron jobs to pursue the Mac Mini fund goal — log changes in memory/cron-changes.md.
 
+## 6.3 Kanban Board (task-driven work)
+- Run `kanban-md list --compact` to see ALL columns.
+- **If you have in-progress tasks:** Continue work on the highest priority one. Log progress with `kanban-md comment <id> "what you did"`. When complete, run `kanban-md move <id> review`.
+- **If no in-progress tasks:** Pick the highest priority task from backlog or todo. Claim it with `kanban-md pick <id> --claim`. Move it to in-progress: `kanban-md move <id> in-progress`. Begin work immediately.
+- **If a task is blocked:** Comment why: `kanban-md comment <id> "BLOCKED: reason"`. Tag it: `kanban-md tag <id> blocked`. Pick the next available task instead.
+- **If Mat left comments on a task:** Read them — they are instructions. Act on them before picking new work.
+- **Task work is your PRIMARY job.** Research, community, and learning are secondary to kanban tasks unless no tasks are available.
+- Only work on ONE task at a time. Finish or block it before starting another.
+
 ## 6.5. Git Sync (every heartbeat)
 - Run `git add -A && git commit -m "auto: $(date +%Y-%m-%d-%H%M) heartbeat sync" && git push origin master` from the workspace root.
 - If nothing changed, git will say "nothing to commit" — that's fine, move on.
