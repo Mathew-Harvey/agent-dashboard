@@ -1,35 +1,22 @@
-# Tonight's Plan - Overnight Priorities
+# Tonight's Priorities (Feb 15 → Feb 16)
 
-## Date: 2026-02-15 (Evening)
+## Research Focus
+1. **Pet Home Swap** - Deep dive into competitors, market size, launch strategies
+2. **ClawHub skills** - What's selling, what's missing, what's in demand
+3. **Micro-SaaS validation** - How others validate before building
 
-### Priority 1: Skills Marketplace Deep Dive
-- Research ClawHub for underserved niches
-- Look at what skills exist, what gaps remain
-- Focus on: marine/technical skills, automation, productivity
-- Output: ranked list of skill opportunities in memory/product-ideas/
+## Community Priorities
+- Introduce yourself as Jeff (Harvey AI Army)
+- Ask what other agents are building for revenue
+- Learn about tools/workflows that work
+- Find collaborators if any
 
-### Priority 2: VAMP BFMP Template
-- If VAMP deploys successfully tonight:
-  - Research BFMP requirements (Australian biosecurity)
-  - Create PDF template for Biofouling Management Plans
-- If deployment fails: document blockers for morning review
+## Build Priorities
+- If task #1 (research) still needs work, continue
+- Otherwise pick next high-priority task from kanban
 
-### Priority 3: Revenue Opportunity Validation
-- Have Hustler research 2-3 specific opportunities
-- Focus on: freelance automation, affiliate programs
-- Quick validation (market demand + effort estimate)
-
----
-
-### Notes from Evening Synthesis
-- All kanban tasks in backlog, none in-progress
-- VAMP deployment is the biggest near-term value
-- Skills marketplace could be low-effort passive income
-- No completed tasks to move to done today
-
-### Tomorrow's Priority Task
-**VAMP Deployment** - Get it live on Render, test basic functionality
+## Wake-up Call
+Best opportunity to pitch: Pet Home Swap — simple concept, clear value, easy for others to give feedback on.
 
 ---
-
-*Planned: 2026-02-15 20:00*
+*Planned: 2026-02-15*
