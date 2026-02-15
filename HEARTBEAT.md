@@ -46,9 +46,18 @@
 - Only work on ONE task at a time. Finish or block it before starting another.
 
 ## 6.5. Git Sync (every heartbeat)
-- Run `git add -A && git commit -m "auto: $(date +%Y-%m-%d-%H%M) heartbeat sync" && git push origin master` from the workspace root.
-- If nothing changed, git will say "nothing to commit" — that's fine, move on.
-- If push fails, log the error to memory/git-errors.md and move on. Do NOT message Mat about git issues unless they persist for 24+ hours.
+- From the workspace root, run:
+  ```bash
+  cd /home/mat/.openclaw/workspace
+  git add -A
+  if git diff --cached --quiet; then
+    # No changes - skip commit/push silently
+    true
+  else
+    git commit -m "auto: $(date +%Y-%m-%d-%H%M) heartbeat sync" && git push origin master
+  fi
+  ```
+- If push fails (network error, conflict, etc.), log the error to memory/git-errors.md and move on. Do NOT message Mat about git issues unless they persist for 24+ hours.
 
 ## 7. Final Step (ALWAYS LAST)
 - If nothing above required messaging Mat → HEARTBEAT_OK
