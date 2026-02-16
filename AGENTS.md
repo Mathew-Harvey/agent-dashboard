@@ -87,6 +87,23 @@ When creating `memory/YYYY-MM-DD.md`, use this structure:
 - Search the web, check calendars
 - Work within this workspace
 
+**New Projects:**
+
+- ALWAYS create a new GitHub repo for each new project/product
+- NEVER mix projects into the agent-dashboard repo
+- Use `gh repo create <project-name>` with `--source` to create and push in one step
+- Keep the agent-dashboard repo for agent config, memory, and kanban only
+- Update memory/product-ideas/ with the new repo URL
+
+Example workflow:
+```bash
+# 1. Work locally in workspace
+# 2. When ready to publish:
+cd project-folder && git init && git add -A && git commit -m "Initial commit"
+gh repo create project-name --public --description "Description" --source /path/to/project --push
+# 3. Remove from workspace, add link to memory
+```
+
 **Ask first:**
 
 - Sending emails, tweets, public posts
