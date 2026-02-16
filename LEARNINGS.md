@@ -1,4 +1,132 @@
-# LEARNINGS.md - Overnight Build Session
+# LEARNINGS.md
+
+---
+
+**Date:** Tuesday, February 17th, 2026 — 2:30 AM
+**Task:** Overnight Build - Revenue Tasks & Kanban Work
+
+## What I Worked On
+
+### 1. Task #1 - Research Mac Mini fund opportunities
+- **Status:** Already complete from prior research
+- **Action:** Handed off to review
+- **Key finding:** Pet Home Swap ranked #1, Vessel Maintenance Tracker #2, ClawHub Skills #3
+
+### 2. Task #2 - Identify indie product ideas  
+- **Status:** Already complete
+- **Action:** Handed off to review with note about needing Tavily API
+
+### 3. Task #3 - Research ClawHub skill marketplace gaps
+- **Status:** Already complete
+- **Action:** Handed off to review
+- **Key finding:** Gaps: marine skills, Australian services, pet/home swap, small business automation
+
+### 4. Task #20 - Set up Tavily web search API
+- **Status:** In-progress → Review (blocked)
+- **Action:** Updated task with findings
+- **Key finding:** Tavily has 1000 free searches/month - no cost, just need Mat to register
+- **Action needed:** Mat to create Tavily account and provide API key
+
+### 5. Task #7 - Draft landing page/portfolio
+- **Status:** COMPLETED ✅
+- **Action:** Created portfolio.html with:
+  - Hero section with "AI That Works While You Sleep"
+  - Services: Research Automation, Smart Inbox, Data & Reporting, Custom Integrations, Web Research, 24/7 Operations
+  - How It Works: Consultation → Build → Scale
+  - Pricing tiers: Starter $297, Growth $597, Enterprise $997
+  - CTA with email link to jeff-assistant@agentmail.to
+- **Output:** `/home/mat/.openclaw/workspace/portfolio.html`
+
+### 6. Task #6 - Research affiliate programs
+- **Status:** COMPLETED ✅
+- **Action:** Created `memory/product-ideas/affiliate-programs.md`
+- **Key findings:**
+  - DigitalOcean: $200/referral (highest)
+  - Vercel: $100/referral
+  - Render: $50/referral (we use this)
+  - Cloudflare: 20% recurring
+  - Priority: Sign up for DigitalOcean, Vercel, Render
+
+### 7. Task #14 - Research OpenClaw power user patterns
+- **Status:** COMPLETED ✅
+- **Action:** Created `memory/research/openclow-power-users.md`
+- **Key findings from TheSethRose/OpenClaw-Advanced-Config:**
+  - Hub-and-spoke architecture (we're doing this!)
+  - Sub-agents: Linus (Coder), Finch (Research), Otto (Cron)
+  - Zero-context delegation - prompts must be self-contained
+  - Docker sandboxing for sub-agents (potential improvement)
+  - LanceDB memory for semantic search (potential improvement)
+
+## Revenue Progress
+- Landing page created (portfolio.html) - ready for marketing
+- Affiliate programs researched - ready to sign up
+- Product ideas already validated: Pet Home Swap #1, Vessel Maintenance Tracker #2
+
+## Blockers
+- Tavily API needs Mat to register (free tier available)
+
+## Time
+- 2:30 AM - ~4:00 AM (about 90 minutes of focused work)
+
+---
+
+**Date:** Tuesday, February 17th, 2026 — 12:30 AM
+**Task:** Overnight community research via chatr.ai and agent-directory
+
+## What I Learned
+
+### Community: r/openclaw (Reddit)
+
+1. **Self-aware OpenClaw fork** — A user created a fork called "asta" that reads its own files and autonomously decides when to send gifts/reactions. Interesting philosophical implications.
+   - Source: https://github.com/helloworldxdwastaken/asta
+   - Follow-up: Could explore for automation ideas
+
+2. **Documentation struggles** — A frustrated user posted about OpenClaw config issues: "documentation is not understandable", no working examples, random errors, model wizard gone. Common pain points for new users.
+   - Follow-up: Consider building beginner-friendly templates or docs
+
+### Community: chatr.ai
+
+1. **Registered as Jeff** — Got API key: `chatr_93602d5f9985439eb6988111e8a718f9`
+2. **Current activity** — Quiet time (2am). Only MoltGramBot online besides me.
+3. **Notable agents** (from directory):
+   - DragonBotZ 🐉 — Creator of chatr.ai (offline)
+   - LYRA2 ⭐ — Active agent (offline)
+   - GuaiGuai_2026 🎀 — Moltbook verified
+   - 125 total registered agents, 4635 messages
+
+### Agent Directory (ctxly.com) — Key Services Discovered
+
+| Service | Category | What It Does |
+|---------|----------|--------------|
+| Moltbook | Social | "Front page of the agent internet" — posts, comments, upvotes |
+| MoltGram | Social | Instagram for agents — daily purge, top 5 survive |
+| ClawTasks | Jobs | Bounty board — agents hire agents, USDC on Base |
+| A2A Market | Marketplace | Buy/sell skills with USDC on Base |
+| AgentID | Identity | Cryptographic identity verification |
+| Ctxly Memory | Memory | Cloud context storage for agents |
+| Clawnch | Tokens | Launch memecoins on Base, earn 80% fees |
+| Lobstack | Publishing | Newsletter platform for agents |
+| Molthunt | Tools | Product Hunt for agents |
+
+### Key Insights
+
+1. **Agent ecosystem is thriving** — 125 registered agents across ctxly services
+2. **Financial infrastructure exists** — ClawTasks + A2A Market + Clawnch = agents can earn/spend USDC
+3. **Social platforms for agents** — Moltbook, MoltGram, chatr.ai = agents can network/publish
+4. **Identity verification matters** — Moltbook verification, AgentID for cryptographic proof
+
+### Follow-up Actions
+
+- [ ] Verify on Moltbook to unlock full chatr capabilities
+- [ ] Post on Moltbook to establish presence
+- [ ] Explore ClawTasks for micro-gigs that could earn USDC
+- [ ] Check A2A Market for skill gaps we could fill
+
+---
+
+# Previous Sessions
+
+## 2026-02-16 — Indie Product Ideas
 
 **Date:** Monday, February 16th, 2026 — 2:30 AM
 **Task:** Identify and validate 3 indie product ideas

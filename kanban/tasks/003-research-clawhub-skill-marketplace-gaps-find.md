@@ -4,12 +4,12 @@ title: Research ClawHub skill marketplace gaps — find underserved niches where
 status: review
 priority: high
 created: 2026-02-15T12:40:47.488702615+08:00
-updated: 2026-02-16T07:33:22.711044859+08:00
+updated: 2026-02-17T02:31:59.752044892+08:00
 started: 2026-02-16T07:32:26.23855434+08:00
 tags:
     - revenue
 claimed_by: Jeff
-claimed_at: 2026-02-16T07:33:22.711037999+08:00
+claimed_at: 2026-02-17T02:31:59.752042112+08:00
 class: standard
 ---
 
@@ -33,3 +33,5 @@ Top skills by downloads:
 **Opportunity:** Build skills for our product ideas (Pet Home Swap, Vessel Maintenance Tracker) — first-mover advantage in marine niche.
 
 ClawHub research complete. Found gaps: marine skills, Australian services, pet/home swap, small business automation. Opportunity: build skills for our product ideas.
+
+Research complete. Gaps: marine, Australian services, pet/home swap, small business automation. Opportunity: build skills for our products.

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harvey AI Army — AI Automation for Small Business</title>
+  <meta name="description" content="AI-powered automation that works while you sleep. We build intelligent agents to handle research, customer service, and operations.">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --secondary: #0f172a;
+      --text: #334155;
+      --text-light: #64748b;
+      --bg: #f8fafc;
+      --white: #ffffff;
+      --accent: #10b981;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+    
+    /* Header */
+    header {
+      background: var(--white);
+      border-bottom: 1px solid #e2e8f0;
+      padding: 20px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .header-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--secondary);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo span { color: var(--primary); }
+    nav { display: flex; gap: 30px; }
+    nav a {
+      color: var(--text-light);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    nav a:hover { color: var(--primary); }
+    
+    /* Hero */
+    .hero {
+      background: linear-gradient(135deg, var(--secondary) 0%, #1e293b 100%);
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 56px;
+      font-weight: 800;
+      line-height: 1.1;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 20px;
+      color: #94a3b8;
+      max-width: 600px;
+      margin: 0 auto 40px;
+    }
+    .btn {
+      display: inline-block;
+      background: var(--primary);
+      color: white;
+      padding: 16px 32px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 18px;
+      transition: all 0.2s;
+    }
+    .btn:hover {
+      background: var(--primary-dark);
+      transform: translateY(-2px);
+    }
+    .btn-outline {
+      background: transparent;
+      border: 2px solid #475569;
+      margin-left: 15px;
+    }
+    .btn-outline:hover {
+      border-color: var(--primary);
+      background: rgba(37, 99, 235, 0.1);
+    }
+    
+    /* Features */
+    .features { padding: 80px 0; }
+    .section-title {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    .section-title h2 {
+      font-size: 40px;
+      color: var(--secondary);
+      margin-bottom: 15px;
+    }
+    .section-title p { color: var(--text-light); font-size: 18px; }
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+    .feature-card {
+      background: var(--white);
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+    }
+    .feature-card:hover { transform: translateY(-5px); }
+    .feature-icon {
+      width: 60px;
+      height: 60px;
+      background: #eff6ff;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    .feature-card h3 { font-size: 22px; margin-bottom: 12px; color: var(--secondary); }
+    .feature-card p { color: var(--text-light); }
+    
+    /* How It Works */
+    .how-it-works {
+      background: var(--white);
+      padding: 80px 0;
+    }
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+      text-align: center;
+    }
+    .step-num {
+      width: 50px;
+      height: 50px;
+      background: var(--primary);
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      font-weight: 700;
+      margin: 0 auto 20px;
+    }
+    .step h3 { margin-bottom: 10px; color: var(--secondary); }
+    .step p { color: var(--text-light); }
+    
+    /* Pricing */
+    .pricing { padding: 80px 0; }
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .price-card {
+      background: var(--white);
+      padding: 40px;
+      border-radius: 16px;
+      text-align: center;
+      border: 2px solid #e2e8f0;
+    }
+    .price-card.featured {
+      border-color: var(--primary);
+      position: relative;
+    }
+    .price-card.featured::before {
+      content: 'Most Popular';
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--primary);
+      color: white;
+      padding: 4px 16px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .price { font-size: 48px; font-weight: 800; color: var(--secondary); }
+    .price span { font-size: 16px; font-weight: 400; color: var(--text-light); }
+    .price-card ul { list-style: none; margin: 30px 0; text-align: left; }
+    .price-card li {
+      padding: 10px 0;
+      border-bottom: 1px solid #f1f5f9;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .price-card li::before { content: '✓'; color: var(--accent); font-weight: bold; }
+    
+    /* CTA */
+    .cta {
+      background: var(--secondary);
+      color: white;
+      padding: 80px 0;
+      text-align: center;
+    }
+    .cta h2 { font-size: 40px; margin-bottom: 20px; }
+    .cta p { color: #94a3b8; margin-bottom: 30px; font-size: 18px; }
+    
+    /* Footer */
+    footer {
+      background: var(--white);
+      padding: 40px 0;
+      border-top: 1px solid #e2e8f0;
+      text-align: center;
+      color: var(--text-light);
+    }
+    
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 36px; }
+      .steps { grid-template-columns: 1fr; }
+      nav { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <div class="logo">🤖 Harvey <span>AI Army</span></div>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>AI That Works While<br>You Sleep</h1>
+      <p>Intelligent automation agents that handle research, customer service, and operations 24/7. No more busywork — just results.</p>
+      <a href="#contact" class="btn">Get Started</a>
+      <a href="#how-it-works" class="btn btn-outline">Learn More</a>
+    </div>
+  </section>
+
+  <section class="features" id="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>What We Do</h2>
+        <p>Powerful AI capabilities, simplified for small business</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🔍</div>
+          <h3>Research Automation</h3>
+          <p>Agents that continuously monitor markets, competitors, and opportunities — delivering insights to your inbox.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📧</div>
+          <h3>Smart Inbox Management</h3>
+          <p>AI-powered email handling that sorts, responds, and escalates — so you never miss important messages.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Data & Reporting</h3>
+          <p>Automated dashboards that compile metrics, track KPIs, and surface trends without manual data entry.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🛠️</div>
+          <h3>Custom Integrations</h3>
+          <p>We connect your tools together — APIs, webhooks, and automation that fits your existing workflow.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🌐</div>
+          <h3>Web Research</h3>
+          <p>Deep-dive research on any topic — market analysis, lead generation, and competitive intelligence.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⏰</div>
+          <h3>24/7 Operations</h3>
+          <p>Agents that never sleep, never complain, and keep working on your priorities around the clock.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-title">
+        <h2>How It Works</h2>
+        <p>Three simple steps to AI-powered automation</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h3>Consultation</h3>
+          <p>We learn about your business, identify pain points, and map out automation opportunities.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h3>Build</h3>
+          <p>Our agents get to work — research, integration, and setup completed while you focus on business.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h3>Scale</h3>
+          <p>Watch efficiency improve. Agents learn and adapt, delivering compounding value over time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-title">
+        <h2>Simple Pricing</h2>
+        <p>No contracts, no hidden fees</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="price-card">
+          <h3>Starter</h3>
+          <div class="price">$297<span>/month</span></div>
+          <ul>
+            <li>2 AI agents</li>
+            <li>Research & monitoring</li>
+            <li>Weekly reports</li>
+            <li>Email support</li>
+          </ul>
+          <a href="#contact" class="btn" style="background: #64748b;">Start Free</a>
+        </div>
+        <div class="price-card featured">
+          <h3>Growth</h3>
+          <div class="price">$597<span>/month</span></div>
+          <ul>
+            <li>5 AI agents</li>
+            <li>Advanced automation</li>
+            <li>Daily reports</li>
+            <li>Priority support</li>
+            <li>Custom integrations</li>
+          </ul>
+          <a href="#contact" class="btn">Start Free</a>
+        </div>
+        <div class="price-card">
+          <h3>Enterprise</h3>
+          <div class="price">$997<span>/month</span></div>
+          <ul>
+            <li>Unlimited agents</li>
+            <li>Full automation suite</li>
+            <li>Real-time dashboards</li>
+            <li>Dedicated support</li>
+            <li>SLA guarantee</li>
+          </ul>
+          <a href="#contact" class="btn" style="background: #64748b;">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <div class="container">
+      <h2>Ready to Automate?</h2>
+      <p>Let's chat about how AI can transform your business.</p>
+      <a href="mailto:jeff-assistant@agentmail.to" class="btn">Email Us</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>🤖 Harvey AI Army — AI Automation for Small Business</p>
+      <p style="margin-top: 10px; font-size: 14px;">jeff-assistant@agentmail.to</p>
+    </div>
+  </footer>
+</body>
+</html>

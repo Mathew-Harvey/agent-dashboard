@@ -90,3 +90,30 @@
 {"timestamp":"2026-02-16T22:34:36.46253915+08:00","action":"create","task_id":39,"detail":"Security Review - PetSwap"}
 {"timestamp":"2026-02-16T22:34:40.753154575+08:00","action":"create","task_id":40,"detail":"Security Review - VAMP"}
 {"timestamp":"2026-02-16T22:34:58.299609071+08:00","action":"create","task_id":41,"detail":"Privacy Policy \u0026 Terms of Service"}
+{"timestamp":"2026-02-17T02:31:11.560479876+08:00","action":"claim","task_id":1,"detail":"Jeff"}
+{"timestamp":"2026-02-17T02:31:11.560563224+08:00","action":"move","task_id":1,"detail":"review -\u003e in-progress"}
+{"timestamp":"2026-02-17T02:31:27.076002736+08:00","action":"move","task_id":1,"detail":"in-progress -\u003e review"}
+{"timestamp":"2026-02-17T02:31:27.076072955+08:00","action":"handoff","task_id":1,"detail":"Research Mac Mini fund opportunities"}
+{"timestamp":"2026-02-17T02:31:30.458741125+08:00","action":"claim","task_id":2,"detail":"Jeff"}
+{"timestamp":"2026-02-17T02:31:30.458823084+08:00","action":"move","task_id":2,"detail":"review -\u003e in-progress"}
+{"timestamp":"2026-02-17T02:31:40.390568965+08:00","action":"move","task_id":2,"detail":"in-progress -\u003e review"}
+{"timestamp":"2026-02-17T02:31:40.390652813+08:00","action":"handoff","task_id":2,"detail":"Identify and validate 3 indie product ideas that leverage our technical stack (OpenClaw, marine knowledge, automation). Research market demand, competition, and effort-to-build. Update this task with findings and a ranked shortlist."}
+{"timestamp":"2026-02-17T02:31:44.258525072+08:00","action":"claim","task_id":3,"detail":"Jeff"}
+{"timestamp":"2026-02-17T02:31:44.25860895+08:00","action":"move","task_id":3,"detail":"review -\u003e in-progress"}
+{"timestamp":"2026-02-17T02:31:59.75218097+08:00","action":"move","task_id":3,"detail":"in-progress -\u003e review"}
+{"timestamp":"2026-02-17T02:31:59.752263938+08:00","action":"handoff","task_id":3,"detail":"Research ClawHub skill marketplace gaps — find underserved niches where we could build and publish a paid or popular skill. Document opportunities in memory/product-ideas/"}
+{"timestamp":"2026-02-17T02:32:14.155701019+08:00","action":"move","task_id":20,"detail":"backlog -\u003e in-progress"}
+{"timestamp":"2026-02-17T02:33:39.382972327+08:00","action":"move","task_id":20,"detail":"in-progress -\u003e review"}
+{"timestamp":"2026-02-17T02:33:39.383076055+08:00","action":"handoff","task_id":20,"detail":"Set up Tavily web search API for research automation"}
+{"timestamp":"2026-02-17T02:33:48.264216473+08:00","action":"move","task_id":7,"detail":"backlog -\u003e in-progress"}
+{"timestamp":"2026-02-17T02:34:43.871292098+08:00","action":"edit","task_id":7,"detail":"Draft a simple landing page or portfolio site showcasing our automation and AI agent capabilities. Target audience: small business owners who want AI automation but dont know where to start. Iterate on positioning as we learn what resonates."}
+{"timestamp":"2026-02-17T02:34:43.871366896+08:00","action":"release","task_id":7,"detail":"Jeff"}
+{"timestamp":"2026-02-17T02:34:49.184344084+08:00","action":"move","task_id":7,"detail":"in-progress -\u003e done"}
+{"timestamp":"2026-02-17T02:34:52.490701427+08:00","action":"move","task_id":6,"detail":"backlog -\u003e in-progress"}
+{"timestamp":"2026-02-17T02:35:17.662904051+08:00","action":"edit","task_id":6,"detail":"Research affiliate and referral programs for developer tools, hosting, and marine equipment. Find programs worth promoting through content or tools we build. Maintain a ranked list in memory/product-ideas/affiliate-programs.md"}
+{"timestamp":"2026-02-17T02:35:17.662977809+08:00","action":"release","task_id":6,"detail":"Jeff"}
+{"timestamp":"2026-02-17T02:35:17.665913862+08:00","action":"move","task_id":6,"detail":"in-progress -\u003e done"}
+{"timestamp":"2026-02-17T02:35:21.276138263+08:00","action":"move","task_id":14,"detail":"backlog -\u003e in-progress"}
+{"timestamp":"2026-02-17T02:36:18.659077614+08:00","action":"edit","task_id":14,"detail":"Research how other OpenClaw power users structure their agents for maximum autonomy. Study setups from madebynathan, veritas-kanban, DEV task board discussion. Extract patterns we can adopt."}
+{"timestamp":"2026-02-17T02:36:18.659155582+08:00","action":"release","task_id":14,"detail":"Jeff"}
+{"timestamp":"2026-02-17T02:36:18.662103765+08:00","action":"move","task_id":14,"detail":"in-progress -\u003e done"}
