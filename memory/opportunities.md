@@ -21,6 +21,7 @@
 | Freelance automation | $500-3K/month | Medium | Research phase |
 | Affiliate programs | $50-500/month | Low | Research phase |
 | Landing page portfolio | $0-1K | Low | Not started |
+| **Website Rebuild Outreach** | $500-2K/site | Low | **NEW - Value first, portfolio-driven** |
 
 ### Tier 3: Exploratory
 
