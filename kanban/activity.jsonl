@@ -43,3 +43,8 @@
 {"timestamp":"2026-02-16T07:33:17.224126646+08:00","action":"release","task_id":3,"detail":"Jeff"}
 {"timestamp":"2026-02-16T07:33:22.711205849+08:00","action":"move","task_id":3,"detail":"in-progress -\u003e review"}
 {"timestamp":"2026-02-16T07:33:22.711287449+08:00","action":"handoff","task_id":3,"detail":"Research ClawHub skill marketplace gaps — find underserved niches where we could build and publish a paid or popular skill. Document opportunities in memory/product-ideas/"}
+{"timestamp":"2026-02-16T09:34:24.807832051+08:00","action":"create","task_id":22,"detail":"Set up X (Twitter) account for Pet Home Swap"}
+{"timestamp":"2026-02-16T09:34:31.341302712+08:00","action":"create","task_id":23,"detail":"Create landing page for Pet Home Swap"}
+{"timestamp":"2026-02-16T09:34:37.112839047+08:00","action":"create","task_id":24,"detail":"Build Pet Home Swap MVP"}
+{"timestamp":"2026-02-16T09:34:42.489027529+08:00","action":"create","task_id":25,"detail":"Set up email capture campaign for Pet Home Swap"}
+{"timestamp":"2026-02-16T09:34:55.872917164+08:00","action":"create","task_id":26,"detail":"Validate Pet Home Swap with 10 pet owners"}

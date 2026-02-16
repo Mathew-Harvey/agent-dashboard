@@ -57,7 +57,53 @@ Homeowners with pets advertise their property for holiday swaps. Pet-loving trav
 ## Status
 - [ ] Market research (Australian focus?)
 - [ ] Competitor analysis
-- [ ] MVP scope definition
+- [x] MVP scope definition
+
+## Go-To-Market Strategy
+
+### The Network Effect Problem
+- Need ~100 users minimum for marketplace to be useful
+- Classic chicken-and-egg: need hosts AND guests
+
+### Phased Growth Plan
+
+**Phase 1: Bootstrap (First 100 users)**
+- Offer free accounts to first 100 users
+- Target: pet communities, breed groups, FPV drone folks (Mat's network)
+- Mat will add his house as founding listing
+- Leverage personal network first
+
+**Phase 2: Early Bird (Next 500 users)**
+- 50% discount: $4.99/month
+- Early bird badge
+- Priority in search results
+
+**Phase 3: Launch (500+ users)**
+- Full price: $9.99/month
+- Premium verification tier
+- Swap fees: $25/exchange
+
+### Marketing Channels
+
+1. **X (Twitter)** - Create account, post about pet travel, engage pet communities
+2. **Facebook Groups** - Pet owner groups, dog training groups
+3. **Reddit** - r/dogs, r/cats, r/Australia, r/travel
+4. **Email Campaign** - Build list from landing page
+5. **Landing Page** - Capture emails, explain value prop
+
+### Landing Page Requirements
+- Hero: "Travel with your pet, not without"
+- Problem: Pet boarding costs $500+/week
+- Solution: Swap homes with other pet owners
+- CTA: "Join waitlist - Free for first 100"
+- Email capture
+
+### Validation Questions
+- [ ] Is pet home swapping a real pain point?
+- [ ] Will pet owners trust strangers' homes?
+- [ ] What's the Australian market size?
+- [ ] Can we hit 100 users in 3 months?
 
 ---
-*Created: 2026-02-15*
+*Updated: 2026-02-16*
+*GTM Strategy added by Mat*

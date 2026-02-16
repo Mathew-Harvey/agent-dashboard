@@ -8,7 +8,7 @@
 
 | Opportunity | Potential | Effort | Status |
 |-------------|-----------|--------|--------|
-| **Pet Home Swap** | $1K-10K/month | Medium | MVP scope defined |
+| **Pet Home Swap** | $1K-10K/month | Medium | MVP + GTM planning (100 users target) |
 | **Maritime Skills** | $100-2K/month | Low | NEW - First-mover on ClawHub |
 | **ClawTasks** | $50-500/month | Low | USDC bounties - evaluate profitability |
 
