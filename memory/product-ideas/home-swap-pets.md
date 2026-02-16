@@ -175,3 +175,32 @@ Homeowners with pets advertise their property for holiday swaps. Pet-loving trav
 ---
 *Created: 2026-02-15*
 *Updated: 2026-02-16 - GTM + Trust/Safety added*
+
+## Competitor Research (Non-Pet)
+
+### TrustedHousesitters (Pet Sitting)
+- **Model:** Free pet sitting in exchange for house sitting
+- **Members:** 100,000+ sitters
+- **Trust model:**
+  - Third-party verification including ID and background checks
+  - Honest reviews (98% get 5-star)
+  - 24/7 support
+  - Vet Advice Line
+- **Key insight:** They verify - we should too
+
+### HomeExchange
+- **Model:** $235/year subscription
+- **Members:** 200,000+
+- **Trust model:**
+  - GuestPoints system for non-reciprocal
+  - Property damage coverage included
+  - Member support
+
+### Key Takeaways for Our Model
+1. **Verification is expected** - ID + background checks
+2. **Reviews build trust** - public, detailed
+3. **Support matters** - 24/7 for issues
+4. **Insurance matters** - either provide or require
+
+---
+*Competitor research: 2026-02-16*
