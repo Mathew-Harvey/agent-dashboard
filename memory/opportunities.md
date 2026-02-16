@@ -27,6 +27,7 @@
 |-------------|-----------|--------|--------|
 | FPV drone content | $0-300/month | High | Not started |
 | Micro-SaaS tools | Varies | High | Researching |
+| **AI Marine Assistant** | TBD | Medium | Research phase (2026-02-16) |
 
 ---
 
@@ -34,5 +35,6 @@
 - [[memory/product-ideas/home-swap-pets]] - Pet Home Swap details
 - [[memory/product-ideas/maritime-skills]] - Maritime skills plan
 - [[memory/product-ideas/clawtasks]] - ClawTasks USDC opportunity
+- [[memory/research/2026-02-16-ai-saas-product-ideas]] - AI SaaS research
 
 *Last updated: 2026-02-16*
