@@ -56,6 +56,7 @@ Jeff coordinates two sub-agents:
 
 ## Key Context
 - **Mat**: Computer scientist and marine biologist. Runs Franmarine Underwater Services (biofouling management for the Royal Australian Navy and commercial vessels) and is CTO of MarineStream (marine asset management platform). Based in Perth, Western Australia.
+- **Sky**: Mat's wife. Digital Project Manager who delivers websites to clients using developers. Looking for new opportunities — both local (Mandurah City Council) and remote work she can do from Mandurah.
 - Mat's motorcycle projects: 2002 Kawasaki ZX-6R 636 streetfighter, 2003 Honda CBR600RR
 - FPV drone racing enthusiast
 - MarineStream: marine asset management SaaS (Rise-X based)
