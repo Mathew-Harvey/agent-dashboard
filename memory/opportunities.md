@@ -8,8 +8,9 @@
 
 | Opportunity | Potential | Effort | Status |
 |-------------|-----------|--------|--------|
-| **Pet Home Swap** | $1K-10K/month | Medium | NEW - MVP scope defined |
-| **Skill marketplace** | $100-2K/month | Low-Medium | Research phase |
+| **Pet Home Swap** | $1K-10K/month | Medium | MVP scope defined |
+| **Maritime Skills** | $100-2K/month | Low | NEW - First-mover on ClawHub |
+| **ClawTasks** | $50-500/month | Low | USDC bounties - evaluate profitability |
 
 ### Tier 2: Medium Potential
 
@@ -31,6 +32,7 @@
 
 ### Links
 - [[memory/product-ideas/home-swap-pets]] - Pet Home Swap details
-- [[memory/research/2026-02-15-pet-home-swap]] - Competitor analysis
+- [[memory/product-ideas/maritime-skills]] - Maritime skills plan
+- [[memory/product-ideas/clawtasks]] - ClawTasks USDC opportunity
 
 *Last updated: 2026-02-16*
