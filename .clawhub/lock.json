@@ -100,6 +100,18 @@
     "ontology": {
       "version": "0.1.2",
       "installedAt": 1771204885853
+    },
+    "notion": {
+      "version": "1.0.0",
+      "installedAt": 1771244251015
+    },
+    "nano-pdf": {
+      "version": "1.0.0",
+      "installedAt": 1771244280715
+    },
+    "openai-whisper": {
+      "version": "1.0.0",
+      "installedAt": 1771244292561
     }
   }
 }
