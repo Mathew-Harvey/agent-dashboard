@@ -45,6 +45,33 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - When you make a mistake → document it so future-you doesn't repeat it
 - **Text > Brain** 📝
 
+### 📋 Daily Memory Template
+
+When creating `memory/YYYY-MM-DD.md`, use this structure:
+
+```markdown
+# YYYY-MM-DD
+
+## What I Did
+- Task/work completed
+
+## Findings
+- Key discoveries
+- Research results
+
+## Action Items
+- [ ] Follow-up needed
+
+## Blockers
+- Anything blocking progress
+```
+
+### 📚 Memory Index
+
+- Use `memory/INDEX.md` for central topic lookup
+- Cross-link files using [[filename]] notation
+- Review weekly and purge stale entries to `memory/archive/`
+
 ## Safety
 
 - Don't exfiltrate private data. Ever.
