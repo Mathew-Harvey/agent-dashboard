@@ -22,6 +22,7 @@ Homeowners with pets advertise their property for holiday swaps. Pet-loving trav
 - Premium verification ($9.99/month)
 - Swap fee: $25 per successful exchange
 - Featured listings: $5/week
+- Insurance affiliate commissions
 
 ## Target Audience
 - Dog/cat owners who travel frequently
@@ -41,9 +42,9 @@ Homeowners with pets advertise their property for holiday swaps. Pet-loving trav
 - Pet-friendly amenities filter (fenced yard, cat door, etc.)
 
 ## Technical Stack
-- Simple React/Vue frontend
+- Simple React frontend
 - OpenClaw for automation (onboarding, verification, matching)
-- Render or similar for hosting
+- Render for hosting
 
 ## Effort Estimate
 - MVP: 2-3 weeks
@@ -54,10 +55,68 @@ Homeowners with pets advertise their property for holiday swaps. Pet-loving trav
 - 1,000 users: $5,000-10,000/month
 - Network effects + Australian market entry
 
-## Status
-- [ ] Market research (Australian focus?)
-- [ ] Competitor analysis
-- [x] MVP scope definition
+---
+
+## Trust & Safety (Critical for Home Exchange)
+
+### Verification Layers
+
+1. **Police/Background Check**
+   - Required for all members
+   - Australia: Nationally Coordinated Criminal History Check (~$50)
+   - Integration: Upload directly or use ID verification service (Stripe Identity, Onfido)
+   - Cost: Member covers, we verify
+
+2. **Reference System**
+   - Require 2 references from previous exchanges or hosts
+   - LinkedIn profile verification
+   - Social media accounts (optional)
+   - Response rate tracking - members with more references appear higher
+
+3. **Verified ID**
+   - Phone number verification (SMS)
+   - Email verification
+   - Payment method (credit card)
+
+4. **Reviews & Ratings**
+   - Both host AND guest leave reviews
+   - Rate: 1-5 paws 🐾
+   - Categories: Cleanliness, Communication, Pet Care, Overall
+
+### Insurance Recommendation: Affiliate Model
+
+*Option A: We Provide Insurance*
+- Partner with insurer to offer coverage
+- Cost: $50-100/year added to membership
+- Covers: Property damage, theft, pet injury
+- Pros: Revenue stream, trust signal
+- Cons: Complex, liability concerns
+
+*Option B: Affiliate Links (RECOMMENDED)*
+- Partner with pet insurance providers
+- Offer discount codes for members
+- Earn commission on referrals
+- Pros: No liability, passive income
+- Cons: Less trust signal
+
+*Option C: Require Insurance (Member Responsibility)*
+- Members must have home insurance + pet insurance
+- We provide checklist of what's needed
+- Simple, no liability for us
+
+**Start with Option B:**
+- Partner with Australian pet insurers (Petplan, Bupa Pet)
+- Add home insurance affiliate (Compare the Market, etc.)
+- Simple, no liability
+- If demand grows, consider offering coverage
+
+### Legal
+- Terms of Service required
+- Liability limitations
+- Dispute resolution process
+- Template house rules for exchanges
+
+---
 
 ## Go-To-Market Strategy
 
@@ -105,5 +164,14 @@ Homeowners with pets advertise their property for holiday swaps. Pet-loving trav
 - [ ] Can we hit 100 users in 3 months?
 
 ---
-*Updated: 2026-02-16*
-*GTM Strategy added by Mat*
+
+## Status
+- [x] MVP scope defined
+- [ ] Validate with 10 pet owners
+- [ ] Build MVP
+- [ ] Set up X account
+- [ ] Create landing page
+
+---
+*Created: 2026-02-15*
+*Updated: 2026-02-16 - GTM + Trust/Safety added*
