@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetSwap - Holiday Home Exchanges for Pet Owners</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; }
+        .hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 80px 20px; text-align: center; }
+        .hero h1 { font-size: 3rem; margin-bottom: 20px; }
+        .hero p { font-size: 1.3rem; max-width: 600px; margin: 0 auto 30px; }
+        .hero .tagline { font-size: 1.5rem; font-style: italic; opacity: 0.9; }
+        .problem { background: #fff; padding: 60px 20px; text-align: center; }
+        .problem h2 { color: #667eea; margin-bottom: 30px; }
+        .problem-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; max-width: 1000px; margin: 0 auto; }
+        .problem-card { background: #f8f9fa; padding: 30px; border-radius: 10px; }
+        .problem-card .icon { font-size: 3rem; margin-bottom: 15px; }
+        .solution { background: #f8f9fa; padding: 60px 20px; }
+        .solution h2 { text-align: center; color: #667eea; margin-bottom: 40px; }
+        .features { max-width: 800px; margin: 0 auto; }
+        .feature { display: flex; align-items: center; margin-bottom: 20px; background: white; padding: 20px; border-radius: 10px; }
+        .feature .icon { font-size: 2rem; margin-right: 20px; }
+        .cta { background: #667eea; color: white; padding: 60px 20px; text-align: center; }
+        .cta h2 { margin-bottom: 20px; }
+        .cta p { margin-bottom: 30px; font-size: 1.2rem; }
+        .waitlist-form { max-width: 400px; margin: 0 auto; }
+        .waitlist-form input { width: 100%; padding: 15px; border: none; border-radius: 5px; font-size: 1rem; margin-bottom: 10px; }
+        .waitlist-form button { width: 100%; padding: 15px; background: #764ba2; color: white; border: none; border-radius: 5px; font-size: 1.1rem; cursor: pointer; transition: background 0.3s; }
+        .waitlist-form button:hover { background: #5a3d7a; }
+        .offer { background: #fff3cd; padding: 20px; margin-top: 20px; border-radius: 10px; }
+        .offer strong { color: #856404; }
+        footer { background: #333; color: white; padding: 30px 20px; text-align: center; }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <h1>🐾 PetSwap</h1>
+        <p class="tagline">"A change is as good as a holiday"</p>
+        <p>Holiday home exchanges for pet owners. Swap homes with fellow pet lovers — no boarding costs, pets stay happy.</p>
+    </section>
+
+    <section class="problem">
+        <h2>The Problem</h2>
+        <div class="problem-grid">
+            <div class="problem-card">
+                <div class="icon">💸</div>
+                <h3>Expensive Boarding</h3>
+                <p>Pet boarding costs $30-60/night. That's $500+ for a week away.</p>
+            </div>
+            <div class="problem-card">
+                <div class="icon">😢</div>
+                <h3>Pet Stress</h3>
+                <p>Kennels and catteries are stressful for pets. They miss their home and family.</p>
+            </div>
+            <div class="problem-card">
+                <div class="icon">🤝</div>
+                <h3>Trust Issues</h3>
+                <p>Pet sitters are pricey and require handing over your keys to strangers.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="solution">
+        <h2>The Solution</h2>
+        <div class="features">
+            <div class="feature">
+                <div class="icon">🏠</div>
+                <div>
+                    <h3>Swap Homes, Not Keys</h3>
+                    <p>Stay in each other's homes during holidays. Free accommodation, pets stay happy.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="icon">✅</div>
+                <div>
+                    <h3>Verified Members</h3>
+                    <p>ID checks, background verification, and references. Trust built-in.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="icon">🐕</div>
+                <div>
+                    <h3>Pet-First Design</h3>
+                    <p>Pets are the priority — pet profiles, care instructions, vet details all included.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="icon">🛡️</div>
+                <div>
+                    <h3>Insurance Options</h3>
+                    <p>Recommended pet and home insurance partners. Travel worry-free.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Join the Waitlist</h2>
+        <p>We're launching soon! Get early access and <strong>free membership</strong> for the first 100 users.</p>
+        <form class="waitlist-form" action="#" method="POST">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Join Waitlist 🐾</button>
+        </form>
+        <div class="offer">
+            <strong>🎉 Early Bird Bonus:</strong> First 100 members get FREE lifetime basic membership + priority matching!
+        </div>
+    </section>
+
+    <footer>
+        <p>🐾 PetSwap — Making holidays affordable for pet owners</p>
+        <p style="opacity: 0.7; margin-top: 10px;">Coming soon to Australia</p>
+    </footer>
+</body>
+</html>
