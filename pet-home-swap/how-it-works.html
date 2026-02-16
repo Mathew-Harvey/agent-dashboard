@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How It Works - PetSwap</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
+    <style>
+        .page-header {
+            padding: 150px 0 60px;
+            background: var(--gradient);
+            color: white;
+            text-align: center;
+        }
+        
+        .page-header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .how-section {
+            padding: 80px 0;
+        }
+        
+        .steps-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .step-item {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 50px;
+            align-items: flex-start;
+        }
+        
+        .step-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--gradient);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            flex-shrink: 0;
+        }
+        
+        .step-content h3 {
+            margin-bottom: 10px;
+        }
+        
+        .step-content p {
+            color: var(--gray);
+        }
+        
+        .step-features {
+            list-style: none;
+            margin-top: 15px;
+        }
+        
+        .step-features li {
+            margin-bottom: 8px;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .step-features li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--success);
+            font-weight: bold;
+        }
+        
+        .trust-section {
+            padding: 80px 0;
+            background: var(--light);
+        }
+        
+        .trust-process {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .trust-step {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .trust-step-num {
+            width: 50px;
+            height: 50px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+        
+        .faq-section {
+            padding: 80px 0;
+        }
+        
+        .faq-grid {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .faq-item {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .faq-item h4 {
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+        
+        .faq-item p {
+            color: var(--gray);
+            margin-bottom: 0;
+        }
+        
+        .cta-section {
+            padding: 80px 0;
+            background: var(--gradient);
+            color: white;
+            text-align: center;
+        }
+        
+        @media (max-width: 768px) {
+            .step-item {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .step-icon {
+                margin: 0 auto;
+            }
+            
+            .trust-step {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">🐾 PetSwap</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="listings.html">Listings</a></li>
+                <li><a href="how-it-works.html">How It Works</a></li>
+                <li><a href="signup.html" class="btn btn-primary">Join Waitlist</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>🔄 How It Works</h1>
+            <p>Simple, safe, and free home exchanges for pet owners</p>
+        </div>
+    </section>
+
+    <!-- How It Works Steps -->
+    <section class="how-section">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 50px;">Four Easy Steps</h2>
+            
+            <div class="steps-container">
+                <div class="step-item">
+                    <div class="step-icon">📝</div>
+                    <div class="step-content">
+                        <h3>1. Create Your Profile</h3>
+                        <p>Tell us about yourself, your home, and your pets. Add photos and details about what you're looking for in an exchange.</p>
+                        <ul class="step-features">
+                            <li>Add your home details and photos</li>
+                            <li>Create pet profiles with care instructions</li>
+                            <li>List your preferred destinations</li>
+                            <li>Set your availability dates</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="step-item">
+                    <div class="step-icon">🔍</div>
+                    <div class="step-content">
+                        <h3>2. Find Your Match</h3>
+                        <p>Browse other pet-loving families and find perfect matches. Filter by location, pet type, amenities, and dates.</p>
+                        <ul class="step-features">
+                            <li>Search by destination</li>
+                            <li>Filter by pet type and size</li>
+                            <li>Read verified member profiles</li>
+                            <li>Check reviews and references</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="step-item">
+                    <div class="step-icon">💬</div>
+                    <div class="step-content">
+                        <h3>3. Connect & Agree</h3>
+                        <p>Message potential exchange partners, ask questions, and agree on the details. Get to know each other first!</p>
+                        <ul class="step-features">
+                            <li>Secure messaging system</li>
+                            <li>Video chat option</li>
+                            <li>Agree on exchange dates</li>
+                            <li>Discuss house rules and pet care</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="step-item">
+                    <div class="step-icon">🏠</div>
+                    <div class="step-content">
+                        <h3>4. Swap & Enjoy!</h3>
+                        <p>Exchange keys (or codes), enjoy your pet-friendly holiday! Both families care for each other's pets like their own.</p>
+                        <ul class="step-features">
+                            <li>Follow pet care instructions</li>
+                            <li>Keep in touch during stay</li>
+                            <li>Leave reviews for each other</li>
+                            <li>Build lasting friendships!</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust & Safety -->
+    <section class="trust-section">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 50px;">🛡️ Trust & Safety</h2>
+            
+            <div class="trust-process">
+                <div class="trust-step">
+                    <div class="trust-step-num">1</div>
+                    <div>
+                        <h4>Email & Phone Verification</h4>
+                        <p>We verify every member's email address and phone number to ensure they're real people.</p>
+                    </div>
+                </div>
+                
+                <div class="trust-step">
+                    <div class="trust-step-num">2</div>
+                    <div>
+                        <h4>ID Verification</h4>
+                        <p>Members upload a government-issued ID. We verify it matches their profile photo.</p>
+                    </div>
+                </div>
+                
+                <div class="trust-step">
+                    <div class="trust-step-num">3</div>
+                    <div>
+                        <h4>Background Checks</h4>
+                        <p>Optional but recommended: members can add police background checks for extra peace of mind.</p>
+                    </div>
+                </div>
+                
+                <div class="trust-step">
+                    <div class="trust-step-num">4</div>
+                    <div>
+                        <h4>References</h4>
+                        <p>Members can request references from previous exchanges or other verifiable sources.</p>
+                    </div>
+                </div>
+                
+                <div class="trust-step">
+                    <div class="trust-step-num">5</div>
+                    <div>
+                        <h4>Reviews</h4>
+                        <p>Both hosts and guests leave public reviews after every exchange. No hidden reviews!</p>
+                    </div>
+                </div>
+                
+                <div class="trust-step">
+                    <div class="trust-step-num">6</div>
+                    <div>
+                        <h4>24/7 Support</h4>
+                        <p>Our team is available around the clock to help with any issues or disputes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 50px;">❓ Frequently Asked Questions</h2>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>Is it really free?</h4>
+                    <p>Yes! The first 100 members get free lifetime membership. After that, it's just $9.99/month or $99/year for premium features.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>Do I have to swap at the same time?</h4>
+                    <p>Not necessarily! We offer "GuestPoints" - you can host other members without staying at their place, and use those points later for your own trip.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>What if something goes wrong?</h4>
+                    <p>We have 24/7 support and a dispute resolution process. For added peace of mind, we recommend our partner insurance for exchanges.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>What about my pets?</h4>
+                    <p>That's the best part! Your pets stay in their familiar home, with another loving family to care for them. No stress for your furry friends.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>Can I exchange with multiple families?</h4>
+                    <p>Absolutely! You can have ongoing exchanges with several families, giving you flexibility for different trips.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>What if I have exotic pets?</h4>
+                    <p>We welcome all pets! Just be detailed in your pet profile about care requirements, and find exchange partners who are comfortable with your type of pet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Join?</h2>
+            <p style="font-size: 1.2rem; opacity: 0.9; margin-bottom: 30px;">Be among the first 100 members and get FREE lifetime membership!</p>
+            <a href="signup.html" class="btn btn-large" style="background: white; color: var(--primary);">Join the Waitlist 🐾</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>🐾 PetSwap</h3>
+                    <p>Making holidays affordable for pet owners.</p>
+                    <p class="tagline">"A change is as good as a holiday"</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="listings.html">Listings</a></li>
+                        <li><a href="how-it-works.html">How It Works</a></li>
+                        <li><a href="signup.html">Join Waitlist</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>hello@petswap.com.au</p>
+                    <p>Coming soon to Australia</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 PetSwap. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

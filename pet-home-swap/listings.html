@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listings - PetSwap</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">🐾 PetSwap</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="listings.html">Listings</a></li>
+                <li><a href="how-it-works.html">How It Works</a></li>
+                <li><a href="signup.html" class="btn btn-primary">Join Waitlist</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>🏡 Sample Listings</h1>
+            <p>Here's what PetSwap members are offering. Join the waitlist to start connecting!</p>
+        </div>
+    </section>
+
+    <section class="listings-section">
+        <div class="container">
+            <!-- Filter Bar -->
+            <div class="filter-bar">
+                <select id="location-filter">
+                    <option value="">All Locations</option>
+                    <option value="nsw">New South Wales</option>
+                    <option value="vic">Victoria</option>
+                    <option value="qld">Queensland</option>
+                    <option value="wa">Western Australia</option>
+                    <option value="sa">South Australia</option>
+                </select>
+                <select id="pet-filter">
+                    <option value="">All Pets</option>
+                    <option value="dogs">Dogs</option>
+                    <option value="cats">Cats</option>
+                    <option value="both">Both</option>
+                </select>
+                <select id="dates-filter">
+                    <option value="">Any Dates</option>
+                    <option value="flexible">Flexible</option>
+                    <option value="specific">Specific Dates</option>
+                </select>
+            </div>
+
+            <!-- Listings Grid -->
+            <div class="listings-grid">
+                <!-- Listing 1 -->
+                <div class="listing-card" data-location="nsw" data-pets="dogs">
+                    <div class="listing-image" style="background: linear-gradient(135deg, #667eea, #764ba2);">
+                        <span class="listing-badge">🔥 Popular</span>
+                    </div>
+                    <div class="listing-content">
+                        <div class="listing-location">Sydney, NSW</div>
+                        <h3>Beach House with Energetic Golden</h3>
+                        <p class="listing-desc">Beautiful 3-bedroom beach house 5 minutes from the sand. Perfect for dogs who love to swim!</p>
+                        
+                        <div class="listing-features">
+                            <span>🐕 2 Dogs</span>
+                            <span>🏠 3 Bed</span>
+                            <span>🏖️ Beach 5min</span>
+                            <span>🌳 Large Yard</span>
+                        </div>
+                        
+                        <div class="listing-meta">
+                            <div class="pet-info">
+                                <strong>🐕 Max & Bella</strong>
+                                <p>Golden Retrievers, 3 & 5 years old. Love fetching, swimming, and cuddles. Good with other dogs!</p>
+                            </div>
+                        </div>
+                        
+                        <div class="listing-dates">
+                            <strong>Available:</strong> Flexible - we're flexible pet lovers!
+                        </div>
+                        
+                        <a href="signup.html" class="btn btn-primary">Connect with This Family</a>
+                    </div>
+                </div>
+
+                <!-- Listing 2 -->
+                <div class="listing-card" data-location="vic" data-pets="cats">
+                    <div class="listing-image" style="background: linear-gradient(135deg, #f093fb, #f5576c);">
+                        <span class="listing-badge">🐱 Cat Friendly</span>
+                    </div>
+                    <div class="listing-content">
+                        <div class="listing-location">Melbourne, VIC</div>
+                        <h3>City Unit + Private Cat Cottage</h3>
+                        <p class="listing-desc">Modern 2-bedroom unit in Fitzroy with a separate cat cottage in the garden. Perfect for cat-to-cat swaps!</p>
+                        
+                        <div class="listing-features">
+                            <span>🐱 1 Cat</span>
+                            <span>🏠 2 Bed</span>
+                            <span>🌳 Great Parks</span>
+                            <span>☕ Café District</span>
+                        </div>
+                        
+                        <div class="listing-meta">
+                            <div class="pet-info">
+                                <strong>🐱 Oliver</strong>
+                                <p>British Shorthair, 4 years old. Independent but affectionate. Needs quiet home with no dogs.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="listing-dates">
+                            <strong>Available:</strong> May - June 2026
+                        </div>
+                        
+                        <a href="signup.html" class="btn btn-primary">Connect with This Family</a>
+                    </div>
+                </div>
+
+                <!-- Listing 3 -->
+                <div class="listing-card" data-location="qld" data-pets="dogs">
+                    <div class="listing-image" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">
+                        <span class="listing-badge">🏊 Pool</span>
+                    </div>
+                    <div class="listing-content">
+                        <div class="listing-location">Brisbane, QLD</div>
+                        <h3>Suburban Oasis with Pool</h3>
+                        <p class="listing-desc">Spacious 4-bedroom family home with saltwater pool. Huge fenced yard perfect for active dogs!</p>
+                        
+                        <div class="listing-features">
+                            <span>🐕🐕 2 Dogs</span>
+                            <span>🏠 4 Bed</span>
+                            <span>🏊 Pool</span>
+                            <span>🐕‍🦺 Dog Door</span>
+                        </div>
+                        
+                        <div class="listing-meta">
+                            <div class="pet-info">
+                                <strong>🐕 Ruby & Cooper</strong>
+                                <p>Labrador & Kelpie mix, 2 & 4 years old. High energy, love runs and swimming. Great with kids!</p>
+                            </div>
+                        </div>
+                        
+                        <div class="listing-dates">
+                            <strong>Available:</strong> Anytime - we travel off-peak
+                        </div>
+                        
+                        <a href="signup.html" class="btn btn-primary">Connect with This Family</a>
+                    </div>
+                </div>
+
+                <!-- Listing 4 -->
+                <div class="listing-card" data-location="wa" data-pets="both">
+                    <div class="listing-image" style="background: linear-gradient(135deg, #fa709a, #fee140);">
+                        <span class="listing-badge">🦎 Exotics</span>
+                    </div>
+                    <div class="listing-content">
+                        <div class="listing-location">Perth, WA</div>
+                        <h3>Pet-Lover's Paradise</h3>
+                        <p class="listing-desc">We love ALL pets! 3-bedroom home with separate spaces for dogs, cats, and even reptiles.</p>
+                        
+                        <div class="listing-features">
+                            <span>🐕🐱 1 Dog, 1 Cat</span>
+                            <span>🏠 3 Bed</span>
+                            <span>🌳 Big Yard</span>
+                            <span>🐍 Reptile Room</span>
+                        </div>
+                        
+                        <div class="listing-meta">
+                            <div class="pet-info">
+                                <strong>🐕 Buddy, 🐱 Luna, 🐍 Monty</strong>
+                                <p>Multi-pet household! Dog and cat are best friends. Reptile experience a plus but not required.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="listing-dates">
+                            <strong>Available:</strong> School holidays preferred
+                        </div>
+                        
+                        <a href="signup.html" class="btn btn-primary">Connect with This Family</a>
+                    </div>
+                </div>
+
+                <!-- Listing 5 -->
+                <div class="listing-card" data-location="nsw" data-pets="dogs">
+                    <div class="listing-image" style="background: linear-gradient(135deg, #a8edea, #fed6e3);">
+                        <span class="listing-badge">🏔️ Nature</span>
+                    </div>
+                    <div class="listing-content">
+                        <div class="listing-location">Blue Mountains, NSW</div>
+                        <h3>Mountain Retreat</h3>
+                        <p class="listing-desc">Escape to the mountains! 4-acre property with bushland, creek, and endless trails.</p>
+                        
+                        <div class="listing-features">
+                            <span>🐕 1 Dog</span>
+                            <span>🏠 3 Bed</span>
+                            <span>🏔️ Bushwalks</span>
+                            <span>🔥 Fireplace</span>
+                        </div>
+                        
+                        <div class="listing-meta">
+                            <div class="pet-info">
+                                <strong>🐕 Charlie</strong>
+                                <p>Border Collie, 6 years old. Loves hiking and swimming in creeks. Perfect mountain adventure buddy!</p>
+                            </div>
+                        </div>
+                        
+                        <div class="listing-dates">
+                            <strong>Available:</strong> Weekends & school holidays
+                        </div>
+                        
+                        <a href="signup.html" class="btn btn-primary">Connect with This Family</a>
+                    </div>
+                </div>
+
+                <!-- Listing 6 -->
+                <div class="listing-card" data-location="sa" data-pets="cats">
+                    <div class="listing-image" style="background: linear-gradient(135deg, #667eea, #764ba2);">
+                        <span class="listing-badge">🍷 Wine Country</span>
+                    </div>
+                    <div class="listing-content">
+                        <div class="listing-location">Adelaide Hills, SA</div>
+                        <h3>Wine Country Cottage</h3>
+                        <p class="listing-desc">Charming cottage in the Adelaide Hills wine region. Cats have access to enclosed catio.</p>
+                        
+                        <div class="listing-features">
+                            <span>🐱 2 Cats</span>
+                            <span>🏠 2 Bed</span>
+                            <span>🍷 Wineries</span>
+                            <span>🌸 Garden</span>
+                        </div>
+                        
+                        <div class="listing-meta">
+                            <div class="pet-info">
+                                <strong>🐱 Molly & Oscar</strong>
+                                <p>Siamese mixes, 3 & 7 years old. Indoor cats with catio access. Very chill and people-friendly!</p>
+                            </div>
+                        </div>
+                        
+                        <div class="listing-dates">
+                            <strong>Available:</strong> Flexible
+                        </div>
+                        
+                        <a href="signup.html" class="btn btn-primary">Connect with This Family</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA -->
+            <div class="listings-cta">
+                <h3>🐾 Your Listing Could Be Here!</h3>
+                <p>Join the waitlist to be among the first members when we launch.</p>
+                <a href="signup.html" class="btn btn-large btn-primary">Join the Waitlist</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>🐾 PetSwap</h3>
+                    <p>Making holidays affordable for pet owners.</p>
+                    <p class="tagline">"A change is as good as a holiday"</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="listings.html">Listings</a></li>
+                        <li><a href="how-it-works.html">How It Works</a></li>
+                        <li><a href="signup.html">Join Waitlist</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>hello@petswap.com.au</p>
+                    <p>Coming soon to Australia</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 PetSwap. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <style>
+        .page-header {
+            padding: 150px 0 60px;
+            background: var(--gradient);
+            color: white;
+            text-align: center;
+        }
+        
+        .page-header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .listings-section {
+            padding: 60px 0;
+        }
+        
+        .filter-bar {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-bar select {
+            padding: 12px 20px;
+            border: 2px solid #e5e7eb;
+            border-radius: 50px;
+            font-size: 1rem;
+            background: white;
+            cursor: pointer;
+        }
+        
+        .filter-bar select:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+        
+        .listings-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+        }
+        
+        .listing-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        
+        .listing-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .listing-image {
+            height: 200px;
+            position: relative;
+        }
+        
+        .listing-badge {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        
+        .listing-content {
+            padding: 25px;
+        }
+        
+        .listing-location {
+            color: var(--primary);
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+        }
+        
+        .listing-content h3 {
+            margin-bottom: 10px;
+            font-size: 1.3rem;
+        }
+        
+        .listing-desc {
+            color: var(--gray);
+            margin-bottom: 15px;
+        }
+        
+        .listing-features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .listing-features span {
+            background: #f3f4f6;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+        
+        .listing-meta {
+            border-top: 1px solid #e5e7eb;
+            padding-top: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .pet-info strong {
+            color: var(--dark);
+        }
+        
+        .pet-info p {
+            font-size: 0.9rem;
+            color: var(--gray);
+            margin: 5px 0 0;
+        }
+        
+        .listing-dates {
+            font-size: 0.9rem;
+            color: var(--gray);
+            margin-bottom: 20px;
+        }
+        
+        .listing-dates strong {
+            color: var(--dark);
+        }
+        
+        .listing-card .btn {
+            width: 100%;
+            text-align: center;
+        }
+        
+        .listings-cta {
+            text-align: center;
+            margin-top: 60px;
+            padding: 60px;
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-radius: 20px;
+        }
+        
+        .listings-cta h3 {
+            margin-bottom: 15px;
+        }
+        
+        .listings-cta p {
+            margin-bottom: 25px;
+            color: #78350f;
+        }
+        
+        @media (max-width: 768px) {
+            .listings-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .filter-bar {
+                flex-direction: column;
+            }
+            
+            .filter-bar select {
+                width: 100%;
+            }
+        }
+    </style>
+</body>
+</html>

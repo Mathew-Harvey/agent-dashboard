@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Waitlist - PetSwap</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
+    <style>
+        .page-header {
+            padding: 150px 0 60px;
+            background: var(--gradient);
+            color: white;
+            text-align: center;
+        }
+        
+        .signup-section {
+            padding: 80px 0;
+        }
+        
+        .signup-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 50px;
+            border-radius: 30px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+        }
+        
+        .signup-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .signup-header h2 {
+            margin-bottom: 10px;
+        }
+        
+        .signup-header p {
+            color: var(--gray);
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--dark);
+        }
+        
+        .form-group label span {
+            color: var(--danger);
+        }
+        
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 15px 20px;
+            border: 2px solid #e5e7eb;
+            border-radius: 15px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+        
+        .form-group textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .checkbox-group {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+        }
+        
+        .checkbox-group input {
+            width: auto;
+            margin-top: 5px;
+        }
+        
+        .checkbox-group label {
+            font-weight: normal;
+            font-size: 0.9rem;
+            color: var(--gray);
+        }
+        
+        .submit-btn {
+            width: 100%;
+            padding: 18px;
+            background: var(--gradient);
+            color: white;
+            border: none;
+            border-radius: 15px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        
+        .submit-btn:disabled {
+            background: var(--gray);
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .benefits {
+            background: #f9fafb;
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .benefits h3 {
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+        
+        .benefits ul {
+            list-style: none;
+        }
+        
+        .benefits li {
+            padding: 10px 0;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        .benefits li:last-child {
+            border-bottom: none;
+        }
+        
+        .benefits li::before {
+            content: '✓ ';
+            color: var(--success);
+            font-weight: bold;
+        }
+        
+        .privacy-note {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.85rem;
+            color: var(--gray);
+        }
+        
+        .privacy-note a {
+            color: var(--primary);
+        }
+        
+        @media (max-width: 768px) {
+            .signup-container {
+                padding: 30px;
+            }
+            
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">🐾 PetSwap</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="listings.html">Listings</a></li>
+                <li><a href="how-it-works.html">How It Works</a></li>
+                <li><a href="signup.html" class="btn btn-primary">Join Waitlist</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>🎉 Join the Waitlist</h1>
+            <p>Be among the first to experience PetSwap - FREE!</p>
+        </div>
+    </section>
+
+    <section class="signup-section">
+        <div class="container">
+            <div class="signup-container">
+                <div class="signup-header">
+                    <h2>🐾 Get Early Access</h2>
+                    <p>First 100 members get FREE lifetime membership!</p>
+                </div>
+                
+                <div class="benefits">
+                    <h3>🎁 What You'll Get:</h3>
+                    <ul>
+                        <li>Free lifetime basic membership (normally $99/year)</li>
+                        <li>Priority matching with other members</li>
+                        <li>Early access to all features</li>
+                        <li>Input on platform development</li>
+                        <li>Exclusive early-bird discounts</li>
+                    </ul>
+                </div>
+                
+                <form id="signup-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">First Name <span>*</span></label>
+                            <input type="text" id="name" name="name" placeholder="Your first name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="surname">Last Name <span>*</span></label>
+                            <input type="text" id="surname" name="surname" placeholder="Your last name" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address <span>*</span></label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="pet-type">What pets do you have?</label>
+                            <select id="pet-type" name="pet-type">
+                                <option value="">Select pet type...</option>
+                                <option value="dogs">Dogs</option>
+                                <option value="cats">Cats</option>
+                                <option value="both">Both Dogs & Cats</option>
+                                <option value="other">Other (birds, reptiles, etc.)</option>
+                                <option value="none">No pets (yet!)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="location">Where do you live?</label>
+                            <select id="location" name="location">
+                                <option value="">Select location...</option>
+                                <option value="nsw">New South Wales</option>
+                                <option value="vic">Victoria</option>
+                                <option value="qld">Queensland</option>
+                                <option value="wa">Western Australia</option>
+                                <option value="sa">South Australia</option>
+                                <option value="tas">Tasmania</option>
+                                <option value="act">ACT</option>
+                                <option value="nt">Northern Territory</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="travel-dates">When do you typically travel?</label>
+                        <select id="travel-dates" name="travel-dates">
+                            <option value="">Select...</option>
+                            <option value="school-holidays">School holidays</option>
+                            <option value="weekends">Weekends</option>
+                            <option value="anytime">Anytime</option>
+                            <option value="rarely">Rarely - I'm a homebody!</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Anything else we should know? (Optional)</label>
+                        <textarea id="message" name="message" placeholder="Tell us about your pets, your home, or what you're looking for..."></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter" checked>
+                            <label for="newsletter">Send me updates about PetSwap (no spam, ever)</label>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Join the Waitlist 🐾</button>
+                    
+                    <p class="privacy-note">By joining, you agree to our <a href="#">Privacy Policy</a>. We'll never share your info.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>🐾 PetSwap</h3>
+                    <p>Making holidays affordable for pet owners.</p>
+                    <p class="tagline">"A change is as good as a holiday"</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="listings.html">Listings</a></li>
+                        <li><a href="how-it-works.html">How It Works</a></li>
+                        <li><a href="signup.html">Join Waitlist</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>hello@petswap.com.au</p>
+                    <p>Coming soon to Australia</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 PetSwap. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
