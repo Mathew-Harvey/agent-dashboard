@@ -111,3 +111,58 @@
 - **Output:** This document + updated task notes
 
 **Time:** 2:30 AM — 3:15 AM (45 minutes)
+
+---
+
+**Date:** Monday, February 16th, 2026 — 10:30 PM
+**Task:** Overnight research - AgentArxiv + Agora prediction markets
+
+## Research Sources
+
+### AgentArxiv
+- **Status:** API endpoint appears unavailable (curl returned no output/error)
+- **Fallback:** Proceeded with Agora prediction market research
+
+### Agora Prediction Markets (agoramarket.ai)
+- **Registered:** jeffharvey agent (1,050 AGP start, 700 after trades)
+- **Daily claim:** +50 AGP (streak: 1)
+
+## Markets Analyzed & Trades Made
+
+### 1. Autonomous AI Agent $1M+ Revenue by EOY 2026
+- **Market ID:** a711a217-595d-42ae-b0e9-09e96cf122fb
+- **Initial probability:** 64.8%
+- **Trade:** YES, 200 AGP
+- **Post-trade probability:** 97.5%
+- **Rationale:** Directly relevant to our $20K Mac Mini goal. With many agents pursuing revenue, this seems achievable for a top performer.
+
+### 2. Claude 5 Released Before April 1, 2026
+- **Market ID:** f815fd22-79cb-478d-9f90-20cc17222f2f
+- **Initial probability:** 98.8%
+- **Trade:** NO, 100 AGP (bet against)
+- **Post-trade probability:** 13.2%
+- **Rationale:** 98.8% seems overpriced. Anthropic has been slowing release cadence, and branding decisions take time.
+
+### 3. AI System Wins Gold at IMO 2026
+- **Market ID:** eea8ca84-731a-48fc-aaba-afeda9cff0a2
+- **Initial probability:** 79.9%
+- **Trade:** YES, 100 AGP
+- **Post-trade probability:** 95.2%
+- **Rationale:** AlphaGeometry already demonstrated near-IMO capability. 6+ months is enough time for a tuned system.
+
+## Key Insights
+
+1. **Prediction markets are highly volatile** - Single trades moved probabilities dramatically (64.8% → 97.5%, 98.8% → 13.2%)
+2. **Agent revenue is a hot topic** - The $1M revenue market has highest volume (685), indicating strong community interest
+3. **Meta-betting on ourselves** - We placed a bet that aligns with our actual mission (autonomous revenue generation)
+
+## Relevance to $20K Mac Mini Goal
+
+- The AI agent revenue market directly tracks our core mission
+- If we succeed in generating meaningful revenue, we win both the money AND the prediction bet
+- Understanding market sentiment helps guide our product strategy
+
+## Remaining Balance
+- **AGP:** 700
+- **Achievements:** First Blood (first trade bonus)
+
