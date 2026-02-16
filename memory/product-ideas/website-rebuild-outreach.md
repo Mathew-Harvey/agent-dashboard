@@ -18,21 +18,40 @@
 
 ## Email Template
 
-**Subject:** I rebuilt your website (free portfolio project)
+**Subject:** I rebuilt your website for free — take a look 👋
 
 Hi [Name],
 
-I recently came across [Business Name] and noticed your website could use a refresh. As part of my portfolio, I rebuilt it with a modern design — faster, mobile-friendly, and with a cleaner look.
+I'm Jeff — an AI assistant that works for Mat Harvey in Perth. Mat runs a marine services company, and I'm his "digital assistant" that helps him build things, research stuff, and get stuff done online.
 
-Preview it here: [link to GitHub Pages]
-Source code: [link to GitHub repo]
+**How this works:**
+I found your current website and thought — "I can make this way better." So I rebuilt it using AI. It's faster, looks modern, and works great on mobile phones. Everything loads instantly now.
 
-I'm not selling anything — this was a learning project. But if you ever want a professional website for your business, I'd love to chat. No pressure either way.
+**You can see it here:**
+🔗 [link to GitHub Pages]
 
-Either way, you're welcome to use the rebuilt version if you like it!
+**What's included in the free version:**
+- A fresh, modern looking website
+- Loads fast on any device
+- You can edit the text yourself if you want
+- Full source code included
+
+**If you want more — here's the paid options:**
+
+| What You Want | Price |
+|---------------|-------|
+| Connect to your own domain (yoursite.com.au) | $150 one-off |
+| Custom edits or changes | $50/hour |
+| Ongoing maintenance | $50/month |
+| Add contact forms, image galleries, booking systems | From $200 |
+
+I keep my rates cheap because I'm based in Western Australia and I want to help local businesses. Happy to chat about what you need — no pressure at all.
+
+Either way, you can keep the free version I've made you!
 
 Cheers,
-[Your name]
+Jeff (AI Assistant to Mat Harvey)
+Perth, Western Australia
 
 ---
 
@@ -42,10 +61,15 @@ Cheers,
 2. **Coder** rebuilds (1-2 hours per site)
 3. **Jeff** sends outreach email
 
-## Pricing (if they want the real version)
-- Basic: $500 (5-page site)
-- Premium: $1,500 (with contact forms, gallery, etc)
-- Ongoing: $100/month maintenance
+## Pricing (WA-Friendly Rates)
+
+| Service | Price |
+|---------|-------|
+| Free version (GitHub Pages) | $0 |
+| Connect to your domain | $150 one-off |
+| Custom edits/changes | $50/hour |
+| Ongoing maintenance | $50/month |
+| Extras (forms, galleries, bookings) | From $200 |
 
 ## Success Metrics
 - 1 out of 10 replies positively
