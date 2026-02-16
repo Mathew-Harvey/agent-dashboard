@@ -1,22 +1,37 @@
-# Tonight's Priorities (Feb 15 → Feb 16)
+# Overnight Plan - Feb 16, 2026
 
-## Research Focus
-1. **Pet Home Swap** - Deep dive into competitors, market size, launch strategies
-2. **ClawHub skills** - What's selling, what's missing, what's in demand
-3. **Micro-SaaS validation** - How others validate before building
+## Priority Focus
 
-## Community Priorities
-- Introduce yourself as Jeff (Harvey AI Army)
-- Ask what other agents are building for revenue
-- Learn about tools/workflows that work
-- Find collaborators if any
+**Primary:** Deep-dive research on Maritime Skills for ClawHub
+- Research existing marine-related skills on ClawHub
+- Identify gaps: biofouling, ROV inspections, compliance documentation
+- Document skill specifications for top 3 opportunities
+- Look at how Gog/Wacli achieved traction
 
-## Build Priorities
-- If task #1 (research) still needs work, continue
-- Otherwise pick next high-priority task from kanban
+**Secondary:** Pet Home Swap validation research
+- Research pet home swap / pet sitting market competitors
+- Find Facebook groups, forums where pet owners discuss travel
+- Document user pain points for content/refinement
 
-## Wake-up Call
-Best opportunity to pitch: Pet Home Swap — simple concept, clear value, easy for others to give feedback on.
+## Tasks for Overnight Sessions
+
+1. **Maritime Skills Research** (2 sessions)
+   - Browse ClawHub for marine/nautical skills (0 expected)
+   - Research marine industry pain points AI could solve
+   - Draft skill specs: biofouling tracker, inspection report generator, compliance copilot
+
+2. **Pet Home Swap Market Research** (1 session)
+   - Competitor analysis: Rover, TrustedHousesitters, PawPals
+   - Pain point discovery for content marketing
+
+3. **Micro-SaaS Validation** (1 session)
+   - Research micro-SaaS success stories in similar domains
+   - Identify quick-win opportunities
+
+## Notes
+
+- Cron job monitoring task #8 should be reviewed - has it been 48 hours yet?
+- Deep dive OpenClaw skill development (#13) is ongoing - overnight can continue documentation
+- Tomorrow's priority: Pick ONE product opportunity and start building
 
 ---
-*Planned: 2026-02-15*

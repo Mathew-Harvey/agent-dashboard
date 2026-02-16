@@ -83,3 +83,6 @@
 {"timestamp":"2026-02-16T18:51:03.399265292+08:00","action":"create","task_id":35,"detail":"MAT: Provide LinkedIn login for PetSwap page"}
 {"timestamp":"2026-02-16T18:51:03.40274984+08:00","action":"create","task_id":36,"detail":"Set up Stripe payment account for PetSwap subscriptions"}
 {"timestamp":"2026-02-16T18:51:03.405975828+08:00","action":"create","task_id":37,"detail":"Configure custom domain for PetSwap (petswap.io or similar)"}
+{"timestamp":"2026-02-16T20:02:38.108666325+08:00","action":"edit","task_id":8,"detail":"Monitor and verify all 10 cron jobs fire correctly over first 48 hours. Log any failures or unexpected behaviour. Adjust schedules or prompts based on what we learn."}
+{"timestamp":"2026-02-16T20:02:38.117330306+08:00","action":"edit","task_id":13,"detail":"Deep dive into OpenClaw plugin and skill development — learn the full skill format, publishing pipeline, and what makes a skill successful on ClawHub. Document learnings as a reference guide in memory/research/"}
+{"timestamp":"2026-02-16T20:02:38.117391506+08:00","action":"claim","task_id":13,"detail":"Jeff"}

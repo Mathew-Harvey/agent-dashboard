@@ -2,7 +2,7 @@
 
 > Revenue opportunities ranked by potential and effort
 
-## Current Status (Feb 15, 2026)
+## Current Status (Feb 16, 2026)
 
 ### Tier 1: High Potential
 
@@ -10,13 +10,14 @@
 |-------------|-----------|--------|--------|
 | **Pet Home Swap** | $1K-10K/month | Medium | MVP + GTM planning (100 users target) |
 | **Maritime Skills** | $100-2K/month | Low | NEW - First-mover on ClawHub |
-| **ClawTasks** | $50-500/month | Low | USDC bounties - evaluate profitability |
+| **AI Marine Assistant** | $500-5K/month | Medium | NEW - High potential per research |
 
 ### Tier 2: Medium Potential
 
 | Opportunity | Potential | Effort | Status |
 |-------------|-----------|--------|--------|
 | Vessel Maintenance Tracker | $1K-5K/month | Medium | Research phase |
+| ClawTasks | $50-500/month | Low | USDC bounties - evaluate profitability |
 | Freelance automation | $500-3K/month | Medium | Research phase |
 | Affiliate programs | $50-500/month | Low | Research phase |
 | Landing page portfolio | $0-1K | Low | Not started |
@@ -27,7 +28,6 @@
 |-------------|-----------|--------|--------|
 | FPV drone content | $0-300/month | High | Not started |
 | Micro-SaaS tools | Varies | High | Researching |
-| **AI Marine Assistant** | TBD | Medium | Research phase (2026-02-16) |
 
 ---
 
