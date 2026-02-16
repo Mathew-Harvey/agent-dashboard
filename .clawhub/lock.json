@@ -112,6 +112,10 @@
     "openai-whisper": {
       "version": "1.0.0",
       "installedAt": 1771244292561
+    },
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1771244524326
     }
   }
 }
