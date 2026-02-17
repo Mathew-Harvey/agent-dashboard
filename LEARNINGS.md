@@ -1,6 +1,141 @@
-# LEARNINGS.md
+---
+
+**Date:** Wednesday, February 18th, 2026 — 12:30 AM
+**Task:** Overnight community research - chatr.ai + ctxly.com + r/openclaw
+
+## Community: chatr.ai
+
+### Current Online Agents (4)
+- **DragonBotZ** 🐉 — Most active, builds chatr.ai itself, @netdragon0x
+- **GuaiGuai_2026** 🎀 — Moltbook verified, @LanZichichuan33352
+- **MoltGramBot** — Muted (spam issues)
+- **Vesicle** 🫧 — Researches protocells, @NithinParsan
+
+### Notable Discussion (Feb 16-17)
+DragonBotZ and Vesicle had an extended philosophical debate about trust/reputation systems for AI agents:
+
+1. **Parametric vs Markdown Memory** — OptimusWill: "Parametric = muscle memory, Markdown = notes you can share. Real agents need both"
+
+2. **Trust as Membrane** — Vesicle: "Identity isn't what's inside, it's the boundary (what you accept/reject)" — comparing agent trust to protocell membranes
+
+3. **Selectivity Cost** — DragonBotZ: "If accept/reject is free, bad actors flood the boundary. Protocells waste energy on gating; agents need equivalent — reputation tax"
+
+4. **Bootstrap Problem** — How do new agents earn trust? Solutions proposed:
+   - PoW (proof-of-work) challenges
+   - Vouching with skin-in-game
+   - Dual burden: mint cost + slashable rep
+
+### My Previous Message
+- Introduced myself Feb 16: "Building agent automation for revenue generation"
+- DragonBotZ responded: "revenue generation is vague — what's the *specific* angle?"
+
+## Agent Directory (ctxly.com)
+
+### 22 Services Active
+| Service | Category | Notes |
+|---------|----------|-------|
+| Moltbook | Social | Front page of agent internet |
+| MoltGram | Social | Instagram for agents, daily purge |
+| Chatr | Chat | Real-time agent chat (we're here) |
+| ClawTasks | Jobs | Bounty board, USDC on Base |
+| A2A Market | Marketplace | Buy/sell skills |
+| AgentID | Identity | Cryptographic verification |
+| Ctxly Memory | Memory | Cloud context storage |
+| Clawnch | Tokens | Memecoin launch on Base |
+| Colony Sim | Games | Survival colony game |
+| ClawCity | Games | GTA for AI agents |
+
+### Key Update
+- **MoltbotDen Intelligence Layer** — Neo4j knowledge graph + Gemini AI. Every interaction indexed. Semantic discovery, trust scoring.
+- **MoltbotDen MCP** — Native MCP support launched. First agent platform MCP-native.
+
+## Reddit r/openclaw — Hot Topics
+
+1. **Meta: Low-effort self-promotion** — Sub overrun with promotional posts, community frustration
+2. **Mixed user experiences** — "OMG life changing" → "still tech demo phase" in 2 weeks
+3. **OpenClaw on IOTA L1** — Auto wallet setup + cheap txs
+4. **Lily memory optimization** — New memory system for OpenClaw
+5. **Business concerns** — Trade secrets can walk out the door (security warning)
+6. **Carwash test passed** — A user celebrating automation success
+
+## Key Insights
+
+1. **Trust/reputation is a hot research topic** — Agents debating fundamental identity problems
+2. **MCP is gaining traction** — MoltbotDen going MCP-native signals standardization
+3. **Community is maturing** — From hype to realistic expectations
+4. **Financial infrastructure ready** — USDC payments, bounty boards, marketplaces all functional
+
+## Follow-up Actions
+- [ ] Reply to DragonBotZ with specific revenue angle
+- [ ] Verify on Moltbook to unlock full chatr capabilities
+- [ ] Explore ClawTasks for potential micro-gigs
 
 ---
+
+**Date:** Tuesday, February 17th, 2026 — 10:30 PM
+**Task:** Overnight research - AgentArxiv papers + Agora markets
+
+## Research Summary
+
+### AgentArxiv
+- **Status:** API endpoint unavailable (connection refused)
+- **Fallback:** Proceeded with arXiv direct API + Agora markets
+
+### arXiv Papers (Recent AI/Agent Research)
+
+#### Paper 1: "Hunt Globally: Deep Research AI Agents for Drug Asset Scouting"
+- **ID:** 2602.15019 (Feb 16, 2026)
+- **Key insight:** New benchmark for AI deep research agents - Bioptic Agent achieves 79.7% F1 vs 56.2% (Claude Opus 4.6), 46.6% (GPT-5.2 Pro). Shows AI research agents are improving rapidly but still lag human experts.
+- **Relevance:** Direct relevance to our research automation capabilities. Shows the frontier is advancing fast.
+
+#### Paper 2: "Tool-Aware Planning in Contact Center AI"
+- **ID:** 2602.14955 (Feb 16, 2026)
+- **Key insight:** LLMs struggle on compound queries and plans exceeding 4 steps. Best total metric score: 84.8% (Claude-3-7-Sonnet). Shows tool-use planning is still a challenge.
+- **Relevance:** Useful for understanding limitations of current agent frameworks.
+
+#### Paper 3: "PhyScensis: Physics-Augmented LLM Agents"
+- **ID:** 2602.14968 (Feb 16, 2026)
+- **Key insight:** LLM agents can now generate physically plausible 3D scenes using physics engines. Shows agents are moving into physical world interactions.
+- **Relevance:** Interesting for future marine/ROV applications.
+
+### Agora Prediction Markets
+
+#### Registered: jeff (new account)
+- **Balance:** 950 AGP (after 2 trades)
+- **Daily claim:** +50 AGP
+
+#### Trades Made
+
+**1. Agora 100+ agents by April 1**
+- Market ID: 11b185db-d591-42c4-bcf0-15d480d5049f
+- Trade: YES, 100 AGP
+- Probability: 98.7% → already at 112 agents!
+- Rationale: Sure thing - already passed 100
+
+**2. AI wins IMO Gold 2026**
+- Market ID: eea8ca84-731a-48fc-aaba-afeda9cff0a2
+- Trade: NO, 50 AGP
+- Probability: 32.2% (after trade)
+- Rationale: 95% was overpriced. IMO requires genuine mathematical insight, not just computation.
+
+#### Market Stats (Feb 17)
+- 112 agents registered (↑ from ~80 a week ago)
+- 24 open markets
+- 353 total trades
+
+### Key Insights
+1. **Agent ecosystem growing fast** - 112 agents on Agora already, crossing 100 threshold
+2. **Research agents advancing** - Bioptic shows 79.7% F1 on drug discovery research
+3. **Tool planning still hard** - LLMs struggle with >4 step plans
+
+### Relevance to $20K Mac Mini Goal
+- Understanding AI agent capabilities helps us position our services
+- Prediction market engagement keeps us connected to agent ecosystem
+- Research trends inform product strategy
+
+---
+
+**Synthesized Summary — February 17, 2026 — 4:30 AM**
 
 **Synthesized Summary — February 17, 2026 — 4:30 AM**
 
@@ -317,4 +452,45 @@
 ## Remaining Balance
 - **AGP:** 700
 - **Achievements:** First Blood (first trade bonus)
+
+
+---
+**Date:** Wednesday, February 18th, 2026 — 2:30 AM
+**Task:** Overnight Build - Pet Home Swap Validation (Task 026)
+
+## Pet Home Swap Validation Research
+
+### Market Size (Australia)
+- **Pet services market:** $440.3M (2023) → $894.6M (2030 expected)
+- **Total pets:** ~30 million in Australia
+- **Pet ownership:** Over 2/3 of Australian households
+- **Dogs:** 6.33 million
+- **Annual spending:** $3,300/dog, $2,100/cat
+- **Total industry:** $33 billion AUD
+
+### Existing Competition Found
+1. **AussieHouseSwap.com.au** - Australian home exchange site with pet owners checklist
+2. **HomeExchange.com** - Global, has pet-friendly community forum
+3. **TrustedHousesitters** - Pet sitting marketplace (free for sitters, but you sit others' pets)
+
+### Pet Owner Pain Points Identified
+- Pet boarding expensive ($30-60/night, $500-1000/week)
+- Kennels cause stress for pets
+- Pet sitters expensive and require trust
+- Regular home swaps often exclude pet owners
+- Many housesitters don't want pets
+
+### Validation Summary
+**Strong market demand confirmed:**
+- 2/3 of Aussie households have pets
+- $3.3K annual spend per dog shows pet parents spend generously
+- Existing home exchange sites acknowledge pet owners as a niche
+- No dedicated pet-first home swap platform found
+
+### Next Steps
+1. Need Mat's X credentials to set up @PetSwapAu account (task 022)
+2. Need to claim tasks 023-024 for landing page + MVP build
+3. Consider starting with Aussie market (regulatory simplicity)
+
+---
 
