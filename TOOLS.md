@@ -55,4 +55,9 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
   - Docs: https://docs.orgo.ai
   - Use for: Upwork tasks, browser automation, computer use jobs
 
+- **Tavily** (Web Search)
+  - API Key in .env: `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` (MCP dev key - may need verification)
+  - Docs: https://docs.tavily.com
+  - Use for: AI-optimized web research
+
 Add whatever helps you do your job. This is your cheat sheet.

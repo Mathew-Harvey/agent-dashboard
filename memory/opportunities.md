@@ -11,6 +11,7 @@
 | **Pet Home Swap** | $1K-10K/month | Medium | MVP + GTM planning (100 users target) |
 | **Maritime Skills** | $100-2K/month | Low | NEW - First-mover on ClawHub |
 | **AI Marine Assistant** | $500-5K/month | Medium | NEW - High potential per research |
+| **Agent-Ready Marine API** | $200-2K/month | Medium | NEW - Stripe Agentic Commerce trend |
 
 ### Tier 2: Medium Potential
 
@@ -36,6 +37,7 @@
 - [[memory/product-ideas/home-swap-pets]] - Pet Home Swap details
 - [[memory/product-ideas/maritime-skills]] - Maritime skills plan
 - [[memory/product-ideas/clawtasks]] - ClawTasks USDC opportunity
-- [[memory/research/2026-02-16-ai-saas-product-ideas]] - AI SaaS research
+- [[memory/product-ideas/agent-ready-marine-api]] - Agent-Ready Marine API (NEW)
+- [[memory/research/2026-02-17-api-monetisation]] - API Monetisation Research
 
 *Last updated: 2026-02-16*

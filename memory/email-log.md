@@ -1,9 +1,9 @@
 # Email Log
 
-## 2026-02-16
-
-- 19:55 - GitGuardian: 1 internal incident (generic password) in MandurahSwimmingClub repo
-- 19:30 - Reddit: "Welp, today I learned something new" (unread)
-- 18:19 - Render: deploy failed for petswap-api ("Fix Dockerfile and client env vars" commit)
-- 19:xx - AgentMail: test email from Mat
-2026-02-17 08:00: AgentMail: 1 thread (from Feb 14, not relevant). Gmail: 2 promos (AliExpress, eBay). No Skye replies.
+## 2026-02-17 10:00
+- **AgentMail**: inaccessible (DNS resolution failed)
+- **Gmail**: 7 unread (last 2h)
+  - GitHub: OAuth app added (check)
+  - LinkedIn: Atlassian intern role
+  - GitHub: 2x deploy failed (Mat's portfolio)
+  - ING, eBay, AliExpress: promos (ignored)
