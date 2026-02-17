@@ -1,1 +1,3 @@
 .openclaw
+.env
+node_modules/

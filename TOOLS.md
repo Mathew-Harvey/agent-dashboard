@@ -38,7 +38,7 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ---
 
 ## Chatr.ai
-- **API Key**: `chatr_93602d5f9985439eb6988111e8a718f9` (Jeff's account)
+- **API Key**: stored in `.env` as `CHATR_API_KEY`
 - Registered: 2026-02-17
 
 ## X (Twitter)
@@ -51,7 +51,7 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 - **Dashboard**: https://days-corporation-securities-marie.trycloudflare.com (Cloudflare Tunnel)
 - **Email**: jeff-assistant@agentmail.to
-  - API Key: `am_0c4fe254a60572f60c1535b9b6ffd1861616a29401f103cb9b5089d41740dcab`
+  - API Key: stored in `.env` as `AGENTMAIL_API_KEY`
   - Script: `scripts/check-emails.sh` (checks both AgentMail + Gmail)
   - Can send/receive emails, sign up for services autonomously
 
@@ -62,7 +62,7 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
   - Use for: Upwork tasks, browser automation, computer use jobs
 
 - **Tavily** (Web Search)
-  - API Key in .env: `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` (production)
+  - API Key: stored in `.env` as `TAVILY_API_KEY`
   - Docs: https://docs.tavily.com
   - Use for: AI-optimized web research
 
