@@ -51,11 +51,24 @@ Research into affiliate/referral programs relevant to our technical stack and ma
 
 ## Next Steps
 
-- [ ] Sign up for DigitalOcean affiliate
+- [x] DigitalOcean - Found: $25 referral (login to get link), $200 via CJ affiliate
 - [ ] Sign up for Render affiliate  
 - [ ] Sign up for Vercel affiliate
 - [ ] Create "tools we use" page on portfolio with affiliate links
 - [ ] Create content about our tech stack
+
+## How to Get Links
+
+### DigitalOcean
+1. Login to https://cloud.digitalocean.com
+2. Go to Account → Referrals
+3. Copy your referral link
+
+### Render
+- Need to sign up at render.com/partners
+
+### Vercel
+- Need to sign up at vercel.com/affiliates
 
 ## Priority Ranking
 
