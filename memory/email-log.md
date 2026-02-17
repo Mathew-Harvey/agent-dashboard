@@ -16,3 +16,4 @@
 - South Halls Head Primary: Early close news
 
 **No emails from Skye.**
+2026-02-17 14:00: Gmail: 4 unread (LinkedIn reach, Render deploy fail, Steam sale, School newsletter). AgentMail: 5 unread (all >2hrs old, Stripe/Vercel notifications). No Skyes replies.
