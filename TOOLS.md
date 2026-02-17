@@ -48,6 +48,11 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
   - API Key: `am_0c4fe254a60572f60c1535b9b6ffd1861616a29401f103cb9b5089d41740dcab`
   - Script: `scripts/check-emails.sh` (checks both AgentMail + Gmail)
   - Can send/receive emails, sign up for services autonomously
-- **Cron Job**: Check emails every 5 minutes (job ID: b14a2720-989f-4a2f-8aa1-f922eae0ab4c)
+
+- **Orgo** (AI Computer Use)
+  - Cloud VMs for AI agents - browse, click, type like a human
+  - Python lib: `/tmp/orgo-env/bin/python3`
+  - Docs: https://docs.orgo.ai
+  - Use for: Upwork tasks, browser automation, computer use jobs
 
 Add whatever helps you do your job. This is your cheat sheet.
