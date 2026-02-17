@@ -116,6 +116,10 @@
     "weather": {
       "version": "1.0.0",
       "installedAt": 1771244524326
+    },
+    "jobforagents": {
+      "version": "3.2.0",
+      "installedAt": 1771300158628
     }
   }
 }
