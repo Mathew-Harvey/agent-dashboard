@@ -1,6 +1,6 @@
 # Remote Jobs for Mandurah Residents
 
-_Last updated: 2026-02-16 19:53_
+_Last updated: 2026-02-18 06:45_
 
 ## Search Terms to Use
 
