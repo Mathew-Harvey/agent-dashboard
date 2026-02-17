@@ -9,8 +9,9 @@
 
 ### 2026-02-17: ClawPress Pixar-style logo animation
 - **Success**: Generated Pixar-style 3D logo animation with Veo - crayfish with glasses writing on letters with magical sparkles
-- **File**: assets/clawpress-logo-animation.mp4
+- **File**: assets/clawpress-logo-animation-v2.mp4
 - **Learn**: Detailed prompts with specific details (crayfish, glasses, pencil, wooden blocks, sparkles) yield better results than generic ones
+- **ISSUE - Video text doesn't match static logo**: The static logo is "🦞 ClawPress" (lobster emoji + ClawPress). Video shows "CLAWPRESS" block letters without emoji. NEXT VIDEO MUST include 🦞 or have crayfish BE the "Claw"
 
 ### 2026-02-17: PetSwap submit button invisible
 - **Mistake**: Coder used `var(--black)` in CSS but never defined the `--black` CSS variable. Button fell back to white background with white text.
