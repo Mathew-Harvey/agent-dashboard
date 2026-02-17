@@ -23,6 +23,7 @@
 - If any cron research/learning job completed since last heartbeat, check if it produced notes worth filing.
 - If notes exist, file them properly in memory/research/ — do NOT message Mat about routine research.
 - Only alert Mat if a research finding is directly actionable toward the $20K AUD Mac Mini goal.
+- **Mistake Documentation**: After any issue is fixed or problem solved, immediately document what went wrong and the solution in MEMORY.md under "Mistakes & Learnings". This ensures we only make each mistake once.
 
 ## 5. Overnight Work Check (morning heartbeats only)
 - If overnight research sessions have completed, verify their notes are saved properly.

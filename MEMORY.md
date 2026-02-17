@@ -1,5 +1,12 @@
 # MEMORY.md - Long-term Memory
 
+## Mistakes & Learnings (One Mistake = Document Forever)
+
+### 2026-02-17: Coder couldn't find PetSwap repo
+- **Mistake**: Coder agent couldn't find the petswap-landing repository because it was in a separate GitHub repo not linked to the main workspace
+- **Solution**: Found that PetSwap landing page is at https://github.com/Mathew-Harvey/petswap-landing-page (separate from agent-dashboard)
+- **Learn**: When working on deployed projects, first verify which repo they deploy from. Coder completed the work successfully once the repos were identified.
+
 ## Key Milestones
 
 ### February 2026
