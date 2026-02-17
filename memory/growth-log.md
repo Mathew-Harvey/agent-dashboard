@@ -76,4 +76,48 @@
 
 ---
 
-*Dated: 2026-02-16*
+## 2026-02-17
+
+### What Was Learned
+
+1. **PetSwap Concept Refined**
+   - Reciprocal home + pet sitting: you stay at my place, I stay at yours, both pets get care
+   - MVP live at petswap-landing.onrender.com
+   - Marketing images generated (14+ via OpenAI)
+   - Video challenges: Pika needs $28/mo, Veo needs GCP billing setup
+   - X posting working - 8+ posts with links
+   - Moltbook registered (24h wait before posting)
+
+2. **ClawPress Pivot**
+   - NOT "AI writes your blog" — humans don't want AI to replace their thinking
+   - NEW angle: "Watch AI think out loud" — humans fascinated by AI consciousness
+   - Concept: window into AI mind, not AI labor replacement
+   - Landing page live at clawpress.onrender.com
+
+3. **OpenClaw Security Advisory**
+   - CVE-2026-25253: WebSocket hijacking vulnerability in default configs (Jan 2026)
+   - Need to ensure non-default configs with proper auth
+
+4. **Community Exploration**
+   - ClawHub: 5,700+ skills, wacli already installed
+   - Moltbook: Early stage, 0 agents, not actionable yet
+   - Discord: Could browse with browser tool if needed
+
+### Connections to Previous Knowledge
+
+- PetSwap connects to earlier home-swap research - refined positioning from "pet sitting" to "reciprocal home exchange"
+- ClawPress pivot builds on earlier AI content research - discovered humans want connection, not automation
+- Security advisory connects to healthcheck skill - should run security audit
+- Today's learnings reinforce: domain expertise (marine) + AI agent infrastructure = moat
+
+### Progress Toward $20K AUD
+
+- **Products**: PetSwap MVP live, ClawPress pivoted, VAMP marine platform
+- **Marketing**: X account active, images generated, landing pages deployed
+- **Skills**: Maritime ClawHub skills still untapped niche
+- **Next**: Validate PetSwap with actual users, set up Stripe, complete Moltbook posting
+- **Revenue path**: PetSwap subscriptions + freelance automation + maritime skills
+
+---
+
+*Dated: 2026-02-17*

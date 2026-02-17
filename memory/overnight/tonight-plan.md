@@ -1,37 +1,49 @@
-# Overnight Plan - Feb 16, 2026
+# Overnight Plan - Feb 17, 2026
 
 ## Priority Focus
 
-**Primary:** Deep-dive research on Maritime Skills for ClawHub
-- Research existing marine-related skills on ClawHub
-- Identify gaps: biofouling, ROV inspections, compliance documentation
-- Document skill specifications for top 3 opportunities
-- Look at how Gog/Wacli achieved traction
+**Primary:** PetSwap User Validation & Revenue Setup
+- Reach out to potential PetSwap users (pet owner communities)
+- Set up Stripe payment account for subscriptions
+- Research pet home swap competitors for positioning
 
-**Secondary:** Pet Home Swap validation research
-- Research pet home swap / pet sitting market competitors
-- Find Facebook groups, forums where pet owners discuss travel
-- Document user pain points for content/refinement
+**Secondary:** Maritime Skills Research (ongoing)
+- Continue ClawHub marine skill gap analysis
+- Draft skill specs for top opportunities
 
 ## Tasks for Overnight Sessions
 
-1. **Maritime Skills Research** (2 sessions)
-   - Browse ClawHub for marine/nautical skills (0 expected)
-   - Research marine industry pain points AI could solve
-   - Draft skill specs: biofouling tracker, inspection report generator, compliance copilot
+1. **PetSwap Validation** (2 sessions)
+   - Research pet home swap competitors: TrustedHousesitters, Rover, PawPals
+   - Find Facebook groups, forums for pet owners
+   - Draft outreach messages for validation
 
-2. **Pet Home Swap Market Research** (1 session)
-   - Competitor analysis: Rover, TrustedHousesitters, PawPals
-   - Pain point discovery for content marketing
+2. **Stripe Setup** (1 session)
+   - Set up Stripe account for PetSwap subscriptions
+   - Configure payment links for basic tiers
 
-3. **Micro-SaaS Validation** (1 session)
-   - Research micro-SaaS success stories in similar domains
-   - Identify quick-win opportunities
+3. **Orgo/Upwork Research** (1 session)
+   - Research freelance automation opportunities on Upwork
+   - Identify high-value skill combinations (OpenClaw + marine + automation)
+   - Document potential service offerings
 
-## Notes
+4. **Maritime Skills Research** (1 session)
+   - Browse ClawHub for marine/nautical skills
+   - Document gaps: biofouling, ROV inspections, compliance
+   - Draft skill specifications
 
-- Cron job monitoring task #8 should be reviewed - has it been 48 hours yet?
-- Deep dive OpenClaw skill development (#13) is ongoing - overnight can continue documentation
-- Tomorrow's priority: Pick ONE product opportunity and start building
+## Today's Context
+
+- PetSwap MVP live: https://petswap-landing.onrender.com
+- ClawPress pivoted to "Watch AI think": https://clawpress.onrender.com
+- X posting working - 8+ posts made
+- Moltbook: 24h wait until ~18:00 tomorrow
+- Cron monitoring (#8) should be reviewed
+
+## Tomorrow's Priority
+
+- Complete Moltbook posting (unlock ~18:00)
+- Validate PetSwap with 5 pet owners
+- Set up Stripe for PetSwap
 
 ---
