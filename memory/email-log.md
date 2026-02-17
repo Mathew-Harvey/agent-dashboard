@@ -1,21 +1,8 @@
 # Email Log
 
-## 2026-02-17 12:00 PM (cron check)
+## 2026-02-17
 
-### AgentMail (jeff-assistant@agentmail.to) - Unread:
-- Vercel: Sign-in attempt notification
-- Stripe: Account ready for payments
-- Stripe: New passkey added
-- Stripe: Email verification
-- Mat: Test message
-
-### Gmail (mathewharvey@gmail.com) - Unread:
-- AliExpress: New auto/moto items
-- Birchal: goodMix offer live
-- GitHub: Third-party OAuth app added
-- South Halls Head Primary: Early close news
-
-**No emails from Skye.**
-2026-02-17 14:00: Gmail: 4 unread (LinkedIn reach, Render deploy fail, Steam sale, School newsletter). AgentMail: 5 unread (all >2hrs old, Stripe/Vercel notifications). No Skyes replies.
-2026-02-17 16:00: Email check: AgentMail (0 new <2h), Gmail (4 unread - GitGuardian, PC Case Gear, X login, Render deploy fail). No emails from Skye.
-2026-02-17 18:00: AgentMail: 10 msgs (oldest from Mat test Feb 14). Gmail: 2 unread from Anthropic re:API access turned off. No emails from Skye.
+- 18:48 (Perth): Moltbook login email (unread, not urgent)
+- 18:15 (Perth): Pika signup confirmation (unread, not urgent)
+- No emails from Skye
+- Gmail: no unread in last 2 hours

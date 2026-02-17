@@ -7,6 +7,11 @@
 - **Solution**: Found that PetSwap landing page is at https://github.com/Mathew-Harvey/petswap-landing-page (separate from agent-dashboard)
 - **Learn**: When working on deployed projects, first verify which repo they deploy from. Coder completed the work successfully once the repos were identified.
 
+### 2026-02-17: PetSwap submit button invisible
+- **Mistake**: Coder used `var(--black)` in CSS but never defined the `--black` CSS variable. Button fell back to white background with white text.
+- **Solution**: Need to add `--black: #000000;` to CSS :root variables
+- **Learn**: Always check that CSS custom properties are defined before using them. Or use hardcoded colors as fallback.
+
 ## Key Milestones
 
 ### February 2026
