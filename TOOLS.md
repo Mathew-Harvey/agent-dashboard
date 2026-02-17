@@ -56,7 +56,7 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
   - Use for: Upwork tasks, browser automation, computer use jobs
 
 - **Tavily** (Web Search)
-  - API Key in .env: `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` (MCP dev key - may need verification)
+  - API Key in .env: `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` (production)
   - Docs: https://docs.tavily.com
   - Use for: AI-optimized web research
 
