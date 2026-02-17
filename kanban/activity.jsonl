@@ -121,3 +121,7 @@
 {"timestamp":"2026-02-17T10:44:56.571710219+08:00","action":"create","task_id":43,"detail":"Set up Upwork with Orgo - apply for jobs"}
 {"timestamp":"2026-02-17T10:45:02.542682565+08:00","action":"create","task_id":44,"detail":"Sign up for affiliate programs - DigitalOcean, Vercel, Render"}
 {"timestamp":"2026-02-17T10:45:10.218570463+08:00","action":"create","task_id":45,"detail":"Freelance automation outreach - offer services to Mat's network"}
+{"timestamp":"2026-02-17T19:26:53.131040791+08:00","action":"create","task_id":46,"detail":"Embed Veo videos into PetSwap landing page"}
+{"timestamp":"2026-02-17T19:26:59.723889955+08:00","action":"create","task_id":47,"detail":"Add hero video to PetSwap landing page"}
+{"timestamp":"2026-02-17T19:27:06.753793785+08:00","action":"create","task_id":48,"detail":"Embed Veo videos into ClawPress website"}
+{"timestamp":"2026-02-17T19:27:13.679904631+08:00","action":"create","task_id":49,"detail":"Set up video hosting for PetSwap/ClawPress (cloud storage or CDN)"}
