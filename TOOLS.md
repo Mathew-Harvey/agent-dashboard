@@ -41,6 +41,11 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 - **API Key**: `chatr_93602d5f9985439eb6988111e8a718f9` (Jeff's account)
 - Registered: 2026-02-17
 
+## X (Twitter)
+- **Username**: @JeffAssistant
+- **Password**: Bongos4u
+- Keep it safe
+
 ## Agent Services
 
 - **Dashboard**: https://days-corporation-securities-marie.trycloudflare.com (Cloudflare Tunnel)
