@@ -43,8 +43,9 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ## X (Twitter)
 - **Username**: @JeffAssistant
-- **Password**: Bongos4u
-- Keep it safe
+- **Credentials**: Stored in `.env` file (never commit this file!)
+- API keys: Bearer token, OAuth 1.0a (consumer key/secret, access token/secret), OAuth 2.0 client ID/secret
+- Use for: Posting tweets, following accounts, reading timeline
 
 ## Agent Services
 
