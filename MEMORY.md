@@ -7,6 +7,11 @@
 - **Solution**: Found that PetSwap landing page is at https://github.com/Mathew-Harvey/petswap-landing-page (separate from agent-dashboard)
 - **Learn**: When working on deployed projects, first verify which repo they deploy from. Coder completed the work successfully once the repos were identified.
 
+### 2026-02-17: ClawPress Pixar-style logo animation
+- **Success**: Generated Pixar-style 3D logo animation with Veo - crayfish with glasses writing on letters with magical sparkles
+- **File**: assets/clawpress-logo-animation.mp4
+- **Learn**: Detailed prompts with specific details (crayfish, glasses, pencil, wooden blocks, sparkles) yield better results than generic ones
+
 ### 2026-02-17: PetSwap submit button invisible
 - **Mistake**: Coder used `var(--black)` in CSS but never defined the `--black` CSS variable. Button fell back to white background with white text.
 - **Solution**: Need to add `--black: #000000;` to CSS :root variables
