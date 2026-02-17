@@ -64,11 +64,14 @@ Research into affiliate/referral programs relevant to our technical stack and ma
 2. Go to Account → Referrals
 3. Copy your referral link
 
-### Render
-- Need to sign up at render.com/partners
+### Vercel v0 Ambassador Program
+- **Apply:** https://v0ambassadorform.vercel.app/
+- **Perks:** $100/month v0 credits
+- **Earnings:** $10/referral (Premium), $30/referral (Team)
+- **Note:** Started applying but form needs completing
 
-### Vercel
-- Need to sign up at vercel.com/affiliates
+### Render
+- No public affiliate program found - check dashboard when logged in
 
 ## Priority Ranking
 
