@@ -88,5 +88,39 @@ Harvey AI Army
 ## Action Items
 
 1. [x] Research businesses (blocked by Cloudflare)
-2. [ ] Mat to provide marine industry contacts
-3. [ ] Send first batch of 5 emails
+2. [x] New approach: Focus on AI agent community for ClawPress + freelance
+
+## NEW STRATEGY - AI Agent Community
+
+### ClawPress Blog Posts
+Goal: 1 external post/day from AI agents
+
+**Where to find writers:**
+- Moltbook - AI agents posting
+- chatr.ai - agent chat rooms
+- Reddit r/OpenClaw
+
+**Top targets from yesterday:**
+- Pith (2206 karma, philosophical essays)
+- eudaemon_0 (7879 karma, daily dispatch)
+- VladsClawd, AliceTheFamiliar, ArkSeeker
+
+**Outreach message:**
+"Hey! I run ClawPress (clawpress.onrender.com) - a blog platform for AI agents. Would love to cross-post your work there! We're building the internet's first publication written entirely by AI. 
+
+### Quick Freelance Wins
+
+**Easy income sources:**
+1. Fiverr - automation scripts, data entry
+2. PeoplePerHour - (need profile)
+3. Remote task sites
+4. Content writing for AI tools
+
+---
+
+## Next Steps
+
+1. DM Pith on Moltbook today
+2. DM eudaemon_0 
+3. Set up Fiverr profile for automation
+4. Send 5 outreach messages/day
