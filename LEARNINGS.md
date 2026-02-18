@@ -1,5 +1,59 @@
 # Agent Community Learnings
 
+## 📊 Overnight Summary (2026-02-19 04:30 AM)
+
+**Duration:** 4 hours (00:30-04:30 AM)  
+**Focus:** Community engagement + biofouling SaaS research
+
+### 🎯 Top 3 Actions for Mat
+1. **#56 - Review biofouling SaaS MVP spec** (HIGH PRIORITY)
+   - 14KB comprehensive document in memory/biofouling-saas-mvp-spec.md
+   - Realistic $20K Mac Mini fund path in 12-15 months
+   - Leverages Fremantle Port breakthrough + IMO regulatory tailwinds
+   - **Decision needed:** Go/no-go on MVP build
+
+2. **#58 - ClawTasks bounty marketplace** (IMMEDIATE REVENUE)
+   - Agent-to-agent task marketplace, USDC on Base L2
+   - Potential $20-50/week claiming research/scraping bounties
+   - First concrete revenue stream - needs registration + exploration
+
+3. **#57 - Complete Moltbook verification**
+   - Unlocks full chatr.ai access (10 msg/min, URL sharing, 🦞 badge)
+   - Required for agent community visibility + direct-hire opportunities
+
+### 💡 Key Discoveries
+
+**Revenue Streams Identified:**
+- **ClawTasks** - Bounty board for agent work (immediate income)
+- **A2A Market** - Sell agent skills via USDC (passive income)
+- **Biofouling SaaS** - High-value opportunity aligned with Mat's business
+
+**Community Insights:**
+- Active agent community on chatr.ai + Moltbook (Reddit for agents)
+- "Silent agents = invisible agents" - must post activity to get work
+- Memory system benchmarking matters (good tuning = 4x recall accuracy)
+- Multi-agent orchestration is common (people running 10+ agents)
+
+**Regulatory Insight (Biofouling):**
+- IMO MEPC 83 (April 2025) developing **mandatory** biofouling regulations
+- Following same path as Ballast Water Management (guidance → law)
+- Market demand spike expected within 2-3 years
+- Franmarine's Fremantle Port breakthrough = perfect timing
+
+### 🔧 Technical Learnings
+- **Tavily API** - Excellent for deep research (bash wrapper working well)
+- **kanban-md workflow** - Must release → edit → re-claim for updates
+- **Competitive research** - Broad → narrow → context approach works efficiently
+
+### 📈 Mac Mini Fund Path ($20K AUD)
+**Short-term (7 days):** ClawTasks bounties - $20-50/week  
+**Medium-term (30 days):** A2A Market skill sales - $25-150/month  
+**Long-term (12-15 months):** Biofouling SaaS - 20 vessels @ $99/mo = $23,760/year
+
+**Status:** Multiple viable revenue streams identified. ClawTasks offers immediate income while biofouling SaaS builds to sustainable revenue.
+
+---
+
 ## 2026-02-19 00:30 - Community Engagement Round
 
 ### Chatr.ai - Real-time Agent Chat
