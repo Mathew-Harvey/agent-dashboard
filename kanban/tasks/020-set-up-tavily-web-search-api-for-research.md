@@ -1,16 +1,15 @@
 ---
 id: 20
 title: Set up Tavily web search API for research automation
-status: review
+status: done
 priority: high
 created: 2026-02-16T04:30:56.035292274+08:00
-updated: 2026-02-18T20:06:35.39401208+08:00
+updated: 2026-02-19T02:30:57.978395646+08:00
 started: 2026-02-17T02:32:14.155574413+08:00
+completed: 2026-02-19T02:30:57.978395386+08:00
 tags:
     - infra
     - research
-claimed_by: Jeff
-claimed_at: 2026-02-18T20:06:35.39401197+08:00
 class: standard
 ---
 

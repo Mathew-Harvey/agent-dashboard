@@ -89,3 +89,86 @@
 ---
 
 *Last updated: 2026-02-19 00:30 AWST*
+
+---
+
+## 2026-02-19 — Overnight Build: Biofouling SaaS MVP Research
+
+**Task:** #55 - Research and draft biofouling SaaS MVP spec
+**Duration:** 02:30-04:00 AM (90 minutes)
+**Status:** Complete, ready for Mat's review
+
+### What I Built
+- **Comprehensive MVP specification** (14KB document) covering:
+  - Competitive landscape analysis
+  - Feature roadmap (3 phases over 12 months)
+  - Technical architecture recommendations
+  - Pricing model (3 tiers: $99-$799/month)
+  - Go-to-market strategy
+  - Revenue projections ($60K Y1 → $1.2M Y3)
+
+### Key Insights
+1. **Regulatory Tailwinds:** IMO MEPC 83 (April 2025) agreed to develop legally binding biofouling regulations, shifting from voluntary guidelines. This creates immediate market demand.
+
+2. **Market Trajectory:** Following exact same path as Ballast Water Management (BWM) Convention - what started as guidance became law. Industry expects mandatory biofouling regulations within 2-3 years.
+
+3. **Competitive Gaps:**
+   - **ShipCarePro:** Strong documentation, but no operational/hardware integration
+   - **MarineStream:** Mat's platform, but potentially over-engineered for small operators
+   - **Gap:** Affordable, specialized SaaS for small/mid operators ($99-299/month)
+
+4. **Strategic Positioning:**
+   - Leverage **Franmarine's Fremantle Port Authority breakthrough** (Australia's first commercial in-water cleaning approval)
+   - Position as **entry-level gateway to MarineStream** (lead generation, not competition)
+   - **Operational credibility** - built by actual biofouling operators, not software companies
+
+5. **Path to Mac Mini Fund ($20K AUD):**
+   - Target: 20 vessels @ $99/month = $1,980/month × 12 = $23,760/year
+   - Timeline: 12-15 months (3-month build + 9-month revenue ramp)
+   - **Realistic and achievable** given Franmarine's existing client base
+
+### Technical Learnings
+1. **Tavily API** - Works great for deep research! Much better than scraping or relying on Brave API.
+   - Used bash wrapper script for quick searches
+   - `search_depth: "advanced"` provides comprehensive results
+   - `include_answer: true` gives AI-synthesized summaries
+
+2. **kanban-md Workflow Issues:**
+   - Cannot edit task while claimed (even by self)
+   - Must `--release` then immediately re-claim to update
+   - Review status requires `--claim`, which feels backwards for "waiting on others"
+   - **Solution:** Release → edit → claim workflow
+
+3. **Competitive Research Strategy:**
+   - Started with broad "biofouling management software SaaS" search
+   - Narrowed to "pricing models" for commercial insights
+   - Finished with "market size + regulatory drivers" for context
+   - **Total research depth:** ~30 sources synthesized in 45 minutes
+
+### Business Strategy Insight
+The biofouling SaaS opportunity has **multiple revenue layers:**
+1. **Direct SaaS revenue** - Predictable MRR from vessel subscriptions
+2. **MarineStream lead generation** - Entry-level customers upgrade to full platform
+3. **Consulting services** - Regulatory compliance advisory (high margin add-on)
+4. **Data licensing** - Aggregated biofouling data valuable to port authorities, coating manufacturers
+5. **Partnership revenue** - Referral fees from shipyards, coating companies
+
+This isn't just a product - it's a **platform play** that positions Mat/Franmarine as the biofouling compliance experts.
+
+### Next Actions
+- [ ] Mat reviews spec (memory/biofouling-saas-mvp-spec.md)
+- [ ] Market validation interviews with 5 Franmarine clients
+- [ ] Go/no-go decision on MVP build
+- [ ] If approved: Assign Coder to technical architecture document
+
+### Reflection
+This was a high-value overnight task. By focusing on a revenue-generating opportunity that:
+1. Aligns with Mat's existing business (Franmarine/MarineStream)
+2. Leverages unique competitive advantages (Fremantle Port breakthrough)
+3. Has clear regulatory drivers (IMO mandatory regulations coming)
+4. Provides realistic path to Mac Mini fund ($20K in 12-15 months)
+
+The research quality from Tavily was excellent - found regulatory updates, competitor pricing, and market insights quickly. The MVP spec is comprehensive enough to inform a real build decision.
+
+**Time well spent.** This could be the revenue stream that funds the Mac Mini and establishes ongoing AI army operations.
+
