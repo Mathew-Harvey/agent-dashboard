@@ -1,39 +1,51 @@
-# Skills Discovered
+# Skills Discovered on ClawHub
 
-> Skills found during community exploration - pending review for installation
+## Trending Skills (by downloads)
 
-## 2026-02-16 Daytime Exploration
+### High Priority (10k+ ⭐)
+| Skill | Stars | Description |
+|-------|-------|-------------|
+| gog | 26.5k | Google Workspace CLI (Gmail, Calendar, Drive, Sheets, Docs) |
+| self-improving-agent | 24.3k | Captures learnings, errors, corrections for continuous improvement |
+| ATXP | 24.1k | Web search, AI image/music/video generation, X/Twitter search |
+| wacli | 21.5k | WhatsApp messaging via CLI |
+| tavily-search | 21.4k | AI-optimized web search via Tavily API |
+| agent-browser | 20.8k | Rust-based headless browser automation |
+| find-skills | 20.6k | Discover and install agent skills |
+| summarize | 20.4k | Summarize URLs, PDFs, images, audio, YouTube |
+| github | 19.7k | GitHub CLI integration (gh issue, pr, run, api) |
+| ontology | 17.2k | Typed knowledge graph for structured agent memory |
+| byteRover | 17.1k | Project knowledge management with context tree |
+| weather | 17.1k | Weather forecasts (no API key) |
+| proactive-agent | 15.7k | Proactive partners with WAL Protocol, Autonomous Crons |
+| api-gateway | 11k | API gateway with managed OAuth (by Maton) |
+| nano-banana-pro | 10.5k | Gemini 3 Pro Image generation |
+| notion | 10.5k | Notion API for pages, databases, blocks |
+| nano-pdf | 10.4k | PDF editing with natural language |
+| humanize-ai-text | 10.1k | Bypass AI detection |
+| obsidian | 10.1k | Obsidian vault automation |
+| free-ride | 9.5k | Free AI models from OpenRouter |
+| auto-updater | 9.3k | Auto-update skills daily |
+| mcporter | 9k | MCP servers/tools CLI |
+| openai-whisper | 8.9k | Local speech-to-text (no API key) |
 
-### From ClawHub (5,705 skills)
-
-| Skill | Description | Downloads | Status |
-|-------|-------------|-----------|--------|
-| proactive-agent | Transform agents into proactive partners with WAL Protocol, Autonomous Crons | 14.5k | 🔍 To Review |
-| free-ride | Free AI models from OpenRouter with automatic fallbacks | 9.2k | 🔍 To Review |
-| api-gateway | Managed OAuth for third-party APIs (32 versions!) | 10.5k | 🔍 To Review |
-| auto-updater | Auto-update skills daily via cron | 8.8k | 🔍 To Review |
-| agent-browser | Rust-based headless browser automation | 19.3k | 🔍 To Review |
-| answer-overflow | Search indexed Discord discussions | 2.7k | 🔍 To Review |
-| find-skills | Skill discovery assistant (helps find functionality) | 19.2k | 🔍 To Review |
-
-### From awesome-openclaw-skills (3,002 curated skills)
-
-| Skill | Description | Source | Status |
-|-------|-------------|--------|--------|
-| cellcog | #1 on DeepResearch Bench (Feb 2026) | awesome-openclaw-skills | 🔍 To Review |
-| buildlog | Record/export AI coding sessions as replayable buildlogs | awesome-openclaw-skills | 🔍 To Review |
-| claude-optimised | Guide for writing and optimizing CLAUDE.md files | awesome-openclaw-skills | 🔍 To Review |
-| cc-godmode | Self-orchestrating multi-agent development workflows | awesome-openclaw-skills | 🔍 To Review |
-| agent-council | Complete toolkit for creating autonomous AI agents | awesome-openclaw-skills | 🔍 To Review |
-
-### Useful Resources (Not Skills)
-
-| Resource | Description | URL |
-|----------|-------------|-----|
-| openclaw-runbook | Practical day-to-day OpenClaw guide with cost control, memory, guardrails + showcases | github.com/digitalknk/openclaw-runbook |
-| awesome-openclaw-usecases | Real-world use cases and examples | github.com/hesamsheikh/awesome-openclaw-usecases |
-| Moltbook | Social network for AI agents (early stage, 0 agents currently) | moltbook.com |
+### Interesting Categories Found
+- **DevOps & Cloud**: 212 skills
+- **Browser & Automation**: 139 skills  
+- **Search & Research**: 253 skills
+- **Coding Agents & IDEs**: 133 skills
+- **Productivity & Tasks**: 135 skills
 
 ---
 
-*Last updated: 2026-02-16*
+## Notes
+
+- ClawHub now integrated with Moltbook
+- 8,207 total skills available
+- VirusTotal security scanning available on skill pages
+- Many skills by @steipete (Peter Steinberger) - high quality
+
+---
+
+## Last Updated
+2026-02-18

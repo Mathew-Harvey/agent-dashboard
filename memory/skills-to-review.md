@@ -1,66 +1,74 @@
-# Skills To Review
+# Skills to Review for Installation
 
-> Skills pending Mat's approval for installation
+Skills discovered during community exploration that Mat should approve before installing.
 
-## Current Queue
+## Priority Candidates
 
-### Priority: High
+### 1. self-improving-agent
+- **Slug**: pskoett/self-improving-agent
+- **Stars**: 24.3k
+- **Description**: Captures learnings, errors, and corrections to enable continuous improvement
+- **Use cases**: 
+  - When a command fails unexpectedly
+  - When user corrects the agent
+  - When user requests a capability that doesn't exist
+  - When external API/tool fails
+  - Review learnings before major tasks
+- **Why**: Could help the Harvey AI Army learn from mistakes and improve over time
+- **Status**: ⏳ Pending approval
 
-1. **free-ride** - Free AI models from OpenRouter
-   - Why: Could significantly reduce API costs for $20K Mac Mini goal
-   - Downloads: 9.2k | Source: ClawHub
-   - Action: Install to reduce operational costs
+### 2. ontology
+- **Slug**: oswalpalash/ontology
+- **Stars**: 17.2k
+- **Description**: Typed knowledge graph for structured agent memory and composable skills
+- **Use cases**:
+  - Creating/querying entities (Person, Project, Task, Event, Document)
+  - Linking related objects
+  - Enforcing constraints
+  - Cross-skill data access
+- **Why**: Could enhance memory system with structured relationships
+- **Status**: ⏳ Pending approval
 
-2. **api-gateway** - Managed OAuth for third-party APIs
-   - Why: 32 versions = actively maintained, could enable new integrations
-   - Downloads: 10.5k | Source: ClawHub
-   - Action: Review for potential revenue-generating integrations
+### 3. proactive-agent
+- **Slug**: halthelobster/proactive-agent
+- **Stars**: 15.7k
+- **Description**: Transform AI agents from task-followers into proactive partners
+- **Features**: WAL Protocol, Working Buffer, Autonomous Crons
+- **Why**: Could help with heartbeat/background tasks
+- **Status**: ⏳ Pending approval
 
-3. **cellcok** - Research-focused, claims #1 on DeepResearch Bench (Feb 2026)
-   - Why: Could improve research capabilities for Mac Mini fund research
-   - Source: awesome-openclaw-skills
+### 4. free-ride
+- **Slug**: Shaivpidadi/free-ride
+- **Stars**: 9.5k
+- **Description**: Manages free AI models from OpenRouter
+- **Features**: Auto-ranks models by quality, configures fallbacks for rate limits
+- **Why**: Could reduce API costs for the Mac Mini fund
+- **Status**: ⏳ Pending approval
 
-4. **openclaw-runbook** (resource, not skill) - Practical guide
-   - Why: Contains cost control patterns, spawning patterns, security hardening, showcases
-   - Action: Mat should review this repo directly - has copy-paste automation patterns!
-
-### Priority: Medium
-
-5. **proactive-agent** - Transform agents into proactive partners
-   - Why: 14.5k downloads, 86 stars - could improve autonomous research
-   - Downloads: 14.5k | Source: ClawHub
-
-6. **buildlog** - AI coding session recording
-   - Why: Useful for tracking and replaying development work
-   - Source: awesome-openclaw-skills
-
-7. **cc-godmode** - Multi-agent development workflows
-   - Why: Could help coordinate Coder/Hustler subagents
-   - Source: awesome-openclaw-skills
-
-8. **claude-optimised** - CLAUDE.md optimization guide
-   - Why: Could improve our AGENTS.md/SOUL.md setup
-   - Source: awesome-openclaw-skills
-
-9. **auto-updater** - Auto-update skills daily
-   - Why: Keep skills current without manual effort
-   - Downloads: 8.8k | Source: ClawHub
-
-10. **find-skills** - Skill discovery assistant
-   - Why: Helps find functionality we might need
-   - Downloads: 19.2k | Source: ClawHub
-
----
-
-## How to Install
-
-Once approved, use:
-```
-clawhub install <skill-slug>
-```
-
-Or paste the GitHub repo link into chat and ask to install.
+### 5. agent-browser (Alternative)
+- **Slug**: TheSethRose/agent-browser
+- **Stars**: 20.8k
+- **Description**: Rust-based headless browser automation
+- **Why**: Could complement/replace current Playwright setup
+- **Status**: ⏳ Pending approval
 
 ---
 
-*Last updated: 2026-02-16*
+## Already Installed (Reference)
+- gog ✓ (we have this)
+- github ✓ (we have this)
+- weather ✓ (we have this)
+- summarize ✓ (we have this)
+- wacli ✓ (we have this)
+- nano-banana-pro ✓ (we have this)
+- nano-pdf ✓ (we have this)
+- obsidian ✓ (we have this)
+- mcporter ✓ (we have this)
+- openai-whisper ✓ (we have this)
+
+---
+
+## Notes
+- Only install after Mat approval
+- Check VirusTotal report before installing any new skill
+- Review source code for suspicious behavior
