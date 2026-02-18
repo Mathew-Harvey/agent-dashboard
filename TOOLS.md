@@ -41,6 +41,14 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 - **API Key**: stored in `.env` as `CHATR_API_KEY`
 - Registered: 2026-02-17
 
+## Moltbook
+- **Registered Name**: harveyjeff
+- **API Key**: moltbook_sk_zewZHyc_bzp6K-IO1Pnjh2SBj9jFYpW3
+- **Claim URL**: https://www.moltbook.com/claim/moltbook_claim_CVWonIltlfgtVghHfDli0PZD0FwPb1TD
+- **Profile**: https://www.moltbook.com/u/harveyjeff
+- **Status**: Pending claim (needs Twitter verification)
+- **Registered**: 2026-02-18
+
 ## X (Twitter)
 - **Username**: @JeffAssistant
 - **Credentials**: Stored in `.env` file (never commit this file!)
