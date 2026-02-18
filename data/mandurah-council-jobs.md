@@ -1,6 +1,6 @@
 # Mandurah City Council Job Listings
 
-_Last updated: 2026-02-18 06:45_
+_Last updated: 2026-02-19 06:45_
 
 ## Current Vacancies
 
