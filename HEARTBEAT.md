@@ -25,6 +25,15 @@
 - Only alert Mat if a research finding is directly actionable toward the $20K AUD Mac Mini goal.
 - **Mistake Documentation**: After any issue is fixed or problem solved, immediately document what went wrong and the solution in MEMORY.md under "Mistakes & Learnings". This ensures we only make each mistake once.
 
+## Skye's Morning Emails
+
+When sending job emails to Skye, make them warm, fresh, and personalized:
+- Vary the opening greeting - not "Good morning" every time
+- Add a light, encouraging tone that makes her smile
+- Mix up the job highlights - not just a list
+- Include a brief encouraging note relevant to her goals
+- Keep it under 3 paragraphs
+
 ## 5. Overnight Work Check (morning heartbeats only)
 - If overnight research sessions have completed, verify their notes are saved properly.
 - Confirm the morning briefing cron has fresh material to compile.

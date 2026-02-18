@@ -4,10 +4,12 @@ title: Validate Pet Home Swap with 10 pet owners
 status: in-progress
 priority: high
 created: 2026-02-16T09:34:55.872529405+08:00
-updated: 2026-02-18T02:35:00.000000000+08:00
+updated: 2026-02-18T20:06:35.38478085+08:00
 tags:
     - validation
     - revenue
+claimed_by: Jeff
+claimed_at: 2026-02-18T20:06:35.38478071+08:00
 class: standard
 ---
 
@@ -19,3 +21,6 @@ class: standard
 - Pain points: boarding $500-1000/week, kennels stressful, sitters pricey
 - No dedicated pet-first home swap platform found - OPPORTUNITY CONFIRMED
 - Next: reach out to actual pet owners for interviews
+
+[[2026-02-18]] Wed 20:06
+Validation in progress. Landing page live, X posting active. Need to reach out to pet owner communities for feedback.

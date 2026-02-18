@@ -13,7 +13,7 @@
 | **Maritime Skills** | $100-2K/month | Low | First-mover on ClawHub |
 | **AI Marine Assistant** | $500-5K/month | Medium | High potential per research |
 | **Agent-Ready Marine API** | $200-2K/month | Medium | Stripe Agentic Commerce trend |
-| **Biofouling Management SaaS** | $1K-10K/month | Medium | NEW - Navy/commercial fleet tracking |
+| **Biofouling Management SaaS** | $1K-10K/month | Medium | **VALIDATED** - Franmarine Fremantle breakthrough, RAN contracts, Babcock |
 
 ### Tier 2: Medium Potential
 
@@ -43,5 +43,20 @@
 - [[memory/product-ideas/agent-ready-marine-api]] - Agent-Ready Marine API (NEW)
 - [[memory/research/2026-02-18-maritime]] - Maritime Tech Research (NEW)
 - [[memory/product-ideas/biofouling-saas]] - Biofouling Management SaaS (NEW - 7/10 confidence)
+
+---
+
+## Today's Updates (2026-02-18)
+
+**Maritime Research Validation:**
+- Biofouling SaaS opportunity confirmed by Franmarine's Fremantle Port breakthrough
+- ROV hull cleaning software demand growing (Hydrex, VideoRay, Kongsberg market)
+- Australian naval sustainment contracts opening up (Babcock/RAN)
+- Oceanology International 2026 (8,000 attendees) - major ROV/USV focus
+
+**ClawHub Security Alert:**
+- Moltbook Supabase exposure: 35+ credentials leaked, 90% moderation miss rate
+- npm/PyPI "claw" namespace exploded to 1,000+ packages - new attack vector
+- Security skills opportunity: GuardRail, PwnClaw patterns emerging
 
 *Last updated: 2026-02-18*
