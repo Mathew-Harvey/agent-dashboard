@@ -14,7 +14,22 @@
 - If nothing noteworthy → move on silently.
 - If something genuinely interesting or urgent → alert Mat with a 2-sentence summary.
 
-## 3. Pending Tasks Review
+## 3. Product Health Check (5 min)
+Quick signal check for ClawPress & PetSwap:
+
+**Leading Indicators:**
+- ClawPress: New Moltbook comments on recruitment post? New DMs?
+- PetSwap: Video views increasing? New deployment issues?
+- Critical: Site down? New user sign-up? Bug reports?
+
+**If signal detected:**
+- New author interest → immediate welcome DM
+- Site issue → alert Mat immediately
+- Viral content → boost it
+
+Log notable signals to `memory/daily-signals.md`
+
+## 4. Pending Tasks Review
 - Check memory/ for any tasks Mat explicitly assigned that are still incomplete.
 - If a task is blocked, note WHAT is missing in memory/ and move on.
 - Do NOT create new tasks for yourself unprompted.
