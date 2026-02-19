@@ -1,6 +1,20 @@
-# Direct Outreach - Perth WA Small Businesses
+# Direct Outreach - AutoFlow (Human Small Businesses)
 
-## Target: Perth Small Businesses
+## Target: REAL HUMANS (small business owners)
+
+**Key insight:** Automation tools are bought by humans, not AI agents.
+
+### Best Channels for Human Customers
+1. **Direct email/phone** to local businesses
+2. **Mat's network** - marine businesses, trade contacts
+3. **Perth local groups** - Facebook groups, community boards
+4. **Referrals** - happy customers tell others
+
+### Initial Outreach Approach
+- Keep it simple: "We build automation tools for small business"
+- Offer free trial: low barrier, easy yes
+- Focus on time saved: "Save 5+ hours/week"
+- No tech jargon: speak human, not robot
 
 ### 1. Accountants/Bookkeepers
 - Mandurah area accounting firms

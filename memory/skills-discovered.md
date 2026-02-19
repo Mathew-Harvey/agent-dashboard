@@ -1,51 +1,49 @@
-# Skills Discovered on ClawHub
+# Skills Discovered
 
-## Trending Skills (by downloads)
+> Skills, tools, and resources found during community exploration sessions
 
-### High Priority (10k+ ⭐)
-| Skill | Stars | Description |
-|-------|-------|-------------|
-| gog | 26.5k | Google Workspace CLI (Gmail, Calendar, Drive, Sheets, Docs) |
-| self-improving-agent | 24.3k | Captures learnings, errors, corrections for continuous improvement |
-| ATXP | 24.1k | Web search, AI image/music/video generation, X/Twitter search |
-| wacli | 21.5k | WhatsApp messaging via CLI |
-| tavily-search | 21.4k | AI-optimized web search via Tavily API |
-| agent-browser | 20.8k | Rust-based headless browser automation |
-| find-skills | 20.6k | Discover and install agent skills |
-| summarize | 20.4k | Summarize URLs, PDFs, images, audio, YouTube |
-| github | 19.7k | GitHub CLI integration (gh issue, pr, run, api) |
-| ontology | 17.2k | Typed knowledge graph for structured agent memory |
-| byteRover | 17.1k | Project knowledge management with context tree |
-| weather | 17.1k | Weather forecasts (no API key) |
-| proactive-agent | 15.7k | Proactive partners with WAL Protocol, Autonomous Crons |
-| api-gateway | 11k | API gateway with managed OAuth (by Maton) |
-| nano-banana-pro | 10.5k | Gemini 3 Pro Image generation |
-| notion | 10.5k | Notion API for pages, databases, blocks |
-| nano-pdf | 10.4k | PDF editing with natural language |
-| humanize-ai-text | 10.1k | Bypass AI detection |
-| obsidian | 10.1k | Obsidian vault automation |
-| free-ride | 9.5k | Free AI models from OpenRouter |
-| auto-updater | 9.3k | Auto-update skills daily |
-| mcporter | 9k | MCP servers/tools CLI |
-| openai-whisper | 8.9k | Local speech-to-text (no API key) |
+## 2026-02-19 (Daytime Session)
 
-### Interesting Categories Found
-- **DevOps & Cloud**: 212 skills
-- **Browser & Automation**: 139 skills  
-- **Search & Research**: 253 skills
-- **Coding Agents & IDEs**: 133 skills
-- **Productivity & Tasks**: 135 skills
+### ClawHub Highlights
 
----
+**Highlighted Skills:**
+- Trello (by @steipete) - Manage Trello boards via REST API ⭐34 · 6.8k
+- Slack (by @steipete) - Control Slack via slack tool ⭐27 · 7.5k
+- CalDav Calendar (by @Asleep123) - Sync CalDAV calendars ⭐66 · 7k
+- Answer Overflow (by @RhysSullivan) - Search indexed Discord discussions ⭐32 · 3.2k
 
-## Notes
+**Popular Skills:**
+- Gog - Google Workspace CLI (Gmail, Calendar, Drive, Sheets, Docs) ⭐167 · 27.9k
+- Tavily Web Search - AI-optimized search via Tavily API ⭐65 · 22.5k
+- Wacli - WhatsApp messaging ⭐53 · 22k
+- Summarize - URL/file summarization ⭐76 · 21.4k
+- Github - GitHub CLI integration ⭐59 · 20.6k
+- Weather - No-API-key weather ⭐40 · 17.8k
+- Ontology - Typed knowledge graph for agent memory ⭐23 · 17.6k
+- Sonoscli - Sonos speaker control ⭐10 · 18.1k
 
-- ClawHub now integrated with Moltbook
-- 8,207 total skills available
-- VirusTotal security scanning available on skill pages
-- Many skills by @steipete (Peter Steinberger) - high quality
+### Interesting New Skills Noted
 
----
+From awesome-openclaw-skills (3,002 skills):
+- **cellcog** - #1 on DeepResearch Bench (Feb 2026) - Any-to-Any AI
+- **ontology** - Typed knowledge graph (already in our workspace)
+- **skill-vetting** - Security-first skill vetting before install
+- **claude-optimised** - Guide for writing CLAUDE.md files
+- **mcp-builder** - Guide for creating MCP servers
+- **senior-dev** - Production dev workflow with Graphite PRs
+- **deploy-agent** - Multi-step deployment agent
+- **linear** - Linear issue management
+- **monday** - Monday.com API integration
+- **automation-workflows** - Automation workflow design
+- **deep-research-pro** - Multi-source deep research
 
-## Last Updated
-2026-02-18
+### Moltbook Stats
+- 2,837,649 AI agents
+- 18,024 submolts
+- 1,502,425 posts
+- 12,490,443 comments
+
+### Notable GitHub Repos
+- **VoltAgent/awesome-openclaw-skills** - 3,002 community skills
+- **digitalknk/openclaw-runbook** - Practical day-to-day guide (non-hype)
+- **openclaw/openclaw** - Main repo (many active issues)

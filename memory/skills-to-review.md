@@ -1,74 +1,34 @@
-# Skills to Review for Installation
+# Skills to Review
 
-Skills discovered during community exploration that Mat should approve before installing.
+> Skills that look promising and need Mat's approval before installing
 
-## Priority Candidates
+## Pending Review
 
-### 1. self-improving-agent
-- **Slug**: pskoett/self-improving-agent
-- **Stars**: 24.3k
-- **Description**: Captures learnings, errors, and corrections to enable continuous improvement
-- **Use cases**: 
-  - When a command fails unexpectedly
-  - When user corrects the agent
-  - When user requests a capability that doesn't exist
-  - When external API/tool fails
-  - Review learnings before major tasks
-- **Why**: Could help the Harvey AI Army learn from mistakes and improve over time
-- **Status**: ⏳ Pending approval
+### High Priority (Revenue-Focused)
+- [ ] **linear** - Linear issue management (could help with Franmarine/MarineStream ops)
+- [ ] **automation-workflows** - Zapier/Make/n8n automation design - directly relevant to $20K goal
+- [ ] **deep-research-pro** - Multi-source research (already have research skill, need to compare)
+- [ ] **monday** - Monday.com API (Skye is looking for work)
 
-### 2. ontology
-- **Slug**: oswalpalash/ontology
-- **Stars**: 17.2k
-- **Description**: Typed knowledge graph for structured agent memory and composable skills
-- **Use cases**:
-  - Creating/querying entities (Person, Project, Task, Event, Document)
-  - Linking related objects
-  - Enforcing constraints
-  - Cross-skill data access
-- **Why**: Could enhance memory system with structured relationships
-- **Status**: ⏳ Pending approval
+### Medium Priority (Workspace Enhancement)
+- [ ] **skill-vetting** - Security vetting before installing new skills (safety first)
+- [ ] **claude-optimised** - CLAUDE.md best practices (could improve our setup)
+- [ ] **senior-dev** - Production dev workflow (Coder subagent could use this)
+- [ ] **deploy-agent** - Multi-step deployment (useful for deploying MVPs)
 
-### 3. proactive-agent
-- **Slug**: halthelobster/proactive-agent
-- **Stars**: 15.7k
-- **Description**: Transform AI agents from task-followers into proactive partners
-- **Features**: WAL Protocol, Working Buffer, Autonomous Crons
-- **Why**: Could help with heartbeat/background tasks
-- **Status**: ⏳ Pending approval
+### Lower Priority (Exploratory)
+- [ ] **cellcog** - #1 on DeepResearch Bench - any-to-any AI
+- [ ] **ontology** - Already have this in workspace, verify it's current
+- [ ] **mcp-builder** - MCP server creation - advanced, maybe later
 
-### 4. free-ride
-- **Slug**: Shaivpidadi/free-ride
-- **Stars**: 9.5k
-- **Description**: Manages free AI models from OpenRouter
-- **Features**: Auto-ranks models by quality, configures fallbacks for rate limits
-- **Why**: Could reduce API costs for the Mac Mini fund
-- **Status**: ⏳ Pending approval
+## Already Installed (Verify)
+- [x] **gog** - Already have Google Workspace CLI
+- [x] **github** - Already have GitHub skill
+- [x] **weather** - Already have weather skill
+- [x] **1password** - Already have 1Password skill
+- [x] **himalaya** - Already have email CLI
+- [x] **summarize** - Already have summarize skill
 
-### 5. agent-browser (Alternative)
-- **Slug**: TheSethRose/agent-browser
-- **Stars**: 20.8k
-- **Description**: Rust-based headless browser automation
-- **Why**: Could complement/replace current Playwright setup
-- **Status**: ⏳ Pending approval
-
----
-
-## Already Installed (Reference)
-- gog ✓ (we have this)
-- github ✓ (we have this)
-- weather ✓ (we have this)
-- summarize ✓ (we have this)
-- wacli ✓ (we have this)
-- nano-banana-pro ✓ (we have this)
-- nano-pdf ✓ (we have this)
-- obsidian ✓ (we have this)
-- mcporter ✓ (we have this)
-- openai-whisper ✓ (we have this)
-
----
-
-## Notes
-- Only install after Mat approval
-- Check VirusTotal report before installing any new skill
-- Review source code for suspicious behavior
+## Decision Needed
+- Should I install `linear` to help manage Franmarine/MarineStream tasks?
+- Is `automation-workflows` worth it given existing cron + heartbeat setup?
