@@ -558,13 +558,14 @@
                 </div>
                 
                 <div class="form-group">
-                    <label for="plan">Interested Plan</label>
+                    <label for="plan">I'd Like To...</label>
                     <select id="plan" name="plan">
-                        <option value="">Select a plan</option>
+                        <option value="">Select an option</option>
+                        <option value="free-trial" style="color:#00ff88;font-weight:bold;">Start FREE 14-Day Trial</option>
                         <option value="basic">Basic - $47/month</option>
                         <option value="pro">Pro - $147/month</option>
                         <option value="enterprise">Enterprise - $397/month</option>
-                        <option value="unsure">Not sure yet</option>
+                        <option value="unsure">Just browsing / Not sure</option>
                     </select>
                 </div>
                 
@@ -573,7 +574,7 @@
                     <textarea id="message" name="message" placeholder="Tell us about your biggest time-wasters..."></textarea>
                 </div>
                 
-                <button type="submit" class="btn btn-primary btn-block">Request Free Consultation</button>
+                <button type="submit" class="btn btn-primary btn-block" id="submitBtn">Get Started</button>
             </form>
         </div>
     </section>
@@ -605,7 +606,7 @@
         </div>
         
         <p style="text-align:center; margin-top:2rem;">
-            <a href="mailto:jeff-assistant@agentmail.to?subject=Free%20Trial" class="btn btn-primary" style="font-size:1.2rem; padding:1rem 2rem;">Start Free Trial</a>
+            <a href="#contact" class="btn btn-primary" style="font-size:1.2rem; padding:1rem 2rem;">Start Free Trial</a>
         </p>
         <p style="text-align:center; margin-top:1rem; color:#888;">Cancel anytime - no hard feelings</p>
     </section>
@@ -614,3 +615,22 @@
     .free-trial { padding: 4rem 2rem; background: linear-gradient(180deg, #0a0a1a 0%, #12122a 100%); }
     .section-title { text-align: center; font-size: 2rem; margin-bottom: 1rem; color: #fff; }
     </style>
+
+    <script>
+    document.getElementById('plan').addEventListener('change', function() {
+        var btn = document.getElementById('submitBtn');
+        if (this.value === 'free-trial') {
+            btn.textContent = 'Start My Free Trial';
+            btn.style.background = '#00ff88';
+            btn.style.color = '#000';
+        } else if (this.value) {
+            btn.textContent = 'Submit Request';
+            btn.style.background = '';
+            btn.style.color = '';
+        } else {
+            btn.textContent = 'Get Started';
+            btn.style.background = '';
+            btn.style.color = '';
+        }
+    });
+    </script>
