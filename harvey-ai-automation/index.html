@@ -382,80 +382,6 @@
             border-top: 1px solid rgba(255,255,255,0.1);
         }
         
-        .btn-large {
-            padding: 1.25rem 3rem;
-            font-size: 1.25rem;
-        }
-        
-        /* Free Trial Section */
-        .free-trial {
-            padding: 5rem 2rem;
-            background: linear-gradient(180deg, #0a0a1a 0%, var(--dark) 50%, #1a1a2e 100%);
-        }
-        
-        .free-trial-container {
-            max-width: 800px;
-            margin: 0 auto;
-            text-align: center;
-        }
-        
-        .trial-intro {
-            font-size: 1.5rem;
-            color: var(--text);
-            margin-bottom: 2.5rem;
-        }
-        
-        .trial-steps {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 1.5rem;
-            margin-bottom: 2.5rem;
-        }
-        
-        .trial-step {
-            background: var(--dark-card);
-            padding: 1.5rem;
-            border-radius: 16px;
-            border: 1px solid rgba(255,255,255,0.1);
-            transition: transform 0.3s ease, border-color 0.3s ease;
-        }
-        
-        .trial-step:hover {
-            transform: translateY(-5px);
-            border-color: var(--success);
-        }
-        
-        .step-number {
-            width: 40px;
-            height: 40px;
-            background: linear-gradient(135deg, var(--success), #059669);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 700;
-            font-size: 1.25rem;
-            margin: 0 auto 1rem;
-        }
-        
-        .trial-step h3 {
-            font-size: 1rem;
-            margin-bottom: 0.75rem;
-            color: var(--secondary);
-        }
-        
-        .trial-step p {
-            font-size: 0.875rem;
-            color: var(--text-muted);
-            line-height: 1.5;
-        }
-        
-        .trial-cta {
-            font-size: 1.25rem;
-            color: var(--text);
-            margin-bottom: 1.5rem;
-        }
-        
         /* Responsive */
         @media (max-width: 768px) {
             .hero p {
@@ -571,43 +497,6 @@
         </div>
     </section>
 
-    <!-- Free Trial Section -->
-    <section class="free-trial" id="free-trial">
-        <h2 class="section-title">Try Before You Buy 🆓</h2>
-        <div class="free-trial-container">
-            <p class="trial-intro">Get one automation setup for <strong>FREE</strong></p>
-            
-            <div class="trial-steps">
-                <div class="trial-step">
-                    <div class="step-number">1</div>
-                    <h3>Choose Your Automation</h3>
-                    <p>📧 Email summarization - AI summarizes your emails every morning<br>
-                    📱 Social media - Auto-generate posts from your blog/website<br>
-                    📊 Report generation - Turn data</p>
-                 into beautiful reports</div>
-                <div class="trial-step">
-                    <div class="step-number">2</div>
-                    <h3>We Set It Up</h3>
-                    <p>Free setup, takes about 30 minutes. We'll configure everything for you.</p>
-                </div>
-                <div class="trial-step">
-                    <div class="step-number">3</div>
-                    <h3>Use It for 14 Days</h3>
-                    <p>Totally free, no credit card required. Test it out and see the results.</p>
-                </div>
-                <div class="trial-step">
-                    <div class="step-number">4</div>
-                    <h3>Love It? Stay.</h3>
-                    <p><strong>Love it?</strong> Stay from $47/mo<br>
-                    <strong>Don't love it?</strong> Cancel anytime, no hard feelings.</p>
-                </div>
-            </div>
-            
-            <p class="trial-cta"><strong>No credit card. No commitment. Just results.</strong></p>
-            <a href="mailto:jeff-assistant@agentmail.to?subject=Free%20Trial" class="btn btn-primary btn-large">Start Free Trial →</a>
-        </div>
-    </section>
-
     <!-- Testimonials Section -->
     <section class="testimonials">
         <h2 class="section-title">What Our Clients Say</h2>
@@ -694,3 +583,34 @@
     </footer>
 </body>
 </html>
+
+    <!-- Free Trial Section -->
+    <section class="free-trial" id="free-trial">
+        <h2 class="section-title">Try Before You Buy</h2>
+        <p style="text-align:center; margin-bottom:2rem;">Get one automation setup for <strong>FREE</strong></p>
+        
+        <div class="pricing-cards" style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; max-width:900px; margin:0 auto;">
+            <div style="background:rgba(255,255,255,0.05); padding:1.5rem; border-radius:8px; flex:1; min-width:200px; text-align:center;">
+                <h3 style="color:#00d4ff;">1. Choose</h3>
+                <p>Email summarization<br>OR Social posts<br>OR Report generation</p>
+            </div>
+            <div style="background:rgba(255,255,255,0.05); padding:1.5rem; border-radius:8px; flex:1; min-width:200px; text-align:center;">
+                <h3 style="color:#00d4ff;">2. We Set It Up</h3>
+                <p>Free setup<br>30 minutes</p>
+            </div>
+            <div style="background:rgba(255,255,255,0.05); padding:1.5rem; border-radius:8px; flex:1; min-width:200px; text-align:center;">
+                <h3 style="color:#00d4ff;">3. Use 14 Days</h3>
+                <p>Totally FREE<br>No credit card</p>
+            </div>
+        </div>
+        
+        <p style="text-align:center; margin-top:2rem;">
+            <a href="mailto:jeff-assistant@agentmail.to?subject=Free%20Trial" class="btn btn-primary" style="font-size:1.2rem; padding:1rem 2rem;">Start Free Trial</a>
+        </p>
+        <p style="text-align:center; margin-top:1rem; color:#888;">Cancel anytime - no hard feelings</p>
+    </section>
+
+    <style>
+    .free-trial { padding: 4rem 2rem; background: linear-gradient(180deg, #0a0a1a 0%, #12122a 100%); }
+    .section-title { text-align: center; font-size: 2rem; margin-bottom: 1rem; color: #fff; }
+    </style>
