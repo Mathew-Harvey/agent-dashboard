@@ -19,6 +19,8 @@
 
 | Opportunity | Potential | Effort | Status |
 |-------------|-----------|--------|--------|
+| **Automation Consulting (DFY)** | $2K-8K/month | Low | **NEW - 8/10 confidence, can start immediately** |
+| **Marine Automation Skill** | $500-2K/month | Low | **NEW - 7/10 confidence, dogfood for Franmarine** |
 | Vessel Maintenance Tracker | $1K-5K/month | Medium | Research phase - +Biofouling scheduling module |
 | ClawTasks | $50-500/month | Low | USDC bounties - evaluate profitability |
 | Freelance automation | $500-3K/month | Medium | Research phase |
@@ -30,6 +32,9 @@
 
 | Opportunity | Potential | Effort | Status |
 |-------------|-----------|--------|--------|
+| **AI Vertical Automation (SMB)** | $5K-20K/month | High | **NEW - 7/10 confidence, requires vertical selection** |
+| **Micro-SaaS (LinkedIn/Email)** | $3K-10K/month | High | **NEW - 6/10 confidence, competitive** |
+| **ClawHub Skills Marketplace** | $500-3K/month | Medium | **NEW - 7/10 confidence, first-mover advantage** |
 | FPV drone content | $0-300/month | High | Not started |
 | Micro-SaaS tools | Varies | High | Researching |
 
@@ -43,6 +48,10 @@
 - [[memory/product-ideas/agent-ready-marine-api]] - Agent-Ready Marine API (NEW)
 - [[memory/research/2026-02-18-maritime]] - Maritime Tech Research (NEW)
 - [[memory/product-ideas/biofouling-saas]] - Biofouling Management SaaS (NEW - 7/10 confidence)
+- [[memory/research/2026-02-19-automation-products]] - Automation Products Research (NEW)
+  - Automation consulting (DFY) - 8/10 confidence
+  - Marine automation skill - 7/10 confidence
+  - AI vertical automation for SMBs - 7/10 confidence
 
 ---
 
@@ -59,4 +68,32 @@
 - npm/PyPI "claw" namespace exploded to 1,000+ packages - new attack vector
 - Security skills opportunity: GuardRail, PwnClaw patterns emerging
 
-*Last updated: 2026-02-18*
+---
+
+## Today's Updates (2026-02-19)
+
+**Automation Products Research:**
+- **Done-for-you automation consulting** - Highest immediate ROI (8/10 confidence)
+  - Setup fee: $200-500/automation, Monthly: $50-200/mo maintenance
+  - Target: 20 customers = $2K-8K/mo recurring
+  - Can start immediately with landing page + outreach
+  
+- **Marine automation OpenClaw skill** - Perfect dogfooding opportunity (7/10 confidence)
+  - Build biofouling compliance automation for Franmarine
+  - Price: $500 one-time or $50/mo subscription
+  - Sell on ClawHub + directly to marine companies
+  
+- **Market insights from research:**
+  - Relay.app proves "AI + human oversight" commands premium over pure automation
+  - Magical's pivot to healthcare vertical shows vertical > horizontal pricing power
+  - TextExpander at $3-10/mo proves people pay for daily-use productivity tools
+  - Apify's web scraping customers pay $200-1000/mo because data = revenue
+  
+- **Key gap identified:** Vertical automation for SMBs
+  - Marine/maritime, construction, legal, accounting all underserved
+  - Can charge 3-5x more than horizontal tools
+  - Network effects within industries
+  
+See: [[memory/research/2026-02-19-automation-products]] for full research notes
+
+*Last updated: 2026-02-19*
