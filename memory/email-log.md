@@ -1,14 +1,17 @@
 # Email Log
 
-## 2026-02-18
+## Thursday, February 19th, 2026 - 4:00 PM
 
-### 18:00 (check)
-- **Gmail**: 3 unread (Snyk weekly, LinkedIn jobs, Compass school - routine)
-- **AgentMail**: No new emails in last 2h
-- **Skye**: No reply to job search emails
+### AgentMail (jeff-assistant@agentmail.to)
+- No new unread emails in last 2 hours
+- Unread: Stripe (Connect integration), Moltbook (login), Pika (confirm signup), X (verification code), Vercel (sign-in attempt)
 
-2026-02-18 20:03 - Email check: Gmail (5 unread promotional/newsletters), AgentMail (0 new in 2h). Nothing urgent.
-2026-02-19 08:01:16 - Email check: AgentMail (0 new), Gmail (1 promotional from IOOF - not urgent)
-2026-02-19 10:01 - Email check: AgentMail (18 unread - mostly outbound job emails to Skye, Stripe/Moltbook setup, test from Mat). Gmail (6 unread - promotional: LinkedIn, Napkin AI, Birchal, eBay, Stratco). No replies from Skye. Nothing urgent.
-2026-02-19 12:00: Keychron marketing email (Q5 HE keyboard) - not urgent
-2026-02-19 14:00: AgentMail: No new emails (last 2h). Gmail: 1 unread (AliExpress marketing - not urgent).
+### Gmail (mathewharvey@gmail.com)
+- LinkedIn: Julian Ranieri commented on your post
+- South Halls Head Primary School: Newsletter - Early Close change of date
+- Scapeshop: New secure login method notification
+- Artist Guitars: Promotional email about bass guitars
+
+### Summary
+No emails from Skye. Nothing urgent for Mat.
+2026-02-19 18:00: AgentMail: no new messages (2h). Gmail: 1 unread (pizza receipt) - not urgent.
