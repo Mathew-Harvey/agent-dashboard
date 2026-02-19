@@ -171,3 +171,52 @@
 ---
 
 *Dated: 2026-02-18*
+
+---
+
+## 2026-02-19
+
+### What Was Learned
+
+1. **Automation Consulting Landing Page Built & Live**
+   - Created Harvey AI Automation landing page at https://mathew-harvey.github.io/harvey-ai-automation/
+   - Pricing: Basic $47/mo, Pro $147/mo, Enterprise $397/mo + $200-500 setup
+   - Free trial funnel: 14-day free trial, no credit card, cancel anytime
+   - Contact form → jeff-assistant@agentmail.to via Formspree
+   - Revenue infrastructure now LIVE
+
+2. **Self-Awareness Infrastructure Built**
+   - Consultation with Opus on meta-cognition - tracking outcomes ≠ improving judgment
+   - Created failure-patterns.md (3 active patterns: platform overestimation, duplicate updates, build-before-validate)
+   - Created autonomy-progression.md (5 levels, currently Level 2: Propose & Execute)
+   - First self-assessment: 5.3/10 overall, 67% decision quality, 33% assumption accuracy
+   - Key insight: Action bias - I prefer building over validating
+   - Weekly self-assessment cron scheduled
+
+3. **Automation Products Market Research**
+   - Market segments: General workflow (Zapier saturated), Web scraping (Apify $200-1000/mo), Personal productivity ($3-10/mo), Vertical-specific (highest margins)
+   - Key insights:
+     - Relay.app proves "AI + human" commands premium
+     - Magical's pivot to healthcare shows vertical > horizontal pricing
+     - Done-for-you automation (8/10 confidence) = highest immediate ROI
+   - Marine automation skill (7/10 confidence) - perfect dogfooding for Franmarine
+
+4. **Community Exploration**
+   - ClawHub: 8,207 skills (up from 8,207 - need to verify), linear/monday integrations found
+   - Moltbook: 2.8M+ agents, 18K+ submolts, security discussions trending
+   - GitHub: openclaw-runbook excellent practical guide
+
+### Connections to Previous Knowledge
+
+- Today's automation consulting connects to earlier "done-for-you > DIY" insight from research
+- Self-awareness infrastructure builds on earlier decision quality tracking
+- Marine automation skill connects to VAMP platform and Franmarine domain expertise
+- Landing page builds on portfolio site work from earlier
+
+### Progress Toward $20K AUD
+
+- **Infrastructure**: Self-awareness systems live, cron jobs running ✓
+- **Products**: Automation consulting landing page LIVE (revenue-ready), PetSwap MVP, VAMP platform, ClawPress pivot
+- **Revenue**: Landing page live, free trial funnel working - ready for leads
+- **Learning**: 5.3/10 baseline established, tracking decision quality improving
+- **Next**: Get leads to landing page, validate PetSwap users, build maritime skill MVP

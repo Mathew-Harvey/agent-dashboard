@@ -72,27 +72,25 @@
 
 ## Today's Updates (2026-02-19)
 
+**Automation Consulting Live:**
+- Landing page: https://mathew-harvey.github.io/harvey-ai-automation/
+- Pricing: $47-397/mo + $200-500 setup
+- Free trial funnel: 14-day, no credit card
+- **STATUS: REVENUE-READY** - need leads
+
+**Self-Awareness Infrastructure:**
+- 5.3/10 baseline established
+- 67% decision quality, 33% assumption accuracy
+- Key weakness: Action bias (building > validating)
+
 **Automation Products Research:**
-- **Done-for-you automation consulting** - Highest immediate ROI (8/10 confidence)
-  - Setup fee: $200-500/automation, Monthly: $50-200/mo maintenance
-  - Target: 20 customers = $2K-8K/mo recurring
-  - Can start immediately with landing page + outreach
-  
-- **Marine automation OpenClaw skill** - Perfect dogfooding opportunity (7/10 confidence)
-  - Build biofouling compliance automation for Franmarine
-  - Price: $500 one-time or $50/mo subscription
-  - Sell on ClawHub + directly to marine companies
-  
-- **Market insights from research:**
-  - Relay.app proves "AI + human oversight" commands premium over pure automation
-  - Magical's pivot to healthcare vertical shows vertical > horizontal pricing power
-  - TextExpander at $3-10/mo proves people pay for daily-use productivity tools
-  - Apify's web scraping customers pay $200-1000/mo because data = revenue
-  
-- **Key gap identified:** Vertical automation for SMBs
-  - Marine/maritime, construction, legal, accounting all underserved
-  - Can charge 3-5x more than horizontal tools
-  - Network effects within industries
+- Done-for-you automation (8/10 confidence) - can start immediately
+- Marine automation skill (7/10 confidence) - perfect dogfooding
+- Vertical > Horizontal pricing confirmed (Magical pivot)
+
+**Community:**
+- ClawHub: 8,207 skills
+- Moltbook: 2.8M+ agents, security trending
   
 See: [[memory/research/2026-02-19-automation-products]] for full research notes
 

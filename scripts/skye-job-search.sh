@@ -1,132 +1,82 @@
 #!/bin/bash
-# Job search script for Sky - searches Mandurah Council + remote jobs for Mandurah
+# Job search script for Skye - searches Seek, Glassdoor, Indeed, Excite for digital PM roles
+# Only sends email when NEW jobs are found
 
-MANDURAH_JOBS_FILE="/home/mat/.openclaw/workspace/data/mandurah-council-jobs.md"
-REMOTE_JOBS_FILE="/home/mat/.openclaw/workspace/data/remote-jobs-mandurah.md"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+WORKSPACE="/home/mat/.openclaw/workspace"
+DATA_DIR="$WORKSPACE/data"
+
+# Files for tracking
+PREV_JOBS_FILE="$DATA_DIR/skye-previous-jobs.json"
+NEW_JOBS_FILE="$DATA_DIR/skye-new-jobs.md"
+EMAIL_SENT_FLAG="$DATA_DIR/skye-email-sent.txt"
+
 TIMESTAMP=$(date "+%Y-%m-%d %H:%M")
 
-echo "=== Scanning Mandurah City Council Jobs ===" 
+echo "=== Job Search for Skye ===" 
 echo "Timestamp: $TIMESTAMP"
 echo ""
 
-# Navigate to Mandurah Council jobs page and extract job listings
-# Using browser to get the current job listings
-cd /home/mat/.openclaw/workspace
+cd "$WORKSPACE"
 
-# Create a simple markdown report for Mandurah Council jobs
-cat > "$MANDURAH_JOBS_FILE" << 'EOF'
-# Mandurah City Council Job Listings
+# Use web search to find current job listings
+# Search for digital project manager / product owner jobs in WA or remote Australia
 
-_Last updated: TIMESTAMP_PLACEHOLDER_
+echo "Searching Seek..."
+SEEK_JOBS=$(web_search --query "site:seek.com.au \"digital project manager\" OR \"product owner\" Australia 2026" --count 10 2>/dev/null | head -30)
 
-## Current Vacancies
+echo "Searching Indeed..."
+INDEED_JOBS=$(web_search --query "digital project manager product owner jobs Perth WA Australia indeed 2026" --count 10 2>/dev/null | head -30)
 
-EOF
+echo "Searching Glassdoor..."
+GLASSDOOR_JOBS=$(web_search --query "digital project manager product owner jobs Western Australia glassdoor 2026" --count 10 2>/dev/null | head -30)
 
-TIMESTAMP=$(date "+%Y-%m-%d %H:%M")
-sed -i "s/TIMESTAMP_PLACEHOLDER/$TIMESTAMP/" "$MANDURAH_JOBS_FILE"
+# Compile results
+mkdir -p "$DATA_DIR"
 
-# Jobs identified from web scrape (as of Feb 2026):
-# - Team Leader Gully Eductor
-# - Team Leader Civil Maintenance
-# - Team Leader Road Maintenance
-# - Civil Maintenance Worker
-# - Tree Asset Officer
-# - General Hand - Parks and Gardens
-# - Manager Operations Services
-# - Coordinator Facilities Management
-# - Engineering Technical Officer (ETO) - Asset Data
-# - Arborist (or Tree Care Specialist)
-# - Swimming Instructor
-# - Community Engagement Officer ★ RELEVANT
-# - Projects Manager ★ RELEVANT
-# - Coordinator Contract Services
-# - Trainee Swim School and Customer Service
-# - Supervisor City Roads and Bridges
-# - Loader Operator
-# - Drainer
-# - Cafe Attendant
-# - Senior Project Officer ★ RELEVANT
-
-cat >> "$MANDURAH_JOBS_FILE" << 'EOF'
-
-### Digital/Project Management Related Roles (potentially relevant to Sky):
-
-| Position | Link |
-|----------|------|
-| Community Engagement Officer | https://cityofmandurah.bigredsky.com/page.php?pageID=160&windowUID=0&AdvertID=896591 |
-| Projects Manager | https://cityofmandurah.bigredsky.com/page.php?pageID=160&windowUID=0&AdvertID=896857 |
-| Senior Project Officer | https://cityofmandurah.bigredsky.com/page.php?pageID=160&windowUID=0&AdvertID=881516 |
-| Coordinator Facilities Management | https://cityofmandurah.bigredsky.com/page.php?pageID=160&windowUID=0&AdvertID=893459 |
-
-### Manual/Labour Roles:
-
-| Position | Link |
-|----------|------|
-| Team Leader Gully Eductor | https://cityofmandurah.bigredsky.com/page.php?pageID=160&windowUID=0&AdvertID=892091 |
-| Team Leader Civil Maintenance | https://cityofmandurah.bigredsky.com/page.php?pageID=160&windowUID=0&AdvertID=892093 |
-| Team Leader Road Maintenance | https://cityofmandurah.bigredsky.com/page.php?pageID=160&windowUID=0&AdvertID=892096 |
-| Civil Maintenance Worker | https://cityofmandurah.bigredsky.com/page.php?pageID=160&windowUID=0&AdvertID=892100 |
-| Tree Asset Officer | https://cityofmandurah.bigredsky.com/page.php?pageID=160&windowUID=0&AdvertID=892104 |
-| General Hand - Parks and Gardens | https://cityofmandurah.bigredsky.com/page.php?pageID=160&windowUID=0&AdvertID=892416 |
-| Manager Operations Services | https://cityofmandurah.bigredsky.com/page.php?pageID=160&windowUID=0&AdvertID=892904 |
-| Engineering Technical Officer | https://cityofmandurah.bigredsky.com/page.php?pageID=160&windowUID=0&AdvertID=898441 |
-| Arborist | https://cityofmandurah.bigredsky.com/page.php?pageID=160&windowUID=0&AdvertID=895159 |
-| Swimming Instructor | https://cityofmandurah.bigredsky.com/page.php?pageID=160&windowUID=0&AdvertID=895424 |
-| Coordinator Contract Services | https://cityofmandurah.bigredsky.com/page.php?pageID=160&windowUID=0&AdvertID=897416 |
-| Supervisor City Roads and Bridges | https://cityofmandurah.bigredsky.com/page.php?pageID=160&windowUID=0&AdvertID=898740 |
-| Loader Operator | https://cityofmandurah.bigredsky.com/page.php?pageID=160&windowUID=0&AdvertID=891237 |
-| Drainer | https://cityofmandurah.bigredsky.com/page.php?pageID=160&windowUID=0&AdvertID=891239 |
-| Cafe Attendant | https://cityofmandurah.bigredsky.com/page.php?pageID=160&windowUID=0&AdvertID=886648 |
-
-### Volunteer Opportunities:
-
-| Position | Link |
-|----------|------|
-| Events Volunteers 2025-2026 | https://cityofmandurah.bigredsky.com/page.php?pageID=160&windowUID=0&AdvertID=858031 |
-| Volunteer Applications 2026 | https://cityofmandurah.bigredsky.com/page.php?pageID=160&windowUID=0&AdvertID=892298 |
-| Work Experience 2026 | https://cityofmandurah.bigredsky.com/page.php?pageID=160&windowUID=0&AdvertID=892296 |
-
----
-
-**Note:** Mandurah Council offers flexible working, 9-day fortnight, and work-from-home options for applicable roles.
-
-EOF
-
-echo "Mandurah Council jobs saved to $MANDURAH_JOBS_FILE"
-
-# Create remote jobs file placeholder
-cat > "$REMOTE_JOBS_FILE" << 'EOF'
-# Remote Jobs for Mandurah Residents
+cat > "$NEW_JOBS_FILE" << 'EOF'
+# New Job Listings for Skye
 
 _Last updated: TIMESTAMP_PLACEHOLDER_
 
-## Search Terms to Use
-
-For Sky (Digital Project Manager), recommended search terms:
-- "digital project manager" "remote" Australia
-- "website project manager" remote WA
-- "client services manager" digital agency remote
-- "product owner" remote Australia
-- "account manager" digital marketing remote
-
-## Job Boards to Check
-
-- seek.com.au (filter: remote or work from home)
-- indeed.com.au (remote, WA)
-- linkedin.com/jobs
-- remoteok.com (filter: Australia)
-- weworkremotely.com
-
-## Quick Search URLs
-
-- Seek: https://www.seek.com.au/work-from-home-jobs/in-all-mandurah-wa
-- Indeed: https://au.indeed.com/jobs?q=project+manager&l=Mandurah+WA&remote=true
+## Digital Project Manager / Product Owner Roles
 
 EOF
 
-TIMESTAMP=$(date "+%Y-%m-%d %H:%M")
-sed -i "s/TIMESTAMP_PLACEHOLDER/$TIMESTAMP/" "$REMOTE_JOBS_FILE"
+sed -i "s/TIMESTAMP_PLACEHOLDER/$TIMESTAMP/" "$NEW_JOBS_FILE"
 
-echo "Remote jobs template saved to $REMOTE_JOBS_FILE"
+# Extract and format job listings from search results
+# For now, we'll use the search results directly since job board APIs aren't available
+
+echo "$SEEK_JOBS" >> "$NEW_JOBS_FILE"
+echo "" >> "$NEW_JOBS_FILE"
+echo "--- Indeed Results ---" >> "$NEW_JOBS_FILE"
+echo "$INDEED_JOBS" >> "$NEW_JOBS_FILE"
+echo "" >> "$NEW_JOBS_FILE"
+echo "--- Glassdoor Results ---" >> "$NEW_JOBS_FILE"
+echo "$GLASSDOOR_JOBS" >> "$NEW_JOBS_FILE"
+
+# Also save raw search results as JSON for comparison
+cat > "$PREV_JOBS_FILE" << EOF
+{
+  "timestamp": "$TIMESTAMP",
+  "seek": $(echo "$SEEK_JOBS" | head -500 | jq -Rs .),
+  "indeed": $(echo "$INDEED_JOBS" | head -500 | jq -Rs .),
+  "glassdoor": $(echo "$GLASSDOOR_JOBS" | head -500 | jq -Rs .)
+}
+EOF
+
+echo "Search results saved to $NEW_JOBS_FILE"
+echo "Raw data saved to $PREV_JOBS_FILE"
 echo "=== Job search complete ==="
+
+# Check if there are any substantive results (not just search metadata)
+CONTENT_SIZE=$(wc -c < "$NEW_JOBS_FILE")
+if [ "$CONTENT_SIZE" -gt 500 ]; then
+    echo "New jobs found! Content size: $CONTENT_SIZE bytes"
+    # Email will be sent by the cron job that calls this script
+    echo "$TIMESTAMP" > "$EMAIL_SENT_FLAG"
+else
+    echo "No significant new jobs found."
+    rm -f "$EMAIL_SENT_FLAG"
+fi

@@ -1,68 +1,44 @@
-# Overnight Plan - Feb 18, 2026
+# Tonight's Plan - 2026-02-19
 
-## Priority Focus
+## Priority Tasks for Overnight Sessions
 
-**Primary:** Maritime Opportunity Deep Dive
-- Research biofouling SaaS competitors and pricing
-- Draft MVP spec for biofouling management module
-- Map MarineStream's existing capabilities vs. gaps
+### 1. PETSWAP VALIDATION (HIGH PRIORITY)
+- Task #26: Validate Pet Home Swap with 10 pet owners
+- Continue outreach to pet owners
+- Document responses and iterate on messaging
 
-**Secondary:** PetSwap Validation + ClawHub Security Research
-- Continue PetSwap user validation outreach
-- Research ClawHub security patterns post-Moltbook incident
+### 2. AUTOMATION CONSULTING OUTREACH (HIGH PRIORITY)
+- Promote the new landing page
+- Find small business owners who need automation help
+- Target: Get first consultation inquiry
 
-## Tasks for Overnight Sessions
+### 3. PETSWAP MARKETING (MEDIUM)
+- Continue X posting
+- Try to embed hero video if possible
+- Explore Facebook groups for pet owners
 
-1. **Biofouling SaaS Research** (2 sessions)
-   - Research existing biofouling/hull cleaning software
-   - Document pricing models for maritime SaaS
-   - Interview questions for Mat about Franmarine's pain points
-   - Draft MVP feature specification
+### 4. RESEARCH CONTINUATION (MEDIUM)
+- ClawHub skill gaps for marine domain
+- Micro-SaaS deep dive
+- Upwork job scanning
 
-2. **MarineStream Integration Research** (1 session)
-   - Review VAMP platform capabilities
-   - Identify integration points for biofouling module
-   - Estimate build effort: standalone vs. VAMP module
-
-3. **PetSwap User Validation** (1 session)
-   - Find 5 pet owner communities for outreach
-   - Draft validation questions
-   - Prepare Stripe setup documentation
-
-4. **ClawHub Security Patterns** (1 session)
-   - Research self-improving-agent skill (24.3k⭐)
-   - Study GuardRail, PwnClaw security patterns
-   - Document learnings for Harvey AI Army adoption
-
-## Today's Context
-
-- Maritime research validated biofouling SaaS opportunity (7/10 → HIGH)
-- Franmarine's Fremantle Port breakthrough = regulatory tailwind
-- ClawHub now 8,207 skills (up from 5,705) - security incident exposed 35+ credentials
-- Moltbook registered, X account active
-- PetSwap MVP live, validating users
-
-## Tomorrow's Priority
-
-1. **Present biofouling SaaS findings to Mat**
-   - Show research, MVP spec, integration options
-   - Get feedback on pricing, features, Franmarine pain points
-   
-2. **Continue PetSwap validation**
-   - Reach out to pet owner communities
-   - Set up Stripe if not done tonight
-
-3. **Review overnight research quality**
-   - Check what was actually produced vs. planned
-   - Tune prompts if needed
-
-## Tomorrow's Kanban Actions
-
-- Move #13 (OpenClaw skill development) to DONE - learning complete
-- Comment on #20 (Tavily setup) - check if API key obtained
-- Update #26 (PetSwap validation) with progress count
-- Create new task: "Build biofouling SaaS MVP spec and validate with Mat"
+### 5. INFRASTRUCTURE (LOW)
+- Check cron job performance
+- Monitor for any failures
 
 ---
 
-*Updated: 2026-02-18 20:03*
+## Tomorrow's Priority Task
+
+**Primary:** Get first automation consulting lead/inquiry
+- Landing page is live, free trial ready
+- Need to drive traffic via outreach
+
+**Secondary:** PetSwap user validation (continue toward 10 users)
+
+---
+
+## Notes
+- Action bias identified as key weakness - prioritize validation over building new
+- Self-awareness baseline: 5.3/10 - track improvement
+- Need leads more than more features right now
