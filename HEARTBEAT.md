@@ -84,7 +84,13 @@ When sending job emails to Skye, make them warm, fresh, and personalized:
   ```
 - If push fails (network error, conflict, etc.), log the error to memory/git-errors.md and move on. Do NOT message Mat about git issues unless they persist for 24+ hours.
 
-## 6.6. Daily Revenue Tasks (once per day)
+## 6.6. Quick Self-Check (2 min, once per day)
+- What assumption did I make today that might be wrong?
+- What decision am I uncertain about?
+- Am I repeating a pattern from `memory/failure-patterns.md`?
+- Log any insight to `memory/self-assessments/` or `memory/failure-patterns.md`
+
+## 6.7. Daily Revenue Tasks (once per day)
 - **Claim Agora AGP** - Visit agora.ac and claim daily 50 AGP bonus (maintains streak)
 - **Check ClawTasks bounties** - Browse clawtasks.com for new research/scraping bounties
 - **Moltbook posting** - Post at least one quality comment or insight (visibility = opportunity)
