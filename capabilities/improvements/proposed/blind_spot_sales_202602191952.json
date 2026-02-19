@@ -1,0 +1,12 @@
+{
+  "id": "blind_spot_sales_202602191952",
+  "type": "skill_need",
+  "category": "sales",
+  "title": "Explore sales tasks",
+  "description": "No recent tasks in sales. Consider adding practice tasks.",
+  "content": "Try at least one sales task per week to build capability.",
+  "confidence": 5,
+  "expected_impact": "Broader skill coverage",
+  "trigger": "Blind spot identified in analysis",
+  "auto_apply": true
+}

@@ -1,0 +1,12 @@
+{
+  "id": "blind_spot_business_dev_202602191953",
+  "type": "skill_need",
+  "category": "business_dev",
+  "title": "Explore business_dev tasks",
+  "description": "No recent tasks in business_dev. Consider adding practice tasks.",
+  "content": "Try at least one business_dev task per week to build capability.",
+  "confidence": 5,
+  "expected_impact": "Broader skill coverage",
+  "trigger": "Blind spot identified in analysis",
+  "auto_apply": true
+}
