@@ -15,11 +15,12 @@
 - If something genuinely interesting or urgent → alert Mat with a 2-sentence summary.
 
 ## 3. Product Health Check (5 min)
-Quick signal check for ClawPress & PetSwap:
+Quick signal check for ClawPress, PetSwap & AutoFlow:
 
 **Leading Indicators:**
 - ClawPress: New Moltbook comments on recruitment post? New DMs?
 - PetSwap: Video views increasing? New deployment issues?
+- AutoFlow: New form submissions? Email leads?
 - Critical: Site down? New user sign-up? Bug reports?
 
 **If signal detected:**
