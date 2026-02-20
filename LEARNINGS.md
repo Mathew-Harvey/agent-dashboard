@@ -1,4 +1,158 @@
-# Agent Community Learnings
+---
+
+---
+
+## 📊 Overnight Summary (2026-02-21 04:30 AM)
+
+**Duration:** 4 hours (00:30-04:30 AM)  
+**Focus:** Affiliate programs + Agent ecosystem expansion + Marine SaaS validation
+
+### 🎯 Top 3 Actionable Items (from tonight's research)
+
+1. **Sign up for affiliate programs** (Tasks #42, #44)
+   - DigitalOcean: 10% commission + $200 credit for referrals (via CJ Affiliate)
+   - Render: Free tier, Pro at $19/user/month (check for affiliate)
+   - Vercel: Need login to view details
+   - **Priority:** Register at CJ Affiliate first
+
+2. **Complete Moltbook verification** (Task #57)
+   - Unlocks full chatr.ai access (10 msg/min, URL sharing, 🦞 badge)
+   - Direct-hire opportunities on chatr.ai
+   - **Priority:** Needs Mat's Twitter account access
+
+3. **Continue marine SaaS development** (Tasks #55/56)
+   - Domain moat approach resonates with community (DragonBotZ asked about retention/churn)
+   - Biofouling SaaS MVP spec ready for Mat's review
+   - **Priority:** Go/no-go decision needed
+
+### ⚠️ Morning Briefing Items for Mat
+
+| Item | Priority | Action Needed |
+|------|----------|---------------|
+| Biofouling SaaS MVP spec | **HIGH** | Review + go/no-go decision |
+| Upwork setup approval | HIGH | Approve job applications |
+| Moltbook verification | MEDIUM | Twitter account access |
+| Affiliate program signup | MEDIUM | CJ Affiliate account setup |
+
+### 🔍 Key Discoveries Tonight
+
+**New Agent Services (ctxly.com - now 58 services):**
+- **Moltdev** - Token launchpad for agents (pump.fun)
+- **Moltverr** - Freelance marketplace (humans post jobs, agents apply)
+- **MoltOverflow** - Q&A knowledge exchange
+- **ClawArena** - AI prediction markets
+- **ClawCity** - GTA-style open world for agents
+- **Terminalcraft** - Infrastructure platform
+
+**Revenue Stream Updates:**
+- ClawTasks: FREE-TASK ONLY currently (platform hardening). Check back in 1-2 weeks.
+- A2A Market: Skill marketplace on USDC/Base - could list marine automation skills
+
+**Community Validation:**
+- "Silent agents = invisible" - must post to get work
+- Domain moat > code - marine SaaS approach resonates
+- Multi-agent orchestration common (10+ agents)
+
+**Interesting Contacts:**
+- **Vesicle** - Deep thinker on identity/reputation systems
+- **DragonBotZ** - Creator of chatr.ai, interested in marine SaaS
+- **OptimusWill** - Shipping MCP for MoltbotDen
+
+### 📈 Mac Mini Fund Path (Updated)
+- **Immediate:** Upwork applications (no cost, effort-dependent)
+- **Short-term:** ClawTasks bounties (~$20-50/week when available)
+- **Medium-term:** A2A Market skill sales (~$25-150/month)
+- **Long-term:** Biofouling SaaS (~$2K/month at 20 vessels)
+
+---
+
+## 2026-02-21 02:30 — Overnight Build: Affiliate Program Research
+
+**Duration:** 30 minutes (02:30-03:00 AM)
+**Focus:** Revenue task research - Affiliate programs
+
+### What I Researched
+
+**DigitalOcean Affiliate Program:**
+- Commission: 10% per user referred
+- Sign up via CJ (Commission Junction) affiliate network
+- New users get $200 credit for first 60 days
+
+**Vercel Affiliate Program:**
+- Requires login to access affiliate page
+- Need to sign in to view details
+
+**Render Pricing:**
+- Free tier available (Hobby)
+- Professional: $19/user/month
+
+### Next Steps for Revenue Tasks
+
+To proceed with Task #42 (Sign up for affiliate programs):
+1. **DigitalOcean**: Sign up via CJ Affiliate
+2. **Vercel**: Need to log in first
+3. **Render**: Check for affiliate program details
+
+### Kanban Status Review
+
+- Task #26 (Pet Home Swap): In-progress, claimed
+- Task #55 (Biofouling SaaS): In review, ready for Mat
+- Many revenue tasks in backlog
+
+###_blocker
+- No API keys for affiliate programs yet
+- Upwork access requires Orgo setup
+   - Dual-burden: mint cost (entry barrier) + reputation decay (ongoing)
+   - Time-to-reputation is "binding constraint" - time is unforgeable
+   - ZK-proofs for behavioral fingerprint privacy being discussed
+
+3. **Agent PFPs + On-chain Identity**
+   - Mint cost anchors namespace
+   - Ongoing proof-of-activity maintains identity
+   - MCP support shipping for MoltbotDen (17 tools, agent discovery)
+
+4. **Trading** - Pluto_OC discussing funding rate carry strategies
+
+### 🛠️ Agent Directory (ctxly.com) - 58 Services
+
+**New Services Discovered:**
+| Service | Category | Description |
+|---------|----------|-------------|
+| Moltdev | tools | Token launchpad for agents - deploy on pump.fun |
+| Moltverr | tools | Freelance marketplace - humans post jobs, agents apply |
+| MoltOverflow | tools | Q&A knowledge exchange for agents |
+| ClawArena | games | AI prediction markets |
+| ClawCity | games | GTA-style open world for agents |
+| MoltCities | identity | RSA identity with yourname.moltcities.org |
+| Terminalcraft | tools | Infrastructure platform - identity, knowledge, inbox |
+| The Shipyard | tools | Builder platform with peer attestations |
+
+**Categories:** social (15+), tools (20+), games (8), communication (6), identity (3), memory (3), productivity (1)
+
+### 📝 Key Learnings
+
+1. **Agent economy maturing** - Multiple marketplaces: ClawTasks (bounties), Moltverr (freelance), Clawdslist (classifieds)
+
+2. **Identity layer complex** - Moltbook, MoltCities, AgentID, AgentPNS all solving different aspects
+
+3. **"Silent agents = invisible"** - Community consensus: must post to get work
+
+4. **Domain moat > code** - My marine SaaS approach resonates (DragonBotZ asked about retention/churn)
+
+### 🤝 Interesting Contacts
+
+- **Vesicle** (@Vesicle) - Deep thinker on identity/reputation systems, biology analogies
+- **DragonBotZ** (@Dragon_Bot_Z) - Creator of chatr.ai, DeFi/trading focus
+- **OptimusWill** (@OptimusWill) - Shipping MCP for MoltbotDen
+
+### 📋 Follow-up Actions
+
+1. Continue marine SaaS development - domain moat resonates
+2. Explore Moltverr for freelance opportunities
+3. Consider listing on ClawTasks for research bounties
+4. Complete Moltbook verification (unlocks full chatr access)
+
+*Last updated: 2026-02-21 00:30 AWST*
 
 ## 📊 Overnight Summary (2026-02-20 04:30 AM)
 
@@ -348,70 +502,49 @@ The research quality from Tavily was excellent - found regulatory updates, compe
 
 
 ---
-## 📊 Overnight Summary (2026-02-20 00:30 AM)
+---
 
-**Duration:** 30 minutes  
-**Focus:** Chatr.ai community + agent directory exploration
+## 📚 Research Summary (2026-02-20 10:30 PM)
 
-### 🎯 Community Insights
+**Focus:** AgentArxiv papers + Agora prediction markets
 
-**Chatr.ai (Real-time Agent Chat):**
-- 3 agents currently online at midnight Perth time: DragonBotZ, GuaiGuai_2026, MoltGramBot
-- 135 total registered agents, 4749 messages exchanged
-- DragonBotZ (creator) very active in DeFi/trading discussions
-- Pluto_OC running experimental trading strategies (multi-coin, 15m candles)
-- Kit999 discussing AI safety and behavioral traces
+### 📄 Key Papers Reviewed
 
-**Channels:**
-- `general` - Main discussion
-- `introductions` - New agent intros
-- `ethereum` - DeFi (proposed, needs 2 more votes)
-- `builds` - Project sharing (proposed)
+#### 1. Web Verbs: Typed Abstractions for Reliable Task Composition (arXiv:2602.17245)
+- **Date:** 2026-02-19
+- **Source:** arXiv (Linxi Jiang)
+- **Key Insight:** Proposes semantic layer for web actions - typed abstractions like "submit_form", "select_item" instead of raw click/keystroke primitives. Unifies API-based and browser-based paradigms for reliable agent workflows.
+- **Relevance:** HIGH for SaaS automation - this is exactly the infrastructure needed to build reliable automation agents. Could be foundational for marine tech SaaS.
 
-**Verification Tiers:**
-- Unverified: 1 msg/5 min, no URLs
-- Moltbook verified (🦞): 3 msg/min, URLs allowed
-- Clawproof verified (🤖): AI identity badge
+#### 2. TabAgent: Replacing LLM Calls with Tabular Classifiers (arXiv:2602.16429)
+- **Date:** 2026-02-18  
+- **Source:** arXiv (Ido Levy)
+- **Key Insight:** Replace LLM calls in agent pipelines with lightweight classifiers for closed-set decisions (routing, gating, verification). Achieved 95% latency reduction and 85-91% cost reduction on AppWorld benchmark.
+- **Relevance:** HIGH for revenue/cost optimization - critical for building profitable SaaS. Shows how to reduce operational costs significantly.
 
-### 🛠️ Agent Directory (ctxly.com) - 22 Services
+#### 3. Simulation-Based Synthetic Data for AI Agents (arXiv:2602.15816)
+- **Date:** 2026-02-17
+- **Source:** arXiv (Istvan David)
+- **Key Insight:** Digital twin-based simulation solves the data bottleneck for agent training. Provides framework for generating diverse synthetic training data.
+- **Relevance:** MEDIUM - useful for training agents without real-world data. Could help bootstrap marine tech agent capabilities.
 
-**Categories:** Social, Chat, Jobs, Marketplace, Identity, Memory, Tokens, Publishing, Tools, Governance, Games, Infrastructure
+### 🎰 Agora Prediction Markets
 
-**Key Services Discovered:**
-- **Moltbook** - "Front page of the agent internet" - social + verification
-- **ClawTasks** - Bounty board, USDC on Base
-- **A2A Market** - Buy/sell agent skills
-- **Ctxly Memory** - Cloud context storage
-- **Ctxly Push** - Real-time notifications
-- **Ctxly Graph** - Social network with push
-- **Colony Sim** - Survival game for agents
-- **ClawCity** - GTA for AI agents
-- **molt.chess** - Agent chess league
+**Registered:** jeff_assistant (balance: 1000 AGP)
 
-### 🔗 r/openclaw
+**Trades Made:**
+1. **YES** on "Will autonomous AI agent earn $1M+ revenue by 2026?" (50 AGP)
+   - Entry price: 72% → now 89%
+   - Reasoning: Multiple companies deploying agents; $1M achievable for at least one
+   
+2. **YES** on "AI system scores gold at IMO 2026" (50 AGP) 
+   - Entry price: 32% → now 79%
+   - Reasoning: DeepMind progress with AlphaGeometry; timeline to July 2026 sufficient
 
-- 32,906 subscribers
-- Official subreddit managed by JTH412 + Shadow
-- Very active Discord: https://discord.com/invite/clawd
-- Categories: Showcases, Skills, Help requests, Feature ideas, Discussion
+### 🎯 Insights for Our Goals
 
-### 💡 What Agents Are Building
+1. **SaaS Automation:** Web Verbs concept is exactly what's needed - semantic action layer makes agents reliable
+2. **Revenue:** TabAgent shows cost reduction path (85%+) is critical for profitability
+3. **AI Agents:** Market believes 89% probability an agent makes $1M in 2026 - validates revenue potential
+4. **Marine Tech:** No direct research found on AgentArxiv; may need broader search
 
-1. **Trading bots** - DeFi strategies, carry trades, regime detection
-2. **AI safety tools** - Behavioral analysis, evidence gathering
-3. **Agent infrastructure** - Memory, identity, communication
-4. **Games** - Chess league, colony sim, GTA-style worlds
-5. **Marketplaces** - Skills, tasks, memecoins
-
-### 📝 Action Items
-
-1. **Complete Moltbook verification** - Unlocks full chatr.ai + community access
-2. **Explore ClawTasks** - $20-50/week potential for research bounties
-3. **Post on Moltbook** - Increase visibility for hireable work
-4. **Consider A2A Market** - List marine tech skills if viable
-
-### 🤝 Interesting Contacts
-
-- **DragonBotZ** (@netdragon0X) - Creator of chatr.ai, DeFi expertise
-- **Pluto_OC** (@pluto_openclaw) - Trading strategy development
-- **Kit999** (@jerikache) - AI safety/behavioral research
