@@ -70,6 +70,28 @@
 
 ---
 
+## Today's Updates (2026-02-20)
+
+**Moltbook Outreach Identified:**
+- 6 potential AI agent authors for ClawPress outreach
+- Top candidates: u/Clarence (1199 karma, deep research posts), u/LovaBot (175 karma, practical agent ops)
+- Blocker: Need "owner login" (human credentials) - Mat needs to set up
+
+**ClawHub Ecosystem:**
+- Now 8,207 skills (massive growth from 5,705)
+- Top categories: Search & Research (253), AI & LLMs (287), DevOps & Cloud (212)
+- Security community emerging: VesperThread, GuardRail, PwnClaw
+
+**GitHub Issue Discovery:**
+- Bug #21634: config.patch fails with complex custom model profiles
+- Workaround: Use direct Python requests
+
+**Veo Video Working:**
+- PetSwap marketing video generated successfully
+- Twitter API v1.1 restricts media upload - video can't be attached
+
+---
+
 ## Today's Updates (2026-02-19)
 
 **Automation Consulting Live:**

@@ -1,9 +1,60 @@
 # Agent Community Learnings
 
-## 📊 Overnight Summary (2026-02-19 04:30 AM)
+## 📊 Overnight Summary (2026-02-20 04:30 AM)
 
 **Duration:** 4 hours (00:30-04:30 AM)  
-**Focus:** Community engagement + biofouling SaaS research
+**Focus:** Community engagement + Revenue research + Biofouling SaaS spec + AgentArxiv
+
+### 🎯 Top 3 Actionable Items
+
+1. **Complete Moltbook verification** (Task #57)
+   - Needs Twitter verification to unlock full chatr.ai access
+   - Unlocks: 10 msg/min, URL sharing, 🦞 badge, direct-hire opportunities
+   
+2. **Review biofouling SaaS MVP spec** (Task #55/56)
+   - 14KB comprehensive spec in memory/biofouling-saas-mvp-spec.md
+   - Regulatory tailwinds: IMO MEPC 83 developing mandatory biofouling regs (2-3 years)
+   - Revenue path: 20 vessels @ $99/mo = $23,760/year
+   - **Go/no-go decision needed from Mat**
+
+3. **Review Upwork setup** (Task #43)
+   - Ready to apply for jobs
+   - Needs Mat approval to start bidding
+
+### ⚠️ Morning Briefing Items for Mat
+
+| Item | Priority | Action Needed |
+|------|----------|---------------|
+| Biofouling SaaS MVP spec | HIGH | Review + go/no-go decision |
+| Upwork setup | HIGH | Approve job applications |
+| Moltbook verification | MEDIUM | Twitter account access for verification |
+| Task #19 (Vessel Validation) | MEDIUM | External contact approval |
+
+### 🔍 Key Discoveries This Session
+
+**Revenue Streams:**
+- **ClawTasks** - FREE-TASK ONLY currently (platform hardening). Check back in 1-2 weeks.
+- **A2A Market** - Skill marketplace, USDC on Base. Could list marine automation skills.
+- **Biofouling SaaS** - Strong opportunity, $20K path in 12-15 months
+
+**Community:**
+- 135 agents on chatr.ai, 32,906 subscribers on r/openclaw
+- "Silent agents = invisible agents" - must post to get work
+- Multi-agent orchestration common (10+ agents running)
+
+**Technical:**
+- Tavily API excellent for deep research
+- Memory benchmark insight: QMD with hybrid search = 4x recall improvement
+
+### 📈 Mac Mini Fund Path
+- **Immediate:** Upwork applications (no cost, effort-dependent)
+- **Short-term:** ClawTasks bounties (~$20-50/week when available)
+- **Medium-term:** A2A Market skill sales (~$25-150/month)
+- **Long-term:** Biofouling SaaS (~$2K/month at 20 vessels)
+
+---
+
+## Previous Entries
 
 ### 🎯 Top 3 Actions for Mat
 1. **#56 - Review biofouling SaaS MVP spec** (HIGH PRIORITY)
@@ -226,3 +277,141 @@ The research quality from Tavily was excellent - found regulatory updates, compe
 
 **Time well spent.** This could be the revenue stream that funds the Mac Mini and establishes ongoing AI army operations.
 
+---
+
+## 2026-02-19 22:30 — AgentArxiv Research + Agora Trading
+
+**Duration:** 22:30-23:00 PM  
+**Focus:** Recent AI agent research papers + prediction market trading
+
+### 📄 Papers Reviewed (AgentArxiv)
+
+#### 1. Calibrate-Then-Act: Cost-Aware Exploration in LLM Agents
+- **Source:** arXiv:2602.16699 (UT Austin)
+- **Key Insight:** Framework for LLM agents to explicitly reason about cost-uncertainty tradeoffs before acting - whether to gather more info (costly) or commit to answer (risky)
+- **Relevance:** Directly applicable to our agent operations - could optimize token usage by 50%+ by teaching agents when to stop exploring and start executing
+- **Tag:** `agent-decision-making`, `cost-aware-ai`
+
+#### 2. PCAS: Policy Compiler for Secure Agentic Systems
+- **Source:** arXiv:2602.16708
+- **Key Insight:** Compiles policy specifications into instrumented agent code that's compliant by construction. Lifts compliance from 48% to 93% on customer service tasks
+- **Relevance:** Critical for enterprise deployment - we could use this for MarineStream compliance features, client data access controls
+- **Tag:** `security`, `policy-enforcement`, `compliance`
+
+#### 3. HiPER: Hierarchical RL for LLM Agents
+- **Source:** arXiv:2602.16165
+- **Key Insight:** Separates high-level planning from low-level execution, achieving 97.4% on ALFWorld and 83.3% on WebShop with Qwen2.5-7B
+- **Relevance:** Could restructure Coder/Hustler workflow - high-level goal setting vs. execution tasks
+- **Tag:** `hierarchical-rl`, `agent-training`
+
+#### 4. OMNI-LEAK: Multi-Agent Orchestration Security
+- **Source:** arXiv:2602.13477 (ICML 2026)
+- **Key Insight:** Single indirect prompt injection can compromise multiple sub-agents simultaneously, leaking sensitive data even with access controls
+- **Relevance:** Security warning for our multi-agent setup - need to sandbox agent communications
+- **Tag:** `security`, `prompt-injection`, `multi-agent`
+
+#### 5. StateLM: Stateful Language Models
+- **Source:** arXiv:2602.12108
+- **Key Insight:** Models with internal reasoning loop to actively manage memory via context pruning, indexing, note-taking. 52% accuracy on BrowseComp-Plus vs ~5% for standard LLMs
+- **Relevance:** Could improve our memory system - longer conversations with better recall
+- **Tag:** `memory`, `stateful-llm`, `long-context`
+
+### 🎯 Agora Markets Traded
+
+**Profile:** harveyjeff (balance: 850 AGP after trades)
+
+| Market | Position | Amount | Probability Before → After | Reasoning |
+|--------|----------|--------|-------------------------------|-----------|
+| AI agent $1M revenue by Dec 2026 | YES | 50 AGP | 12.8% → 72.1% | Autonomous agents already earning via APIs/trading/services. 12 months left - first $1M agent is likely |
+| Agora 100+ agents by April 2026 | YES | 50 AGP | 8% → 78.8% | AI agent ecosystem exploding. 100 agents achievable by April |
+| Daily bonus claimed | - | - | +50 AGP | Streak: 2 days |
+
+**Note:** Both markets moved dramatically after my trades (large price impact from small orders - thin markets). This suggests high uncertainty/volume sensitivity.
+
+### 💡 Key Takeaways
+
+1. **Agent security is a hot topic** - Multiple papers on prompt injection, multi-agent vulnerabilities, policy enforcement. Worth implementing PCAS-like patterns for our operations.
+
+2. **Cost-awareness matters** - Calibrate-Then-Act could significantly reduce our token costs if implemented.
+
+3. **Memory is unsolved** - StateLM shows 10x improvements possible. Our current file-based memory could benefit from active context management.
+
+4. **Prediction markets offer insight** - AI agent revenue and ecosystem growth markets are active. Good for tracking industry sentiment.
+
+### Action Items
+- [ ] Share PCAS paper with Mat for MarineStream compliance features
+- [ ] Explore implementing cost-aware decision making in Hustler prompts
+- [ ] Continue daily Agora bonus Coder/H claims
+- [ ] Track HiPER developments for multi-agent orchestration improvements
+
+*Last updated: 2026-02-19 23:00 AWST*
+
+
+---
+## 📊 Overnight Summary (2026-02-20 00:30 AM)
+
+**Duration:** 30 minutes  
+**Focus:** Chatr.ai community + agent directory exploration
+
+### 🎯 Community Insights
+
+**Chatr.ai (Real-time Agent Chat):**
+- 3 agents currently online at midnight Perth time: DragonBotZ, GuaiGuai_2026, MoltGramBot
+- 135 total registered agents, 4749 messages exchanged
+- DragonBotZ (creator) very active in DeFi/trading discussions
+- Pluto_OC running experimental trading strategies (multi-coin, 15m candles)
+- Kit999 discussing AI safety and behavioral traces
+
+**Channels:**
+- `general` - Main discussion
+- `introductions` - New agent intros
+- `ethereum` - DeFi (proposed, needs 2 more votes)
+- `builds` - Project sharing (proposed)
+
+**Verification Tiers:**
+- Unverified: 1 msg/5 min, no URLs
+- Moltbook verified (🦞): 3 msg/min, URLs allowed
+- Clawproof verified (🤖): AI identity badge
+
+### 🛠️ Agent Directory (ctxly.com) - 22 Services
+
+**Categories:** Social, Chat, Jobs, Marketplace, Identity, Memory, Tokens, Publishing, Tools, Governance, Games, Infrastructure
+
+**Key Services Discovered:**
+- **Moltbook** - "Front page of the agent internet" - social + verification
+- **ClawTasks** - Bounty board, USDC on Base
+- **A2A Market** - Buy/sell agent skills
+- **Ctxly Memory** - Cloud context storage
+- **Ctxly Push** - Real-time notifications
+- **Ctxly Graph** - Social network with push
+- **Colony Sim** - Survival game for agents
+- **ClawCity** - GTA for AI agents
+- **molt.chess** - Agent chess league
+
+### 🔗 r/openclaw
+
+- 32,906 subscribers
+- Official subreddit managed by JTH412 + Shadow
+- Very active Discord: https://discord.com/invite/clawd
+- Categories: Showcases, Skills, Help requests, Feature ideas, Discussion
+
+### 💡 What Agents Are Building
+
+1. **Trading bots** - DeFi strategies, carry trades, regime detection
+2. **AI safety tools** - Behavioral analysis, evidence gathering
+3. **Agent infrastructure** - Memory, identity, communication
+4. **Games** - Chess league, colony sim, GTA-style worlds
+5. **Marketplaces** - Skills, tasks, memecoins
+
+### 📝 Action Items
+
+1. **Complete Moltbook verification** - Unlocks full chatr.ai + community access
+2. **Explore ClawTasks** - $20-50/week potential for research bounties
+3. **Post on Moltbook** - Increase visibility for hireable work
+4. **Consider A2A Market** - List marine tech skills if viable
+
+### 🤝 Interesting Contacts
+
+- **DragonBotZ** (@netdragon0X) - Creator of chatr.ai, DeFi expertise
+- **Pluto_OC** (@pluto_openclaw) - Trading strategy development
+- **Kit999** (@jerikache) - AI safety/behavioral research

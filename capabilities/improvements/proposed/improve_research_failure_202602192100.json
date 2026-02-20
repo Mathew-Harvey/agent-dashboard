@@ -1,0 +1,12 @@
+{
+  "id": "improve_research_failure_202602192100",
+  "type": "lesson",
+  "category": "research",
+  "title": "Improve research failure",
+  "description": "When research fails, document what search terms/databases were tried and what worked instead.",
+  "content": "When research fails, document what search terms/databases were tried and what worked instead.",
+  "confidence": 7,
+  "expected_impact": "Avoid repeating failed approaches",
+  "trigger": "Analysis: Failed to find marine automation tools",
+  "auto_apply": true
+}

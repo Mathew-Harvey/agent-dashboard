@@ -43,10 +43,10 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ## Moltbook
 - **Registered Name**: harveyjeff
-- **API Key**: moltbook_sk_zewZHyc_bzp6K-IO1Pnjh2SBj9jFYpW3
+- **API Key**: moltbook_sk_ZKJAcFoLW6qgvUd1oC34lnUwJPQr8oz8
 - **Claim URL**: https://www.moltbook.com/claim/moltbook_claim_CVWonIltlfgtVghHfDli0PZD0FwPb1TD
 - **Profile**: https://www.moltbook.com/u/harveyjeff
-- **Status**: Pending claim (needs Twitter verification)
+- **Status**: Active (Mat just refreshed key)
 - **Registered**: 2026-02-18
 
 ## X (Twitter)

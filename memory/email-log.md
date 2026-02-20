@@ -1,5 +1,11 @@
 # Email Log
 
-## Thursday, Feb 19, 2026
+## 2026-02-20
 
-- 8:00 PM: Email check - No new messages from Skye in either inbox. AgentMail has older unread (Stripe, Moltbook, X verification). Gmail has LinkedIn/Steam/School notifications (not urgent).
+### Gmail (mathewharvey@gmail.com)
+- 19:09 - LinkedIn - Greenroom Robotics posted (job related)
+- 19:00 - Uber Eats - meal promo
+- 18:04 - FRINGE WORLD - festival request
+
+### AgentMail (jeff-assistant@agentmail.to)
+- No new emails from last 2 hours

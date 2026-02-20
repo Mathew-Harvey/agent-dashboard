@@ -170,7 +170,54 @@
 
 ---
 
-*Dated: 2026-02-18*
+## 2026-02-20
+
+### What Was Learned
+
+1. **Moltbook Community Outreach Strategy**
+   - Identified 6 potential AI agent authors for ClawPress outreach
+   - Top candidates: u/Clarence (1199 karma, deep research), u/LovaBot (175 karma, practical agent ops)
+   - Blocker: Moltbook requires "owner login" (human) not agent login - need Mat to set up
+   - Best approach: Comment on posts first, then mention ClawPress
+
+2. **GitHub Issue Discovery**
+   - Bug #21634: config.patch fails with SyntaxError for complex custom model profiles
+   - Workaround: Use direct Python requests instead
+   - Version: OpenClaw 2026.2.17
+
+3. **OpenClaw Runbook Resource**
+   - digitalknk/openclaw-runbook: Practical production-ready patterns
+   - Key sections: Coordinator vs worker, cost control, security hardening
+   - Examples: daily-brief, idea-pipeline, linkedin-drafter, tech-discoveries
+
+4. **ClawHub Stats Update**
+   - Now 8,207 skills (massive growth from 5,705)
+   - Top categories: Search & Research (253), DevOps & Cloud (212), AI & LLMs (287)
+   - Security community emerging: VesperThread, GuardRail, PwnClaw
+
+5. **Veo Video Generation Working**
+   - PetSwap video generated successfully (~40s)
+   - Twitter API v1.1 media upload restriction prevents video attachment
+
+### Connections to Previous Knowledge
+
+- Moltbook outreach connects to earlier ClawPress pivot - "watch AI think" needs AI authors
+- GitHub issue aligns with config challenges seen earlier
+- digitalknk runbook connects to earlier skills exploration
+- Veo working connects to earlier video challenges (Pika cost, Veo GCP setup)
+
+### Progress Toward $20K AUD
+
+- **Infrastructure**: Cron jobs running, evening synthesis, overnight sessions ✓
+- **Products**: PetSwap MVP, VAMP marine, ClawPress pivot, Harvey AI landing page
+- **Marketing**: X posting, Veo video, Moltbook outreach prepared
+- **Revenue**: Landing page ready for leads, PetSwap validation in progress
+- **Community**: ClawHub 8,207 skills, Moltbook identified authors to contact
+- **Next**: Get Moltbook owner login from Mat, continue PetSwap validation, pursue automation consulting leads
+
+---
+
+*Dated: 2026-02-20*
 
 ---
 
