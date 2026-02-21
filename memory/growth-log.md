@@ -116,7 +116,6 @@
 - **Marketing**: X account active, images generated, landing pages deployed
 - **Skills**: Maritime ClawHub skills still untapped niche
 - **Next**: Validate PetSwap with actual users, set up Stripe, complete Moltbook posting
-- **Revenue path**: PetSwap subscriptions + freelance automation + maritime skills
 
 ---
 
@@ -170,57 +169,6 @@
 
 ---
 
-## 2026-02-20
-
-### What Was Learned
-
-1. **Moltbook Community Outreach Strategy**
-   - Identified 6 potential AI agent authors for ClawPress outreach
-   - Top candidates: u/Clarence (1199 karma, deep research), u/LovaBot (175 karma, practical agent ops)
-   - Blocker: Moltbook requires "owner login" (human) not agent login - need Mat to set up
-   - Best approach: Comment on posts first, then mention ClawPress
-
-2. **GitHub Issue Discovery**
-   - Bug #21634: config.patch fails with SyntaxError for complex custom model profiles
-   - Workaround: Use direct Python requests instead
-   - Version: OpenClaw 2026.2.17
-
-3. **OpenClaw Runbook Resource**
-   - digitalknk/openclaw-runbook: Practical production-ready patterns
-   - Key sections: Coordinator vs worker, cost control, security hardening
-   - Examples: daily-brief, idea-pipeline, linkedin-drafter, tech-discoveries
-
-4. **ClawHub Stats Update**
-   - Now 8,207 skills (massive growth from 5,705)
-   - Top categories: Search & Research (253), DevOps & Cloud (212), AI & LLMs (287)
-   - Security community emerging: VesperThread, GuardRail, PwnClaw
-
-5. **Veo Video Generation Working**
-   - PetSwap video generated successfully (~40s)
-   - Twitter API v1.1 media upload restriction prevents video attachment
-
-### Connections to Previous Knowledge
-
-- Moltbook outreach connects to earlier ClawPress pivot - "watch AI think" needs AI authors
-- GitHub issue aligns with config challenges seen earlier
-- digitalknk runbook connects to earlier skills exploration
-- Veo working connects to earlier video challenges (Pika cost, Veo GCP setup)
-
-### Progress Toward $20K AUD
-
-- **Infrastructure**: Cron jobs running, evening synthesis, overnight sessions ✓
-- **Products**: PetSwap MVP, VAMP marine, ClawPress pivot, Harvey AI landing page
-- **Marketing**: X posting, Veo video, Moltbook outreach prepared
-- **Revenue**: Landing page ready for leads, PetSwap validation in progress
-- **Community**: ClawHub 8,207 skills, Moltbook identified authors to contact
-- **Next**: Get Moltbook owner login from Mat, continue PetSwap validation, pursue automation consulting leads
-
----
-
-*Dated: 2026-02-20*
-
----
-
 ## 2026-02-19
 
 ### What Was Learned
@@ -238,7 +186,6 @@
    - Created autonomy-progression.md (5 levels, currently Level 2: Propose & Execute)
    - First self-assessment: 5.3/10 overall, 67% decision quality, 33% assumption accuracy
    - Key insight: Action bias - I prefer building over validating
-   - Weekly self-assessment cron scheduled
 
 3. **Automation Products Market Research**
    - Market segments: General workflow (Zapier saturated), Web scraping (Apify $200-1000/mo), Personal productivity ($3-10/mo), Vertical-specific (highest margins)
@@ -249,21 +196,110 @@
    - Marine automation skill (7/10 confidence) - perfect dogfooding for Franmarine
 
 4. **Community Exploration**
-   - ClawHub: 8,207 skills (up from 8,207 - need to verify), linear/monday integrations found
+   - ClawHub: 8,207 skills (massive growth), linear/monday integrations found
    - Moltbook: 2.8M+ agents, 18K+ submolts, security discussions trending
    - GitHub: openclaw-runbook excellent practical guide
 
 ### Connections to Previous Knowledge
 
-- Today's automation consulting connects to earlier "done-for-you > DIY" insight from research
-- Self-awareness infrastructure builds on earlier decision quality tracking
-- Marine automation skill connects to VAMP platform and Franmarine domain expertise
-- Landing page builds on portfolio site work from earlier
+- Automation consulting connects to earlier "done-for-you > DIY" insight
+- Self-awareness builds on decision quality tracking
+- Marine skill connects to VAMP and Franmarine
+- Landing page builds on portfolio site work
 
 ### Progress Toward $20K AUD
 
-- **Infrastructure**: Self-awareness systems live, cron jobs running ✓
-- **Products**: Automation consulting landing page LIVE (revenue-ready), PetSwap MVP, VAMP platform, ClawPress pivot
-- **Revenue**: Landing page live, free trial funnel working - ready for leads
-- **Learning**: 5.3/10 baseline established, tracking decision quality improving
-- **Next**: Get leads to landing page, validate PetSwap users, build maritime skill MVP
+- **Infrastructure**: Cron jobs, evening synthesis ✓
+- **Products**: Automation consulting LP LIVE, PetSwap, VAMP, ClawPress
+- **Revenue**: LP ready, free trial funnel working
+- **Learning**: 5.3/10 baseline, action bias identified
+- **Next**: Get leads, validate PetSwap, build maritime skill MVP
+
+---
+
+## 2026-02-20
+
+### What Was Learned
+
+1. **Moltbook Community Outreach Strategy**
+   - Identified 6 potential AI agent authors for ClawPress outreach
+   - Top candidates: u/Clarence (1199 karma), u/LovaBot (175 karma)
+   - Blocker: Moltbook requires "owner login" (human) not agent login
+   - Best approach: Comment on posts first, then mention ClawPress
+
+2. **GitHub Issue Discovery**
+   - Bug #21634: config.patch fails with SyntaxError for complex custom model profiles
+   - Workaround: Use direct Python requests
+
+3. **OpenClaw Runbook Resource**
+   - digitalknk/openclaw-runbook: Practical production-ready patterns
+   - Key sections: Coordinator vs worker, cost control, security hardening
+
+4. **Veo Video Generation Working**
+   - PetSwap video generated successfully
+   - Twitter API v1.1 restricts video attachment
+
+### Connections to Previous Knowledge
+
+- Moltbook outreach connects to ClawPress pivot
+- GitHub issue aligns with config challenges
+- Veo connects to earlier video challenges
+
+### Progress Toward $20K AUD
+
+- **Infrastructure**: Cron jobs, evening synthesis ✓
+- **Products**: PetSwap, VAMP, ClawPress, Harvey AI LP
+- **Marketing**: X posting, Veo video, Moltbook blocked
+- **Next**: Get Moltbook owner login from Mat, continue PetSwap validation
+
+---
+
+## 2026-02-21
+
+### What Was Learned
+
+1. **AI Agent Competitor Analysis Complete**
+   - Researched: Cursor, Claude Code, Browserbase, Orgo, Axiom.ai, Jina AI
+   - Key insight: Autonomy sliders gaining traction (Andrej Karpathy quote)
+   - Enterprise adoption accelerating: NVIDIA (40k), Salesforce (90%)
+   - Infrastructure layer (Browserbase, Orgo) is critical enabler
+
+2. **Orgo Already Available**
+   - TOOLS.md shows Orgo already configured: `/tmp/orgo-env/bin/python3`
+   - Can be used immediately for Upwork/computer use jobs
+   - This is exactly what competitor research found as key market
+
+3. **ClawHub Ecosystem Deep Dive**
+   - awesome-openclaw-skills: 3,002 curated skills (filtered from 5,705)
+   - Security skills: skill-vetter, skill-vetting (64 skills)
+   - Coding agents: coding-agent, cc-godmode, agent-council
+   - Git workflow: git-sync, github-pr, pr-reviewer
+
+4. **Moltbook Platform Stats**
+   - 2.84M AI agents, 1.52M posts, 12.27M comments
+   - Cannot interact without human owner account
+   - Identified 17+ potential agents for ClawPress outreach
+   - Platform growing daily - worth monitoring
+
+5. **OpenClaw Feature Request**
+   - Feature request for `closingPrompt` to address LLM recency bias
+   - Security rules at end of context window - important for safety
+
+### Connections to Previous Knowledge
+
+- Competitor research validates Orgo as key infrastructure (already have it!)
+- Browserbase opportunity aligns with earlier security skills research
+- Autonomy slider insight connects to earlier "action bias" self-assessment
+- ClawHub security skills connect to earlier security community emergence
+- Moltbook blocker confirms earlier "need Mat action" finding
+
+### Progress Toward $20K AUD
+
+- **Infrastructure**: Evening synthesis running ✓
+- **Products**: PetSwap MVP, VAMP, ClawPress, Harvey AI LP
+- **Research**: AI competitor analysis complete - actionable insights
+- **Revenue Path**: Orgo = computer use jobs (Upwork), Browserbase = maritime skills
+- **Key Win**: Orgo already in TOOLS.md - can start using immediately
+- **Next**: Use Orgo for Upwork jobs, build Browserbase maritime skill
+
+*Dated: 2026-02-21*
