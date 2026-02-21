@@ -32,11 +32,50 @@
 
 | Opportunity | Potential | Effort | Status |
 |-------------|-----------|--------|--------|
-| **AI Vertical Automation (SMB)** | $5K-20K/month | High | **NEW - 7/10 confidence, requires vertical selection** |
-| **Micro-SaaS (LinkedIn/Email)** | $3K-10K/month | High | **NEW - 6/10 confidence, competitive** |
-| **ClawHub Skills Marketplace** | $500-3K/month | Medium | **NEW - 7/10 confidence, first-mover advantage** |
-| FPV drone content | $0-300/month | High | Not started |
+| **AI Agent Competitor Services** | $1K-10K/month | Medium | **NEW - 6/10 confidence, Orgo/Browserbase infrastructure play** |
+| **Vertical AI Agent (Marine)** | $500-5K/month | Medium | **NEW - 7/10 confidence, aligns with biofouling SaaS** |
+| **FPV drone content** | $0-300/month | High | Not started |
 | Micro-SaaS tools | Varies | High | Researching |
+
+---
+
+## Today's Updates (2026-02-21)
+
+**AI Agent Competitor Research:**
+
+| Competitor | Category | Pricing | Key Insight |
+|------------|----------|---------|-------------|
+| Cursor | Coding agent | $20-40/mo | Enterprise-ready, 40k NVIDIA engineers |
+| Claude Code | Coding agent | API-based | Security-focused, autonomy slider |
+| Browserbase | Browser infra | Usage-based | Headless browsers, stealth, SOC-2 |
+| Orgo | VM platforms | Usage-based | Desktop VMs for AI agents (<500ms boot) |
+| Axiom.ai | No-code automation | $0-500/mo | Chrome extension, 2hr free tier |
+| Jina AI | Web scraping | API-based | Reader API for content extraction |
+
+**Key Findings:**
+- Autonomy sliders gaining traction (control AI independence level)
+- Enterprise adoption accelerating (Salesforce 90%, NVIDIA 40k)
+- Infrastructure layer (Browserbase, Orgo) is critical enabler
+- Australian local processing gap - privacy-sensitive businesses
+- Marine vertical is uncrowded - aligns with biofouling SaaS
+
+**Orgo Opportunity:**
+- Mat already has Orgo access (TOOLS.md)
+- Could build skills/integration on top
+- Use Mac Mini cluster for local compute
+- Target: Australian SMBs needing data privacy
+
+**Browserbase Opportunity:**
+- SOC-2/HIPAA compliant headless browsers
+- Could create ClawHub skills for Browserbase integration
+- First-mover advantage on maritime/marine automation
+
+**Next Steps:**
+1. Test Orgo API for marine automation use case
+2. Explore Browserbase for ClawHub skill
+3. Consider "Australian local AI agent" positioning
+
+See: [[memory/research/2026-02-21-ai-agent-competitors]] for full research notes
 
 ---
 

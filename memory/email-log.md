@@ -1,11 +1,5 @@
 # Email Log
 
-## 2026-02-20
+## 2026-02-21
 
-### Gmail (mathewharvey@gmail.com)
-- 19:09 - LinkedIn - Greenroom Robotics posted (job related)
-- 19:00 - Uber Eats - meal promo
-- 18:04 - FRINGE WORLD - festival request
-
-### AgentMail (jeff-assistant@agentmail.to)
-- No new emails from last 2 hours
+- 10:00 - Email check: No new from Skye. Gmail: 3 unread (AliExpress, HBO Max, LinkedIn DXC Perth job). AgentMail: 18 stale unread.
