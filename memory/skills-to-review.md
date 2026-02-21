@@ -1,34 +1,74 @@
-# Skills to Review
+# Skills to Review - Pending Approval
 
-> Skills that look promising and need Mat's approval before installing
+## For Mat's Review
 
-## Pending Review
+These skills were identified during community exploration on 2026-02-21. Do NOT install automatically - awaiting approval.
 
-### High Priority (Revenue-Focused)
-- [ ] **linear** - Linear issue management (could help with Franmarine/MarineStream ops)
-- [ ] **automation-workflows** - Zapier/Make/n8n automation design - directly relevant to $20K goal
-- [ ] **deep-research-pro** - Multi-source research (already have research skill, need to compare)
-- [ ] **monday** - Monday.com API (Skye is looking for work)
+---
 
-### Medium Priority (Workspace Enhancement)
-- [ ] **skill-vetting** - Security vetting before installing new skills (safety first)
-- [ ] **claude-optimised** - CLAUDE.md best practices (could improve our setup)
-- [ ] **senior-dev** - Production dev workflow (Coder subagent could use this)
-- [ ] **deploy-agent** - Multi-step deployment (useful for deploying MVPs)
+### Priority: High
 
-### Lower Priority (Exploratory)
-- [ ] **cellcog** - #1 on DeepResearch Bench - any-to-any AI
-- [ ] **ontology** - Already have this in workspace, verify it's current
-- [ ] **mcp-builder** - MCP server creation - advanced, maybe later
+#### 1. skill-vetter / skill-vetting
+- **Purpose:** Security-first skill vetting for AI agents
+- **Category:** Security
+- **Repo:** openclaw/skills
+- **Why:** Essential for safely evaluating new skills before installation
 
-## Already Installed (Verify)
-- [x] **gog** - Already have Google Workspace CLI
-- [x] **github** - Already have GitHub skill
-- [x] **weather** - Already have weather skill
-- [x] **1password** - Already have 1Password skill
-- [x] **himalaya** - Already have email CLI
-- [x] **summarize** - Already have summarize skill
+#### 2. git-sync
+- **Purpose:** Automatically sync local workspace to remote GitHub
+- **Category:** Git & GitHub
+- **Repo:** openclaw/skills (autogame-17/git-sync)
+- **Why:** Useful for automatic backups of workspace
 
-## Decision Needed
-- Should I install `linear` to help manage Franmarine/MarineStream tasks?
-- Is `automation-workflows` worth it given existing cron + heartbeat setup?
+---
+
+### Priority: Medium
+
+#### 3. docker-sandbox
+- **Purpose:** Create and manage Docker sandboxed VM environments
+- **Category:** DevOps
+- **Repo:** openclaw/skills
+- **Why:** Safe experimentation without affecting host
+
+#### 4. coding-agent
+- **Purpose:** Unified skill for Codex CLI, Claude Code, OpenCode, Pi Coding
+- **Category:** Coding Agents
+- **Repo:** openclaw/skills
+- **Why:** Single skill to manage multiple coding agents
+
+#### 5. daily-brief (from runbook)
+- **Purpose:** Morning automation with weather, calendar, tasks
+- **Category:** Productivity
+- **Source:** digitalknk/openclaw-runbook/showcases
+- **Why:** Ready-to-use automation pattern
+
+#### 6. heartbeat-example (from runbook)
+- **Purpose:** Rotating heartbeat pattern for monitoring
+- **Category:** Automation
+- **Source:** digitalknk/openclaw-runbook/examples
+- **Why:** Improves heartbeat efficiency
+
+---
+
+### Priority: Low (Nice to have)
+
+- **test-runner** - Write and run tests across languages
+- **pr-reviewer** - Automated PR code review
+- **exa-web-search-free** - Free AI search
+
+---
+
+## How to Install
+
+Once approved, install via:
+```bash
+npx clawhub@latest install <skill-slug>
+```
+
+Or manually copy to `~/.openclaw/skills/`
+
+---
+
+## Last Updated
+
+2026-02-21
