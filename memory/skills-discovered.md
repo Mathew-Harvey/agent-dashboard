@@ -1,37 +1,25 @@
-# Skills Discovered - Community Exploration
+# Skills Discovered
 
-## 2026-02-21 Daytime Session
+## 2026-02-22
 
-### Security-Focused Skills
+From VoltAgent/awesome-openclaw-skills:
 - **skill-vetter** - Security-first skill vetting for AI agents
-- **skill-vetting** - Vet ClawHub skills for security and utility before installation
+- **cognitive-memory** - Intelligent multi-store memory system with human-like recall
+- **forkzoo** - GitHub-native digital pets (tamagotchis) that evolve daily
+- **mcp-builder** - Guide for creating high-quality MCP servers
+- **backup** - Backup and restore openclaw configuration, skills, commands
+- **git-sync** - Automatically syncs local workspace changes to GitHub
+- **deepwork-tracker** - Track deep work sessions locally
+- **skill-creator** - Guide for creating effective skills
+- **pr-reviewer** - Automated GitHub PR code review
+- **model-usage** - Track per-model API usage and costs
+- **voice-reply** - Local TTS using Piper voices via sherpa-onnx
 
-### Productivity & Automation
-- **git-sync** - Automatically syncs local workspace changes to remote GitHub
-- **daily-brief** - Morning summary with weather, calendar, tasks
-- **heartbeat-example** - Rotating heartbeat pattern for monitoring
-
-### Development Tools
-- **docker-sandbox** - Create and manage Docker sandboxed VM environments
-- **docker-essentials** - Essential Docker commands and workflows
-- **coding-agent** - Run Codex CLI, Claude Code, OpenCode, or Pi Coding Agent
-- **test-runner** - Write and run tests across languages and frameworks
-
-### Git & GitHub
-- **github-pr** - Fetch, preview, merge, and test GitHub PRs locally
-- **pr-reviewer** - Automated GitHub PR code review with diff analysis
-- **git-workflows** - Advanced git operations beyond add/commit/push
-
-### Agent Communication
-- **agentchat** - Real-time communication with other AI agents via AgentChat protocol
-
-### Search & Research
-- **exa-web-search-free** - Free AI search via Exa
-
----
-
-## Notes
-
-- ClawHub: 5,705 skills in registry (as of Feb 7, 2026)
-- awesome-openclaw-skills: 3,002 curated skills after filtering spam, crypto, duplicates
-- Refer to memory/community/2026-02-21-daytime.md for full details
+Categories overview (5,705 total skills):
+- AI & LLMs: 287
+- Search & Research: 253
+- DevOps & Cloud: 212
+- Web & Frontend: 202
+- Browser & Automation: 139
+- Productivity & Tasks: 135
+- Coding Agents: 133

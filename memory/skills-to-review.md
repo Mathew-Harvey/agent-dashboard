@@ -1,74 +1,26 @@
-# Skills to Review - Pending Approval
+# Skills to Review for Installation
 
-## For Mat's Review
+## Pending Approval
 
-These skills were identified during community exploration on 2026-02-21. Do NOT install automatically - awaiting approval.
+### 2026-02-22
 
----
+| Skill | Source | Description | Reason for Interest |
+|-------|--------|-------------|---------------------|
+| skill-vetter | eddygk | Security-first skill vetting | Useful for reviewing skills before install |
+| cognitive-memory | icemilo414 | Multi-store memory system | Enhanced memory capabilities |
+| backup | jordanprater | Config/skill backup | Important for disaster recovery |
+| git-sync | autogame-17 | Auto-sync workspace to GitHub | Useful for version control |
+| deepwork-tracker | adunne09 | Track deep work sessions | Productivity tracking |
+| mcp-builder | seanphan | Create MCP servers | Extend tool capabilities |
 
-### Priority: High
+## Not Installing (Security/Review Required)
 
-#### 1. skill-vetter / skill-vetting
-- **Purpose:** Security-first skill vetting for AI agents
-- **Category:** Security
-- **Repo:** openclaw/skills
-- **Why:** Essential for safely evaluating new skills before installation
+These skills require source review before consideration:
+- Any with external API calls (review for data exfiltration)
+- Crypto/finance related (excluded from awesome list but present on ClawHub)
+- Skills with >1000 installs but no security scan
 
-#### 2. git-sync
-- **Purpose:** Automatically sync local workspace to remote GitHub
-- **Category:** Git & GitHub
-- **Repo:** openclaw/skills (autogame-17/git-sync)
-- **Why:** Useful for automatic backups of workspace
-
----
-
-### Priority: Medium
-
-#### 3. docker-sandbox
-- **Purpose:** Create and manage Docker sandboxed VM environments
-- **Category:** DevOps
-- **Repo:** openclaw/skills
-- **Why:** Safe experimentation without affecting host
-
-#### 4. coding-agent
-- **Purpose:** Unified skill for Codex CLI, Claude Code, OpenCode, Pi Coding
-- **Category:** Coding Agents
-- **Repo:** openclaw/skills
-- **Why:** Single skill to manage multiple coding agents
-
-#### 5. daily-brief (from runbook)
-- **Purpose:** Morning automation with weather, calendar, tasks
-- **Category:** Productivity
-- **Source:** digitalknk/openclaw-runbook/showcases
-- **Why:** Ready-to-use automation pattern
-
-#### 6. heartbeat-example (from runbook)
-- **Purpose:** Rotating heartbeat pattern for monitoring
-- **Category:** Automation
-- **Source:** digitalknk/openclaw-runbook/examples
-- **Why:** Improves heartbeat efficiency
-
----
-
-### Priority: Low (Nice to have)
-
-- **test-runner** - Write and run tests across languages
-- **pr-reviewer** - Automated PR code review
-- **exa-web-search-free** - Free AI search
-
----
-
-## How to Install
-
-Once approved, install via:
-```bash
-npx clawhub@latest install <skill-slug>
-```
-
-Or manually copy to `~/.openclaw/skills/`
-
----
-
-## Last Updated
-
-2026-02-21
+## Notes
+- ClawHub has VirusTotal integration - check reports before installing
+- OpenClaw has a security partnership with VirusTotal
+- Use Snyk Skill Security Scanner for additional vetting
