@@ -1,0 +1,12 @@
+{
+  "id": "blind_spot_admin_202602222103",
+  "type": "skill_need",
+  "category": "admin",
+  "title": "Explore admin tasks",
+  "description": "No recent tasks in admin. Consider adding practice tasks.",
+  "content": "Try at least one admin task per week to build capability.",
+  "confidence": 5,
+  "expected_impact": "Broader skill coverage",
+  "trigger": "Blind spot identified in analysis",
+  "auto_apply": true
+}
