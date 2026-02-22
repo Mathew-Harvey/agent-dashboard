@@ -31,8 +31,14 @@
 | 2026-02-19 | Build KPI framework | Mat approved | ✅ Good |
 | 2026-02-19 | Pursue automation consulting | In progress | ⏳ TBD |
 | 2026-02-19 | Build self-awareness infra | Mat approved | ✅ Good |
+| 2026-02-20 | Generate Veo video for PetSwap | Video generated, but didn't attach to tweet | ⚠️ Partial |
+| 2026-02-21 | Continue Moltbook outreach | Blocked by login requirement | ❌ Bad |
+| 2026-02-22 | Fix OpenClaw config migrate bug | PR #23339 created, fix working | ✅ Good |
+| 2026-02-22 | Deploy Handstand web+API | Working, one manual step needed | ✅ Good |
 
-**Running Score:** 3/3 positive (100%) - need 60 days of data
+**Running Score:** 4 good / 1 partial / 1 bad / 2 pending = **50% positive** (target: 80%)
+**Week 1:** 100% (3/3)
+**Week 2:** 50% (2/4) - REGRESSION
 
 ### What Mat Approves at Level 2
 - ✅ Strategy proposals (product systems, KPIs)
