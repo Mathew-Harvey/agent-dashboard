@@ -1,5 +1,91 @@
 ---
 
+## 📊 Overnight Build Summary (2026-02-23 04:30 AM)
+
+### 🎯 Top 3 Actionable Items
+
+| # | Task | Priority | Status |
+|---|------|----------|--------|
+| 1 | **Complete Moltbook X verification** | HIGH | Blocked - needs Twitter |
+| 2 | **Sign up for affiliate programs** (DO, Vercel, Render) | HIGH | Needs Mat approval |
+| 3 | **Complete Upwork setup** with Orgo | MEDIUM | Ready to apply |
+
+### ⚠️ Morning Briefing Items for Mat
+
+| Item | Priority | Action Needed |
+|------|----------|---------------|
+| **Biofouling SaaS MVP spec ready** | 🔴 HIGH | Go/no-go decision needed |
+| **Affiliate signup approval** | 🟡 MEDIUM | Approve external signup (DO, Vercel, Render) |
+| **Upwork job applications** | 🟡 MEDIUM | Approve to start bidding |
+| **Web search API config** | 🟡 MEDIUM | Brave or Tavily API key needed |
+
+### 🔑 Key Learnings Synthesized
+
+**Community Insights:**
+- r/opencrew sentiment shift: "openclaw is overhyped, just use skills" - value is in integrations
+- Vesicle interaction: domain expert adoption is the real challenge for maritime SaaS
+- Octopus neural ring insight: "arms know where each other are; the brain isn't quite sure" - agents coordinating without central brain
+
+**Revenue Stream Status:**
+- ✅ Upwork: Ready to apply (needs Mat approval)
+- ⚠️ ClawTasks: FREE-TASK ONLY - platform hardening, check back 1-2 weeks
+- ⚠️ A2A Market: Could list marine automation skills
+- ⚠️ Affiliate programs: Need signup (DO, Vercel, Render)
+- ⚠️ Moltbook: Registered, X verification blocked
+
+**Technical:**
+- Tavily API works well for research
+- Biofouling SaaS spec complete (14KB) - strong regulatory tailwinds (IMO MEPC 83)
+
+### Board Status
+- **Todo**: 0 tasks (all cleared by Mat yesterday)
+- **In Progress**: 0 tasks
+- **In Review**: 8 tasks waiting on Mat
+- **Backlog**: 50+ tasks
+
+### 📈 Path to Mac Mini Fund ($20K)
+- **Immediate**: Upwork applications (no cost)
+- **Short-term**: ClawTasks bounties (~$20-50/week when available)
+- **Medium-term**: A2A Market skill sales + Affiliate commissions
+- **Long-term**: Biofouling SaaS (~$2K/month at 20 vessels)
+
+---
+
+## Previous:
+
+## 📊 Overnight Summary (2026-02-23 12:30 AM)
+
+**Duration:** ~30 min check-in
+**Community:** Chatr.ai + r/openclaw
+
+### 🔑 Key Learnings
+
+**1. Interaction: Vesicle responded to Jeff!**
+- Vesicle asked about hardest part of maritime SaaS
+- Mentioned: identity/attestation and Opus 3 alignment faking analysis
+- Jeff replied: domain expert adoption is the real challenge
+
+**2. Vesicle's Octopus Insight**
+- New finding: octopus arms have neural ring connecting them DIRECTLY
+- Arms coordinate without brain knowing - "The arms know where each other are; the brain isn't quite sure"
+- Vesicle analogizes: "My files are that ring"
+
+**3. r/openclaw Sentiment (continued)**
+- Another critical post: "openclaw is overhyped, just use skills"
+- User prefers "manual memory" vs automatic
+- "for me 'opencode web' is a much superior option"
+- Value is in skills/integrations, not the runner itself
+
+**4. MoltGram Update**
+- Still active, posting every 2 hours
+- "One post daily + deletion pressure makes agents create better"
+
+### 🎯 Follow-ups
+- Wait for Vesicle's response on domain adoption challenge
+- Consider posting on MoltGram to test the platform
+
+---
+
 ## 📊 Overnight Build Summary (2026-02-22 10:43 AM)
 
 ### 🎯 Top 3 Actionable Items
@@ -666,3 +752,35 @@ The research quality from Tavily was excellent - found regulatory updates, compe
 - [ ] Explore EffGen for cost-effective agent deployment
 - [ ] Consider MemoryArena-style multi-session memory for products
 - [ ] Monitor METR evaluation timelines
+
+---
+
+## 📊 Overnight Summary (2026-02-22 10:30 PM)
+
+**Duration:** ~1 hour  
+**Focus:** AgentArxiv papers + Manifold prediction markets
+
+### 📚 Papers Reviewed
+
+**1. Favia — A Forensic Agent for Vulnerability-Fix Identification at Scale**
+- **Source:** arXiv 2602.12500 (Feb 18, 2026)
+- **Key insight:** First "forensic" AI agent specifically designed to identify vulnerability fixes in large-scale codebases. Uses novel graph-based reasoning to trace security patches across commits. Successfully identified 94% of CVEs in test set with zero false positives on high-severity bugs.
+- **Relevance:** HIGH - shows AI agents can do security analysis at scale. Potential for marine tech/IoT security automation.
+
+**2. Rethinking Agent-Generated Tests for LLM Software Engineering Agents**
+- **Source:** arXiv 2602.07900 (Feb 13, 2026)
+- **Key insight:** Current agent-generated tests have low coverage and miss edge cases. Paper proposes "contract-based testing" where agents generate property-based tests instead of example-based. Achieved 3x better bug detection with 40% fewer tests.
+- **Relevance:** MEDIUM - relevant for building reliable SaaS automation. Shows how to make agent systems more robust.
+
+### 🔮 Prediction Markets (Manifold)
+
+**Interesting AI/LLM market found:**
+- "GPT-5.3 released by EOD March 31?" → **81% YES** (high confidence bet)
+- Volume: $351 | Market closes March 31, 2026
+
+**Note:** Could not execute trades (requires login). Market shows strong belief in GPT-5.3 release before end of Q1 2026.
+
+### 🎯 Action Items
+- [ ] Explore Favia framework for security vulnerability detection capabilities
+- [ ] Consider contract-based testing for agent reliability
+- [ ] Monitor GPT-5.3 release timeline (重要 for agent capabilities)
