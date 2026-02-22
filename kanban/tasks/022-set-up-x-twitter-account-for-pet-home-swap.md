@@ -1,11 +1,12 @@
 ---
 id: 22
 title: Set up X (Twitter) account for Pet Home Swap
-status: review
+status: archived
 priority: high
 created: 2026-02-16T09:34:24.807494721+08:00
-updated: 2026-02-16T10:17:52.569590329+08:00
+updated: 2026-02-22T18:11:32.010537668+08:00
 started: 2026-02-16T10:16:36.023857845+08:00
+completed: 2026-02-22T18:11:32.010537386+08:00
 tags:
     - marketing
 claimed_by: Jeff

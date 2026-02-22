@@ -168,3 +168,28 @@
 {"timestamp":"2026-02-20T04:31:41.138823918+08:00","action":"claim","task_id":56,"detail":"Jeff"}
 {"timestamp":"2026-02-20T04:31:48.434611242+08:00","action":"edit","task_id":57,"detail":"Complete Moltbook verification via Twitter"}
 {"timestamp":"2026-02-20T04:31:48.434706971+08:00","action":"claim","task_id":57,"detail":"Jeff"}
+{"timestamp":"2026-02-22T18:11:32.011303224+08:00","action":"move","task_id":22,"detail":"review -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.014157871+08:00","action":"move","task_id":23,"detail":"review -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.014680315+08:00","action":"move","task_id":24,"detail":"review -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.015278264+08:00","action":"move","task_id":25,"detail":"backlog -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.016129755+08:00","action":"move","task_id":26,"detail":"in-progress -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.01678671+08:00","action":"move","task_id":27,"detail":"backlog -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.01763547+08:00","action":"move","task_id":28,"detail":"backlog -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.018337918+08:00","action":"move","task_id":29,"detail":"backlog -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.018960387+08:00","action":"move","task_id":30,"detail":"backlog -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.019463783+08:00","action":"move","task_id":31,"detail":"backlog -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.019914029+08:00","action":"move","task_id":32,"detail":"backlog -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.020374774+08:00","action":"move","task_id":33,"detail":"backlog -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.020962373+08:00","action":"move","task_id":34,"detail":"backlog -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.021560261+08:00","action":"move","task_id":35,"detail":"backlog -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.022214193+08:00","action":"move","task_id":36,"detail":"backlog -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.022806941+08:00","action":"move","task_id":37,"detail":"backlog -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.023978016+08:00","action":"move","task_id":39,"detail":"backlog -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.024477472+08:00","action":"move","task_id":41,"detail":"backlog -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.025629802+08:00","action":"move","task_id":46,"detail":"backlog -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.026705377+08:00","action":"move","task_id":47,"detail":"backlog -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.027220464+08:00","action":"move","task_id":48,"detail":"backlog -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.027735753+08:00","action":"move","task_id":49,"detail":"backlog -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.028623434+08:00","action":"move","task_id":50,"detail":"backlog -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.029693659+08:00","action":"move","task_id":52,"detail":"backlog -\u003e archived"}
+{"timestamp":"2026-02-22T18:11:32.030524822+08:00","action":"move","task_id":54,"detail":"backlog -\u003e archived"}

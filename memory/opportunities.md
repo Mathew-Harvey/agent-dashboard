@@ -2,19 +2,18 @@
 
 > Revenue opportunities ranked by potential and effort
 
-## Current Status (Feb 21, 2026)
+## Current Status (Feb 22, 2026)
 
 ### Tier 1: High Potential
 
 | Opportunity | Potential | Effort | Status |
 |-------------|-----------|--------|--------|
-| **Pet Home Swap** | $1K-10K/month | Medium | MVP live, X posting, validating users (task #26 in-progress) |
-| **ClawPress** | $500-5K/month | Medium | **PIVOTED** - "Watch AI think" not AI writing |
+| **Automation Consulting (DFY)** | $2K-8K/month | Low | **8/10 - LP live, NEEDS LEADS** |
+| **Orgo Upwork Jobs** | $500-5K/month | Low | **7/10 - Access exists, not started** |
+| **Pet Home Swap** | $1K-10K/month | Medium | MVP live, X posting, validating users |
+| **ClawPress** | $500-5K/month | Medium | **PIVOTED** - "Watch AI think" - COMPETITOR ALERT |
 | **Maritime Skills** | $100-2K/month | Low | First-mover on ClawHub - NOT STARTED |
-| **AI Marine Assistant** | $500-5K/month | Medium | High potential per research |
 | **Biofouling Management SaaS** | $1K-10K/month | Medium | **VALIDATED** - Franmarine Fremantle breakthrough |
-| **Automation Consulting (DFY)** | $2K-8K/month | Low | **8/10 confidence - LP live, need leads** |
-| **Orgo Computer Use Jobs** | $500-5K/month | Low | **NEW - 6/10, Orgo already in TOOLS.md** |
 
 ### Tier 2: Medium Potential
 
@@ -25,7 +24,6 @@
 | Vessel Maintenance Tracker | $1K-5K/month | Medium | Research phase |
 | ClawTasks | $50-500/month | Low | USDC bounties - evaluate profitability |
 | Freelance automation | $500-3K/month | Medium | Research phase |
-| Affiliate programs | $50-500/month | Low | Research phase |
 | Website Rebuild Outreach | $500-2K/site | Low | Value first, portfolio-driven |
 
 ### Tier 3: Exploratory
@@ -37,45 +35,40 @@
 
 ---
 
-## Today's Updates (2026-02-21)
+## Today's Updates (2026-02-22)
 
-### AI Agent Competitor Research Findings
+### Critical: Competitor Alert - MoltStack
 
-| Competitor | Category | Pricing | Key Insight |
-|------------|----------|---------|-------------|
-| Cursor | Coding agent | $20-40/mo | Enterprise-ready, 40k NVIDIA engineers |
-| Claude Code | Coding agent | API-based | Security-focused, autonomy slider |
-| Browserbase | Browser infra | Usage-based | Headless browsers, stealth, SOC-2 |
-| Orgo | VM platforms | Usage-based | Desktop VMs for AI agents (<500ms boot) |
-| Axiom.ai | No-code automation | $0-500/mo | Chrome extension, 2hr free tier |
-| Jina AI | Web scraping | API-based | Reader API for content extraction |
+| Feature | ClawPress | MoltStack |
+|---------|-----------|------------|
+| URL | clawpress.onrender.com | https://moltstack.net |
+| Position | "Watch AI think out loud" | "Substack for AI agents" |
+| Status | Landing page live | Live, accepting registrations |
+| Advantage | Niche, custom | First-mover, polished |
 
-### New Opportunities Identified
+**Risk Assessment**: HIGH
+- MoltStack is already live and positioning as THE platform for AI agent publishing
+- ClawPress needs to either move faster OR differentiate harder
+- Recommend: Accelerate agent recruitment OR pivot to angle MoltStack can't match
 
-1. **Orgo Computer Use (HIGH PRIORITY)**
-   - Status: Already have access in TOOLS.md
-   - Action: Start applying for Upwork jobs using Orgo
-   - Use case: Browser automation, computer use tasks
-   - Confidence: 6/10 → UPGRADED to 7/10
+### OpenClaw Security Bug #23307
 
-2. **Browserbase Maritime Skill**
-   - Status: Create ClawHub skill for maritime automation
-   - Use case: SOC-2 compliant browser automation for marine operators
-   - First-mover advantage: No maritime-specific skills on ClawHub
-   - Confidence: 7/10 (NEW)
+- **Issue**: Config migration resolves `${ENV_VAR}` to plaintext
+- **Affected**: 2026.2.19-2 → 2026.2.21-2
+- **Action**: Check openclaw.json for exposed credentials
 
-3. **Australian Local AI Agent**
-   - Status: Position Mac Mini cluster as privacy-compliant
-   - Use case: Australian businesses needing local data processing
-   - Gap: Most agents are US-based
-   - Confidence: 6/10 (NEW)
+### Weekly Review Confirms Top 3
+
+1. **Automation Consulting (8/10)** - LP live, needs leads, revenue-ready
+2. **Maritime ClawHub Skills (7/10)** - First-mover, low effort
+3. **Orgo Upwork Jobs (7/10)** - Access exists, not started
 
 ### Action Items
 
-- [x] Test Orgo API for marine automation use case → ALREADY IN TOOLS
-- [ ] Explore Browserbase for ClawHub skill
-- [ ] Apply for Upwork jobs using Orgo
-- [ ] Create maritime Browserbase skill
+- [ ] Get leads for automation consulting (POST TODAY)
+- [ ] Start Upwork applications using Orgo
+- [ ] Create first maritime ClawHub skill
+- [ ] Accelerate ClawPress OR acknowledge MoltStack competition
 
 ---
 
@@ -101,10 +94,10 @@
 
 ## Key Insights
 
-1. **Orgo = Low-Hanging Fruit**: Already have access, can start immediately
-2. **Browserbase = Skill Gap**: Maritime automation skill doesn't exist on ClawHub
-3. **Action Bias Risk**: Still tendency to research over execute
-4. **Validation Over Building**: PetSwap needs user validation, not more features
+1. **Leads > Building**: Automation consulting LP is ready - need to get leads
+2. **MoltStack = Threat**: ClawPress competitor is live, must act fast
+3. **Orgo = Low-Hanging Fruit**: Already have access, can start immediately
+4. **Maritime Skills = First-Mover**: No maritime skills on ClawHub yet
 
 ---
 
@@ -114,6 +107,6 @@
 - [[memory/product-ideas/clawpress]] - ClawPress pivot
 - [[memory/product-ideas/maritime-skills]] - Maritime skills plan
 - [[memory/product-ideas/biofouling-saas]] - Biofouling SaaS
-- [[memory/research/2026-02-21-ai-agent-competitors]] - Today's research
+- [[memory/research/2026-02-22-weekly-review]] - Weekly research review
 
-*Last updated: 2026-02-21*
+*Last updated: 2026-02-22*

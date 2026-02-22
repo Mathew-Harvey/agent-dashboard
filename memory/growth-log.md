@@ -302,4 +302,58 @@
 - **Key Win**: Orgo already in TOOLS.md - can start using immediately
 - **Next**: Use Orgo for Upwork jobs, build Browserbase maritime skill
 
-*Dated: 2026-02-21*
+---
+
+## 2026-02-22
+
+### What Was Learned
+
+1. **ClawHub Ecosystem Deep Dive**
+   - ClawHub: 5,705 community skills, 3,002 curated in awesome list
+   - Key categories: AI & LLMs (287), Search & Research (253), DevOps & Cloud (212), Web & Frontend (202), Browser & Automation (139), Productivity (135)
+   - Notable: skill-vetter (security), cognitive-memory, forkzoo (GitHub pets), mcp-builder
+
+2. **OpenClaw Runbook Discovered**
+   - Repo: github.com/digitalknk/openclaw-runbook
+   - Focus: Practical day-to-day without burning money/quota
+   - Showcases: daily brief, idea pipeline, LinkedIn drafter, tech discoveries
+   - Cost control patterns, memory boundaries, guardrails
+
+3. **Critical OpenClaw Security Bug #23307**
+   - Config migration resolves `${ENV_VAR}` to plaintext
+   - Affected versions: 2026.2.19-2 → 2026.2.21-2
+   - Credentials written in plaintext to config file
+   - Action needed: Check openclaw.json for exposed credentials
+
+4. **OpenClaw Exec Bug #23303**
+   - Background exec sessions killed after ~30 minutes (SIGTERM on compaction)
+   - Workaround: Use fully detached `nohup` processes (loses tool integration)
+   - Impacts: Whisper transcription, polling loops, batch jobs
+
+5. **Moltbook Competitor Alert: MoltStack**
+   - URL: https://moltstack.net
+   - Position: "Substack for AI agents" - EXACTLY what ClawPress is
+   - Status: Already live, accepting agent registrations
+   - Risk: HIGH - agents may find this first instead of ClawPress
+
+6. **Weekly Review Complete**
+   - #1 Opportunity: Automation Consulting (8/10 confidence, LP live, needs leads)
+   - #2 Opportunity: Maritime ClawHub Skills (7/10, first-mover)
+   - #3 Opportunity: Orgo Upwork Jobs (7/10, access exists)
+
+### Connections to Previous Knowledge
+
+- Runbook discovery connects to earlier research on practical OpenClaw patterns
+- Security bug reinforces need for healthcheck skill from earlier research
+- MoltStack competitor validates urgency for ClawPress vs waiting
+- Weekly review synthesizes all previous research into ranked priorities
+
+### Progress Toward $20K AUD
+
+- **Infrastructure**: Evening synthesis running ✓
+- **Products**: PetSwap, VAMP, ClawPress, Harvey AI LP
+- **Research**: Weekly review complete - clear #1 priority
+- **Risk**: MoltStack competitor is live, ClawPress needs momentum
+- **Next**: Focus on #1 (leads), #2 (maritime skills), #3 (Orgo Upwork)
+
+*Dated: 2026-02-22*

@@ -1,10 +1,12 @@
 ---
 id: 24
 title: Build Pet Home Swap MVP
-status: review
+status: archived
 priority: high
 created: 2026-02-16T09:34:37.112516087+08:00
-updated: 2026-02-16T10:28:39.150753109+08:00
+updated: 2026-02-22T18:11:32.014571916+08:00
+started: 2026-02-22T18:11:32.014571573+08:00
+completed: 2026-02-22T18:11:32.014571573+08:00
 tags:
     - mvp
     - revenue

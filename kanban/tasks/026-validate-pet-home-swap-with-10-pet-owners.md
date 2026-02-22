@@ -1,10 +1,12 @@
 ---
 id: 26
 title: Validate Pet Home Swap with 10 pet owners
-status: in-progress
+status: archived
 priority: high
 created: 2026-02-16T09:34:55.872529405+08:00
-updated: 2026-02-19T20:03:39.97003422+08:00
+updated: 2026-02-22T18:11:32.015756103+08:00
+started: 2026-02-22T18:11:32.01575574+08:00
+completed: 2026-02-22T18:11:32.01575574+08:00
 tags:
     - validation
     - revenue

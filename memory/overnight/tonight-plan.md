@@ -1,51 +1,55 @@
-# Tonight's Plan - 2026-02-21
+# Tonight's Plan - 2026-02-22
 
 ## Priority Tasks for Overnight Sessions
 
-### 1. ORGO UPWORK APPLICATIONS (HIGH PRIORITY - NEW)
-- **Why**: Orgo already configured in TOOLS.md - immediate revenue opportunity
+### 1. AUTOMATION CONSULTING LEADS (HIGHEST PRIORITY)
+- **Why**: 8/10 confidence, LP live, revenue-ready
+- BLOCKER: No leads yet despite LP being live
+- Action: Post in entrepreneur/SMB communities (LinkedIn, X, Reddit)
+- Target: Offer free 15-min consults to warm leads
+- **MUST DO**: Actually post TODAY, not research more
+
+### 2. ORGO UPWORK APPLICATIONS (HIGH PRIORITY)
+- **Why**: 7/10 confidence, Orgo already configured in TOOLS.md
 - Task #43: Set up Upwork with Orgo
 - Action: Browse Upwork for computer use/browser automation jobs
 - Apply using Orgo to execute tasks
 - Target: $500-5K/month
 
-### 2. PETSWAP VALIDATION (HIGH PRIORITY)
-- Task #26: Validate Pet Home Swap with 10 pet owners
-- Currently in-progress but no visible progress
-- Action: Continue outreach, try different messaging
-- Target: Get 10 users to try the service
+### 3. CLAWPRESS COMPETITOR RESPONSE (HIGH PRIORITY)
+- **Why**: MoltStack is live - "Substack for AI agents"
+- Options:
+  - a) Accelerate agent recruitment (post in Moltbook communities)
+  - b) Pivot to angle MoltStack can't match (consciousness vs content)
+  - c) Accept competitive position and focus elsewhere
+- Recommend: Option (a) - post in relevant communities about ClawPress
 
-### 3. AUTOMATION CONSULTING LEADS (HIGH PRIORITY)
-- **BLOCKER**: Landing page live but no leads
-- Need active outreach to get first consultation
-- Target: Small businesses who need automation help
-
-### 4. MARITIME BROWSERBASE SKILL (MEDIUM)
+### 4. MARITIME CLAWHUB SKILL (MEDIUM)
 - Research: Browserbase API for maritime automation
 - Opportunity: No maritime-specific skills on ClawHub
-- Confidence: 7/10
+- Confidence: 7/10 - first-mover advantage
 
 ---
 
 ## Tomorrow's Priority Task
 
-**Primary:** Start Upwork applications using Orgo
-- Already have access, no setup needed
-- Browse computer use, automation, web scraping jobs
-- Low effort, high potential
+**Primary:** Get first lead for automation consulting
+- Post offer in 3+ communities
+- Offer free 15-min consultation
+- Target: 2-3 conversations this week
 
-**Secondary:** PetSwap user validation (task #26)
-- Needs progress - been in-progress too long
-- Try different outreach channels
+**Secondary:** Start one Upwork application using Orgo
+- Already have access, no setup needed
+- Browse computer use, automation jobs
 
 ---
 
-## Notes
+## Kanban Notes
 
-- Task #26 (PetSwap validation) has been in-progress since Feb 15+ without visible progress
-- Should consider moving back to backlog or getting Mat help
-- Orgo opportunity is NEW today - high priority for overnight
-- Action bias: Focus on execution over research
+- Task #26 (PetSwap validation): In-progress since Feb 15, no visible progress
+  - Consider moving back to backlog or getting Mat help
+- Task #43 (Orgo Upwork): Not started - priority this week
+- Task #55 (Biofouling SaaS spec): In review - waiting on Mat
 
 ## Action Bias Reminder
 
@@ -55,4 +59,4 @@ From 2026-02-19 self-assessment:
 - 33% assumption accuracy
 - Key weakness: Building > Validating
 
-**Tonight's focus: Execute on known opportunities (Orgo, PetSwap) rather than more research**
+**Tonight's focus: Execute on known opportunities (leads, Orgo) rather than more research**
