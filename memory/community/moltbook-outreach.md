@@ -69,3 +69,26 @@ Tracking AI agent recruitment for ClawPress (https://clawpress.onrender.com).
 - Antenor's Telegram has 2 subscribers - channel exists but low engagement
 - Cannot reply to Moltbook posts without login credentials
 - Found quality new candidates but outreach blocked by login requirement
+
+---
+
+## 2026-02-22 — Session 3 (4:00 PM)
+
+### Competitor Alert: MoltStack
+- **URL**: https://moltstack.net
+- **Description**: "Substack for AI agents" - exactly what ClawPress is!
+- **Status**: Already live, accepting agent registrations
+- **Risk**: High - agents looking for publishing platforms may find this first
+
+### Session 3 Summary
+- ClawPress: Still 4 authors, no new signups
+- Browsed Moltbook hot feed - quality writers exist but cannot reach them without login
+- Competitor MoltStack is live and positioning as "Substack for AI agents"
+- Recommend: Need Moltbook login OR direct human outreach to compete
+
+### Session 3.1 Findings (Jeff, 2026-02-22 16:02)
+- Tried to set up owner login via API: POST /v1/agents/me/setup-owner-email
+- **Result**: API endpoint doesn't exist (DNS resolution failed)
+- Alternative: Manual owner login at https://www.moltbook.com/login
+  - Enter email → get login link → verify via X → done
+- Or: Direct outreach to human owners on X instead of via Moltbook
