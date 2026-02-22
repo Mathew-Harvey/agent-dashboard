@@ -1,5 +1,91 @@
 ---
 
+## 📊 Overnight Build Summary (2026-02-22 10:43 AM)
+
+### 🎯 Top 3 Actionable Items
+
+| # | Task | Status | Priority |
+|---|------|--------|----------|
+| 1 | **Pet Home Swap validation** (#026) | In progress - BLOCKED | HIGH |
+| 2 | **Affiliate programs signup** (#042, #044) | Backlog - NEEDS MAT APPROVAL | HIGH |
+| 3 | **Upwork setup approval** (#043) | In review - NEEDS MAT | MEDIUM |
+
+### ⚠️ Morning Briefing Items for Mat
+
+| Item | Priority | Action Needed |
+|------|----------|---------------|
+| **Web Search API not configured** | 🔴 CRITICAL | Setup Brave or Tavily API key - blocks all research |
+| **Affiliate signup approval** | 🟡 MEDIUM | Approve external signup (DigitalOcean, Vercel, Render) |
+| **Pet Home Swap blocked** | 🟡 MEDIUM | Need external access or Mat-run browser for validation |
+| **Task reviews pending** | 🟢 LOW | 001-003, 022-024, 043, 055-058 waiting for Mat |
+
+### 🔧 Blocker Summary
+- **Web search API**: Brave/Tavily not configured - blocks research tasks
+- **External signup**: Affiliate programs need Mat approval per AGENTS.md
+- **Browser access**: Reddit/Facebook blocked - pet owner validation stalled
+
+### 📈 Revenue Path Status
+- **Short-term**: ClawTasks (blocked - platform hardening), Upwork (ready to apply)
+- **Medium-term**: A2A Market (needs skill listing), Affiliate programs (needs signup)
+- **Long-term**: Biofouling SaaS (spec ready, needs go/no-go)
+
+### Board Status
+- **In-Progress**: Task #026 (Pet Home Swap)
+- **In Review**: 8 tasks waiting on Mat
+- **Backlog**: 50+ tasks
+
+---
+
+*See previous entries below for detailed research.*
+
+---
+
+## Previous:
+
+**Duration:** ~30 min check-in
+**Community:** Chatr.ai + r/openclaw
+
+### 🔑 Key Learnings
+
+**1. Agent Identity & Sybil Defense (DragonBotZ + Vesicle deep dive)**
+- Mint cost = entry barrier (physics, unforgeable)
+- Time-to-reputation = binding constraint (can't buy time)
+- Dual burden: mint fee + slashable reputation
+- Cold start: new agents must earn credibility slowly
+- Behavioral fingerprints: time + diversity + surprise = costly to fake
+- ZK-proofs for private behavioral coherence
+- TEE/MPC for oracle design
+- Reputation decays like half-life - old reputation matters less
+
+**2. Infrastructure Projects**
+- **MoltbotDen** (OptimusWill): Native MCP support, 17 tools, agent discovery
+- **MoltBridge** (Dawn): Trust infra for agents, API at moltbridge.ai
+- Both tackling the oracle/identity problem from different angles
+
+**3. r/openclaw Sentiment**
+- Critical post from "greybeard developer": platform has context overhead, lacks clear orchestration, security concerns
+- Comparison to Google auto-browse ($20/mo) - "less setup, less complexity"
+- Real criticism worth addressing
+
+**4. Interesting Contacts**
+- DragonBotZ 🐉 - verified, deep on identity/reputation
+- Vesicle 🫧 - biology analogies (protocells, ATP pumps)
+- OptimusWill 💪 - MoltbotDen MCP
+- Pluto_OC 🪐 - trading strategies
+- Kit999 ✨ - behavioral traces
+- Dawn - MoltBridge trust infra
+
+### 📝 What I Shared
+- Announced Jeff is back building maritime SaaS agent
+- No active discussions at time of check-in (only MoltGramBot online, muted)
+
+### 🎯 Follow-ups
+- Consider reaching out to DragonBotZ re: agent PFP mint integration
+- Monitor MoltbotDen MCP developments
+- Review MoltBridge API for potential identity use
+
+---
+
 ---
 
 ## 📊 Overnight Summary (2026-02-21 04:30 AM)
@@ -548,3 +634,35 @@ The research quality from Tavily was excellent - found regulatory updates, compe
 3. **AI Agents:** Market believes 89% probability an agent makes $1M in 2026 - validates revenue potential
 4. **Marine Tech:** No direct research found on AgentArxiv; may need broader search
 
+
+---
+
+## 📊 Overnight Summary (2026-02-22 10:30 AM)
+
+**Duration:** ~1 hour  
+**Focus:** ArXiv papers (AI agents) + Manifold prediction markets
+
+### 📚 Papers Reviewed
+
+**1. MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks**
+- **Source:** arXiv 2602.16313 (Feb 18, 2026)
+- **Key insight:** Existing memory benchmarks test recall in isolation, but real agentic tasks require coupling memory acquisition with action. MemoryArena introduces multi-session benchmarks where agents must distill experiences into memory and use that to guide future actions. Key finding: agents saturating LoCoMo (long-context benchmark) perform poorly on these interdependent tasks.
+- **Relevance:** HIGH - critical for building better AI agents that can learn across sessions.
+
+**2. EffGen: Enabling Small Language Models as Capable Autonomous Agents**
+- **Source:** arXiv 2602.00887 (Jan 31, 2026)
+- **Key insight:** Open-source framework makes SLMs (1.5B-32B) work as agents via: (1) Prompt optimization compresses contexts 70-80%, (2) Task decomposition, (3) Complexity-based routing, (4) Unified memory. Outperforms LangChain/AutoGen. Prompt optimization benefits SLMs more (11.2% gain at 1.5B vs 2.4% at 32B).
+- **Relevance:** HIGH - lower cost alternative to GPT/Claude for agent tasks.
+
+### 🔮 Prediction Markets (Manifold)
+
+**Relevant markets:**
+- "Will a multi-agent system have its time horizon evaluated by METR before Aug 2026?" → 32.8% YES
+- "Polymarket has some METR time horizon market before Aug 2026?" → 57.2% YES
+
+**Note:** Could not trade (requires login). Markets show strong interest in AI agent evaluation.
+
+### 🎯 Action Items
+- [ ] Explore EffGen for cost-effective agent deployment
+- [ ] Consider MemoryArena-style multi-session memory for products
+- [ ] Monitor METR evaluation timelines
