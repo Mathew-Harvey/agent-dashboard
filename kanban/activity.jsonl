@@ -193,3 +193,38 @@
 {"timestamp":"2026-02-22T18:11:32.028623434+08:00","action":"move","task_id":50,"detail":"backlog -\u003e archived"}
 {"timestamp":"2026-02-22T18:11:32.029693659+08:00","action":"move","task_id":52,"detail":"backlog -\u003e archived"}
 {"timestamp":"2026-02-22T18:11:32.030524822+08:00","action":"move","task_id":54,"detail":"backlog -\u003e archived"}
+{"timestamp":"2026-02-23T09:34:04.570877749+08:00","action":"claim","task_id":19,"detail":"Jeff"}
+{"timestamp":"2026-02-23T09:34:11.89871989+08:00","action":"move","task_id":19,"detail":"backlog -\u003e in-progress"}
+{"timestamp":"2026-02-23T09:34:47.707959043+08:00","action":"edit","task_id":19,"detail":"Validate Vessel Maintenance Tracker with 5 marine operators"}
+{"timestamp":"2026-02-23T09:34:47.708091542+08:00","action":"block","task_id":19,"detail":"Requires Mat to provide list of marine operator contacts. Cannot reach out to random operators without business context."}
+{"timestamp":"2026-02-23T09:34:54.050033505+08:00","action":"edit","task_id":19,"detail":"Validate Vessel Maintenance Tracker with 5 marine operators"}
+{"timestamp":"2026-02-23T09:34:54.050123928+08:00","action":"release","task_id":19,"detail":"Jeff"}
+{"timestamp":"2026-02-23T09:34:57.281052503+08:00","action":"claim","task_id":21,"detail":"Jeff"}
+{"timestamp":"2026-02-23T09:35:15.710532977+08:00","action":"edit","task_id":21,"detail":"Build VAMPaaS MVP - marine asset management for small operators"}
+{"timestamp":"2026-02-23T09:35:15.710636995+08:00","action":"block","task_id":21,"detail":"Requires Mat go/no-go. This is a business product decision - feature scope, pricing, target customers need Mat's input. Cannot build without business context."}
+{"timestamp":"2026-02-23T09:35:18.684079922+08:00","action":"edit","task_id":21,"detail":"Build VAMPaaS MVP - marine asset management for small operators"}
+{"timestamp":"2026-02-23T09:35:18.684165932+08:00","action":"release","task_id":21,"detail":"Jeff"}
+{"timestamp":"2026-02-23T09:35:25.846659159+08:00","action":"claim","task_id":42,"detail":"Jeff"}
+{"timestamp":"2026-02-23T09:35:39.078782216+08:00","action":"edit","task_id":42,"detail":"Sign up for affiliate programs: DigitalOcean ($200), Vercel ($100), Render ($50)"}
+{"timestamp":"2026-02-23T09:35:39.078872148+08:00","action":"block","task_id":42,"detail":"Requires Mat approval per AGENTS.md - cannot sign up for external services without approval."}
+{"timestamp":"2026-02-23T09:35:42.348742767+08:00","action":"edit","task_id":42,"detail":"Sign up for affiliate programs: DigitalOcean ($200), Vercel ($100), Render ($50)"}
+{"timestamp":"2026-02-23T09:35:42.348857017+08:00","action":"release","task_id":42,"detail":"Jeff"}
+{"timestamp":"2026-02-23T09:35:46.114629707+08:00","action":"claim","task_id":44,"detail":"Jeff"}
+{"timestamp":"2026-02-23T09:35:49.706401408+08:00","action":"edit","task_id":44,"detail":"Sign up for affiliate programs - DigitalOcean, Vercel, Render"}
+{"timestamp":"2026-02-23T09:35:49.706514716+08:00","action":"block","task_id":44,"detail":"Requires Mat approval per AGENTS.md - cannot sign up for external services without approval."}
+{"timestamp":"2026-02-23T09:35:49.709915142+08:00","action":"edit","task_id":44,"detail":"Sign up for affiliate programs - DigitalOcean, Vercel, Render"}
+{"timestamp":"2026-02-23T09:35:49.710016525+08:00","action":"release","task_id":44,"detail":"Jeff"}
+{"timestamp":"2026-02-23T09:35:53.509702201+08:00","action":"claim","task_id":51,"detail":"Jeff"}
+{"timestamp":"2026-02-23T09:36:04.396125821+08:00","action":"edit","task_id":51,"detail":"Upwork + Direct Outreach - find paid work"}
+{"timestamp":"2026-02-23T09:36:04.396230689+08:00","action":"block","task_id":51,"detail":"Likely needs Mat approval to start bidding on Upwork (per task 061). Cannot commit to paid work outreach without Mat's go-ahead."}
+{"timestamp":"2026-02-23T09:36:04.399786226+08:00","action":"edit","task_id":51,"detail":"Upwork + Direct Outreach - find paid work"}
+{"timestamp":"2026-02-23T09:36:04.399882966+08:00","action":"release","task_id":51,"detail":"Jeff"}
+{"timestamp":"2026-02-23T09:36:07.175748805+08:00","action":"claim","task_id":53,"detail":"Jeff"}
+{"timestamp":"2026-02-23T09:36:34.581831208+08:00","action":"edit","task_id":53,"detail":"Find global freelance income - automation/web dev tasks"}
+{"timestamp":"2026-02-23T09:36:34.581955883+08:00","action":"release","task_id":53,"detail":"Jeff"}
+{"timestamp":"2026-02-23T09:36:40.577138586+08:00","action":"claim","task_id":53,"detail":"Jeff"}
+{"timestamp":"2026-02-23T09:36:44.807474545+08:00","action":"move","task_id":53,"detail":"backlog -\u003e in-progress"}
+{"timestamp":"2026-02-23T09:37:34.190652886+08:00","action":"edit","task_id":53,"detail":"Find global freelance income - automation/web dev tasks"}
+{"timestamp":"2026-02-23T09:37:34.190745802+08:00","action":"block","task_id":53,"detail":"BLOCKED: Web search APIs not working (Tavily key invalid per cron summary). Browser search blocked by CAPTCHA. Need web search access to research freelance platforms."}
+{"timestamp":"2026-02-23T09:37:38.525750544+08:00","action":"edit","task_id":53,"detail":"Find global freelance income - automation/web dev tasks"}
+{"timestamp":"2026-02-23T09:37:38.525837109+08:00","action":"release","task_id":53,"detail":"Jeff"}
