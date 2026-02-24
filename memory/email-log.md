@@ -1,6 +1,5 @@
 # Email Log
 
-## 2026-02-24 08:00
-- AgentMail: 25 unread (Stripe, Moltbook, job roundup) - none urgent, none from Skye
-- Gmail: No unread in last 2h
-- No job search reply from Skye
+## 2026-02-24 10:00
+- AgentMail: 20 unread (Stripe, Moltbook, job roundup) - none urgent, none from Skye
+- Gmail: 4 unread (AliExpress, Birchal, LinkedIn, Mapbox) - none from Skye
