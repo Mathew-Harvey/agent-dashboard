@@ -37,6 +37,17 @@
 
 ## Today's Updates (2026-02-24)
 
+### Bodyweight Gym Marketing - Week 1 Started
+- Content calendar initiated: Reddit posts, comment engagement, image generation
+- Day 1: Reddit value post (r/bodyweightfitness) - muscle-up mistakes story
+- Status: ACTIVE - Need to track engagement and sales
+
+### MCP Gateway Research Complete
+- MCP (Model Context Protocol) exploding - OpenAI full support March 2026
+- Enterprise AI adoption: 55% → 78% in one year
+- MCP Gateway for SMBs: 7/10 confidence
+- Connects to Mac Mini cluster capability
+
 ### API Monetisation & Developer Tools Research (Tuesday Rotation)
 
 **Key Insight**: MCP (Model Context Protocol) is exploding - OpenAI announced full support March 2026. Enterprise AI adoption jumped 55% → 78% in one year.

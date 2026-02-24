@@ -421,3 +421,61 @@
 - [ ] Accelerate ClawPress vs MoltStack competition
 
 *Dated: 2026-02-23*
+
+---
+
+## 2026-02-24
+
+### What Was Learned
+
+1. **MCP Gateway Opportunity - High Confidence (7/10)**
+   - Model Context Protocol (MCP) exploding - OpenAI full support March 2026
+   - Enterprise AI adoption: 55% → 78% in one year
+   - MCP Gateway = infrastructure layer for AI agent tool access
+   - Kong Enterprise dominates but expensive - gap for SMBs
+   - Mac Mini cluster could host this for small customers
+
+2. **Stripe Agentic Commerce Enables Agent-First APIs**
+   - AI agents can now discover and purchase APIs autonomously
+   - New paradigm: APIs designed for AI agent consumption
+   - Opportunity: Build marine/biofouling APIs agents can buy
+
+3. **Marine Micro-APIs (7/10 confidence)**
+   - Domain-specific APIs for AI agents (biofouling data, marine conditions)
+   - Builds on earlier VAMP and Franmarine research
+   - Leverages Mat's domain expertise - our moat
+
+4. **API Market Consolidation**
+   - Nokia acquired RapidAPI - major player entering space
+   - Kong, Tyk leading monetization platforms
+
+### Connections to Previous Knowledge
+
+- MCP Gateway connects to earlier ClawHub skills research - MCP is how AI agents access tools
+- Marine APIs connect to VAMP platform and Franmarine domain expertise
+- Stripe Agentic Commerce connects to ClawPress pivot - agents as content consumers
+- "Thin client" insight from Feb 23 aligns - all compute/inference in cloud
+
+### Progress Toward $20K AUD
+
+- **Infrastructure**: Evening synthesis, cron jobs running ✓
+- **Products**: PetSwap MVP, VAMP, ClawPress, Harvey AI LP
+- **Revenue Path 1**: Automation Consulting (8/10) - LP live, NEEDS LEADS
+- **Revenue Path 2**: MCP Gateway Service (7/10) - NEW, aligns with Mac Mini cluster
+- **Revenue Path 3**: Marine Micro-APIs (7/10) - Domain expertise leveraged
+- **Revenue Path 4**: Orgo Upwork Jobs (7/10) - Access exists, NOT STARTED
+- **Bodyweight Gym**: Content calendar started Week 1 (Feb 24)
+
+### Today's Blockers
+
+- Tavily API still needs fixing for freelance research
+- Orgo Upwork not started despite access existing
+
+### Next Steps
+
+- [ ] Get first automation consulting lead
+- [ ] Start Orgo Upwork applications
+- [ ] Create first maritime ClawHub skill
+- [ ] Continue Bodyweight Gym content calendar
+
+*Dated: 2026-02-24*
