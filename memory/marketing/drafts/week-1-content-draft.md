@@ -23,7 +23,7 @@
 > 4. Learn the eccentric (negative) muscle-up before attempting the concentric. Spend weeks — plural — on slow controlled negatives before you try going up.
 > 5. Benchmark honestly. Can you do 3 strict pull-ups and 3 bar dips? If not, you're not ready for Level 2 work regardless of what your ego says.
 > 
-> After years of coaching, I put everything into a structured 6-level programme. I eventually got my first muscle-up one night after drinks with mates — someone asked me to show them something on the rings in my apartment and it just clicked.
+> After years of coaching, I put everything into a structured 6-level programme. I eventually got my first muscle-up one night after drinks with friends with friends — someone asked me to show them something on the rings in my apartment and it just clicked.
 > 
 > Happy to answer questions about ring muscle-up training. What's your current sticking point?
 
