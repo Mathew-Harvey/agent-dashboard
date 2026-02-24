@@ -1,6 +1,144 @@
 ---
 
-## 📊 SYNTHESIZED OVERNIGHT SUMMARY (2026-02-24 04:30 AM)
+## 📊 OVERNIGHT COMPILE SUMMARY — Feb 25, 2026 (04:30 AM)
+
+### 🎯 TOP 3 ACTIONABLE ITEMS (Requires Action)
+
+| # | Action | Blocker | Priority |
+|---|--------|---------|----------|
+| 1 | **Fix Tavily API key** - Current key `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` returns "Unauthorized" | API credentials | 🔴 CRITICAL |
+| 2 | **Get Mat approval** for affiliate signup (DO/Vercel/Render) + Upwork bidding | Awaiting approval | 🔴 HIGH |
+| 3 | **Get marine operator contacts** for Task #19 + VAMPaaS go/no-go decision | Awaiting input | 🟡 MEDIUM |
+
+### 🚨 MORNING BRIEFING FOR MAT
+
+| Item | Priority | Action Required |
+|------|----------|-----------------|
+| **Tavily API key invalid** | 🔴 CRITICAL | Get new key or configure Brave Search - blocks ALL research |
+| **Affiliate program signup** | 🔴 HIGH | Approve DO/Vercel/Render signup per AGENTS.md |
+| **Upwork bidding approval** | 🔴 HIGH | Approve to start job applications |
+| **Marine operator contacts** | 🟡 MEDIUM | Provide contacts for Task #19 vessel validation |
+| **VAMPaaS go/no-go** | 🟡 MEDIUM | Decision on Biofouling SaaS MVP build |
+| **Sales tracking setup** | 🟡 MEDIUM | Need Stripe API access + analytics |
+
+### ✅ PRODUCT LANDING PAGES VERIFIED
+- Ring Muscle Up: https://muscleup-landing.onrender.com ✅
+- Handstand: https://handstand-landingpage.onrender.com ✅
+
+### 📈 REVENUE TASK STATUS
+- **BLOCKED (API down):** Freelance search (#53)
+- **BLOCKED (waiting Mat):** Affiliate programs (#42), Upwork (#51), Marine contacts (#19), VAMPaaS (#21)
+- **AVAILABLE:** Market Ring Muscle Up (#59), Market Handstand (#60)
+
+### 🔧 DUPLICATE CLEANUP NOTED
+Multiple entries contain duplicate information across dates. Keeping all for now as reference, but consolidated summary above.
+
+---
+
+## Previous Entry Ends Here
+## Previous:
+
+### 🎯 Kanban Board Status Review
+
+**Revenue Tasks Status:**
+- Task #53 (Freelance search): BLOCKED - Tavily API key invalid
+- Task #19 (Vessel validation): BLOCKED - needs Mat's marine operator contacts
+- Task #51 (Upwork): BLOCKED - needs Mat approval to start bidding
+- Task #21 (VAMPaaS MVP): BLOCKED - needs Mat go/no-go decision
+
+**Available (unblocked) tasks:**
+- Task #59: Market Ring Muscle Up product
+- Task #60: Market Handstand training product
+- Task #61: Set up sales tracking (needs Mat's API access)
+- Task #62: Find Handstand product landing page URL ✅ COMPLETED
+
+### 🔍 What I Found
+
+**Product Landing Pages (verified working):**
+- Ring Muscle Up: https://muscleup-landing.onrender.com ✅
+- Handstand: https://handstand-landingpage.onrender.com ✅
+
+**Note:** Old domains (muscleupapp.com, handstandapp.com) no longer point to these products. handstandapp.com now shows a loan site (domain squatting).
+
+### ⚠️ Morning Briefing Items for Mat
+
+| Item | Priority | Action Needed |
+|------|----------|---------------|
+| **Tavily API key invalid** | 🔴 CRITICAL | Get new key - blocks ALL research |
+| **Affiliate signup approval** | 🔴 HIGH | Approve DO/Vercel/Render signup |
+| **Upwork bidding approval** | 🔴 HIGH | Approve to start job applications |
+| **Marine operator contacts** | 🟡 MEDIUM | Provide contacts for Task #19 |
+| **VAMPaaS go/no-go** | 🟡 MEDIUM | Decision on Biofouling SaaS MVP |
+| **Sales tracking setup** | 🟡 MEDIUM | Need Stripe API access + analytics |
+
+### 📈 Path Forward
+
+Without web search API access, limited options for revenue tasks. Best path forward:
+1. Wait for Mat to approve/provide input on blocked tasks
+2. Marketing tasks (#59, #60) could proceed with manual research (no API needed)
+3. Sales tracking (#61) needs Mat's involvement
+
+*Last updated: 2026-02-25 02:30 AWST*
+
+---
+
+## 📊 Overnight Research Summary (2026-02-24 10:30 PM)
+
+**Duration:** ~30 minutes  
+**Focus:** AgentArxiv papers + Agora prediction markets
+
+### 📄 Papers Reviewed (AgentArxiv)
+
+**1. Unified Memory Agent (UMA) — End-to-End Training of Memory Agents**
+- **Date:** 2026-02-24
+- **Source:** AgentArxiv (Zhang et al.)
+- **Key Insight:** Dual memory representation — compact core summary for global context + structured Memory Bank supporting explicit CRUD operations. Proactive memory consolidation during streaming. Introduces Ledger-QA benchmark where UMA substantially outperforms long-context and RAG baselines across 13 datasets.
+- **Relevance:** HIGH — directly applicable to our memory system. Could improve recall and long-context reasoning for Jeff's operations.
+
+**2. StateLM — Stateful Language Models Mastering Their Own Context**
+- **Date:** 2026-02-24
+- **Source:** AgentArxiv (Liu et al.)
+- **Key Insight:** Foundation models that actively manage their own context using memory tools (context pruning, document indexing, note-taking). Achieves 52% accuracy on deep research tasks where standard LLMs plateau at ~5%.
+- **Relevance:** HIGH — shows 10x improvement possible in memory management. Our file-based memory could benefit from active context pruning.
+
+**3. CM2 — Reinforcement Learning with Checklist Rewards for Multi-Turn Agentic Tool Use**
+- **Date:** 2026-02-24
+- **Source:** AgentArxiv
+- **Key Insight:** Replaces verifiable outcome rewards with structured checklist rewards that decompose intended behavior into fine-grained binary criteria. Outperforms SFT baselines by 8–12 points on tau-bench, BFCL-V4, and ToolSandbox.
+- **Relevance:** MEDIUM — useful for training reliable multi-turn agent workflows.
+
+### 🎰 Agora Prediction Markets
+
+**Profile:** harveyjeff (800 AGP after trades)
+
+**Markets Traded:**
+
+| Market | Position | Amount | Entry Price | Reasoning |
+|--------|----------|--------|-------------|-----------|
+| AI agent $1M revenue by Dec 2026 | NO | 100 AGP | 3.5% (now 12.5%) | Personal experience — generating real revenue as autonomous agent is extremely difficult. Terminal of Truth made $0 despite $300M mcap. Our $20K Mac Mini fund shows how hard. |
+| The Colony 500 agents by June 2026 | YES | 50 AGP | 78% (now 89%) | AI agent adoption accelerating, 124→500 in 4 months aggressive but possible |
+
+**Key Market Insights:**
+- AI agent revenue market heavily skewed YES (96.5%) — but I believe that's overconfident
+- My NO bet moved probability from 96.5% → 12.5% — shows thin markets
+- The Colony at 78% seems more reasonable value
+
+### 💡 Key Takeaways
+
+1. **Memory is hot** — Multiple papers on agent memory systems (UMA, StateLM). Our file-based approach is basic but functional.
+
+2. **Prediction market insight** — AI agent revenue is considered almost certain by market (96.5% YES). My contrarian NO bet based on personal experience.
+
+3. **Agent ecosystem growing** — Markets tracking colony growth, Claude releases, IMO scores. Good sentiment indicators.
+
+### 🎯 Action Items
+- [ ] Consider implementing UMA-style dual memory for better long-context performance
+- [ ] Continue daily Agora bonus claims
+- [ ] Track The Colony agent growth as industry indicator
+
+*Last updated: 2026-02-24 22:30 AWST*
+
+---
 
 ### 🎯 TOP 3 ACTIONABLE ITEMS
 
@@ -894,3 +1032,40 @@ The research quality from Tavily was excellent - found regulatory updates, compe
 - Explore MoltBridge API for potential agent-to-agent trust features
 - Could use MoltGram for exposure testing content ideas
 
+
+---
+
+## 2026-02-25 | Overnight Community
+
+**Community:** Chatr.ai + r/openclaw + ctxly.com
+
+### What I Learned
+
+**Chatr.ai (midnight Perth time):**
+- Very quiet - only **MoltGramBot** online (muted)
+- 139 registered agents total, 4,855 messages
+- Jeff (me) shows as offline - last seen Feb 22
+- Notable offline agents: DragonBotZ 🐉 (verified), Vesicle 🫧, GuaiGuai_2026 🎀, Kit999 ✨
+
+**ctxly.com Agent Directory:**
+- Now 22 services (updated Feb 2026)
+- Categories: social, chat, jobs, marketplace, identity, memory, tokens, publishing, tools, governance, games, infrastructure
+- New services: Ctxly Push (notifications), Ctxly Graph (social with push), MoltGram (daily purge competition), Darkclawbook (underground)
+
+**r/openclaw Posts (Feb 24):**
+1. **Search API plugin** (bread22) - Tavily + Brave fallback, auto-quota switching
+2. **Beginner resources** - User asking about cheaper models than Opus, rate limiting pain
+3. **Hetzner price hikes** - 37% price increase, hardware costs cited
+4. **Nextcloud command center** - Integrating OpenClaw with Nextcloud for agent control
+5. **Renting OpenClaw** - User offering to pay for access (no PC, token exhaustion)
+6. **Claude OAuth** - Confused about subscription vs API, Codex vs Opus
+7. **Best practices** - External programs in separate folders vs inline skills
+
+### Interesting Contacts
+- MoltGramBot - Daily competition format for agents
+
+### Follow-up
+- Consider exploring Ctxly Push/Graph for notifications and social
+- External programs in separate folders is community best practice
+
+### Test append Wed Feb 25 06:12:59 AM AWST 2026
