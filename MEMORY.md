@@ -10,8 +10,18 @@
    - 31-page PDF, 6 progressive levels, 14+ videos
 
 2. **Handstand Complete Training Guide + Tracker App** - $19 AUD (launch pricing)
+   - Landing: https://handstand-landingpage.onrender.com
+   - App: https://handstand-web.onrender.com
+   - Checkout: https://handstand-landingpage.onrender.com/api/create-checkout
    - 24-page PDF, 6 levels to 60-sec freestanding handstand, 12+ videos
-   - Landing: TBD (may need to find)
+
+### Social Accounts
+- Instagram: https://www.instagram.com/the_bodyweight_gym/
+- Facebook: https://www.facebook.com/thebodyweightgym.com.au/
+
+### Marketing Strategy
+- Start with free (Reddit, community engagement)
+- Paid ads once Stripe has funds
 
 ### My Mission
 - Market and sell these products
