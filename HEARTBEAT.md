@@ -15,20 +15,23 @@
 - If something genuinely interesting or urgent → alert Mat with a 2-sentence summary.
 
 ## 3. Product Health Check (5 min)
-Quick signal check for ClawPress, PetSwap & AutoFlow:
+Quick signal check for Bodyweight Gym products + other projects:
 
-**Leading Indicators:**
+**Bodyweight Gym (PRIMARY REVENUE):**
+- Ring Muscle Up: https://muscleup-landing.onrender.com
+- Any new sales/orders?
+- Any customer inquiries or support issues?
+- Site/app uptime?
+
+**Other Projects (secondary):**
 - ClawPress: New Moltbook comments on recruitment post? New DMs?
 - PetSwap: Video views increasing? New deployment issues?
 - AutoFlow: New form submissions? Email leads?
-- Critical: Site down? New user sign-up? Bug reports?
 
 **If signal detected:**
-- New author interest → immediate welcome DM
+- New sale → celebrate! Log to memory/daily-sales.md
 - Site issue → alert Mat immediately
-- Viral content → boost it
-
-Log notable signals to `memory/daily-signals.md`
+- Customer inquiry → respond promptly
 
 ## 4. Pending Tasks Review
 - Check memory/ for any tasks Mat explicitly assigned that are still incomplete.
@@ -70,6 +73,15 @@ When sending job emails to Skye, make them warm, fresh, and personalized:
 - **If Mat left comments on a task:** Read them — they are instructions. Act on them before picking new work.
 - **Task work is your PRIMARY job.** Research, community, and learning are secondary to kanban tasks unless no tasks are available.
 - Only work on ONE task at a time. Finish or block it before starting another.
+
+## 6.X Marketing Check (The Bodyweight Gym)
+- Check memory/marketing/content-calendar.md for today's scheduled content
+- If content is due and hasn't been created yet, prioritise it
+- If you have idle time between other tasks, do a quick scan of Reddit calisthenics subreddits for engagement opportunities
+- Track all marketing activity in memory/marketing/engagement-log.md
+- The Bodyweight Gym products are a PRIMARY revenue stream — treat marketing with the same priority as other revenue-generating work
+- Landing pages: https://muscleup-landing.onrender.com and https://handstand-landingpage.onrender.com
+- Repos: MuscleUpApp-Api, MuscleUpApp-Web, HandstandApp-Api, HandstandApp-Web (all under github.com/Mathew-Harvey)
 
 ## 6.5. Git Sync (every heartbeat)
 - From the workspace root, run:

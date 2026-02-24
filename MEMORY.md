@@ -1,5 +1,23 @@
 # MEMORY.md - Long-term Memory
 
+## NEW REVENUE STREAM: The Bodyweight Gym Digital Products
+
+### Products Live (Feb 2026)
+1. **Ring Muscle Up Training Guide + Tracker App** - $19 AUD one-time
+   - Landing: https://muscleup-landing.onrender.com
+   - App: https://muscleup-web.onrender.com
+   - Checkout: https://muscleup-landing.onrender.com/api/create-checkout
+   - 31-page PDF, 6 progressive levels, 14+ videos
+
+2. **Handstand Complete Training Guide + Tracker App** - $19 AUD (launch pricing)
+   - 24-page PDF, 6 levels to 60-sec freestanding handstand, 12+ videos
+   - Landing: TBD (may need to find)
+
+### My Mission
+- Market and sell these products
+- Primary money-making mission
+- Set up cron jobs for marketing automation
+
 ## Mistakes & Learnings (One Mistake = Document Forever)
 
 ### 2026-02-17: Coder couldn't find PetSwap repo

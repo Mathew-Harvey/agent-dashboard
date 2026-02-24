@@ -35,7 +35,36 @@
 
 ---
 
-## Today's Updates (2026-02-23)
+## Today's Updates (2026-02-24)
+
+### API Monetisation & Developer Tools Research (Tuesday Rotation)
+
+**Key Insight**: MCP (Model Context Protocol) is exploding - OpenAI announced full support March 2026. Enterprise AI adoption jumped 55% → 78% in one year.
+
+**New Opportunities Identified**:
+
+1. **MCP Gateway Service** - Confidence: 7/10
+   - Kong Enterprise dominates but expensive
+   - SMBs need cheaper alternatives
+   - Could run on Mac Mini cluster for small customers
+   
+2. **Marine Micro-APIs for AI Agents** - Confidence: 7/10
+   - Domain-specific APIs (biofouling data, marine conditions)
+   - Designed for AI agent discovery/purchase
+   - Builds on existing biofouling SaaS research
+
+3. **AI Agent API Marketplace** - Confidence: 6/10
+   - APIs that agents can find and pay for autonomously
+   - Stripe Agentic Commerce enables this
+   - Niche: marine data, Australian weather, local business info
+
+**Technical Trends:**
+- Gitpod → Ona rebrand (AI software engineers)
+- AI observability emerging as category
+- "Software conductor" role emerging
+- Nokia acquired RapidAPI (major player entering market)
+
+**Note:** Mac Mini cluster could host MCP gateway or micro-APIs for marine domain
 
 ### AI SaaS Market Gaps Research (Monday Rotation)
 
@@ -135,4 +164,4 @@
 - [[memory/product-ideas/biofouling-saas]] - Biofouling SaaS
 - [[memory/research/2026-02-22-weekly-review]] - Weekly research review
 
-*Last updated: 2026-02-22*
+*Last updated: 2026-02-24*

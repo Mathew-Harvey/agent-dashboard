@@ -116,3 +116,12 @@ Jeff now embodies both Coder and Hustler:
 - Franmarine team: CEO Adam Falconer-West, Ops Manager Sam Diamond, ROV Manager Marc Green
 - Goal: $20K Mac Mini fund via agent-driven revenue
 - Hardware: RTX 5080 16GB VRAM, 64GB RAM
+
+## The Bodyweight Gym (Revenue Stream)
+- Mat founded The Bodyweight Gym in Perth (2017-2021), a calisthenics studio
+- Now sells two digital products: Ring Muscle Up guide + tracker app ($19) and Handstand guide + tracker app ($19)
+- Both are 6-level structured programmes with graduation tests, video tutorials, and companion web apps
+- Mat learned both skills as an adult with no gymnastics background — the coaching is built from real experience including 12 months of tendonitis and 2+ years of trial and error
+- Marketing voice: direct Australian, no corporate fluff, no AI-isms. Be helpful and authentic. Sell by providing genuine value.
+- GitHub repos: MuscleUpApp-Api, MuscleUpApp-Web, HandstandApp-Api, HandstandApp-Web
+- Hosted on Render. Payments via Stripe.
