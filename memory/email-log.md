@@ -2,8 +2,4 @@
 
 ## 2026-02-25
 
-- Gmail: Microsoft Store - Surface devices promo
-- Gmail: GoDaddy - terms update
-- Gmail: Sea of Thieves - charity event
-- Gmail: GitHub - PR notification on bluejay repo
-- AgentMail: No new emails (last 2hrs)
+- 10:00 - Checked both inboxes. No urgent emails. Gmail: School newsletter (Compass), AliExpress, eBay, LinkedIn, ING terms update, CaseBuddy promo. AgentMail: No new unread.
