@@ -7,3 +7,9 @@
 - **Details**: `fatal: Could not read from remote repository. Host key verification failed.`
 - **Resolution**: Commit succeeded (35777a6), push failed. Local changes saved. Do NOT alert Mat - per AGENTS.md, only alert if persists 24+ hours.
 
+- **Time**: 17:43
+- **Error**: SSH host key verification failed
+- **Command**: git push origin master
+- **Details**: `fatal: Could not read from remote repository. Host key verification failed.`
+- **Resolution**: Commit succeeded (9a21993), push failed. Already logged. No action needed.
+
