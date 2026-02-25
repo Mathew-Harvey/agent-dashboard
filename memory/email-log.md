@@ -1,5 +1,9 @@
 # Email Log
 
-## 2026-02-24
+## 2026-02-25
 
-- 18:40 - Cron email check failed: agentmail Python library not installed, gog CLI not found. Tools unavailable.
+- Gmail: Microsoft Store - Surface devices promo
+- Gmail: GoDaddy - terms update
+- Gmail: Sea of Thieves - charity event
+- Gmail: GitHub - PR notification on bluejay repo
+- AgentMail: No new emails (last 2hrs)
