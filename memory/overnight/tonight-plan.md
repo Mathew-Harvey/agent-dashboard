@@ -1,40 +1,46 @@
-# Tonight Plan - February 23, 2026
+# Tonight Plan - February 25, 2026 (Wed)
 
 ## Priority Tasks for Overnight Sessions
 
 ### HIGH PRIORITY
 
-1. **Resolve Web Search Blocker**
-   - Tavily API key showing as invalid
-   - Need working web search for freelance research
-   - Alternative: Use browser tool with Chrome relay
+1. **Post Reddit Day 1 (or find alternate)**
+   - Day 1 muscle-up post drafted and ready
+   - Blocker: 403 Forbidden - try browser automation or wait for Mat to resolve
+   - Alternative: Post to X/Twitter instead
 
-2. **Start Maritime ClawHub Skill**
-   - First-mover opportunity (no maritime skills exist)
-   - Low effort, potential revenue
-   - Research: biofouling management, hull cleaning, compliance
+2. **Reddit Access Investigation**
+   - Network policy blocking Reddit (403)
+   - Try: browser with Chrome relay, or check if openclaw has Reddit access
+   - If no resolution: pivot to X/Twitter marketing
 
 3. **Automation Consulting Leads**
-   - LP is live, needs traffic/leads
-   - Could post to X, reach out to Mat's network
+   - LP is live: https://mathew-harvey.github.io/harvey-ai-automation/
+   - Needs traffic - could post to X, or cold outreach
+   - Low effort, high potential
 
 ### MEDIUM PRIORITY
 
-4. **Continue PetSwap User Validation**
-   - Already have MVP and X presence
-   - Need actual pet owners to sign up
+4. **Orgo Upwork Jobs**
+   - Access exists, not started
+   - Could apply to 2-3 jobs overnight
+   - Potential $500-5K/month
 
-5. **ClawPress vs MoltStack**
-   - Competitor is live, must accelerate or pivot
-   - Could focus on niche angle MoltStack can't match
+5. **Maritime ClawHub Skill**
+   - Research complete, first-mover opportunity
+   - Low effort to create skill
+   - Could generate $100-2K/month
 
-### BLOCKED (Needs Mat)
+### WHAT WE LEARNED TODAY
 
-- Task #19: Marine operator contacts for Vessel Tracker validation
-- Task #53: Web search access for freelance research
+- IMO biofouling regulations: 2027-2028 enforcement window (confirmed)
+- Singapore expansion: 130K vessels/year, high opportunity
+- Reddit muscle-up content: 1700-2500 upvote posts exist
+- Reddit blocked: 403 on direct access
+- Day 1 post drafted and ready to post
 
-### Notes
+### METRICS TO CHECK
 
-- Both in-progress tasks (#19, #53) started today - not stuck yet
-- Tavily key invalid needs investigation
-- Mac Mini cluster could run niche inference API (new insight from today)
+- Bodyweight Gym sales (if any from Reddit engagement)
+- Automation Consulting LP visits (if tracking added)
+- X engagement on PetSwap posts

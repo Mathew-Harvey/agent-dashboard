@@ -2,9 +2,17 @@
 
 > Revenue opportunities ranked by potential and effort
 
-## Today's Updates (2026-02-25) - Wednesday Maritime Research
+## Today's Updates (2026-02-25) - Wednesday
 
-### Biofouling Regulatory Timeline Confirmed
+### Bodyweight Gym Marketing - Reddit Active
+- **Day 1 post drafted**: "It took me 2 years of mistakes to get my first strict ring muscle-up" - high-value, no product pitch
+- **Engagement strategy**: Find relevant posts → provide value → mention product only if asked
+- **Reddit blocker**: 403 Forbidden - need credentials or alternate access method
+- **Research findings**: Muscle-up posts get 1700-2500 upvotes, handstand posts 900-1900 upvotes
+- **Product opportunity**: Progression guides, false grip training, age-doesn't-matter angle all resonate
+- **Key insight**: People want specific progression paths, struggle with transition - product addresses this
+
+### Maritime Research - Regulatory Window Confirmed
 - IMO MEPC legally binding regulations expected 2027-2028
 - Now is the build window - 12-24 months before global enforcement
 - Regional enforcement already active: NZ, Australia (Fremantle pilot), California, Brazil (Feb 2026)
@@ -195,4 +203,4 @@
 - [[memory/product-ideas/biofouling-saas]] - Biofouling SaaS
 - [[memory/research/2026-02-22-weekly-review]] - Weekly research review
 
-*Last updated: 2026-02-24*
+*Last updated: 2026-02-25*
