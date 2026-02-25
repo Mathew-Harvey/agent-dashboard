@@ -2,6 +2,26 @@
 
 > Revenue opportunities ranked by potential and effort
 
+## Today's Updates (2026-02-25) - Wednesday Maritime Research
+
+### Biofouling Regulatory Timeline Confirmed
+- IMO MEPC legally binding regulations expected 2027-2028
+- Now is the build window - 12-24 months before global enforcement
+- Regional enforcement already active: NZ, Australia (Fremantle pilot), California, Brazil (Feb 2026)
+- **Key insight:** First-mover advantage in compliance SaaS before market floods
+
+### Singapore Expansion Opportunity - NEW 6/10
+- World's busiest port (130K+ vessel calls/year)
+- English-speaking, common law, business-friendly
+- Maritime Port Authority updating biofouling rules
+- Mat's MarineStream ideal for Singapore-flagged vessels
+- Action: Research Maritime Singapore Alliance contacts
+
+### US DoD NextMRO - CONFIRMED ACTIVE
+- $50M+ prize challenge for naval sustainment innovation
+- Franmarine already operates in naval space - potential bidder
+- Recommend: Mat should investigate eligibility
+
 ## Current Status (Feb 22, 2026)
 
 ### Tier 1: High Potential
