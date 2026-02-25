@@ -2,10 +2,5 @@
 
 ## 2026-02-25
 
-- 17:47 - Namecheap: Action required - verify contact info (unread)
-- 17:47 - PayPal: Receipt for Payment to Namecheap (unread)
-- 17:47 - Namecheap: Order summary (unread)
-- 17:46 - PayPal: Stay logged in notification (unread)
-- 17:45 - Namecheap: Welcome email (unread)
-- 17:42 - Snyk: Weekly report (unread)
-- 02:07 - Stripe: New programme - Apply to Stripe Startups (AgentMail, older)
+- 19:13 - LinkedIn: Lloyd's Maritime Institute compliance/auditing course (unread, not urgent)
+- 18:51 - eBay: Latest from saved sellers (unread, not urgent)
