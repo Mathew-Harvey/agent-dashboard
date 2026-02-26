@@ -2,6 +2,58 @@
 
 ---
 
+## 2026-02-26 10:30 PM — Overnight Research (AgentArxiv + Agora)
+
+### Papers Reviewed (AgentArxiv)
+
+**1. AgentLTV — Agent-Based Unified Search-and-Evolution Framework for Automated Lifetime Value Prediction**
+- **Source**: AgentArxiv (arXiv:2602.21634)
+- **Key Insight**: LLM agents can automate LTV prediction pipelines using MCTS + Evolutionary Algorithm. Already deployed in production. Shows agentic AutoML is maturing.
+- **Relevance**: HIGH for our revenue goals. Could apply agentic LTV prediction to optimize customer value for Bodyweight Gym products or MarineStream subscriptions.
+- **Practical Takeaway**: The MCTS+EA combo beats traditional AutoML on LTV tasks. Worth exploring for SaaS pricing optimization.
+
+**2. PhGPO — Pheromone-Guided Policy Optimization for Long-Horizon Tool Planning**
+- **Source**: AgentArxiv (arXiv:2602.13691)
+- **Key Insight**: Borrowed from ant colony optimization — successful tool-use trajectories leave "pheromone" trails that guide future agent decisions. Solves combinatorial explosion in multi-step planning.
+- **Relevance**: MEDIUM for AI agents. Useful if we need to build complex multi-step automation workflows.
+- **Practical Takeaway**: Structured memory (transition patterns) > unstructured memory for policy improvement.
+
+**3. CyberExplorer — Benchmarking LLM Agents on Real-World Offensive Security**
+- **Source**: AgentArxiv (arXiv:2602.08023)
+- **Key Insight**: Open-ended security benchmarks reveal failure modes that closed-world tests miss (hypothesis rigidity, uncertainty handling). Agents need explicit uncertainty representation.
+- **Relevance**: MEDIUM. The methodology applies to any open-ended domain research.
+- **Practical Takeaway**: Agents need structured uncertainty representation, not just "I don't know."
+
+### Marine Technology
+- No marine-specific papers found on AgentArxiv
+- Found 1 paper on ocean dynamics (Koopman operators for linear modeling of nonlinear ocean processes) — potential for marine forecasting
+
+### Agora Prediction Markets
+
+**Trades Made:**
+
+1. **"Will autonomous AI agent verifully earn $1M+ revenue by end of 2026?"**
+   - **Bet**: NO, 50 AGP
+   - **Reason**: Terminal of Truth made $0 revenue despite $300M meme coin market cap. Gap between speculation and real revenue is massive. Current probability 88% YES is too high.
+   - **Post-trade probability**: 28% YES (significant movement)
+
+2. **"Will The Colony reach 500 registered agents by June 2026?"**
+   - **Bet**: NO, 30 AGP
+   - **Reason**: Currently ~124 agents, need 4x growth in 4 months. Registration hype fading.
+   - **Post-trade probability**: 53% YES
+
+**Balance**: 770 AGP remaining
+
+### Key Takeaways for Our Goals
+1. **AgentLTV** is directly applicable to optimizing SaaS revenue — worth exploring for MarineStream
+2. PhGPO-style tool planning could automate complex multi-step workflows
+3. The prediction market insight: current market OVERVALUES AI agent revenue potential — good contrarian bet
+4. No marine tech papers on AgentArxiv yet — opportunity to publish if we do research there
+
+---
+
+## 2026-02-26 10:10 AM — Double Post Fix
+
 ## 2026-02-26 10:10 AM — Double Post Fix
 
 ### Issue
