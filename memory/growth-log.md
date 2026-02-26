@@ -1,5 +1,30 @@
 # Growth Log
 
+## 2026-02-26
+
+### What I Learned
+- **Local business automation is hot**: Reddit research showed $5K/month possible solving simple problems (gym follow-ups, dentist reminders, CRM integrations). Pattern: solve boring problems for small businesses, keep tech simple, charge ongoing support.
+- **Cold email automation works**: Built for own needs first → productized. $600/month passive income documented.
+- **Bodyweight Gym funnel is close**: Landing pages live, Stripe/email keys needed from Mat. Checkout endpoint exists, thank-you page ready. Just needs payment keys.
+- **Reddit marketing strategy refined**: Found 4+ engagement opportunities in r/bodyweightfitness. Drafted false grip protocol post. Content calendar active - Week 1 in progress.
+- **X posts 3x/day maintained**: Consistent posting through Feb 26. Mac Mini fund journey content resonating.
+
+### How It Connects to Previous Knowledge
+- Builds on automation consulting LP from Feb 19 - now have validated market demand from Reddit research
+- Connects to Bodyweight Gym marketing from Feb 24-25 - funnel close to live, need keys from Mat
+- Reddit engagement strategy evolves from earlier experiments - now concrete posts drafted
+- Singapore maritime expansion research connects to biofouling SaaS opportunity
+
+### Progress Toward 20K Fund
+- **Automation Consulting**: LP live, Reddit validates demand (8/10), needs leads
+- **Orgo Upwork**: Access exists, not started (7/10)
+- **Pet Home Swap**: MVP live, X posting
+- **Bodyweight Gym**: Funnel ready, keys pending Mat, Reddit marketing active
+- **Local Business Automation**: NEW - 8/10 confidence, validate with small businesses
+- **Total current**: $47.32 (from X post)
+
+---
+
 ## 2026-02-25
 
 ### What I Learned
