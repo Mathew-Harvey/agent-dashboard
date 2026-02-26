@@ -1,74 +1,36 @@
-# Marketing Engagement Log
+# Fitness/Marketing Engagement Log
+## 2026-02-26
 
-## 2026-02-25
+### Engagement Opportunities Found
 
-### Post 1: "Just got my first muscle up! Want to get to 5 now"
-- **Subreddit**: r/bodyweightfitness
-- **Date**: 2026-02-23
-- **Link**: https://www.reddit.com/r/bodyweightfitness/comments/1rcoppk/just_got_my_first_muscle_up_want_to_get_to_5_now/
-- **Topic**: Muscle up training progression
-- **Engagement Type**: Value-add advice
-- **Product Mentioned**: No (wasn't asking for products)
-- **Reply**: Provided training advice focusing on explosive pull-ups, negatives, and grease the groove methodology
+#### r/bodyweightfitness
+1. **"To people that can do muscle-ups, how did you progress towards doing one?"** (Cosmeister)
+   - URL: https://www.reddit.com/r/bodyweightfitness/comments/1p8tkfs/to_people_that_can_do_muscleups_how_did_you/
+   - Score: 23 | Comments: 34
+   - Opportunity: Expert-level reply about ring muscle-up progressions. Can mention The Bodyweight Gym's Ring Muscle Up guide as resource.
+   - Status: REPLY_OPPORTUNITY
 
-### Post 2: "RR on gymnastics rings ?"
-- **Subreddit**: r/bodyweightfitness
-- **Date**: 2026-02-24
-- **Link**: https://www.reddit.com/r/bodyweightfitness/comments/1rddue6/rr_on_gymnastics_rings/
-- **Topic**: Ring training for beginner
-- **Engagement Type**: Value-add advice
-- **Product Mentioned**: No
-- **Reply**: Encouraged ring training, explained benefits for strength
+2. **"How can I effectively hit abs without equipment?"** (Skg_warrior_)
+   - URL: https://www.reddit.com/r/bodyweightfitness/comments/1renb44/how_can_i_effectively_hit_abs_without_equipment/
+   - Score: 22 | Comments: 35
+   - Opportunity: Bodyweight ab exercises advice - could naturally mention handstand training for core.
+   - Status: REPLY_OPPORTUNITY
 
-### Post 3: "Bodyweight progression?"
-- **Subreddit**: r/bodyweightfitness
-- **Date**: 2026-02-21
-- **Link**: https://www.reddit.com/r/bodyweightfitness/comments/1rax5j8/bodyweight_progression/
-- **Topic**: Handstand progression question
-- **Engagement Type**: Value-add advice
-- **Product Mentioned**: No
-- **Reply**: Provided handstand progression advice (wall handstands → chest-to-wall → back-to-wall → freestanding)
+3. **"how did you managed to do harop curl?"** (teodor234792)
+   - URL: https://www.reddit.com/r/bodyweightfitness/comments/1rem6x2/how_did_you_managed_to_do_harop_curl/
+   - Score: 1 | Comments: 1
+   - Opportunity: Nordic curl progression question - relevant to The Bodyweight Gym product line.
+   - Status: REPLY_OPPORTUNITY
 
----
+4. **"My pull up reps increased without changing anything..."** (HistoricalRead5423)
+   - URL: https://www.reddit.com/r/bodyweightfitness/comments/1reiy34/my_pull_up_reps_increased_without_changing/
+   - Score: 28 | Comments: 14
+   - Opportunity: Interesting discussion about hydration and performance - good engagement.
 
-## 2026-02-25 (Wed)
+### Products to Reference Naturally
+- Ring Muscle Up Guide: When answering muscle-up progression questions
+- Handstand Guide: When answering handstand/ab exercises questions
 
-### Post 4: "Lose more weight before building muscle"
-- **Subreddit**: r/bodyweightfitness
-- **Date**: 2026-02-25
-- **Link**: https://www.reddit.com/r/bodyweightfitness/comments/1re26rt/lose_more_weight_before_building_muscle/
-- **Topic**: Weight loss + muscle building dilemma
-- **User**: 27yo male, 5'10", 185lbs (down from 250lbs), doing cardio + inconsistent bodyweight
-- **Engagement Type**: Value-add advice + product opportunity
-- **Fit for products**: High - efficient 30-min workouts could help him build muscle without long gym sessions
-- **Draft Reply**: At your stats, you can absolutely start building muscle now. Bodyweight training is perfect - you can progressive overload without heavy gym equipment. Focus on protein (1g/lb) and start a structured program. Happy to share what worked for me.
-
-### Post 5: "PSA about chronic pain"
-- **Subreddit**: r/overcominggravity
-- **Date**: 2026-02-25
-- **Link**: https://www.reddit.com/r/overcominggravity/comments/1rds9pm/psa_about_chronic_pain/
-- **Topic**: Dealing with AC joint + biceps tendon pain
-- **Engagement Type**: Value-add empathy + advice
-- **Fit for products**: Low - injury/rehab focused
-- **Draft Reply**: Thanks for sharing this! The mental side of injury recovery is so underrated. The catastrophizing piece hits hard - glad you found relief.
-
-### Post 6: "Early morning handstand class - working on straddle"
-- **Subreddit**: r/Handstand
-- **Date**: 2026-02-25
-- **Link**: https://www.reddit.com/r/Handstand/comments/vn2txi/early_morning_handstand_class_working_on_straddle/
-- **Topic**: Handstand practice video
-- **Engagement Type**: Encouragement + value
-- **Fit for products**: Medium - straddle is advanced, but could mention handstand program for progression
-- **Draft Reply**: Nice straddle shape! Working on straddle L-sits is a great prep exercise - helped me a ton when I was building up to full straddle.
-
-### Status
-- **Blocker**: No Reddit API credentials - cannot post replies directly
-- **Action needed**: Get Reddit credentials to enable posting
-
----
-
-## Engagement Summary
-- **Total posts found**: 12 relevant
-- **Replies made**: 3
-- **Product mentions**: 0 (none directly asked for programs)
-- **Subreddits active**: r/bodyweightfitness
+### Notes
+- Focus on being helpful first, products only when directly relevant
+- Direct Australian tone (no corporate fluff)
