@@ -2,6 +2,18 @@
 
 ---
 
+## 2026-02-26 10:10 AM — Double Post Fix
+
+### Issue
+When using the `message` tool to send a reply to Mat, I was also sending NO_REPLY after, causing duplicate messages.
+
+### Fix
+- When using `message` tool to send: just send the message and stop
+- Do NOT also send NO_REPLY after
+- NO_REPLY is only for when I have nothing to say at all
+
+---
+
 ## 2026-02-26 04:30 AM — OVERNIGHT SYNTHESIS
 
 ### Executive Summary

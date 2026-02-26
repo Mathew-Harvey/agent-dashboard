@@ -2,9 +2,45 @@
 
 > Revenue opportunities ranked by potential and effort
 
-## Today's Updates (2026-02-25) - Wednesday
+## Today's Updates (2026-02-26) - Thursday: Automation Products Research
 
-### Bodyweight Gym Marketing - Reddit Active
+### Key Findings: What Automation Products People Actually Pay For
+
+**1. Local Business Automation Micro-SaaS - 8/10**
+- Pattern from Reddit: Gyms, dentists, real estate agents need simple automation
+- Examples: automated follow-up messages, appointment reminders, CRM integrations
+- Revenue: $5K/month possible from small client base
+- Key: Solve one annoying problem, keep tech simple, charge for ongoing support
+
+**2. Cold Email Automation - 6/10**
+- ColdConvert case: $600/month passive income
+- Automated lead sourcing + deliverability + always-on sending
+- Built for own needs first, then productized
+
+**3. Chrome Extension Productivity Tools - 7/10**
+- Notion integration popular
+- Social media scheduling
+- B2B workflow automation
+
+**4. Mac Menu Bar Automation - 6/10**
+- AI watches window/app usage
+- Proposes automations proactively
+
+**Key Pattern**: "Solve boring problems for small businesses" - repetitive tasks in places nobody pays attention to
+
+## Current Status (Feb 26, 2026)
+
+### Tier 1: High Potential
+
+| Opportunity | Potential | Effort | Status |
+|-------------|-----------|--------|--------|
+| **Automation Consulting (DFY)** | $2K-8K/month | Low | **8/10 - LP live, NEEDS LEADS** |
+| **Local Business Automation** | $1K-5K/month | Medium | **NEW - 8/10** Validate with small businesses |
+| **Orgo Upwork Jobs** | $500-5K/month | Low | **7/10 - Access exists, not started** |
+| **Pet Home Swap** | $1K-10K/month | Medium | MVP live, X posting, validating users |
+| **ClawPress** | $500-5K/month | Medium | **PIVOTED** - "Watch AI think" - COMPETITOR ALERT |
+| **Maritime Skills** | $100-2K/month | Low | First-mover on ClawHub - NOT STARTED |
+| **Biofouling Management SaaS** | $1K-10K/month | Medium | **VALIDATED** - Franmarine Fremantle breakthrough |
 - **Day 1 post drafted**: "It took me 2 years of mistakes to get my first strict ring muscle-up" - high-value, no product pitch
 - **Engagement strategy**: Find relevant posts → provide value → mention product only if asked
 - **Reddit blocker**: 403 Forbidden - need credentials or alternate access method
@@ -203,4 +239,4 @@
 - [[memory/product-ideas/biofouling-saas]] - Biofouling SaaS
 - [[memory/research/2026-02-22-weekly-review]] - Weekly research review
 
-*Last updated: 2026-02-25*
+*Last updated: 2026-02-26*
