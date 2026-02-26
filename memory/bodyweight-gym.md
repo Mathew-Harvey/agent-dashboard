@@ -18,6 +18,12 @@
   - Landing: https://handstand-landingpage.onrender.com
   - Tracker: https://handstand-web.onrender.com
 
+## Free Content Site (Traffic Source)
+- **URL**: https://thebodyweightgym.org
+- **Purpose**: Free training videos → drives traffic to paid products
+- **Status**: Needs to be updated/servingg: https://handstand-landingpage.onrender.com
+  - Tracker: https://handstand-web.onrender.com
+
 ## Technical Stack
 - 4 GitHub repos under Mathew-Harvey
 - API + Web frontend architecture (separate repos per product)
