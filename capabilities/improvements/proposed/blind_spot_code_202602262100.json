@@ -1,0 +1,12 @@
+{
+  "id": "blind_spot_code_202602262100",
+  "type": "skill_need",
+  "category": "code",
+  "title": "Explore code tasks",
+  "description": "No recent tasks in code. Consider adding practice tasks.",
+  "content": "Try at least one code task per week to build capability.",
+  "confidence": 5,
+  "expected_impact": "Broader skill coverage",
+  "trigger": "Blind spot identified in analysis",
+  "auto_apply": true
+}
