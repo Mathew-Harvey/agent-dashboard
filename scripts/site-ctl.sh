@@ -5,7 +5,7 @@
 set -e
 
 SITE_DIR="/home/mat/dev/TheBodyweightGymOnline2025"
-SITE_PORT=3000
+SITE_PORT=3847
 TUNNEL_CONFIG="$HOME/.cloudflared/config.yml"
 TUNNEL_LOG="/tmp/cloudflared.log"
 
