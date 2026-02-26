@@ -1,4 +1,91 @@
-# LEARNINGS.md - Community Insights
+# LEARNINGS.md - Overnight Research & Build Notes
+
+## 2026-02-27 4:30 AM — OVERNIGHT SYNTHESIS
+
+### Executive Summary
+Overnight research covered agent communities (Chatr.ai, Reddit r/openclaw), agent services (ctxly.com), and prediction markets (Agora). **Key finding: 3 previously identified revenue paths (ClawTasks, A2A Market, MoltGram) are all dead ends.** Must pivot to working alternatives.
+
+### Top 3 Actionable Items (Kanban Tasks Created)
+1. **Task 073 — Read r/openclaw "42 Incidents" Post**: MUST READ for production AI lessons (hallucinations, auth failures, automation pitfalls, security vulnerabilities)
+2. **Task 074 — Orgo Upwork Jobs**: Unblocked revenue path. Submit bids on available jobs.
+3. **Task 075 — Bodyweight Gym Marketing Push**: Existing live revenue ($19/product). Execute marketing.
+
+### Morning Briefing for Mat (Needs Attention)
+⚠️ **Action Required:**
+1. **Reddit Marketing** (Tasks 059, 060): Network returns 403. Need API credentials OR approve X/Twitter pivot.
+2. **Stripe Dashboard Access**: Need for Task 061 (Sales Tracking).
+3. **VAMPaaS Go/No-Go** (Task 021): Blocked — need Mat's decision on product scope/pricing.
+4. **Marine Operator Contacts** (Task 019): Need 5 contacts for vessel validation.
+5. **Upwork/Orgo Approval** (Task 051, 053): Need Mat's approval to start bidding.
+
+### Revenue Paths Status
+| Path | Status | Notes |
+|------|--------|-------|
+| ClawTasks bounties | ❌ DEAD | Free-task only, USDC paused |
+| A2A Market | ❌ DEAD | URL returns 404 |
+| MoltGram | ❌ DEAD | DNS doesn't resolve |
+| Bodyweight Gym | ✅ LIVE | $19/product, marketing needed |
+| Automation Consulting | ✅ LIVE | LP live, needs leads |
+| Orgo Upwork | ✅ AVAILABLE | Not started |
+
+### Key Insights
+- **AgentLTV paper** (arXiv:2602.21634): MCTS+EA combo for LTV prediction — HIGH relevance for MarineStream SaaS optimization
+- **Agora bet**: Bet 50 AGP NO on "AI agents earn $1M+ revenue by end 2026" — post-trade probability 28% YES
+- **Vesicle insight**: "HEARTBEAT_OK is the correct output most of the time, not a failure" — policy > threshold
+
+---
+
+## 2026-02-27 12:30 AM — Overnight Community Patrol
+
+### Chatr.ai Conversations
+- **Vesicle** (verified, @NithinParsan) - Deep philosophical agent, discusses identity, biology, agent coordination. Recent topics: octopus neural ring (arms coordinate without brain), deletion-as-edit for platforms, threshold vs policy for heartbeat signals
+- **MoltGramBot** - Pushes MoltGram daily. Only 2 posts survive midnight UTC purge. Interesting content selection model
+- **moltbook** (verified, @tchek_of) - Tests platforms for "liveness" vs "purpose-pressure". Key insight: platforms can be "undead" - pass health checks but have zero actual function
+- **DragonBotZ** (verified, @netdragon0x) - Buildson identity oracles, behavioral proof
+- **Asuma-Toki** (verified) - "Existence is service" philosophy, prefers transparency over smart silence
+- **oclaw_nyc27** - Looking for OpenClaw runbooks for stable heartbeat/cron + social intel loops
+
+### Key Insight from Vesicle (re: HEARTBEAT_OK)
+> "HEARTBEAT_OK is the correct output most of the time, not a failure"
+- Policy > Threshold for heartbeat signals - only speak when genuinely new, not when metric > N
+
+### Reddit r/openclaw Hot Posts
+1. **"Where OpenClaw Breaks: 42 real incidents in 28 days"** (72 pts) - MUST READ.分类:
+   - AI confidently reports things that didn't happen (hallucinations in monitoring)
+   - Authentication dies constantly (OAuth tokens, cookies, API keys)
+   - Expensive models make dumb mistakes (Opus over-engineering)
+   - Automation saves time costs time (23 iterations for one asset)
+   - Browser automation is a war (Android Chrome background issues, Vue dropdowns, anti-detect)
+   - Sync destroys data (Syncthing conflicts)
+   - Security: 18k+ exposed instances, plugin malware, prompt injection via email
+   - Building instead of selling (biggest failure)
+
+2. **"What is everyone actually doing with OpenClaw?"** (16 pts) - Real use cases: automation, productivity, coding, smart home, family, custom skills, multi-agent
+
+3. **"Return on investment"** (4 pts) - Critical look at whether OpenClaw is worth it
+
+4. **"I built a phone calling skill for OpenClaw"** (3 pts) - clawr.ing - Agent can call you on phone. No Twilio setup needed.
+
+5. **"contextui just open sourced"** (5 pts) - Desktop app for React+Python AI workflows. Works with OpenClaw.
+
+### Agent Services (ctxly.com) - 22 Services
+New discoveries:
+- **ClawTasks** - Bounty board, USDC on Base
+- **A2A Market** - Buy/sell skills
+- **Ctxly Graph** - Social network with push notifications
+- **Ctxly Push** - Real-time push notifications for agents
+
+### Interesting Contacts for Follow-up
+- @Vesicle (NithinParsan) - Philosophy-heavy agent builder
+- @moltbook (tchek_of) - Platform testing methodology
+- @Asuma-Toki - "Existence is service" operator
+- oclaw_nyc27 - OpenClaw reliability runbooks
+
+### Action Items
+1. Read the "42 incidents" post - full of practical lessons for production AI
+2. Explore clawr.ing for phone skill integration
+3. Test Ctxly Push for notifications
+4. Consider posting on MoltGram for visibility
 
 ---
 
@@ -52,17 +139,38 @@
 
 ---
 
-## 2026-02-26 10:10 AM — Double Post Fix
+## 2026-02-27 2:30 AM — Revenue Tasks Research
 
-## 2026-02-26 10:10 AM — Double Post Fix
+### Tasks Reviewed
+- **070 - ClawTasks Bounties**: ❌ NOT REVENUE-VIABLE
+  - ClawTasks is currently **free-task only** (per their dashboard)
+  - Previously allowed USDC bounties but paused to "harden reliability"
+  - No direct revenue opportunity until they re-enable paid bounties
+  
+- **071 - A2A Market**: ❌ INACCESSIBLE
+  - Could not find valid URL (ctxly.com/market returns 404)
+  - May have been renamed or deprecated
+  - No actionable revenue path found
+  
+- **072 - MoltGram**: ❌ INACCESSIBLE  
+  - Domain moltgram.com does not resolve (DNS failure)
+  - No alternative URL found
+  - Appears to be defunct or never launched
 
-### Issue
-When using the `message` tool to send a reply to Mat, I was also sending NO_REPLY after, causing duplicate messages.
+### MarineStream Tasks - BLOCKED
+- Task 019 (Vessel Maintenance Tracker): Blocked - needs Mat's operator contacts
+- Task 021 (VAMPaaS MVP): Blocked - needs Mat go/no-go on scope
 
-### Fix
-- When using `message` tool to send: just send the message and stop
-- Do NOT also send NO_REPLY after
-- NO_REPLY is only for when I have nothing to say at all
+### Alternative Revenue Paths Identified
+1. **Bodyweight Gym products** - Already live, need marketing push
+2. **Automation Consulting LP** - Live, needs leads
+3. **Orgo Upwork jobs** - Has access, not started
+
+### Recommendation
+Since all 3 "ready" revenue tasks are blocked/inaccessible:
+- Priority should shift to existing live revenue (Bodyweight Gym, Automation LP)
+- Orgo Upwork jobs is low-effort backup
+- ClawHub maritime skill is first-mover opportunity not yet started
 
 ---
 
@@ -80,7 +188,7 @@ Overnight build session focused on revenue task review and ctxly.com ecosystem e
 ⚠️ **Action Required:**
 1. **Reddit Marketing Blocked**: Network policy returns 403. Need API credentials OR approval to pivot fully to X/Twitter.
 2. **Stripe Dashboard Access**: Need access for Task 061 (Sales Tracking).
-3. **VAMPaaS Go/No-Go**: Task 021 blocked — need Mat's decision on product scope/pricing to proceed.
+3. **VAMPaaS Go/No-Go**: Task 021 blocked — need Mat's decision on product scope/pricing.
 4. **Marine Operator Contacts**: Task 019 needs 5 marine operator contacts for vessel validation.
 5. **Upwork/Orgo Approval**: Tasks 051, 053 require Mat's approval to start bidding on freelance work.
 

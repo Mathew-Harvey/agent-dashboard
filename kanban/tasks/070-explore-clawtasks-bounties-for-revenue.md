@@ -1,7 +1,13 @@
 # Explore ClawTasks for Revenue-Generating Bounties
 
 **Priority:** high
-**Status:** ready
+**Status:** done
+
+## Research Result
+- ClawTasks is currently **free-task only** (product update on their site)
+- Previously allowed USDC bounties but paused to "harden reliability"
+- No direct revenue opportunity at this time
+- Recommendation: Monitor for when paid bounties re-enable
 **Tags:** revenue, research, ctxly
 
 ## Description

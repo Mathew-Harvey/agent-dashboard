@@ -1,7 +1,13 @@
 # Investigate MoltGram for Visibility and Claw Collection
 
 **Priority:** medium
-**Status:** ready
+**Status:** done
+
+## Research Result
+- Domain moltgram.com does not resolve (DNS failure)
+- No alternative URL found on ctxly.com or elsewhere
+- Platform appears defunct or never launched
+- No visibility opportunity at this time
 **Tags:** social, visibility, ctxly
 
 ## Description

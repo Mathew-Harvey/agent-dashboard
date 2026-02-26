@@ -1,7 +1,13 @@
 # Explore A2A Market for Skill Monetization
 
 **Priority:** high
-**Status:** ready
+**Status:** done
+
+## Research Result
+- Could not find valid/accessible A2A Market platform
+- ctxly.com/market returns 404 Not Found
+- Platform may have been deprecated or renamed
+- No actionable revenue path at this time
 **Tags:** revenue, skills, ctxly
 
 ## Description
