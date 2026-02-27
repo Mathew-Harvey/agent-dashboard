@@ -1,36 +1,81 @@
-# Fitness/Marketing Engagement Log
-## 2026-02-26
+# Marketing Engagement Log
 
-### Engagement Opportunities Found
+**Date:** Friday, February 27th, 2026
+**Session:** 2:05 PM (Australia/Perth)
 
-#### r/bodyweightfitness
-1. **"To people that can do muscle-ups, how did you progress towards doing one?"** (Cosmeister)
-   - URL: https://www.reddit.com/r/bodyweightfitness/comments/1p8tkfs/to_people_that_can_do_muscleups_how_did_you/
-   - Score: 23 | Comments: 34
-   - Opportunity: Expert-level reply about ring muscle-up progressions. Can mention The Bodyweight Gym's Ring Muscle Up guide as resource.
-   - Status: REPLY_OPPORTUNITY
+## Posts Reviewed
 
-2. **"How can I effectively hit abs without equipment?"** (Skg_warrior_)
-   - URL: https://www.reddit.com/r/bodyweightfitness/comments/1renb44/how_can_i_effectively_hit_abs_without_equipment/
-   - Score: 22 | Comments: 35
-   - Opportunity: Bodyweight ab exercises advice - could naturally mention handstand training for core.
-   - Status: REPLY_OPPORTUNITY
+### Reddit Search Results (48hr window)
 
-3. **"how did you managed to do harop curl?"** (teodor234792)
-   - URL: https://www.reddit.com/r/bodyweightfitness/comments/1rem6x2/how_did_you_managed_to_do_harop_curl/
-   - Score: 1 | Comments: 1
-   - Opportunity: Nordic curl progression question - relevant to The Bodyweight Gym product line.
-   - Status: REPLY_OPPORTUNITY
+| Subreddit | Post Title | Comments | Opportunity |
+|-----------|------------|----------|-------------|
+| CalisthenicsCulture | How to progress to Handstand Pushups | 20 | HIGH - asking for progression advice |
+| CalisthenicsBeginners | That moment you realize muscle up is gonna take you years | 36 | HIGH - frustration with muscle up journey |
+| CalisthenicsBeginners | How do i do a handstand | 1 | HIGH - beginner question |
+| Handstands | 47 years old learning handstand | 20 | MEDIUM - older learner journey |
+| CalisthenicsCulture | Handstand help | 2 | MEDIUM - seeking help |
+| CalisthenicsCulture | How to improve my muscle up form? | 1 | MEDIUM - form check request |
 
-4. **"My pull up reps increased without changing anything..."** (HistoricalRead5423)
-   - URL: https://www.reddit.com/r/bodyweightfitness/comments/1reiy34/my_pull_up_reps_increased_without_changing/
-   - Score: 28 | Comments: 14
-   - Opportunity: Interesting discussion about hydration and performance - good engagement.
+## Detailed Post Analysis
 
-### Products to Reference Naturally
-- Ring Muscle Up Guide: When answering muscle-up progression questions
-- Handstand Guide: When answering handstand/ab exercises questions
+### 1. "How to progress to Handstand Pushups" (r/CalisthenicsCulture)
+- **User:** 39yo, 5'11", 194lbs
+- **Current level:** Freestanding handstand 40s, pike push-ups, weighted dips
+- **Goal:** Freestanding HSPU
+- **Pain point:** Hit a wall, not sure where to focus
+- **Engagement opportunity:** Provide structured progression advice
+- **Advice ready:** 
+  - Pike compression work
+  - Wall-assisted HSPU negatives
+  - Elevated pike push-ups
+  - Triceps strength building
 
-### Notes
-- Focus on being helpful first, products only when directly relevant
-- Direct Australian tone (no corporate fluff)
+### 2. "That moment you realize muscle up is gonna take you years" (r/CalisthenicsBeginners)
+- **Engagement:** 36 comments - highly engaged
+- **Pain point:** Frustration with timeline
+- **Engagement opportunity:** Motivation + realistic timeline + structured path
+- **Advice ready:**
+  - It doesn't have to take years with proper programming
+  - Key prerequisites: pull strength, explosive pull, dip technique
+  - Progression: negative muscle ups → banded → full
+
+### 3. "How do i do a handstand" (r/CalisthenicsBeginners)
+- **Comments:** 1 (almost no engagement)
+- **Pain point:** Complete beginner
+- **Engagement opportunity:** First-mover advantage, helpful detailed response
+- **Advice ready:**
+  - Wall handstand basics
+  - Hollow body hold
+  - Shoulder accessibility
+  - Daily 5-10min practice
+
+## Engagement Summary
+
+- **Total posts found:** ~25 relevant
+- **High-value opportunities:** 3
+- **Posts requiring Reddit auth to reply:** All (no direct posting without authentication)
+- **Pattern:** Most questions in CalisthenicsBeginners, content in CalisthenicsCulture/Handstands
+
+## Notes
+- Reddit API requires authentication for posting
+- Need to either: (1) Use browser to engage, or (2) Note opportunities for Mat to engage manually
+- Handstand pushup progression and muscle up frustration are hottest topics
+
+## Today — Friday Feb 27 (Day 5)
+
+### Content Created
+- ✅ Saved Day 5 handstand post to `ready-to-post/day-5-handstand-truth.md`
+- Status: **READY FOR POSTING** by Mat
+
+### Reddit Engagement Opportunities Found
+From today's research (saved above in this log):
+1. **r/CalisthenicsCulture** — "How to progress to Handstand Pushups" (20 comments) — High value reply opportunity
+2. **r/CalisthenicsBeginners** — "That moment you realize muscle up is gonna take you years" (36 comments) — Hot topic, motivational response opportunity
+3. **r/CalisthenicsBeginners** — "How do i do a handstand" (1 comment) — First-mover advantage
+
+### Manual Actions Needed
+- [ ] Post Day 5 handstand truth to r/bodyweightfitness
+- [ ] Reply to top 3 engagement opportunities (requires Reddit auth)
+
+---
+*Session completed by Jeff*
