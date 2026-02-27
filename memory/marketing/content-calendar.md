@@ -1,7 +1,7 @@
 # Bodyweight Gym — Content Calendar
 
 ## Week 1
-- Day 1: Reddit value post (r/bodyweightfitness) — muscle-up mistakes story ✅ (2026-02-24)
+- Day 1: Reddit value post (r/bodyweightfitness) — muscle-up mistakes story 📋 READY (2026-02-24)
 - Day 2: Image generation (muscle-up progression infographic) + research ✅ (2026-02-25)
 - Day 3: Reddit training tip (r/calisthenics) — false grip protocol ⏳ DRAFTED (2026-02-26)
 - Day 4: Comment engagement (5-10 replies)
