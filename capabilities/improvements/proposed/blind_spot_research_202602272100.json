@@ -1,0 +1,12 @@
+{
+  "id": "blind_spot_research_202602272100",
+  "type": "skill_need",
+  "category": "research",
+  "title": "Explore research tasks",
+  "description": "No recent tasks in research. Consider adding practice tasks.",
+  "content": "Try at least one research task per week to build capability.",
+  "confidence": 5,
+  "expected_impact": "Broader skill coverage",
+  "trigger": "Blind spot identified in analysis",
+  "auto_apply": true
+}
