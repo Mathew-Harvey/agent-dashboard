@@ -277,4 +277,4 @@
 - [[memory/product-ideas/biofouling-saas]] - Biofouling SaaS
 - [[memory/research/2026-02-22-weekly-review]] - Weekly research review
 
-*Last updated: 2026-02-26*
+*Last updated: 2026-02-27*
