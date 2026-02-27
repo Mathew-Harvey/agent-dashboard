@@ -1,42 +1,34 @@
-# Overnight Session Plan — 2026-02-24 Evening
+# Overnight Sessions Plan
 
-## Priority Tasks for Overnight Sessions
-
-### 1. Bodyweight Gym Content Calendar (CONTINUE)
-- Day 2: Image generation for muscle-up progression
-- Day 3: Reddit post on false grip protocol
-- Status: Week 1 just started
-
-### 2. Automation Consulting Lead Gen (HIGH)
-- Post to relevant subreddits/forums
-- Target: Small business owners, solopreneurs
-- Need: First lead conversion
-
-### 3. Orgo Upwork Jobs (MEDIUM)
-- Set up profile/applications using Orgo
-- Target: Computer use, browser automation jobs
-- Access exists - just need to start
-
-### 4. Maritime ClawHub Skills (MEDIUM)
-- Create first maritime skill for ClawHub
-- Low effort, first-mover advantage
-- Connects to Mac Mini hosting
-
-### 5. Research Fixes
-- Fix Tavily API for freelance research
-- Continue competitor monitoring (MoltStack)
+**Date**: Friday, February 27th, 2026 (evening)
+**Priority**: Keep Mac Mini fund momentum going
 
 ---
 
-## Session Rotation
+## Priority 1: Awaiting Mat Action
 
-| Time | Focus |
-|------|-------|
-| Night 1 | Bodyweight Gym content (Day 2) |
-| Night 2 | Upwork/Orgo applications |
-| Night 3 | Maritime skill creation |
-| Night 4 | Review & iterate |
+- [ ] **Reddit posting**: Day 5 handstand post ready, needs Mat's Reddit auth to post
+- [ ] **Reddit replies**: 3+ engagement opportunities identified, needs auth
+- [ ] **Marine biology answer**: Turtle/barnacle question - Mat is the expert, needs auth
 
 ---
 
-*Created: 2026-02-24 (Evening Synthesis)*
+## Priority 2: Jeff Can Do Overnight
+
+1. **Continue Reddit research**: Scan for more engagement opportunities (handstand, muscle-up questions)
+2. **X/Twitter engagement**: Check performance of recent posts, engage with replies
+3. **Draft Day 6+ content**: Prepare more posts for when posting access is available
+4. **Check Stripe status**: Follow up on Bodyweight Gym payment keys from Mat
+
+---
+
+## Focus for Next 24h
+
+1. **Get Reddit auth resolved** - biggest blocker to Bodyweight Gym marketing
+2. **Post Day 5 handstand truth** - highest-ROI immediate action
+3. **Answer marine biology question** - unique expert positioning opportunity
+4. **Track X metrics** - see if any posts driving traffic/signups
+
+---
+
+*Plan created: 2026-02-27 evening synthesis*

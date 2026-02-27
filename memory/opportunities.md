@@ -2,6 +2,43 @@
 
 > Revenue opportunities ranked by potential and effort
 
+## Today's Updates (2026-02-27) - Friday: Reddit Marketing & Engagement Research
+
+### Key Findings: Bodyweight Gym Reddit Strategy
+
+**Content Calendar Status**: Week 1 ACTIVE
+- Day 1: Muscle-up mistakes post (ready)
+- Day 2: Image gen + research (done)
+- Day 3: False grip protocol (drafted)
+- Day 4: Comment engagement
+- **Day 5: Handstand truth post READY TO POST**
+
+**Day 5 Post Details**:
+- Platform: r/bodyweightfitness
+- Title: "The unsexy truth about learning a freestanding handstand as an adult"
+- Body: Wrist conditioning foundation, 48-week realistic timeline, links product at end
+- Status: ✅ READY FOR POSTING
+
+**Reddit Engagement Opportunities Found** (require Reddit auth):
+1. r/CalisthenicsCulture - "How to progress to Handstand Pushups" (20 comments) - HIGH VALUE
+2. r/CalisthenicsBeginners - "That moment you realize muscle up is gonna take you years" (36 comments) - HOT
+3. r/CalisthenicsBeginners - "How do i do a handstand" (1 comment) - First-mover advantage
+
+**Subreddit Performance Insights**:
+- r/CalisthenicsBeginners: HIGH engagement, how-to questions
+- r/CalisthenicsCulture: MEDIUM-HIGH, progress videos
+- r/Handstands: MEDIUM, form checks
+- Best times: Evening US time for beginners, weekends for culture
+
+### Marine Biology Reddit Opportunity - GOLD
+- Post: "Is there a correlation between sea turtle size and having barnacles?"
+- Context: School stats project, 2 comments
+- **Why it matters**: Mat literally works in biofouling management for RAN + commercial vessels
+- Opportunity: Expert answer from professional experience - almost no competition
+- Status: HIGH_VALUE_REPLY_OPPORTUNITY
+
+---
+
 ## Today's Updates (2026-02-27) - Friday: ClawHub Skills Ecosystem Research
 
 ### Key Findings: ClawHub Skills Marketplace Analysis
