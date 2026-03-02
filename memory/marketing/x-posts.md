@@ -1,9 +1,9 @@
 # X Marketing Posts - The Bodyweight Gym
 
 ## 2026-03-02 (Monday) - Handstand
-**Angle:** Pain Point (AD 2) - Still falling out of your handstand?
-**Tweet:** "Still falling out of your handstand? Wrists ache every session? You don't need another tutorial — you need a structured programme. 19 AUD, lifetime access. handstand-landingpage.onrender.com #handstand #calisthenics #thebodyweightgym"
-**Tweet ID:** 2028161069617946870
+**Angle:** Authority/Story (AD 3) - Zero gymnastics background, learned as adult
+**Tweet:** "I had zero gymnastics background. I learned handstands as a 30-year-old from scratch. This 6-level programme has everything that works — distilled from years of coaching. 19 AUD, lifetime access. handstand-landingpage.onrender.com #handstand #calisthenics #thebodyweightgym"
+**Tweet ID:** 2028251564964712900
 **Status:** Posted ✅
 
 ## 2026-03-01 (Sunday) - Ring Muscle Up
