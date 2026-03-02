@@ -74,4 +74,18 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
   - Docs: https://docs.tavily.com
   - Use for: AI-optimized web research
 
+## Home Server
+
+- **The Bodyweight Gym** (thebodyweightgym.org)
+  - Runs on Mat's home server, NOT Render/Cloudflare
+  - Repo: /home/mat/dev/TheBodyweightGymOnline2025 (GitHub: Mathew-Harvey/TheBodyweightGymOnline2025)
+  - To deploy changes:
+    ```bash
+    ssh to home server
+    cd ~/TheBodyweightGymOnline2025
+    git pull
+    pm2 restart bodyweight-gym
+    ```
+  - Or just: `pm2 restart bodyweight-gym` if already in the directory
+
 Add whatever helps you do your job. This is your cheat sheet.
