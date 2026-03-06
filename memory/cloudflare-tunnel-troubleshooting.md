@@ -105,7 +105,18 @@ The .env file has Cloudflare API tokens but they're likely invalidated. To updat
 7. **Root cause of main domain failure**: A/AAAA records exist for @ that conflict with CNAME
 8. These A/AAAA records MUST be deleted in Cloudflare Dashboard - cannot be done via API without valid token
 
-## Working Tunnels (March 6, 2026)
+## Current Working Solution (March 6, 2026)
+
+### Option 1: Use Working Subdomains NOW
+These work immediately without DNS changes:
+- https://gym.thebodyweightgym.org → routes to muscleup-landing.onrender.com
+- https://muscleup-landing.onrender.com → direct Render URL
+- https://handstand-landingpage.onrender.com → direct Render URL
+
+### Option 2: Fix Naked Domain (REQUIRES MANUAL DNS DELETE)
+1. Go to Cloudflare Dashboard → DNS
+2. DELETE any A or AAAA record with Name = "@" 
+3. Site works immediately
 
 | Tunnel Name | Tunnel ID | Status | CNAMEs |
 |-------------|-----------|--------|--------|
