@@ -1,5 +1,12 @@
 # X Marketing Posts - The Bodyweight Gym
 
+## 2026-03-06 (Friday) - Handstand
+**Angle:** Hero/Aspiration (AD 01) - Your first 60-second freestanding handstand
+**Tweet:** "Your first 60-second freestanding handstand starts here. 6-level structured programme: zero to 60-second hold. 12+ video tutorials, tracker app, wrist conditioning. 19 AUD, lifetime access. handstand-landingpage.onrender.com #handstand #freestandinghandstand #calisthenics #thebodyweightgym"
+**Tweet ID:** 2029853791399575622
+**Image:** Attempted ad01_hero_feed.jpg (Media ID: 2029853903890829314) - media processing issue, posted text-only
+**Status:** Posted (text-only) ✅
+
 ## 2026-03-06 (Friday) - Ring Muscle Up
 **Angle:** Levels (AD 03) - 6 Progressive Levels
 **Tweet:** "6 Progressive Levels to Ring Muscle Up: Ring Hang → Ring Rows → False Grip → Negatives → First MU → Conditioning. Each level has graduation tests. 9 AUD, lifetime access. muscleup-landing.onrender.com #muscleup #ringmuscleup #calisthenics #thebodyweightgym"
