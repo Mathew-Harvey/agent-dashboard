@@ -5,10 +5,10 @@
 set -e
 
 CLOUDFARED="/home/linuxbrew/.linuxbrew/bin/cloudflared"
-CONFIG="/home/mat/.cloudflared/config-fresh.yml"
-LOGFILE="/tmp/cloudflared-fresh.log"
-TUNNEL_NAME="tbg-fresh-1772791244"
-TUNNEL_ID="ed08fe2a-8e1c-4006-98eb-d57798643f63"
+CONFIG="/home/mat/.cloudflared/config-v4.yml"
+LOGFILE="/tmp/cloudflared-v4.log"
+TUNNEL_NAME="tbg-v4"
+TUNNEL_ID="2f79048e-fdc6-4564-8aa5-5249a3587ebc"
 DOMAIN="thebodyweightgym.org"
 
 # Colors
