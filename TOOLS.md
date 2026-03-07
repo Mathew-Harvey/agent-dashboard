@@ -74,10 +74,11 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
   - Docs: https://docs.tavily.com
   - Use for: AI-optimized web research
 
-## Home Server
+## The Bodyweight Gym
 
-- **The Bodyweight Gym** (thebodyweightgym.org)
-  - Runs on Mat's home server, NOT Render/Cloudflare
+- **Skill**: `~/.openclaw/skills/tbg-management/SKILL.md`
+- **Site**: https://thebodyweightgym.org
+- **Runs on**: Mat's local machine (MatMiniDel) via Docker + Cloudflare Tunnel
   - Repo: /home/mat/dev/TheBodyweightGymOnline2025 (GitHub: Mathew-Harvey/TheBodyweightGymOnline2025)
   - To deploy changes:
     ```bash
