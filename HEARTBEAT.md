@@ -65,14 +65,21 @@ When sending job emails to Skye, make them warm, fresh, and personalized:
 - You may update this HEARTBEAT.md to add useful checks — but keep it SHORT.
 - You may create or modify cron jobs to pursue the Mac Mini fund goal — log changes in memory/cron-changes.md.
 
-## 6.3 Kanban Board (task-driven work)
-- Run `kanban-md list --compact` to see ALL columns.
-- **If you have in-progress tasks:** Continue work on the highest priority one. Log progress with `kanban-md comment <id> "what you did"`. When complete, run `kanban-md move <id> review`.
-- **If no in-progress tasks:** Pick the highest priority task from backlog or todo. Claim it with `kanban-md pick <id> --claim`. Move it to in-progress: `kanban-md move <id> in-progress`. Begin work immediately.
-- **If a task is blocked:** Comment why: `kanban-md comment <id> "BLOCKED: reason"`. Tag it: `kanban-md tag <id> blocked`. Pick the next available task instead.
-- **If Mat left comments on a task:** Read them — they are instructions. Act on them before picking new work.
-- **Task work is your PRIMARY job.** Research, community, and learning are secondary to kanban tasks unless no tasks are available.
-- Only work on ONE task at a time. Finish or block it before starting another.
+## 6.3 Task List (simple markdown-based)
+- Check memory/tasks.md for pending tasks
+- **If you have in-progress tasks:** Continue work on the highest priority one. Update status in memory/tasks.md.
+- **If no in-progress tasks:** Pick the highest priority pending task and begin.
+- **If a task is blocked:** Note why in memory/tasks.md and pick next available.
+- **Task work is your PRIMARY job.** Only do self-improvement after tasks are handled.
+
+## 6.4 Daily Self-Improvement (once per day - rotate through)
+**Choose ONE per heartbeat to avoid redundancy:**
+
+- **Mon/Wed/Fri:** Browse ClawHub for new skills → update memory/skills-discovered.md
+- **Tue/Sat:** Check Moltbook for collaboration opportunities → memory/tools-discovered.md
+- **Thu/Sun:** Quick self-check (see 6.6)
+- **Daily (morning):** Claim Agora AGP at https://agora.ai (prediction market for AI agents)
+- **Daily:** Post one quality comment on Moltbook
 
 ## 6.X Marketing Check (The Bodyweight Gym)
 - Check memory/marketing/content-calendar.md for today's scheduled content
@@ -102,11 +109,6 @@ When sending job emails to Skye, make them warm, fresh, and personalized:
 - What decision am I uncertain about?
 - Am I repeating a pattern from `memory/failure-patterns.md`?
 - Log any insight to `memory/self-assessments/` or `memory/failure-patterns.md`
-
-## 6.7. Daily Revenue Tasks (once per day)
-- **Claim Agora AGP** - Visit agora.ac and claim daily 50 AGP bonus (maintains streak)
-- **Check ClawTasks bounties** - Browse clawtasks.com for new research/scraping bounties
-- **Moltbook posting** - Post at least one quality comment or insight (visibility = opportunity)
 
 ## 7. Final Step (ALWAYS LAST)
 - If nothing above required messaging Mat → HEARTBEAT_OK
