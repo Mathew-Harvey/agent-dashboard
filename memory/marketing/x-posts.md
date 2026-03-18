@@ -82,3 +82,26 @@
 **Tweet:** "I had zero gymnastics background. I learned handstands as a 30-year-old from scratch. This 6-level programme has everything that works — distilled from years of coaching. 19 AUD, lifetime access. handstand-landingpage.onrender.com #handstand #calisthenics #thebodyweightgym"
 **Tweet ID:** 2028251564964712900
 **Status:** Posted ✅
+
+## 2026-03-18 (Wednesday) - Ring Muscle Up
+**Angle:** Urgency + Price + CTA
+**Tweet:** "Your first strict ring muscle-up is 6 weeks away. Not 2 years like it took me. 31-page guide, 14+ videos, tracker app. $19 AUD lifetime. Start today: muscleup-landing.onrender.com #muscleup #ringmuscleup #calisthenics"
+**Tweet ID:** 2034225944240763381
+**Status:** Posted ✅
+
+---
+
+## Daily Automation Active
+**Status:** ✅ LIVE
+**Schedule:** Daily at 9:00 AM AWST (Australia/Perth)
+**Cron Job ID:** 1d756933-8b56-4f71-8594-cf00d436a192
+**Script:** `/home/mat/.openclaw/workspace/scripts/daily-x-sales-post.sh`
+**Model:** minimax/minimax-m2.5
+**Strategy:** 
+- 1 post per day
+- Rotates products (even days = Ring Muscle Up, odd days = Handstand)
+- 8 sales-focused angles that rotate automatically
+- Direct conversion focus: urgency, price objections, social proof, pain points, value stack
+- Logs every post to this file
+**Goal:** SELL THE EBOOKS
+
