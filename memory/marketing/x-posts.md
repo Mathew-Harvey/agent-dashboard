@@ -105,3 +105,9 @@
 - Logs every post to this file
 **Goal:** SELL THE EBOOKS
 
+
+## 2026-03-19 - Handstand
+**Angle:** Sales-focused (angle )
+**Message:** "Your first 60-second freestanding handstand is 6 weeks away. Not 2 years like it took me. 24-page PDF, 12+ videos, tracker app, wrist conditioning. $19 AUD lifetime. Start today: handstand-landingpage.onrender.com #handstand #calisthenics"
+**X Tweet ID:** 2034434698022387906
+**Status:** Posted ✅
