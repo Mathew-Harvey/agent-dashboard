@@ -1,13 +1,14 @@
 # Marketing Engagement Log
 
 **Date:** Thursday, March 19th, 2026
-**Session:** 11:50 AM (Australia/Perth)
+**Session:** 2:50 PM (Australia/Perth)
 
 ## Posts Published
 
-| Platform | Product | Angle | Tweet ID | Time |
-|----------|---------|-------|----------|------|
-| X | Handstand | Price/Value (no subscription) | 2034477780885451154 | 11:50 AM AWST |
+| Platform | Product | Angle | Tweet ID | Time | Notes |
+|----------|---------|-------|----------|------|-------|
+| X | Handstand | Wrist conditioning (alt) | 2034528011069096162 | 2:50 PM AWST | Alternative post - original Price/Value angle was duplicate from 11:50 AM |
+| X | Handstand | Price/Value (no subscription) | 2034477780885451154 | 11:50 AM AWST | |
 
 ---
 
