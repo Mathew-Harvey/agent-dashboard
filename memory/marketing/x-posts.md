@@ -123,3 +123,9 @@
 **Message:** "Your first 60-second freestanding handstand is 6 weeks away. Not 2 years like it took me. 24-page PDF, 12+ videos, tracker app, wrist conditioning. $19 AUD lifetime. Start today: handstand-landingpage.onrender.com #handstand #calisthenics"
 **X Tweet ID:** 2035159481299214436
 **Status:** Posted ✅
+
+## 2026-03-22 - Ring Muscle Up
+**Angle:** Sales-focused (angle )
+**Message:** "Your first strict ring muscle-up is 6 weeks away. Not 2 years like it took me. 31-page PDF, 14+ videos, tracker app. $19 AUD lifetime. Start today: muscleup-landing.onrender.com #muscleup #ringmuscleup #calisthenics"
+**X Tweet ID:** 2035521869047349277
+**Status:** Posted ✅
