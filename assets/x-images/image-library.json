@@ -1,0 +1,338 @@
+{
+  "images": [
+    {
+      "filename": "Bundle_both_guides_1080.png",
+      "type": "bundle",
+      "products": [
+        "muscle-up",
+        "handstand"
+      ],
+      "format": "square",
+      "copy_variants": [
+        "Master both skills. Ring muscle ups + handstands in one bundle. 🏋️",
+        "Two guides, endless gains. Complete calisthenics training. 💪",
+        "Your roadmap to rings and handstands. Structured. Progressive. Proven. 🐧"
+      ],
+      "usage_count": 0,
+      "last_posted": null
+    },
+    {
+      "filename": "MU_app_showcase_1080.png",
+      "type": "app-showcase",
+      "products": [
+        "muscle-up"
+      ],
+      "format": "square",
+      "copy_variants": [
+        "Track every rep, every level. Your ring muscle up journey, structured. 📊",
+        "From zero to your first ring muscle up. 6 progressive levels + tracking app. 💪",
+        "Built this tracker because I needed it. Now you can use it too. 🐧"
+      ],
+      "usage_count": 0,
+      "last_posted": null
+    },
+    {
+      "filename": "MU_banner_1200x628.png",
+      "type": "banner",
+      "products": [
+        "muscle-up"
+      ],
+      "format": "banner",
+      "copy_variants": [
+        "Took me 2 years and tendonitis to figure this out. Save yourself the pain. 🎯",
+        "No gymnastics background? No problem. I learned it at 30. You can too. 💪",
+        "Ring muscle ups aren't magic. They're a process. Here's the roadmap. 🐧"
+      ],
+      "usage_count": 0,
+      "last_posted": null
+    },
+    {
+      "filename": "MU_promo_square_1080.png",
+      "type": "promo",
+      "products": [
+        "muscle-up"
+      ],
+      "format": "square",
+      "copy_variants": [
+        "6 levels. Video tutorials. Graduation tests. Your first ring muscle up awaits. 🎪",
+        "$19 for everything I wish someone had told me 2 years ago. 🏋️",
+        "Stop spinning your wheels. Follow the system that actually works. 💪"
+      ],
+      "usage_count": 0,
+      "last_posted": null
+    },
+    {
+      "filename": "MU_promo_story_1080x1920.png",
+      "type": "promo",
+      "products": [
+        "muscle-up"
+      ],
+      "format": "story",
+      "copy_variants": [
+        "From 'impossible' to 'just did 5 reps'. The difference? A structured plan. 🎯",
+        "Ring muscle ups for regular humans. No circus school required. 🎪",
+        "Built from 2+ years of trial, error, and tendonitis. Learn from my mistakes. 🐧"
+      ],
+      "usage_count": 0,
+      "last_posted": null
+    },
+    {
+      "filename": "MU_whats_inside_1080.png",
+      "type": "whats-inside",
+      "products": [
+        "muscle-up"
+      ],
+      "format": "square",
+      "copy_variants": [
+        "31-page guide + tracking app + 14 video tutorials. Everything you need. 📚",
+        "What you get: detailed progression, video coaching, app to track progress. 💪",
+        "The complete package. Theory, practice, tracking. No fluff. 🎯"
+      ],
+      "usage_count": 0,
+      "last_posted": null
+    },
+    {
+      "filename": "HS_app_showcase_1080.png",
+      "type": "app-showcase",
+      "products": [
+        "handstand"
+      ],
+      "format": "square",
+      "copy_variants": [
+        "From wall support to 60-second freestanding. Track every session. 📊",
+        "Handstand training that makes sense. 6 levels. Clear benchmarks. Progress tracking. 🤸",
+        "Your handstand journey, organized. App + guide + video tutorials. 🐧"
+      ],
+      "usage_count": 0,
+      "last_posted": null
+    },
+    {
+      "filename": "HS_banner_1200x628.png",
+      "type": "banner",
+      "products": [
+        "handstand"
+      ],
+      "format": "banner",
+      "copy_variants": [
+        "Learned to handstand at 30 with zero gymnastics background. Here's how. 🤸",
+        "Handstands aren't just for gymnasts. Follow the progression. See results. 💪",
+        "24-page guide. 12+ videos. Structured path to freestanding handstands. 🎯"
+      ],
+      "usage_count": 0,
+      "last_posted": null
+    },
+    {
+      "filename": "HS_promo_square_1080.png",
+      "type": "promo",
+      "products": [
+        "handstand"
+      ],
+      "format": "square",
+      "copy_variants": [
+        "6 levels from beginner wall work to 60-sec holds. Complete handstand system. 🤸",
+        "$19 launch price. Full guide + tracker app + video library. 📚",
+        "Stop guessing. Start progressing. Structured handstand training for adults. 💪"
+      ],
+      "usage_count": 0,
+      "last_posted": null
+    },
+    {
+      "filename": "HS_promo_story_1080x1920.png",
+      "type": "promo",
+      "products": [
+        "handstand"
+      ],
+      "format": "story",
+      "copy_variants": [
+        "Building handstand strength takes time. But with a plan, you'll get there. 🎯",
+        "Forget 'just kick up and balance'. Here's the real progression. 🤸",
+        "Handstands for regular humans. Learn the right way, not the hard way. 🐧"
+      ],
+      "usage_count": 0,
+      "last_posted": null
+    },
+    {
+      "filename": "HS_whats_inside_1080.png",
+      "type": "whats-inside",
+      "products": [
+        "handstand"
+      ],
+      "format": "square",
+      "copy_variants": [
+        "24 pages. 12+ videos. Web app tracker. Complete handstand training system. 📚",
+        "Everything you need: detailed progressions, video demos, progress tracking. 💪",
+        "The full package. Guide + app + videos. Launch price: $19. 🎯"
+      ],
+      "usage_count": 0,
+      "last_posted": null
+    },
+    {
+      "filename": "MOCKUP_MU_app_detail_1080.png",
+      "type": "app-mockup",
+      "products": [
+        "muscle-up"
+      ],
+      "format": "square",
+      "copy_variants": [
+        "Your ring muscle up tracker. Every session logged. Every level tracked. Progress you can see. 📱",
+        "Training without tracking is guessing. This app knows exactly where you are. 💪",
+        "Level 1 to Level 6. The app tracks it all. Your muscle up journey, visualized. 📊"
+      ],
+      "usage_count": 0,
+      "last_posted": null
+    },
+    {
+      "filename": "MOCKUP_MU_banner_1200x628.png",
+      "type": "banner-mockup",
+      "products": [
+        "muscle-up"
+      ],
+      "format": "banner",
+      "copy_variants": [
+        "Ring muscle up training that fits in your pocket. Guide + app. $19 AUD. 📱",
+        "PDF guide on your phone. Tracker app in your browser. Everything synced. 🎯",
+        "Training system that travels with you. 31-page guide + web app tracker. 💪"
+      ],
+      "usage_count": 0,
+      "last_posted": null
+    },
+    {
+      "filename": "MOCKUP_MU_clean_1080.png",
+      "type": "clean-mockup",
+      "products": [
+        "muscle-up"
+      ],
+      "format": "square",
+      "copy_variants": [
+        "Simple. Structured. Effective. Your ring muscle up programme. 🎯",
+        "No fluff. Just the training you need. 6 levels to ring muscle up. 💪",
+        "Clean training. Clear progression. First muscle up in 6 weeks. 📱"
+      ],
+      "usage_count": 0,
+      "last_posted": null
+    },
+    {
+      "filename": "MOCKUP_MU_square_1080.png",
+      "type": "square-mockup",
+      "products": [
+        "muscle-up"
+      ],
+      "format": "square",
+      "copy_variants": [
+        "Everything you need for ring muscle ups. One price. Lifetime access. 📱",
+        "Guide + videos + app. $19 AUD. Start training today. 💪",
+        "The complete ring muscle up system. On your phone. In your gym. 🎯"
+      ],
+      "usage_count": 0,
+      "last_posted": null
+    },
+    {
+      "filename": "MOCKUP_HS_app_detail_1080.png",
+      "type": "app-mockup",
+      "products": [
+        "handstand"
+      ],
+      "format": "square",
+      "copy_variants": [
+        "Your handstand tracker. Every hold timed. Every level mastered. Progress visible. 📱",
+        "Training without data is hoping. This app measures everything. 🤸",
+        "Level 1 to Level 6. Wall to freestanding. The app tracks your journey. 📊"
+      ],
+      "usage_count": 0,
+      "last_posted": null
+    },
+    {
+      "filename": "MOCKUP_HS_banner_1200x628.png",
+      "type": "banner-mockup",
+      "products": [
+        "handstand"
+      ],
+      "format": "banner",
+      "copy_variants": [
+        "Handstand training on your phone. Guide + app. $19 AUD. 📱",
+        "24-page guide in your pocket. Web app tracker in your browser. Synced. 🎯",
+        "Training that goes where you go. Guide + videos + tracker app. 💪"
+      ],
+      "usage_count": 0,
+      "last_posted": null
+    },
+    {
+      "filename": "MOCKUP_HS_clean_1080.png",
+      "type": "clean-mockup",
+      "products": [
+        "handstand"
+      ],
+      "format": "square",
+      "copy_variants": [
+        "Simple. Structured. Results. Your handstand programme. 🎯",
+        "No complexity. Just progression. 6 levels to 60-second holds. 🤸",
+        "Clean training. Clear goals. Freestanding handstands in weeks. 📱"
+      ],
+      "usage_count": 0,
+      "last_posted": null
+    },
+    {
+      "filename": "MOCKUP_HS_square_1080.png",
+      "type": "square-mockup",
+      "products": [
+        "handstand"
+      ],
+      "format": "square",
+      "copy_variants": [
+        "Everything for handstands. One price. Lifetime access. 📱",
+        "Guide + videos + app. $19 AUD. Begin today. 🤸",
+        "Complete handstand system. Mobile-ready. Gym-tested. 🎯"
+      ],
+      "usage_count": 0,
+      "last_posted": null
+    },
+    {
+      "filename": "MOCKUP_both_guides_1080.png",
+      "type": "bundle-mockup",
+      "products": [
+        "muscle-up",
+        "handstand"
+      ],
+      "format": "square",
+      "copy_variants": [
+        "Both programmes. One bundle. Ring muscle ups + handstands. 📱",
+        "Complete upper body mastery. Two guides. Two tracker apps. One price. 💪",
+        "Why choose? Get both. Muscle ups + handstands. Total package. 🎯"
+      ],
+      "usage_count": 0,
+      "last_posted": null
+    },
+    {
+      "filename": "MOCKUP_free_workouts_1080.png",
+      "type": "free-content",
+      "products": [
+        "muscle-up",
+        "handstand"
+      ],
+      "format": "square",
+      "copy_variants": [
+        "Free workouts on the site. Premium training in the guides. Try before you buy. 🏋️",
+        "Start free. Go premium when ready. Training for everyone. 💪",
+        "Sample workouts free. Full system $19. Your choice. 🎯"
+      ],
+      "usage_count": 0,
+      "last_posted": null
+    }
+  ],
+  "posting_rules": {
+    "prefer_unused": true,
+    "max_uses_before_refresh": 3,
+    "rotate_copy_variants": true,
+    "twitter_optimal_formats": [
+      "square",
+      "banner"
+    ],
+    "avoid_story_format_on_twitter": true
+  },
+  "stats": {
+    "total_posts": 0,
+    "most_used_image": null,
+    "least_used_image": null,
+    "last_post_date": null
+  }
+}
