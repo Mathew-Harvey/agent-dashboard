@@ -163,3 +163,10 @@
 **Message:** "Still can't hold false grip or do negatives? This 6-level programme fixes it: 31-page PDF, 14+ videos, tracker app. $19 AUD lifetime. muscleup-landing.onrender.com #muscleup #ringmuscleup #calisthenics"
 **X Tweet ID:** 2036246642597437862
 **Status:** Posted ✅
+
+## 2026-03-25 - Handstand
+**Angle:** Sales-focused (angle 4)
+**Image:** HS_app_showcase_1080.png
+**Message:** "What you get: 24-page PDF, 12+ videos, tracker app, wrist conditioning. $19 AUD one-time. Lifetime access. Start now: handstand-landingpage.onrender.com #handstand #calisthenics"
+**X Tweet ID:** 2036609028760256942
+**Status:** Posted ✅
