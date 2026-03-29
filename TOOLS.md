@@ -89,4 +89,38 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
     ```
   - Or just: `pm2 restart bodyweight-gym` if already in the directory
 
+## Philips Hue
+
+- **Bridge IP**: 192.168.68.51
+- **Skill**: OpenHue CLI (`openhue`)
+- **Lights**:
+  - **Comp desk** - Flexible lamp (Mat's computer desk)
+  - **Lounge room** - Floor lamp
+  - **Exercise room** - Ceiling light
+  - **Elodies room** - Table lamp (Elodie's room)
+  - **Laundry** - Ceiling light
+  - **Small lounge** - Floor lamp
+- **Room**: All lights in "Home" room
+- **Scenes**: "warm" scene available
+
+**Quick commands:**
+```bash
+# Turn on/off specific light
+openhue set light "Comp desk" --on
+openhue set light "Comp desk" --off
+
+# Dim/brighten
+openhue set light "Lounge room" --brightness 30
+
+# Warm/cool (153-500 mirek, lower=cooler)
+openhue set light "Comp desk" --temperature 300
+
+# Control all lights
+openhue set room "Home" --off
+openhue set room "Home" --on --brightness 50
+
+# Scene
+openhue set scene "warm"
+```
+
 Add whatever helps you do your job. This is your cheat sheet.

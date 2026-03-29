@@ -31,6 +31,15 @@ if (isLocalhost || isDockerInternal) {
 ✓ Logo now loads correctly (HTTP 200)
 ✓ Site fully functional at https://thebodyweightgym.org
 
-## TODO
-- On next Docker rebuild, the updated server.js will be included automatically
-- Consider adding `X-Forwarded-Proto` header in Cloudflare tunnel config for proper HTTPS detection
+## Committed to Git
+✓ Committed to main branch (f1f9269)
+✓ Pushed to GitHub: Mathew-Harvey/TheBodyweightGymOnline2025
+✓ Running container updated
+✓ Next rebuild will include this fix automatically
+
+## Improvements Made
+- Extended to cover all RFC 1918 private IP ranges (10.x, 172.16-31.x, 192.168.x)
+- Added IPv6 localhost (::1)
+- Added link-local range (169.254.x)
+- Added full 127.x loopback range
+- Better comments explaining the logic
