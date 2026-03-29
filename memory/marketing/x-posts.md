@@ -170,3 +170,10 @@
 **Message:** "What you get: 24-page PDF, 12+ videos, tracker app, wrist conditioning. $19 AUD one-time. Lifetime access. Start now: handstand-landingpage.onrender.com #handstand #calisthenics"
 **X Tweet ID:** 2036609028760256942
 **Status:** Posted ✅
+
+## 2026-03-29 - Handstand
+**Angle:** Sales-focused (angle 0)
+**Image:** HS_banner_1200x628.png
+**Message:** "Your first 60-second freestanding handstand is 6 weeks away. Not 2 years like it took me. 24-page PDF, 12+ videos, tracker app, wrist conditioning. $19 AUD lifetime. Start today: handstand-landingpage.onrender.com #handstand #calisthenics"
+**X Tweet ID:** 2038084779997106243
+**Status:** Posted ✅
