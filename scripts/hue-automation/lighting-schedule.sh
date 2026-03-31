@@ -12,6 +12,11 @@ case "$MODE" in
     $OPENHUE set room "Home" --brightness 70 --temperature 250
     ;;
     
+  "morning-off")
+    # 6:30 AM - Turn off after wake-up complete
+    $OPENHUE set room "Home" --off
+    ;;
+    
   "afternoon-focus")
     # 2 PM - Comp desk for work (bright, cool)
     $OPENHUE set light "Comp desk" --on --brightness 100 --temperature 200
@@ -33,12 +38,12 @@ case "$MODE" in
     ;;
     
   "lights-out")
-    # 11 PM - Bedtime, all off
+    # 10:30 PM - Bedtime, all off
     $OPENHUE set room "Home" --off
     ;;
     
   *)
-    echo "Usage: $0 {morning-wake|afternoon-focus|evening-transition|night-wind-down|bedtime-prep|lights-out}"
+    echo "Usage: $0 {morning-wake|morning-off|afternoon-focus|evening-transition|night-wind-down|bedtime-prep|lights-out}"
     exit 1
     ;;
 esac
