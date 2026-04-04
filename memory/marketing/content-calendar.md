@@ -1,92 +1,121 @@
-# Weekly Content Calendar - March 30 - April 5, 2026
+# Content Calendar - The Bodyweight Gym
+## Week of April 5-11, 2026
 
-## Week Strategy
-Alternating MU and Handstand posts daily. Focus on converting browsers to buyers with diverse angles that haven't been overused recently.
-
----
-
-## Monday, March 30 - Ring Muscle Up
-**Product:** Ring Muscle Up Guide
-**Angle:** Story + Authority (AD 05 - adapted)
-**Key Message:** Mat's personal journey from 12 months of tendonitis to mastery. The programme distills 2 years of mistakes into 6 structured levels.
-**Hook:** Personal vulnerability + expertise
-**Post:** "12 months of elbow tendonitis. 2 years of failed attempts. Finally got my strict ring muscle-up. This 6-level programme saves you from my mistakes: 31-page PDF, 14+ videos, tracker app. $19 AUD lifetime. muscleup-landing.onrender.com #muscleup #ringmuscleup #calisthenics"
+Generated: 2026-04-04
 
 ---
 
-## Tuesday, March 31 - Handstand
-**Product:** Freestanding Handstand Guide
-**Angle:** Levels/Journey (AD 05 - show the path)
-**Key Message:** Clear progression from zero to 60-second hold with graduation tests at each level.
-**Hook:** Eliminate guesswork, show concrete steps
-**Post:** "Level 1: Foundation. Level 2: Upside down. Level 3: Balance. Level 4: The hold. Level 5: Endurance. Level 6: 60 seconds. Each level has a graduation test you must pass. No skipping. $19 AUD: handstand-landingpage.onrender.com #handstand #calisthenics"
+## SATURDAY, APRIL 5 - Handstand
+**Angle:** Sales-focused (angle 7 - NEW)
+**Product:** Handstand Training Guide
+**Key Message:** Urgency CTA - Everything mapped out, 6 levels, start at Level 1 today
+**Image:** HS_app_showcase_1080.png
+**Draft Post:** "Your first 60-second handstand is closer than you think. Everything mapped out: 6 levels, 12+ videos, tracker app, wrist conditioning. $19 AUD lifetime. Start at Level 1 today: handstand-landingpage.onrender.com #handstand #calisthenics"
 
 ---
 
-## Wednesday, April 1 - Ring Muscle Up
-**Product:** Ring Muscle Up Guide
-**Angle:** Price/Objection Buster (value comparison)
-**Key Message:** $19 beats PT sessions at $80-150 or online coaching at $200+/month
-**Hook:** ROI argument
-**Post:** "Personal trainer: $80-150/session. Online coaching: $200+/month. This complete ring muscle-up system: $19 AUD, one-time, lifetime access. 31-page PDF + 14+ videos + tracker app. No subscription. muscleup-landing.onrender.com #muscleup #calisthenics"
+## SUNDAY, APRIL 6 - Ring Muscle Up
+**Angle:** Sales-focused (angle 0 - rotate back)
+**Product:** Ring Muscle Up Training Guide  
+**Key Message:** Urgency - Your first strict ring MU is 6 weeks away (not 2 years)
+**Image:** MU_banner_1200x628.png
+**Draft Post:** "Your first strict ring muscle-up is 6 weeks away. Not 2 years like it took me. 31-page PDF, 14+ videos, tracker app. $19 AUD lifetime. Start today: muscleup-landing.onrender.com #muscleup #ringmuscleup #calisthenics"
 
 ---
 
-## Thursday, April 2 - Handstand
-**Product:** Freestanding Handstand Guide
-**Angle:** Urgency/CTA (AD 08 - your handstand is closer than you think)
-**Key Message:** Everything is mapped out and ready. Start today.
-**Hook:** Remove hesitation, create momentum
-**Post:** "Your first 60-second handstand is closer than you think. Everything mapped out: 6 levels, 12+ videos, wrist protocols, tracker app. One-time payment, lifetime access. Start at Level 1 today. $19 AUD: handstand-landingpage.onrender.com #handstand #calisthenics"
+## MONDAY, APRIL 7 - Handstand
+**Angle:** Sales-focused (angle 1)
+**Product:** Handstand Training Guide
+**Key Message:** Price objection buster - $19 vs $80-150 PT or $200+/month coaching
+**Image:** HS_banner_1200x628.png
+**Draft Post:** "$19 vs $80-150 PT session or $200+/month coaching. 24-page PDF, 12+ videos, tracker app, wrist conditioning. Lifetime access. No subscription. handstand-landingpage.onrender.com #handstand #calisthenics"
 
 ---
 
-## Friday, April 3 - Ring Muscle Up
-**Product:** Ring Muscle Up Guide
-**Angle:** Quote/Insight (AD 06 - tendons vs muscles)
-**Key Message:** Biggest mistake is progressing too fast. Tendons need time.
-**Hook:** Educational + preventative
-**Post:** "My muscles were ready but my tendons weren't. That cost me 12 months. Biggest mistake in ring training: progressing too fast. Muscles adapt in 3 months, tendons take 9 months. This programme has deload cycles to protect you. $19 AUD: muscleup-landing.onrender.com #muscleup #calisthenics"
+## TUESDAY, APRIL 8 - Ring Muscle Up
+**Angle:** Sales-focused (angle 2)
+**Product:** Ring Muscle Up Training Guide
+**Key Message:** Social proof - Built from coaching hundreds, every mistake solved
+**Image:** MU_app_showcase_1080.png
+**Draft Post:** "Built from coaching hundreds through their first strict ring muscle-up. Every mistake solved. 31-page PDF, 14+ videos, tracker app. $19 AUD: muscleup-landing.onrender.com #muscleup #ringmuscleup #calisthenics"
 
 ---
 
-## Saturday, April 4 - Handstand
-**Product:** Freestanding Handstand Guide
-**Angle:** Transformation (AD 07 - Before/After)
-**Key Message:** Show the dramatic change possible with structured training
-**Hook:** Visual contrast, aspirational
-**Post:** "Day 1: Can't balance for 1 second. Wrists ache. No plan. Day 180: 60-second freestanding handstand. Wrists of steel. Full body control. The 6-level programme that gets you there. $19 AUD: handstand-landingpage.onrender.com #handstand #calisthenics"
+## WEDNESDAY, APRIL 9 - Handstand
+**Angle:** Sales-focused (angle 3)
+**Product:** Handstand Training Guide
+**Key Message:** Pain point - Can't balance, wrists hurt, this programme fixes it
+**Image:** HS_whats_inside_1080.png
+**Draft Post:** "Still can't balance or your wrists hurt? This 6-level programme fixes it: 24-page PDF, 12+ videos, tracker app, wrist conditioning. $19 AUD lifetime. handstand-landingpage.onrender.com #handstand #calisthenics"
 
 ---
 
-## Sunday, April 5 - Ring Muscle Up
-**Product:** Ring Muscle Up Guide
-**Angle:** Features/What's Included (AD 02)
-**Key Message:** Everything in the package, comprehensive value
-**Hook:** Complete system breakdown
-**Post:** "What's included: 6 progressive levels, 14+ video tutorials, 31-page illustrated PDF, tracker web app (lifetime), injury prevention protocols, deload cycles. No subscription. $19 AUD one-time: muscleup-landing.onrender.com #muscleup #ringmuscleup #calisthenics"
+## THURSDAY, APRIL 10 - Ring Muscle Up
+**Angle:** Sales-focused (angle 4)
+**Product:** Ring Muscle Up Training Guide
+**Key Message:** Value stack - What you get for $19
+**Image:** MU_promo_square_1080.png
+**Draft Post:** "What you get: 31-page PDF, 14+ videos, tracker app. $19 AUD one-time. Lifetime access. Start now: muscleup-landing.onrender.com #muscleup #ringmuscleup #calisthenics"
 
 ---
 
-## Angles Used This Week
-1. ✅ Story/Authority (personal journey)
-2. ✅ Levels/Journey (progression path)
-3. ✅ Price/Objection Buster (value comparison)
-4. ✅ Urgency/CTA (start today)
-5. ✅ Quote/Insight (tendons vs muscles)
-6. ✅ Transformation (before/after)
-7. ✅ Features (what's included)
+## FRIDAY, APRIL 11 - Handstand
+**Angle:** Sales-focused (angle 5)
+**Product:** Handstand Training Guide
+**Key Message:** Authority/Story - Zero gymnastics background, learned as adult, years of coaching
+**Image:** MOCKUP_HS_app_detail_1080.png
+**Draft Post:** "Zero gymnastics background. Learned as an adult. Years of coaching distilled into 6 levels. 24-page PDF, 12+ videos, tracker app, wrist conditioning. $19 AUD: handstand-landingpage.onrender.com #handstand #calisthenics"
 
-## Angles NOT Used Yet (Available for Future Weeks)
-- Pain Point (AD 02 Handstand - "Still falling out?")
-- Social Proof (AD 08 MU - "Coached hundreds")
-- Hero/Aspiration (AD 01 Handstand - "Your first 60-second...")
-- Comparison (AD 07 MU - "Can't hold false grip → Strict MU")
+---
 
-## Notes
-- Recent posts (March 19-29) focused heavily on "6 weeks away" urgency angle
-- Several posts repeated exact same message with different images
-- This week diversifies messaging while maintaining conversion focus
-- Each post has clear CTA and price point
-- Avoided repeating recent angles (urgency "6 weeks" was overused)
-- Mix of educational, aspirational, and transactional messaging
+## ROTATION TRACKING
+
+### Sales-Focused Angles (8 total)
+0. ✅ Urgency - 6 weeks away (not 2 years)
+1. ✅ Price objection - $19 vs PT/coaching
+2. ✅ Social proof - coaching hundreds
+3. ✅ Pain point - can't do X? This fixes it
+4. ✅ Value stack - what you get
+5. ✅ Authority/story - zero background, learned as adult
+6. ✅ Urgency CTA - 6 weeks away, begin today
+7. 🆕 Urgency CTA alternate - everything mapped out, start at Level 1 today
+
+### Unused Ad Copy Angles (from original copy.txt)
+These angles exist in the ad copy but haven't been used in recent rotation:
+
+**Ring Muscle Up:**
+- Quote angle (AD 06) - "Muscles ready but tendons weren't" - 12 months cost
+- Comparison (AD 07) - Before/After bullets (false grip, no experience, confused → strict MU, 10 sets, bulletproof)
+- Features deep dive - 6 levels detail, graduation tests, injury prevention
+
+**Handstand:**
+- Levels/Journey detail (AD 05) - Level by level breakdown: Foundation → Upside down → Balance → Hold → Endurance → 60 seconds
+- Transformation (AD 07) - Day 1 vs Day 180 narrative
+
+### Notes
+- Current automation rotates through 8 sales-focused angles (0-7)
+- Angle 7 is NEW this week (Saturday Apr 5) - Handstand urgency CTA variant
+- After angle 7, rotation cycles back to angle 0
+- All posts include product-specific images from marketing assets
+- Hashtags consistent: #handstand #calisthenics or #muscleup #ringmuscleup #calisthenics
+- Price locked at $19 AUD across all posts
+- Alternates products daily: even days = Ring Muscle Up, odd days = Handstand
+
+### Previous Week Summary (Mar 29 - Apr 4)
+- Saturday Mar 29: Handstand (angle 0)
+- Sunday Mar 30: Ring Muscle Up (angle 1)
+- Monday Mar 31: Handstand (angle 2)
+- Tuesday Apr 1: Handstand (angle 3) - DOUBLE HANDSTAND (error)
+- Wednesday Apr 2: Ring Muscle Up (angle 4)
+- Thursday Apr 3: Handstand (angle 5)
+- Friday Apr 4: Ring Muscle Up (angle 6)
+
+**Pattern issue identified:** April 1 posted Handstand twice (should have been Ring Muscle Up). Next week's schedule assumes correct alternation resumes.
+
+---
+
+## Strategy Notes
+- Direct conversion focus maintained
+- 8-angle rotation ensures variety without diluting core sales messages
+- Images paired strategically: banners for urgency/broad appeal, app showcases for value/features, whats_inside for pain points
+- Untapped ad copy angles (quote, transformation narrative, levels detail) available for future content experiments or manual posts
