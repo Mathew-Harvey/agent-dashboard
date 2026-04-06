@@ -226,3 +226,10 @@
 **Message:** "Can't balance longer than 5 seconds? This programme: Wrist Prep → Wall Work → Balance Drills → Freestanding. 24-page PDF, 12+ videos, tracker app, wrist conditioning. $19 AUD: handstand-landingpage.onrender.com #handstand #calisthenics"
 **X Tweet ID:** 2040595298444279814
 **Status:** Posted ✅
+
+## 2026-04-06 - Ring Muscle Up
+**Angle:** Sales-focused (angle 0)
+**Image:** MOCKUP_MU_app_detail_1080.png
+**Message:** "Your first strict ring muscle-up is 6 weeks away. Not 2 years like it took me. 31-page PDF, 14+ videos, tracker app. $19 AUD lifetime. Start today: muscleup-landing.onrender.com #muscleup #ringmuscleup #calisthenics"
+**X Tweet ID:** 2040957687329108133
+**Status:** Posted ✅

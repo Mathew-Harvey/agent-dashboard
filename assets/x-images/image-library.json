@@ -178,8 +178,8 @@
         "Training without tracking is guessing. This app knows exactly where you are. 💪",
         "Level 1 to Level 6. The app tracks it all. Your muscle up journey, visualized. 📊"
       ],
-      "usage_count": 0,
-      "last_posted": null
+      "usage_count": 1,
+      "last_posted": "2026-04-06"
     },
     {
       "filename": "MOCKUP_MU_banner_1200x628.png",
@@ -330,9 +330,9 @@
     "avoid_story_format_on_twitter": true
   },
   "stats": {
-    "total_posts": 10,
+    "total_posts": 11,
     "most_used_image": null,
     "least_used_image": null,
-    "last_post_date": "2026-04-05"
+    "last_post_date": "2026-04-06"
   }
 }
