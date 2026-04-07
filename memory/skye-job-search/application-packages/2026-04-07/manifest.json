@@ -1,0 +1,100 @@
+{
+  "packages": [
+    {
+      "job": {
+        "title": "Agile Project Manager",
+        "company": "Pyramid Global Technologies",
+        "location": "Perth WA",
+        "url": null,
+        "description": "",
+        "source": "indeed",
+        "posted_date": "2026-04-07T09:59:52.708Z",
+        "hash": "a52da5b024e532d9ce4d3a2a4d3d09dc",
+        "score": 6,
+        "discovered_date": "2026-04-07T09:59:59.586Z",
+        "salary": null
+      },
+      "files": {
+        "coverLetter": "/home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/2026-04-07/Pyramid-Global-Technologies-Agile-Project-Manager-CoverLetter.docx",
+        "cv": "/home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/2026-04-07/Pyramid-Global-Technologies-Agile-Project-Manager-CV.docx"
+      }
+    },
+    {
+      "job": {
+        "title": "Delivery Manager",
+        "company": "Sharp & Carter Digital & Technology Perth",
+        "location": "Perth WA",
+        "url": "https://www.seek.com.auhttps://www.seek.com.au/job/91057690?type=standard&ref=search-standalone&origin=cardTitle#sol=428c7ececbefd8d6bc75259150230f803f21b969",
+        "description": "",
+        "source": "seek",
+        "posted_date": "2026-04-07T09:59:59.570Z",
+        "hash": "39c01b6bb15140903e28518356c5100c",
+        "score": 6,
+        "discovered_date": "2026-04-07T09:59:59.586Z",
+        "salary": null
+      },
+      "files": {
+        "coverLetter": "/home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/2026-04-07/Sharp-Carter-Digital-Technology-Perth-Delivery-Manager-CoverLetter.docx",
+        "cv": "/home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/2026-04-07/Sharp-Carter-Digital-Technology-Perth-Delivery-Manager-CV.docx"
+      }
+    },
+    {
+      "job": {
+        "title": "PopGen Data Product Owner",
+        "company": "The Garvan Institute of Medical Research",
+        "location": "Remote",
+        "url": null,
+        "description": "",
+        "source": "indeed",
+        "posted_date": "2026-04-07T09:59:52.708Z",
+        "hash": "902133d43d81f69d03d044185a39e760",
+        "score": 5,
+        "discovered_date": "2026-04-07T09:59:59.586Z",
+        "salary": null
+      },
+      "files": {
+        "coverLetter": "/home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/2026-04-07/The-Garvan-Institute-of-Medical-Research-PopGen-Data-Product-Owner-CoverLetter.docx",
+        "cv": "/home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/2026-04-07/The-Garvan-Institute-of-Medical-Research-PopGen-Data-Product-Owner-CV.docx"
+      }
+    },
+    {
+      "job": {
+        "title": "Senior Project Manager",
+        "company": "HAYS",
+        "location": "Perth WA",
+        "url": null,
+        "description": "",
+        "source": "indeed",
+        "posted_date": "2026-04-07T09:59:52.708Z",
+        "hash": "d105374f0a3ac212b495672545a882f8",
+        "score": 5,
+        "discovered_date": "2026-04-07T09:59:59.586Z",
+        "salary": null
+      },
+      "files": {
+        "coverLetter": "/home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/2026-04-07/HAYS-Senior-Project-Manager-CoverLetter.docx",
+        "cv": "/home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/2026-04-07/HAYS-Senior-Project-Manager-CV.docx"
+      }
+    },
+    {
+      "job": {
+        "title": "Technology Project Manager",
+        "company": "Sharp & Carter Digital & Technology Perth",
+        "location": "Perth WA",
+        "url": "https://www.seek.com.auhttps://www.seek.com.au/job/91138412?type=promoted&ref=search-standalone&origin=cardTitle#sol=070e7abb8b907bfb2d3a8aba5494f80c5b85f8dc",
+        "description": "",
+        "source": "seek",
+        "posted_date": "2026-04-07T09:59:59.570Z",
+        "hash": "43d7e95d28ff3b889ea3e0efc22afb26",
+        "score": 5,
+        "discovered_date": "2026-04-07T09:59:59.586Z",
+        "salary": null
+      },
+      "files": {
+        "coverLetter": "/home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/2026-04-07/Sharp-Carter-Digital-Technology-Perth-Technology-Project-Manager-CoverLetter.docx",
+        "cv": "/home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/2026-04-07/Sharp-Carter-Digital-Technology-Perth-Technology-Project-Manager-CV.docx"
+      }
+    }
+  ],
+  "generated_at": "2026-04-07T10:25:56.582Z"
+}

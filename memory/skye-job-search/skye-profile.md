@@ -11,14 +11,20 @@
 ## Current Situation (as of April 2026)
 
 ### Employer
-**Equilibrium Interactive Pty Ltd (equ)** — Senior Project Manager
+**Equilibrium Interactive Pty Ltd (EQ)** — Senior Project Manager
+- **Website:** equ.com.au
 - **Started:** 22 September 2025
 - **Current salary:** $120,000 + super
 - **Notice period:** 6 weeks
-- **Restrictions:** 6-month non-solicitation of equ clients/employees (Australia-wide)
+- **Restrictions:** 6-month non-solicitation of EQ clients/employees (Australia-wide)
+
+### Previous Role
+**EUSO Digital (Part of thebox)** — Digital Project Manager / Product Owner
+- **Period:** August 2023 – August 2025
+- Left to join EQ in September 2025
 
 ### Why She's Looking
-- Current role at equ (started Sept 2025, only ~7 months in)
+- Current role at EQ (started Sept 2025, only ~7 months in)
 - Seeking better work-life balance, WFH flexibility, and WA timezone compatibility
 
 ---

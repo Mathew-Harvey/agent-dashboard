@@ -59,16 +59,23 @@ function generateEmailBody(jobs) {
     body += `---\n\n## 🌟 STANDOUTS (Application Packages Ready)\n\n`;
     body += `I've drafted full application packages for these ${standouts.length} ${standouts.length === 1 ? 'role' : 'roles'}:\n\n`;
     
+    const today = new Date().toISOString().split('T')[0];
+    const packagesDir = `/home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/${today}`;
+    
     standouts.forEach((job, i) => {
       body += `### ${i + 1}. ${job.title}\n`;
       body += `**${job.company}** · ${job.location}\n`;
       if (job.salary) body += `💰 $${(job.salary / 1000).toFixed(0)}K\n`;
       body += `🔗 ${job.url}\n\n`;
       body += `**Why this one:** High match score (${job.score}/10). `;
-      body += `Application package includes cover letter, tailored CV, and selection criteria (if applicable).\n\n`;
-      body += `📎 **Attachments:**\n`;
-      body += `- Cover Letter (PDF)\n`;
-      body += `- CV (PDF)\n\n`;
+      
+      const companySlug = job.company.replace(/[^a-z0-9]/gi, '-').replace(/-+/g, '-').substring(0, 50);
+      const roleSlug = job.title.replace(/[^a-z0-9]/gi, '-').replace(/-+/g, '-').substring(0, 50);
+      
+      body += `Full application package generated and attached.\n\n`;
+      body += `📎 **Attached files:**\n`;
+      body += `- ${companySlug}-${roleSlug}-CoverLetter.docx\n`;
+      body += `- ${companySlug}-${roleSlug}-CV.docx\n\n`;
     });
   }
 
@@ -93,7 +100,7 @@ function generateEmailBody(jobs) {
   return body;
 }
 
-async function sendEmail(subject, body, attachments = []) {
+async function sendEmail(subject, body, attachmentPaths = []) {
   console.log('[EMAIL] Preparing to send email...');
   
   const AGENTMAIL_API_KEY = process.env.AGENTMAIL_API_KEY || 'am_0c4fe254a60572f60c1535b9b6ffd1861616a29401f103cb9b5089d41740dcab';
@@ -103,20 +110,48 @@ async function sendEmail(subject, body, attachments = []) {
   const to = [config.email_recipients.primary];
   const cc = [config.email_recipients.cc];
 
+  // Prepare attachments
+  const attachments = [];
+  if (attachmentPaths.length > 0) {
+    console.log('[EMAIL] Encoding attachments...');
+    for (const filePath of attachmentPaths) {
+      if (fs.existsSync(filePath)) {
+        const fileData = fs.readFileSync(filePath);
+        const base64Data = fileData.toString('base64');
+        const contentType = filePath.endsWith('.docx') 
+          ? 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+          : 'application/pdf';
+        
+        attachments.push({
+          filename: path.basename(filePath),
+          content: base64Data,
+          encoding: 'base64',
+          contentType: contentType
+        });
+        console.log(`  ✓ ${path.basename(filePath)} (${(fileData.length / 1024).toFixed(1)}KB)`);
+      }
+    }
+  }
+
   try {
+    const payload = {
+      to,
+      cc,
+      subject,
+      text: body
+    };
+
+    if (attachments.length > 0) {
+      payload.attachments = attachments;
+    }
+
     const response = await fetch(`https://api.agentmail.to/inboxes/${INBOX_ID}/messages/send`, {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${AGENTMAIL_API_KEY}`,
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({
-        to,
-        cc,
-        subject,
-        text: body  // AgentMail API uses 'text' field, not 'body'
-        // TODO: Add attachments support
-      })
+      body: JSON.stringify(payload)
     });
 
     if (!response.ok) {
@@ -125,6 +160,9 @@ async function sendEmail(subject, body, attachments = []) {
 
     const result = await response.json();
     console.log('[EMAIL] Sent successfully. Message ID:', result.message_id);
+    if (attachments.length > 0) {
+      console.log(`[EMAIL] ${attachments.length} attachment(s) included`);
+    }
     return true;
   } catch (error) {
     console.error('[EMAIL] Failed to send:', error);
@@ -162,14 +200,53 @@ async function main() {
   // Sort by score descending
   jobs.sort((a, b) => b.score - a.score);
 
+  // Generate application packages for standouts
+  const standouts = jobs.filter(j => j.score >= config.scraping.standout_threshold).slice(0, config.scraping.max_applications_per_day);
+  
+  if (standouts.length > 0) {
+    console.log(`[SKYE JOB EMAILER] Generating ${standouts.length} application packages (DOCX format)...`);
+    const { execSync } = require('child_process');
+    try {
+      execSync(`node ${path.join(__dirname, 'generate-application-packages-docx.js')} ${resultsPath}`, { stdio: 'inherit' });
+      console.log('[SKYE JOB EMAILER] Application packages generated.');
+    } catch (err) {
+      console.error('[SKYE JOB EMAILER] Package generation error:', err.message);
+    }
+  }
+
   // Generate email
   const emailBody = generateEmailBody(jobs);
   const subject = jobs.length > 0 
     ? `${jobs.length} New Job${jobs.length === 1 ? '' : 's'} — ${today}`
     : `Job Search Update — ${today}`;
 
+  // Collect attachment paths for ALL standouts
+  const attachmentPaths = [];
+  const packagesDir = path.join(RESULTS_DIR, '../application-packages', today);
+  
+  if (fs.existsSync(packagesDir) && standouts.length > 0) {
+    console.log('[SKYE JOB EMAILER] Collecting ALL attachments...');
+    const manifestPath = path.join(packagesDir, 'manifest.json');
+    
+    if (fs.existsSync(manifestPath)) {
+      const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+      
+      // Attach ALL packages (up to 5 jobs = 10 files)
+      manifest.packages.forEach(pkg => {
+        if (fs.existsSync(pkg.files.coverLetter)) {
+          attachmentPaths.push(pkg.files.coverLetter);
+        }
+        if (fs.existsSync(pkg.files.cv)) {
+          attachmentPaths.push(pkg.files.cv);
+        }
+      });
+      
+      console.log(`[SKYE JOB EMAILER] Attaching ${attachmentPaths.length} files for ${manifest.packages.length} jobs`);
+    }
+  }
+
   // Send email
-  await sendEmail(subject, emailBody);
+  await sendEmail(subject, emailBody, attachmentPaths);
 
   console.log('[SKYE JOB EMAILER] Email sent successfully.');
 }
