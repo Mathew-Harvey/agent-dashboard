@@ -1,0 +1,89 @@
+{
+  "email_recipients": {
+    "primary": "skye.a.harvey@gmail.com",
+    "cc": "mathewharvey@gmail.com"
+  },
+  "filters": {
+    "min_salary": 100000,
+    "keywords_positive": [
+      "remote", "work from home", "WFH", "flexible location",
+      "Western Australia", "Perth", "WA", "Australia-wide",
+      "digital project manager", "product owner", "delivery manager", "scrum master",
+      "event manager", "event coordinator", "program manager",
+      "agile", "transformation", "stakeholder", "accessibility"
+    ],
+    "keywords_negative": [
+      "must be based in Sydney", "must be based in Melbourne",
+      "on-site 5 days", "office-based only"
+    ],
+    "excluded_industries": []
+  },
+  "scraping": {
+    "max_applications_per_day": 5,
+    "standout_threshold": 5
+  },
+  "credentials": {
+    "linkedin_email": "skye.a.harvey@gmail.com",
+    "linkedin_password": "Bongos4u",
+    "seek_email": "jeff-assistant@agentmail.to",
+    "seek_password": "PENDING",
+    "indeed_email": "jeff-assistant@agentmail.to",
+    "indeed_password": "PENDING"
+  },
+  "job_sites": [
+    {
+      "name": "seek",
+      "url": "https://www.seek.com.au",
+      "requires_login": true,
+      "priority": "high"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/jobs",
+      "requires_login": true,
+      "priority": "high"
+    },
+    {
+      "name": "indeed",
+      "url": "https://au.indeed.com",
+      "requires_login": false,
+      "priority": "high"
+    },
+    {
+      "name": "weworkremotely",
+      "url": "https://weworkremotely.com",
+      "requires_login": false,
+      "priority": "high"
+    },
+    {
+      "name": "remote.co",
+      "url": "https://remote.co",
+      "requires_login": false,
+      "priority": "medium"
+    },
+    {
+      "name": "remotive",
+      "url": "https://remotive.com",
+      "requires_login": false,
+      "priority": "medium"
+    },
+    {
+      "name": "wa_gov",
+      "url": "https://jobs.wa.gov.au",
+      "requires_login": false,
+      "priority": "high"
+    },
+    {
+      "name": "aps_jobs",
+      "url": "https://www.apsjobs.gov.au",
+      "requires_login": false,
+      "priority": "high"
+    },
+    {
+      "name": "mandurah_council",
+      "url": "https://cityofmandurah.bigredsky.com",
+      "requires_login": false,
+      "priority": "high"
+    }
+  ]
+}

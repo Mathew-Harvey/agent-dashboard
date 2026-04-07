@@ -1,0 +1,19 @@
+{
+  "date": "2026-04-07",
+  "jobs_found": 1,
+  "jobs": [
+    {
+      "title": "Senior Digital Project Manager (Remote)",
+      "company": "Test Company Pty Ltd",
+      "location": "Remote (WA preferred)",
+      "salary": 120000,
+      "description": "We are seeking an experienced Digital Project Manager to lead our transformation initiatives. Must be comfortable with agile methodologies, stakeholder engagement, and remote collaboration. Experience with healthcare or government sectors highly valued.",
+      "url": "https://example.com/job/123",
+      "posted_date": "2026-04-07T09:37:26.559Z",
+      "source": "test_run",
+      "hash": "104d20baacb59f1b2544c8d1f5fb44ec",
+      "score": 14,
+      "discovered_date": "2026-04-07T09:37:26.559Z"
+    }
+  ]
+}
