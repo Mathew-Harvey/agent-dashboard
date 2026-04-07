@@ -3,3 +3,50 @@
 [EMAIL] Preparing to send email...
 [EMAIL] Sent successfully. Message ID: <0100019d6763130d-a02d972c-264a-4f99-beb6-5859e28b7ad2-000000@email.amazonses.com>
 [SKYE JOB EMAILER] Email sent successfully.
+[SKYE JOB EMAILER] Starting at 2026-04-07T23:00:00.378Z
+[SKYE JOB EMAILER] Found 21 jobs to process.
+[SKYE JOB EMAILER] Generating 5 application packages (DOCX format)...
+[PACKAGE GENERATOR] Found 5 standout jobs
+
+[PACKAGE] Generating for: Agile Project Manager at Pyramid Global Technologies
+(node:789382) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓ Cover letter: Pyramid-Global-Technologies-Agile-Project-Manager-CoverLetter.docx
+  ✓ CV: Pyramid-Global-Technologies-Agile-Project-Manager-CV.docx (digital-pm)
+
+[PACKAGE] Generating for: Delivery Manager at Sharp & Carter Digital & Technology Perth
+  ✓ Cover letter: Sharp-Carter-Digital-Technology-Perth-Delivery-Manager-CoverLetter.docx
+  ✓ CV: Sharp-Carter-Digital-Technology-Perth-Delivery-Manager-CV.docx (digital-pm)
+
+[PACKAGE] Generating for: PopGen Data Product Owner at The Garvan Institute of Medical Research
+  ✓ Cover letter: The-Garvan-Institute-of-Medical-Research-PopGen-Data-Product-Owner-CoverLetter.docx
+  ✓ CV: The-Garvan-Institute-of-Medical-Research-PopGen-Data-Product-Owner-CV.docx (digital-pm)
+
+[PACKAGE] Generating for: Senior Project Manager at HAYS
+  ✓ Cover letter: HAYS-Senior-Project-Manager-CoverLetter.docx
+  ✓ CV: HAYS-Senior-Project-Manager-CV.docx (digital-pm)
+
+[PACKAGE] Generating for: Technology Project Manager at Sharp & Carter Digital & Technology Perth
+  ✓ Cover letter: Sharp-Carter-Digital-Technology-Perth-Technology-Project-Manager-CoverLetter.docx
+  ✓ CV: Sharp-Carter-Digital-Technology-Perth-Technology-Project-Manager-CV.docx (digital-pm)
+
+[PACKAGE GENERATOR] Complete. Generated 5 packages.
+[PACKAGE GENERATOR] Manifest saved: /home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/2026-04-07/manifest.json
+[SKYE JOB EMAILER] Application packages generated.
+[SKYE JOB EMAILER] Collecting ALL attachments...
+[SKYE JOB EMAILER] Attaching 10 files for 5 jobs
+[EMAIL] Preparing to send email...
+[EMAIL] Encoding attachments...
+  ✓ Pyramid-Global-Technologies-Agile-Project-Manager-CoverLetter.docx (9.2KB)
+  ✓ Pyramid-Global-Technologies-Agile-Project-Manager-CV.docx (8.6KB)
+  ✓ Sharp-Carter-Digital-Technology-Perth-Delivery-Manager-CoverLetter.docx (9.2KB)
+  ✓ Sharp-Carter-Digital-Technology-Perth-Delivery-Manager-CV.docx (8.6KB)
+  ✓ The-Garvan-Institute-of-Medical-Research-PopGen-Data-Product-Owner-CoverLetter.docx (9.2KB)
+  ✓ The-Garvan-Institute-of-Medical-Research-PopGen-Data-Product-Owner-CV.docx (8.6KB)
+  ✓ HAYS-Senior-Project-Manager-CoverLetter.docx (9.2KB)
+  ✓ HAYS-Senior-Project-Manager-CV.docx (8.6KB)
+  ✓ Sharp-Carter-Digital-Technology-Perth-Technology-Project-Manager-CoverLetter.docx (9.2KB)
+  ✓ Sharp-Carter-Digital-Technology-Perth-Technology-Project-Manager-CV.docx (8.6KB)
+[EMAIL] Sent successfully. Message ID: <0100019d6a2c9e2a-029deafb-274f-494d-9a0c-584d25a1af15-000000@email.amazonses.com>
+[EMAIL] 10 attachment(s) included
+[SKYE JOB EMAILER] Email sent successfully.

@@ -1,2 +1,12 @@
 [660490:660490:0407/180038.557872:ERROR:chrome/browser/process_singleton_posix.cc:345] Failed to create /tmp/chromium-openclaw-profile/SingletonLock: File exists (17)
 [660490:660490:0407/180038.558069:ERROR:chrome/app/chrome_main_delegate.cc:513] Failed to create a ProcessSingleton for your profile directory. This means that running multiple instances would start multiple browser processes rather than opening a new window in the existing process. Aborting now to avoid profile corruption.
+
+DevTools listening on ws://127.0.0.1:9222/devtools/browser/46b5413c-e69f-41fa-bfcc-2bc53b64539d
+[729623:729623:0408/010027.927857:ERROR:base/memory/shared_memory_switch.cc:289] Failed global descriptor lookup: 7
+Fontconfig error: Cannot load default config file: No such file: (null)
+[729589:729609:0408/010029.459615:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[729589:729609:0408/010056.505878:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[729589:729609:0408/010149.258151:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[729589:729609:0408/010316.583583:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[729589:729609:0408/010656.570588:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[729589:729609:0408/011339.445625:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
