@@ -10,3 +10,4 @@ Fontconfig error: Cannot load default config file: No such file: (null)
 [729589:729609:0408/010316.583583:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
 [729589:729609:0408/010656.570588:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
 [729589:729609:0408/011339.445625:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[729589:729609:0408/165032.373869:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
