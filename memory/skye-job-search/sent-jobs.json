@@ -1,0 +1,30 @@
+{
+  "sent_job_hashes": [
+    "a52da5b024e532d9ce4d3a2a4d3d09dc",
+    "39c01b6bb15140903e28518356c5100c",
+    "902133d43d81f69d03d044185a39e760",
+    "d105374f0a3ac212b495672545a882f8",
+    "43d7e95d28ff3b889ea3e0efc22afb26",
+    "bed9201108eeb26a67a698a239bcfd3f",
+    "ee82da3e07a0977e88e4671e56edd34a",
+    "166c7701e0a6245944617b9a164b31c8",
+    "6fda772773fed6a0f5fb1ceea5c61204",
+    "bb82c22b2fae895cbcf4092e1d7bd14c",
+    "6bf90a803bb17489c31d7c3e76c1c660",
+    "ab21db9fe6fda399d7633746abb8a4c6",
+    "9b681aa88ef09ea001ea1aa1bbbe55ff",
+    "61b095e25aec077926a2e6cdc7857838",
+    "df2d1fcdd08742d4c54f066c35a0b65f",
+    "5a25c4691d09d22df8b24f1b94a2f825",
+    "88c5b5e79be4c6ccba5e1c8ce1c2fd78",
+    "d36619110a7878ab37c4d5da97b1d817",
+    "05f20301b1abff937bf39925dcedaa75",
+    "0e75720087306dde3fbd71854829871c",
+    "d27fc98437d0d1c20341d916cf62185f"
+  ],
+  "last_updated": "2026-04-09T07:34:09.612Z",
+  "stats": {
+    "total_jobs_sent": 21,
+    "total_emails_sent": 1
+  }
+}

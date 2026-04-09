@@ -12,6 +12,7 @@ const { execSync } = require('child_process');
 
 const CONFIG_PATH = path.join(process.env.HOME, '.openclaw/workspace/memory/skye-job-search/config.json');
 const RESULTS_DIR = path.join(process.env.HOME, '.openclaw/workspace/memory/skye-job-search/daily-results');
+const SENT_JOBS_PATH = path.join(process.env.HOME, '.openclaw/workspace/memory/skye-job-search/sent-jobs.json');
 
 const config = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'));
 
@@ -183,6 +184,12 @@ async function sendEmail(subject, body, attachmentPaths = []) {
 async function main() {
   console.log('[SKYE JOB EMAILER] Starting at', new Date().toISOString());
   
+  // Load sent jobs tracker
+  let sentJobs = { sent_job_hashes: [], stats: { total_jobs_sent: 0, total_emails_sent: 0 } };
+  if (fs.existsSync(SENT_JOBS_PATH)) {
+    sentJobs = JSON.parse(fs.readFileSync(SENT_JOBS_PATH, 'utf8'));
+  }
+  
   // Load today's results
   const today = new Date().toISOString().split('T')[0];
   const resultsPath = path.join(RESULTS_DIR, `${today}.json`);
@@ -193,9 +200,19 @@ async function main() {
   }
 
   const results = JSON.parse(fs.readFileSync(resultsPath, 'utf8'));
-  const jobs = results.jobs || [];
+  const allJobs = results.jobs || [];
 
-  console.log(`[SKYE JOB EMAILER] Found ${jobs.length} jobs to process.`);
+  console.log(`[SKYE JOB EMAILER] Found ${allJobs.length} jobs in today's results.`);
+  
+  // Filter out already-sent jobs
+  const jobs = allJobs.filter(job => !sentJobs.sent_job_hashes.includes(job.hash));
+  
+  console.log(`[SKYE JOB EMAILER] ${jobs.length} NEW jobs (${allJobs.length - jobs.length} already sent).`);
+  
+  if (jobs.length === 0) {
+    console.log('[SKYE JOB EMAILER] No new jobs to send. Exiting.');
+    return;
+  }
 
   // Sort by score descending
   jobs.sort((a, b) => b.score - a.score);
@@ -246,7 +263,19 @@ async function main() {
   }
 
   // Send email
-  await sendEmail(subject, emailBody, attachmentPaths);
+  const emailSent = await sendEmail(subject, emailBody, attachmentPaths);
+
+  if (emailSent) {
+    // Mark jobs as sent
+    const newHashes = jobs.map(j => j.hash);
+    sentJobs.sent_job_hashes.push(...newHashes);
+    sentJobs.stats.total_jobs_sent += jobs.length;
+    sentJobs.stats.total_emails_sent += 1;
+    sentJobs.last_updated = new Date().toISOString();
+    
+    fs.writeFileSync(SENT_JOBS_PATH, JSON.stringify(sentJobs, null, 2));
+    console.log(`[SKYE JOB EMAILER] Marked ${jobs.length} jobs as sent.`);
+  }
 
   console.log('[SKYE JOB EMAILER] Email sent successfully.');
 }
