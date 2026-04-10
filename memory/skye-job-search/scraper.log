@@ -32,3 +32,19 @@ Fontconfig error: Cannot load default config file: No such file: (null)
 [SKYE SCRAPER] New jobs after deduplication: 0
 [SKYE SCRAPER] Complete. Found 0 new jobs.
 [SKYE SCRAPER] Top 5 scores: []
+[SKYE SCRAPER] Starting stealth job scrape at 2026-04-10T01:14:55.599Z
+[INDEED] Scraping for: digital project manager
+[INDEED] Scrape error: page.waitForTimeout is not a function
+[INDEED] Scraping for: product owner
+[INDEED] Scrape error: page.waitForTimeout is not a function
+[INDEED] Scraping for: event manager
+[INDEED] Scrape error: page.waitForTimeout is not a function
+[SEEK] Scraping for: digital project manager
+[SEEK] Scrape error: page.waitForTimeout is not a function
+[SEEK] Scraping for: product owner
+[SEEK] Scrape error: page.waitForTimeout is not a function
+[SEEK] Scraping for: event manager
+[SEEK] Scrape error: page.waitForTimeout is not a function
+[SKYE SCRAPER] Total jobs scraped: 0
+[SKYE SCRAPER] New jobs after deduplication: 0
+[SKYE SCRAPER] Complete. Found 0 new jobs.

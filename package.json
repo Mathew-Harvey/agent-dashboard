@@ -4,6 +4,8 @@
     "dotenv": "^17.3.1",
     "pdfkit": "^0.18.0",
     "puppeteer": "^24.40.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
     "twitter-api-v2": "^1.29.0",
     "twitter-lite": "^1.1.0"
   }
