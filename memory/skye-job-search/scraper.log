@@ -11,3 +11,24 @@ Fontconfig error: Cannot load default config file: No such file: (null)
 [729589:729609:0408/010656.570588:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
 [729589:729609:0408/011339.445625:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
 [729589:729609:0408/165032.373869:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+[729589:729609:0410/071450.911994:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+[729589:729609:0410/073457.698283:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+[SKYE SCRAPER] Starting real job scrape at 2026-04-10T01:02:49.307Z
+[INDEED] Scraping for: digital project manager
+[INDEED] Found 0 job cards
+[INDEED] Scraping for: product owner
+[INDEED] Found 0 job cards
+[INDEED] Scraping for: event manager
+[INDEED] Found 0 job cards
+[SEEK] Scraping for: digital project manager
+[SEEK] Scrape error: Waiting for selector `[data-testid="job-card"]` failed
+[SEEK] Scraping for: product owner
+[SEEK] Scrape error: Waiting for selector `[data-testid="job-card"]` failed
+[SEEK] Scraping for: event manager
+[SEEK] Scrape error: Waiting for selector `[data-testid="job-card"]` failed
+[REMOTE.CO] Scraping remote jobs...
+[REMOTE.CO] Scrape error: net::ERR_HTTP2_PROTOCOL_ERROR at https://remote.co/remote-jobs/project-management/
+[SKYE SCRAPER] Total jobs scraped: 0
+[SKYE SCRAPER] New jobs after deduplication: 0
+[SKYE SCRAPER] Complete. Found 0 new jobs.
+[SKYE SCRAPER] Top 5 scores: []
