@@ -48,3 +48,91 @@ Fontconfig error: Cannot load default config file: No such file: (null)
 [SKYE SCRAPER] Total jobs scraped: 0
 [SKYE SCRAPER] New jobs after deduplication: 0
 [SKYE SCRAPER] Complete. Found 0 new jobs.
+[2026-04-13T00:47:53.519Z] ======================================
+[2026-04-13T00:47:53.520Z] [SKYE SCRAPER] Starting job scrape
+[2026-04-13T00:47:53.520Z] ======================================
+[2026-04-13T00:47:53.667Z] [INDEED] Scraping for: digital project manager
+[2026-04-13T00:47:55.283Z] [INDEED] Scrape error: page.waitForTimeout is not a function
+[2026-04-13T00:47:57.291Z] [INDEED] Scraping for: product owner
+[2026-04-13T00:47:57.859Z] [INDEED] Scrape error: page.waitForTimeout is not a function
+[2026-04-13T00:47:59.867Z] [INDEED] Scraping for: event manager
+[2026-04-13T00:48:00.425Z] [INDEED] Scrape error: page.waitForTimeout is not a function
+[2026-04-13T00:48:02.432Z] [SEEK] Scraping for: digital project manager
+[2026-04-13T00:48:04.491Z] [SEEK] Scrape error: page.waitForTimeout is not a function
+[2026-04-13T00:48:06.501Z] [SEEK] Scraping for: product owner
+[2026-04-13T00:48:08.174Z] [SEEK] Scrape error: page.waitForTimeout is not a function
+[2026-04-13T00:48:10.181Z] [SEEK] Scraping for: event manager
+[2026-04-13T00:48:11.841Z] [SEEK] Scrape error: page.waitForTimeout is not a function
+[2026-04-13T00:48:13.851Z] [WEWORKREMOTELY] Scraping project management jobs...
+[2026-04-13T00:48:20.241Z] [WEWORKREMOTELY] Scrape error: page.waitForTimeout is not a function
+[2026-04-13T00:48:20.305Z] [SKYE SCRAPER] Total jobs scraped: 0
+[2026-04-13T00:48:20.305Z] [SKYE SCRAPER] New jobs after deduplication: 0
+[2026-04-13T00:48:20.305Z] [SKYE SCRAPER] Results saved to: /home/mat/.openclaw/workspace/memory/skye-job-search/daily-results/2026-04-13.json
+[2026-04-13T00:48:20.305Z] [SKYE SCRAPER] Database updated. Total jobs in DB: 22
+[2026-04-13T00:48:20.305Z] [SKYE SCRAPER] No new jobs found today
+[2026-04-13T00:48:20.305Z] [SKYE SCRAPER] ✅ Complete
+[2026-04-13T00:48:39.894Z] ======================================
+[2026-04-13T00:48:39.895Z] [SKYE SCRAPER] Starting job scrape
+[2026-04-13T00:48:39.895Z] ======================================
+[2026-04-13T00:48:40.037Z] [INDEED] Scraping for: digital project manager
+[2026-04-13T00:48:43.140Z] [INDEED] Found 0 job cards
+[2026-04-13T00:48:45.149Z] [INDEED] Scraping for: product owner
+[2026-04-13T00:48:48.202Z] [INDEED] Found 0 job cards
+[2026-04-13T00:48:50.210Z] [INDEED] Scraping for: event manager
+[2026-04-13T00:48:53.259Z] [INDEED] Found 0 job cards
+[2026-04-13T00:48:55.265Z] [SEEK] Scraping for: digital project manager
+[2026-04-13T00:48:59.097Z] [SEEK] Found 0 job cards
+[2026-04-13T00:49:01.106Z] [SEEK] Scraping for: product owner
+[2026-04-13T00:49:04.962Z] [SEEK] Found 0 job cards
+[2026-04-13T00:49:06.970Z] [SEEK] Scraping for: event manager
+[2026-04-13T00:49:10.581Z] [SEEK] Found 0 job cards
+[2026-04-13T00:49:12.587Z] [WEWORKREMOTELY] Scraping project management jobs...
+[2026-04-13T00:49:21.267Z] [WEWORKREMOTELY] Found 77 job cards
+[2026-04-13T00:49:21.355Z] [SKYE SCRAPER] Total jobs scraped: 0
+[2026-04-13T00:49:21.356Z] [SKYE SCRAPER] New jobs after deduplication: 0
+[2026-04-13T00:49:21.356Z] [SKYE SCRAPER] Results saved to: /home/mat/.openclaw/workspace/memory/skye-job-search/daily-results/2026-04-13.json
+[2026-04-13T00:49:21.356Z] [SKYE SCRAPER] Database updated. Total jobs in DB: 22
+[2026-04-13T00:49:21.356Z] [SKYE SCRAPER] No new jobs found today
+[2026-04-13T00:49:21.356Z] [SKYE SCRAPER] ✅ Complete
+[2026-04-13T00:50:25.627Z] ======================================
+[2026-04-13T00:50:25.627Z] [SKYE SCRAPER] Starting job scrape
+[2026-04-13T00:50:25.627Z] ======================================
+[2026-04-13T00:50:25.788Z] [INDEED] Scraping for: digital project manager
+[2026-04-13T00:50:29.752Z] [INDEED] Found 6 jobs
+[2026-04-13T00:50:31.768Z] [INDEED] Scraping for: product owner
+[2026-04-13T00:50:34.825Z] [INDEED] ⚠️  Blocked by anti-bot (unusual traffic detected)
+[2026-04-13T00:50:34.834Z] [SKYE SCRAPER] ❌ Fatal error: Protocol error (Target.closeTarget): No target with given id found
+[2026-04-13T00:50:34.834Z] ProtocolError: Protocol error (Target.closeTarget): No target with given id found
+    at <instance_members_initializer> (/home/mat/.openclaw/workspace/node_modules/puppeteer-core/lib/cjs/puppeteer/common/CallbackRegistry.js:103:14)
+    at new Callback (/home/mat/.openclaw/workspace/node_modules/puppeteer-core/lib/cjs/puppeteer/common/CallbackRegistry.js:107:16)
+    at CallbackRegistry.create (/home/mat/.openclaw/workspace/node_modules/puppeteer-core/lib/cjs/puppeteer/common/CallbackRegistry.js:25:26)
+    at Connection._rawSend (/home/mat/.openclaw/workspace/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Connection.js:108:26)
+    at Connection.send (/home/mat/.openclaw/workspace/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Connection.js:99:21)
+    at CdpPage.close (/home/mat/.openclaw/workspace/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Page.js:921:34)
+    at async scrapeIndeed (/home/mat/.openclaw/workspace/scripts/skye-job-scraper-complete.js:221:5)
+    at async main (/home/mat/.openclaw/workspace/scripts/skye-job-scraper-complete.js:390:20)
+[2026-04-13T00:50:58.770Z] ======================================
+[2026-04-13T00:50:58.770Z] [SKYE SCRAPER] Starting job scrape
+[2026-04-13T00:50:58.770Z] ======================================
+[2026-04-13T00:50:58.924Z] [INDEED] Scraping for: digital project manager
+[2026-04-13T00:51:02.845Z] [INDEED] Found 6 jobs
+[2026-04-13T00:51:07.863Z] [INDEED] Scraping for: product owner
+[2026-04-13T00:51:10.915Z] [INDEED] ⚠️  Blocked by anti-bot (unusual traffic detected)
+[2026-04-13T00:51:15.922Z] [INDEED] Scraping for: event manager
+[2026-04-13T00:51:18.977Z] [INDEED] ⚠️  Blocked by anti-bot (unusual traffic detected)
+[2026-04-13T00:51:23.986Z] [SEEK] Scraping for: digital project manager
+[2026-04-13T00:51:28.317Z] [SEEK] Found 0 jobs
+[2026-04-13T00:51:33.327Z] [SEEK] Scraping for: product owner
+[2026-04-13T00:51:37.415Z] [SEEK] Found 0 jobs
+[2026-04-13T00:51:42.432Z] [SEEK] Scraping for: event manager
+[2026-04-13T00:51:46.341Z] [SEEK] Found 0 jobs
+[2026-04-13T00:51:51.358Z] [WEWORKREMOTELY] Scraping project management jobs...
+[2026-04-13T00:51:55.557Z] [WEWORKREMOTELY] Found 0 jobs
+[2026-04-13T00:51:55.617Z] [SKYE SCRAPER] Total jobs scraped: 6
+[2026-04-13T00:51:55.617Z] [SKYE SCRAPER] New jobs after deduplication: 2
+[2026-04-13T00:51:55.618Z] [SKYE SCRAPER] Results saved to: /home/mat/.openclaw/workspace/memory/skye-job-search/daily-results/2026-04-13.json
+[2026-04-13T00:51:55.618Z] [SKYE SCRAPER] Database updated. Total jobs in DB: 24
+[2026-04-13T00:51:55.618Z] [SKYE SCRAPER] Top 5 jobs:
+[2026-04-13T00:51:55.618Z]   - Score 4: Senior Performance Media Manager (Part-Time / Remote) at REBORN (indeed)
+[2026-04-13T00:51:55.618Z]   - Score 4: Traffic Account Manager (International) at Gains Intermediate (indeed)
+[2026-04-13T00:51:55.618Z] [SKYE SCRAPER] ✅ Complete

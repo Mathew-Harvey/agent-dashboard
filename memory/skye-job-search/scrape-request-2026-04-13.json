@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-13",
+  "status": "pending",
+  "sites_to_scrape": [
+    "seek.com.au",
+    "indeed.com",
+    "weworkremotely.com",
+    "remote.co",
+    "jobs.wa.gov.au",
+    "apsjobs.gov.au",
+    "cityofmandurah.bigredsky.com"
+  ],
+  "search_terms": [
+    "digital project manager",
+    "product owner",
+    "event manager",
+    "program manager"
+  ],
+  "filters": {
+    "remote": true,
+    "location": ["Western Australia", "Remote", "Work from home"],
+    "min_salary": 100000
+  }
+}

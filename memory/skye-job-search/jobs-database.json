@@ -285,12 +285,39 @@
       "score": 0,
       "discovered_date": "2026-04-07T09:59:59.586Z",
       "salary": null
+    },
+    {
+      "title": "Senior Performance Media Manager (Part-Time / Remote)",
+      "company": "REBORN",
+      "location": "Remote",
+      "url": "https://au.indeed.com/rc/clk?jk=0a5d250433144292&bb=bGByQVpU3msVoy-p0NjxyuamrSZjXkauqJJcVF7BI4gSRkZ33Gtc28NLJKaxg6eZd9J_R139OaGNkW8oHYpE-0Q10YdUYzEq7V-JDBLMSilEBpe3gL6KQdeR6PSjocjT_gnV0FvwTdqlo_vXFnSnJu7qA8cV2yY0&xkcb=SoAn67M3kCCAKVgDMj0LbzkdCdPP&fccid=f7c8f32ff24175b6&vjs=3",
+      "salary": null,
+      "description": "",
+      "posted_date": "2026-04-13T00:51:02.845Z",
+      "source": "indeed",
+      "hash": "f0dbcd7db21b39c216c78639e45fbbd0",
+      "score": 4,
+      "discovered_date": "2026-04-13T00:51:55.617Z"
+    },
+    {
+      "title": "Traffic Account Manager (International)",
+      "company": "Gains Intermediate",
+      "location": "Remote",
+      "url": "https://au.indeed.com/rc/clk?jk=3240b5bf833e4103&bb=bGByQVpU3msVoy-p0NjxykO5TERWNj9vGNypz34UbBa_hFDZjNNaSqIdGkFpaOBoKZktKvsJQffyOEFAylNag0jZBuccssBbDjew4upit2aEEmdRIVTMRumLx2sHB7wq9z6bXdcXEUTWWeFeFsPyQMpewS6wPxYc&xkcb=SoCT67M3kCCAKVgDMj0KbzkdCdPP&fccid=2ca8cdc49da52ab5&vjs=3",
+      "salary": null,
+      "description": "",
+      "posted_date": "2026-04-13T00:51:02.845Z",
+      "source": "indeed",
+      "hash": "24057b6ca7e69b7c7debcaa0e6e679f8",
+      "score": 4,
+      "discovered_date": "2026-04-13T00:51:55.617Z"
     }
   ],
-  "last_updated": "2026-04-10T01:15:27.572Z",
+  "last_updated": "2026-04-13T00:51:55.618Z",
   "stats": {
-    "total_jobs_seen": 22,
+    "total_jobs_seen": 24,
     "jobs_this_week": 0,
-    "applications_generated": 0
+    "applications_generated": 0,
+    "last_scrape_found": 2
   }
 }
