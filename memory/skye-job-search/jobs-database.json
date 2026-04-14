@@ -311,13 +311,104 @@
       "hash": "24057b6ca7e69b7c7debcaa0e6e679f8",
       "score": 4,
       "discovered_date": "2026-04-13T00:51:55.617Z"
+    },
+    {
+      "title": "Study and career advice",
+      "company": "City of Rockingham",
+      "location": "Rockingham, WA",
+      "url": "https://rockingham.wa.gov.au/community/education-and-training/study-and-career-advice",
+      "salary": null,
+      "description": "",
+      "posted_date": "2026-04-14T01:26:23.423Z",
+      "source": "rockingham_council",
+      "hash": "e8f954ed1b59bd4c9928426930483dc9",
+      "score": 6,
+      "discovered_date": "2026-04-14T01:26:23.474Z"
+    },
+    {
+      "title": "Careers and employment",
+      "company": "City of Rockingham",
+      "location": "Rockingham, WA",
+      "url": "https://rockingham.wa.gov.au/your-city/careers-and-employment",
+      "salary": null,
+      "description": "",
+      "posted_date": "2026-04-14T01:26:23.423Z",
+      "source": "rockingham_council",
+      "hash": "a512bff9b2c275e00f08d88fd8fe6f36",
+      "score": 6,
+      "discovered_date": "2026-04-14T01:26:23.474Z"
+    },
+    {
+      "title": "Why work with us",
+      "company": "City of Rockingham",
+      "location": "Rockingham, WA",
+      "url": "https://rockingham.wa.gov.au/your-city/careers-and-employment/why-work-with-us",
+      "salary": null,
+      "description": "",
+      "posted_date": "2026-04-14T01:26:23.423Z",
+      "source": "rockingham_council",
+      "hash": "4422fff44c9b7d10c77e5c58d5cb8937",
+      "score": 6,
+      "discovered_date": "2026-04-14T01:26:23.474Z"
+    },
+    {
+      "title": "Current job vacancies",
+      "company": "City of Rockingham",
+      "location": "Rockingham, WA",
+      "url": "https://rockingham.wa.gov.au/your-city/careers-and-employment/current-job-vacancies",
+      "salary": null,
+      "description": "",
+      "posted_date": "2026-04-14T01:26:23.423Z",
+      "source": "rockingham_council",
+      "hash": "f0baf3ddcd0ab50b4f324cfa78e2d1cd",
+      "score": 6,
+      "discovered_date": "2026-04-14T01:26:23.474Z"
+    },
+    {
+      "title": "Apprenticeship and graduate program",
+      "company": "City of Rockingham",
+      "location": "Rockingham, WA",
+      "url": "https://rockingham.wa.gov.au/your-city/careers-and-employment/apprenticeship-and-graduate-program",
+      "salary": null,
+      "description": "",
+      "posted_date": "2026-04-14T01:26:23.423Z",
+      "source": "rockingham_council",
+      "hash": "7ba43902dfd6aa2e711c4ff4e9f90b2f",
+      "score": 6,
+      "discovered_date": "2026-04-14T01:26:23.474Z"
+    },
+    {
+      "title": "Work experience program",
+      "company": "City of Rockingham",
+      "location": "Rockingham, WA",
+      "url": "https://rockingham.wa.gov.au/your-city/careers-and-employment/work-experience-program",
+      "salary": null,
+      "description": "",
+      "posted_date": "2026-04-14T01:26:23.423Z",
+      "source": "rockingham_council",
+      "hash": "511b39f8d6fa6dc3a7967878bf9edcd7",
+      "score": 6,
+      "discovered_date": "2026-04-14T01:26:23.474Z"
+    },
+    {
+      "title": "Youth Employment Program",
+      "company": "City of Rockingham",
+      "location": "Rockingham, WA",
+      "url": "https://rockingham.wa.gov.au/your-city/careers-and-employment/youth-employment-program",
+      "salary": null,
+      "description": "",
+      "posted_date": "2026-04-14T01:26:23.423Z",
+      "source": "rockingham_council",
+      "hash": "9242e6ef0fa07a1926c1ce6f1999c0b9",
+      "score": 6,
+      "discovered_date": "2026-04-14T01:26:23.474Z"
     }
   ],
-  "last_updated": "2026-04-13T00:51:55.618Z",
+  "last_updated": "2026-04-14T01:26:23.474Z",
   "stats": {
-    "total_jobs_seen": 24,
+    "total_jobs_seen": 31,
     "jobs_this_week": 0,
     "applications_generated": 0,
-    "last_scrape_found": 2
+    "last_scrape_found": 7
   }
 }

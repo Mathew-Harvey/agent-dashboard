@@ -84,6 +84,18 @@
       "url": "https://cityofmandurah.bigredsky.com",
       "requires_login": false,
       "priority": "high"
+    },
+    {
+      "name": "rockingham_council",
+      "url": "https://www.rockingham.wa.gov.au/your-city/careers-and-employment/current-job-vacancies",
+      "requires_login": false,
+      "priority": "high"
+    },
+    {
+      "name": "perth_city_council",
+      "url": "https://www.perth.wa.gov.au/jobs",
+      "requires_login": false,
+      "priority": "high"
     }
   ]
 }

@@ -190,24 +190,31 @@ async function main() {
     sentJobs = JSON.parse(fs.readFileSync(SENT_JOBS_PATH, 'utf8'));
   }
   
-  // Load today's results
-  const today = new Date().toISOString().split('T')[0];
-  const resultsPath = path.join(RESULTS_DIR, `${today}.json`);
+  // Load yesterday's NEW jobs from the database (better than single results file)
+  const yesterday = new Date();
+  yesterday.setDate(yesterday.getDate() - 1);
+  const yesterdayStr = yesterday.toISOString().split('T')[0];
   
-  if (!fs.existsSync(resultsPath)) {
-    console.log('[SKYE JOB EMAILER] No results file found for today. Exiting.');
+  const dbPath = path.join(RESULTS_DIR, '../jobs-database.json');
+  if (!fs.existsSync(dbPath)) {
+    console.log('[SKYE JOB EMAILER] No jobs database found. Exiting.');
     return;
   }
 
-  const results = JSON.parse(fs.readFileSync(resultsPath, 'utf8'));
-  const allJobs = results.jobs || [];
+  const db = JSON.parse(fs.readFileSync(dbPath, 'utf8'));
+  
+  // Get all jobs discovered yesterday (might be multiple scraper runs)
+  const yesterdayJobs = db.jobs.filter(job => {
+    const discoveredDate = new Date(job.discovered_date).toISOString().split('T')[0];
+    return discoveredDate === yesterdayStr;
+  });
 
-  console.log(`[SKYE JOB EMAILER] Found ${allJobs.length} jobs in today's results.`);
+  console.log(`[SKYE JOB EMAILER] Found ${yesterdayJobs.length} jobs discovered yesterday (${yesterdayStr}).`);
   
   // Filter out already-sent jobs
-  const jobs = allJobs.filter(job => !sentJobs.sent_job_hashes.includes(job.hash));
+  const jobs = yesterdayJobs.filter(job => !sentJobs.sent_job_hashes.includes(job.hash));
   
-  console.log(`[SKYE JOB EMAILER] ${jobs.length} NEW jobs (${allJobs.length - jobs.length} already sent).`);
+  console.log(`[SKYE JOB EMAILER] ${jobs.length} NEW jobs (${yesterdayJobs.length - jobs.length} already sent).`);
   
   if (jobs.length === 0) {
     console.log('[SKYE JOB EMAILER] No new jobs to send. Exiting.');
@@ -222,24 +229,31 @@ async function main() {
   
   if (standouts.length > 0) {
     console.log(`[SKYE JOB EMAILER] Generating ${standouts.length} application packages (DOCX format)...`);
-    const { execSync } = require('child_process');
+    
+    // Create a temporary results file with yesterday's jobs for the package generator
+    const tempResultsPath = path.join(RESULTS_DIR, `temp-${yesterdayStr}.json`);
+    fs.writeFileSync(tempResultsPath, JSON.stringify({ jobs: yesterdayJobs, date: yesterdayStr }, null, 2));
+    
     try {
-      execSync(`node ${path.join(__dirname, 'generate-application-packages-docx.js')} ${resultsPath}`, { stdio: 'inherit' });
+      execSync(`node ${path.join(__dirname, 'generate-application-packages-docx.js')} ${tempResultsPath}`, { stdio: 'inherit' });
       console.log('[SKYE JOB EMAILER] Application packages generated.');
+      fs.unlinkSync(tempResultsPath); // Clean up temp file
     } catch (err) {
       console.error('[SKYE JOB EMAILER] Package generation error:', err.message);
+      if (fs.existsSync(tempResultsPath)) fs.unlinkSync(tempResultsPath);
     }
   }
 
   // Generate email
   const emailBody = generateEmailBody(jobs);
+  const today = new Date().toISOString().split('T')[0];
   const subject = jobs.length > 0 
     ? `${jobs.length} New Job${jobs.length === 1 ? '' : 's'} — ${today}`
     : `Job Search Update — ${today}`;
 
   // Collect attachment paths for ALL standouts
   const attachmentPaths = [];
-  const packagesDir = path.join(RESULTS_DIR, '../application-packages', today);
+  const packagesDir = path.join(RESULTS_DIR, '../application-packages', yesterdayStr);
   
   if (fs.existsSync(packagesDir) && standouts.length > 0) {
     console.log('[SKYE JOB EMAILER] Collecting ALL attachments...');

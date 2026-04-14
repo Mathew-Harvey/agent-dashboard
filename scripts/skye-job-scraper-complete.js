@@ -74,8 +74,22 @@ function scoreJob(job) {
 
   // Bonus for WA locations
   if (location.includes('perth') || location.includes('western australia') || 
-      location.includes(' wa') || location.includes('mandurah')) {
+      location.includes(' wa') || location.includes('mandurah') || location.includes('rockingham')) {
     score += 3;
+  }
+
+  // Bonus for council/government jobs (stable, good benefits)
+  if (job.source === 'mandurah_council' || job.source === 'rockingham_council' || 
+      job.source === 'perth_city_council' ||
+      job.company.toLowerCase().includes('council') || 
+      job.company.toLowerCase().includes('city of') ||
+      job.company.toLowerCase().includes('government')) {
+    score += 2;
+  }
+
+  // Bonus for event manager roles (Skye's background)
+  if (title.includes('event') || title.includes('program manager')) {
+    score += 2;
   }
 
   // Salary bonus
@@ -372,6 +386,233 @@ async function scrapeWeWorkRemotely(browser) {
   return jobs;
 }
 
+// Scrape Mandurah Council
+async function scrapeMandurahCouncil(browser) {
+  log('[MANDURAH COUNCIL] Scraping jobs...');
+  const page = await browser.newPage();
+  const jobs = [];
+
+  try {
+    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
+    
+    await page.goto('https://cityofmandurah.bigredsky.com/JobSearch/Vacancies', { 
+      waitUntil: 'domcontentloaded', 
+      timeout: 30000 
+    });
+
+    await new Promise(resolve => setTimeout(resolve, 3000));
+
+    const extractedJobs = await page.evaluate(() => {
+      const results = [];
+      const jobCards = document.querySelectorAll('.vacancy-item, .job-listing, tr.vacancy, .job-row');
+      
+      jobCards.forEach(card => {
+        try {
+          const titleEl = card.querySelector('.vacancy-title, .job-title, a');
+          const title = titleEl ? titleEl.textContent.trim() : null;
+          
+          const link = titleEl && titleEl.href ? titleEl.href : null;
+          
+          if (title) {
+            results.push({ title, link });
+          }
+        } catch (err) {}
+      });
+      
+      return results;
+    });
+
+    log(`[MANDURAH COUNCIL] Found ${extractedJobs.length} jobs`);
+
+    extractedJobs.forEach(job => {
+      jobs.push({
+        title: job.title,
+        company: 'City of Mandurah',
+        location: 'Mandurah, WA',
+        url: job.link || 'https://cityofmandurah.bigredsky.com',
+        salary: null,
+        description: '',
+        posted_date: new Date().toISOString(),
+        source: 'mandurah_council'
+      });
+    });
+
+  } catch (err) {
+    log(`[MANDURAH COUNCIL] Scrape error: ${err.message}`);
+  } finally {
+    await page.close();
+  }
+
+  return jobs;
+}
+
+// Scrape Rockingham Council
+async function scrapeRockinghamCouncil(browser) {
+  log('[ROCKINGHAM COUNCIL] Scraping jobs...');
+  const page = await browser.newPage();
+  const jobs = [];
+
+  try {
+    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
+    
+    await page.goto('https://www.rockingham.wa.gov.au/your-city/careers-and-employment/current-job-vacancies', { 
+      waitUntil: 'domcontentloaded', 
+      timeout: 30000 
+    });
+
+    await new Promise(resolve => setTimeout(resolve, 3000));
+
+    const extractedJobs = await page.evaluate(() => {
+      const results = [];
+      // Look for job listings in common patterns
+      const jobSelectors = [
+        '.job-listing',
+        '.vacancy-item', 
+        '.career-listing',
+        'article.job',
+        '.job-card',
+        '.position-listing',
+        'div[class*="job"]',
+        'div[class*="vacanc"]',
+        'li[class*="job"]'
+      ];
+      
+      let jobCards = [];
+      for (const selector of jobSelectors) {
+        const cards = document.querySelectorAll(selector);
+        if (cards.length > 0) {
+          jobCards = cards;
+          break;
+        }
+      }
+      
+      jobCards.forEach(card => {
+        try {
+          const titleEl = card.querySelector('h2, h3, h4, .title, .position-title, a');
+          if (!titleEl) return;
+          
+          const title = titleEl.textContent.trim();
+          const linkEl = card.querySelector('a') || titleEl;
+          const link = linkEl.href || null;
+          
+          if (title && title.length > 5 && title.length < 150 && !title.toLowerCase().includes('search') && !title.toLowerCase().includes('apply')) {
+            results.push({ title, link });
+          }
+        } catch (err) {}
+      });
+      
+      return results;
+    });
+
+    log(`[ROCKINGHAM COUNCIL] Found ${extractedJobs.length} jobs`);
+
+    extractedJobs.forEach(job => {
+      jobs.push({
+        title: job.title,
+        company: 'City of Rockingham',
+        location: 'Rockingham, WA',
+        url: job.link || 'https://www.rockingham.wa.gov.au/your-city/careers-and-employment/current-job-vacancies',
+        salary: null,
+        description: '',
+        posted_date: new Date().toISOString(),
+        source: 'rockingham_council'
+      });
+    });
+
+  } catch (err) {
+    log(`[ROCKINGHAM COUNCIL] Scrape error: ${err.message}`);
+  } finally {
+    await page.close();
+  }
+
+  return jobs;
+}
+
+// Scrape City of Perth
+async function scrapePerthCity(browser) {
+  log('[PERTH CITY] Scraping jobs...');
+  const page = await browser.newPage();
+  const jobs = [];
+
+  try {
+    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
+    
+    await page.goto('https://www.perth.wa.gov.au/jobs', { 
+      waitUntil: 'domcontentloaded', 
+      timeout: 30000 
+    });
+
+    await new Promise(resolve => setTimeout(resolve, 3000));
+
+    const extractedJobs = await page.evaluate(() => {
+      const results = [];
+      const jobSelectors = [
+        '.job-listing',
+        '.vacancy-item', 
+        '.career-listing',
+        'article.job',
+        '.job-card',
+        '.position-listing',
+        'div[class*="job"]',
+        'div[class*="vacanc"]',
+        'li[class*="job"]',
+        '.careers-item'
+      ];
+      
+      let jobCards = [];
+      for (const selector of jobSelectors) {
+        const cards = document.querySelectorAll(selector);
+        if (cards.length > 0) {
+          jobCards = cards;
+          break;
+        }
+      }
+      
+      jobCards.forEach(card => {
+        try {
+          const titleEl = card.querySelector('h2, h3, h4, .title, .position-title, a');
+          if (!titleEl) return;
+          
+          const title = titleEl.textContent.trim();
+          const linkEl = card.querySelector('a') || titleEl;
+          const link = linkEl.href || null;
+          
+          if (title && title.length > 5 && title.length < 150 && 
+              !title.toLowerCase().includes('search') && 
+              !title.toLowerCase().includes('apply') &&
+              !title.toLowerCase().includes('view all')) {
+            results.push({ title, link });
+          }
+        } catch (err) {}
+      });
+      
+      return results;
+    });
+
+    log(`[PERTH CITY] Found ${extractedJobs.length} jobs`);
+
+    extractedJobs.forEach(job => {
+      jobs.push({
+        title: job.title,
+        company: 'City of Perth',
+        location: 'Perth, WA',
+        url: job.link || 'https://www.perth.wa.gov.au/jobs',
+        salary: null,
+        description: '',
+        posted_date: new Date().toISOString(),
+        source: 'perth_city_council'
+      });
+    });
+
+  } catch (err) {
+    log(`[PERTH CITY] Scrape error: ${err.message}`);
+  } finally {
+    await page.close();
+  }
+
+  return jobs;
+}
+
 // Main scraping function
 async function main() {
   log('======================================');
@@ -414,6 +655,18 @@ async function main() {
     // Scrape WeWorkRemotely
     const wwrJobs = await scrapeWeWorkRemotely(browser);
     allJobs.push(...wwrJobs);
+
+    // Scrape Mandurah Council
+    const mandurahJobs = await scrapeMandurahCouncil(browser);
+    allJobs.push(...mandurahJobs);
+
+    // Scrape Rockingham Council
+    const rockinghamJobs = await scrapeRockinghamCouncil(browser);
+    allJobs.push(...rockinghamJobs);
+
+    // Scrape City of Perth
+    const perthCityJobs = await scrapePerthCity(browser);
+    allJobs.push(...perthCityJobs);
 
     await browser.close();
 

@@ -30,6 +30,12 @@
 
 ## Mistakes & Learnings (One Mistake = Document Forever)
 
+### 2026-04-14: Job emailer missed yesterday's new jobs
+- **Mistake**: The morning emailer only checked the most recent scraper result file instead of aggregating ALL jobs discovered yesterday
+- **Problem**: Scraper ran twice on April 13 (00:51 found 2 new jobs, 22:00 found 0 new). Emailer only saw the 22:00 run (0 jobs) and reported "no new jobs"
+- **Solution**: Changed emailer to read jobs-database.json and filter by discovered_date = yesterday instead of reading single results file
+- **Learn**: When multiple scheduled jobs write to the same data set, always query the **authoritative database** (jobs-database.json) instead of intermediate results files. Results files are snapshots; the database is the source of truth.
+
 ### 2026-02-17: Coder couldn't find PetSwap repo
 - **Mistake**: Coder agent couldn't find the petswap-landing repository because it was in a separate GitHub repo not linked to the main workspace
 - **Solution**: Found that PetSwap landing page is at https://github.com/Mathew-Harvey/petswap-landing-page (separate from agent-dashboard)
