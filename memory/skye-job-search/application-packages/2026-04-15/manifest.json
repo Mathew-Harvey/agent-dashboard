@@ -1,0 +1,100 @@
+{
+  "packages": [
+    {
+      "job": {
+        "title": "Study and career advice",
+        "company": "City of Rockingham",
+        "location": "Rockingham, WA",
+        "url": "https://rockingham.wa.gov.au/community/education-and-training/study-and-career-advice",
+        "salary": null,
+        "description": "",
+        "posted_date": "2026-04-14T01:26:23.423Z",
+        "source": "rockingham_council",
+        "hash": "e8f954ed1b59bd4c9928426930483dc9",
+        "score": 6,
+        "discovered_date": "2026-04-14T01:26:23.474Z"
+      },
+      "files": {
+        "coverLetter": "/home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/2026-04-15/City-of-Rockingham-Study-and-career-advice-CoverLetter.docx",
+        "cv": "/home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/2026-04-15/City-of-Rockingham-Study-and-career-advice-CV.docx"
+      }
+    },
+    {
+      "job": {
+        "title": "Careers and employment",
+        "company": "City of Rockingham",
+        "location": "Rockingham, WA",
+        "url": "https://rockingham.wa.gov.au/your-city/careers-and-employment",
+        "salary": null,
+        "description": "",
+        "posted_date": "2026-04-14T01:26:23.423Z",
+        "source": "rockingham_council",
+        "hash": "a512bff9b2c275e00f08d88fd8fe6f36",
+        "score": 6,
+        "discovered_date": "2026-04-14T01:26:23.474Z"
+      },
+      "files": {
+        "coverLetter": "/home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/2026-04-15/City-of-Rockingham-Careers-and-employment-CoverLetter.docx",
+        "cv": "/home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/2026-04-15/City-of-Rockingham-Careers-and-employment-CV.docx"
+      }
+    },
+    {
+      "job": {
+        "title": "Why work with us",
+        "company": "City of Rockingham",
+        "location": "Rockingham, WA",
+        "url": "https://rockingham.wa.gov.au/your-city/careers-and-employment/why-work-with-us",
+        "salary": null,
+        "description": "",
+        "posted_date": "2026-04-14T01:26:23.423Z",
+        "source": "rockingham_council",
+        "hash": "4422fff44c9b7d10c77e5c58d5cb8937",
+        "score": 6,
+        "discovered_date": "2026-04-14T01:26:23.474Z"
+      },
+      "files": {
+        "coverLetter": "/home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/2026-04-15/City-of-Rockingham-Why-work-with-us-CoverLetter.docx",
+        "cv": "/home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/2026-04-15/City-of-Rockingham-Why-work-with-us-CV.docx"
+      }
+    },
+    {
+      "job": {
+        "title": "Current job vacancies",
+        "company": "City of Rockingham",
+        "location": "Rockingham, WA",
+        "url": "https://rockingham.wa.gov.au/your-city/careers-and-employment/current-job-vacancies",
+        "salary": null,
+        "description": "",
+        "posted_date": "2026-04-14T01:26:23.423Z",
+        "source": "rockingham_council",
+        "hash": "f0baf3ddcd0ab50b4f324cfa78e2d1cd",
+        "score": 6,
+        "discovered_date": "2026-04-14T01:26:23.474Z"
+      },
+      "files": {
+        "coverLetter": "/home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/2026-04-15/City-of-Rockingham-Current-job-vacancies-CoverLetter.docx",
+        "cv": "/home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/2026-04-15/City-of-Rockingham-Current-job-vacancies-CV.docx"
+      }
+    },
+    {
+      "job": {
+        "title": "Apprenticeship and graduate program",
+        "company": "City of Rockingham",
+        "location": "Rockingham, WA",
+        "url": "https://rockingham.wa.gov.au/your-city/careers-and-employment/apprenticeship-and-graduate-program",
+        "salary": null,
+        "description": "",
+        "posted_date": "2026-04-14T01:26:23.423Z",
+        "source": "rockingham_council",
+        "hash": "7ba43902dfd6aa2e711c4ff4e9f90b2f",
+        "score": 6,
+        "discovered_date": "2026-04-14T01:26:23.474Z"
+      },
+      "files": {
+        "coverLetter": "/home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/2026-04-15/City-of-Rockingham-Apprenticeship-and-graduate-program-CoverLetter.docx",
+        "cv": "/home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/2026-04-15/City-of-Rockingham-Apprenticeship-and-graduate-program-CV.docx"
+      }
+    }
+  ],
+  "generated_at": "2026-04-15T10:57:01.266Z"
+}

@@ -70,3 +70,119 @@
 [SKYE JOB EMAILER] Found 2 jobs discovered yesterday (2026-04-13).
 [SKYE JOB EMAILER] 0 NEW jobs (2 already sent).
 [SKYE JOB EMAILER] No new jobs to send. Exiting.
+[SKYE JOB EMAILER] Starting at 2026-04-15T10:57:01.048Z
+[SKYE JOB EMAILER] Found 7 jobs discovered yesterday (2026-04-14).
+[SKYE JOB EMAILER] 7 NEW jobs (0 already sent).
+[SKYE JOB EMAILER] Generating 5 application packages (DOCX format)...
+[PACKAGE GENERATOR] Found 5 standout jobs
+
+[PACKAGE] Generating for: Study and career advice at City of Rockingham
+(node:1043) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓ Cover letter: City-of-Rockingham-Study-and-career-advice-CoverLetter.docx
+  ✓ CV: City-of-Rockingham-Study-and-career-advice-CV.docx (digital-pm)
+
+[PACKAGE] Generating for: Careers and employment at City of Rockingham
+  ✓ Cover letter: City-of-Rockingham-Careers-and-employment-CoverLetter.docx
+  ✓ CV: City-of-Rockingham-Careers-and-employment-CV.docx (digital-pm)
+
+[PACKAGE] Generating for: Why work with us at City of Rockingham
+  ✓ Cover letter: City-of-Rockingham-Why-work-with-us-CoverLetter.docx
+  ✓ CV: City-of-Rockingham-Why-work-with-us-CV.docx (digital-pm)
+
+[PACKAGE] Generating for: Current job vacancies at City of Rockingham
+  ✓ Cover letter: City-of-Rockingham-Current-job-vacancies-CoverLetter.docx
+  ✓ CV: City-of-Rockingham-Current-job-vacancies-CV.docx (digital-pm)
+
+[PACKAGE] Generating for: Apprenticeship and graduate program at City of Rockingham
+  ✓ Cover letter: City-of-Rockingham-Apprenticeship-and-graduate-program-CoverLetter.docx
+  ✓ CV: City-of-Rockingham-Apprenticeship-and-graduate-program-CV.docx (digital-pm)
+
+[PACKAGE GENERATOR] Complete. Generated 5 packages.
+[PACKAGE GENERATOR] Manifest saved: /home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/2026-04-15/manifest.json
+[SKYE JOB EMAILER] Application packages generated.
+[EMAIL] Preparing to send email...
+[EMAIL] Failed to send: [TypeError: fetch failed] {
+  [cause]: Error: getaddrinfo EAI_AGAIN api.agentmail.to
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:121:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'api.agentmail.to'
+  }
+}
+
+=== EMAIL CONTENT (FALLBACK) ===
+To: skye.a.harvey@gmail.com
+CC: mathewharvey@gmail.com
+Subject: 7 New Jobs — 2026-04-15
+
+--- BODY ---
+Rise and shine! New opportunities just dropped ✨
+
+**7 new jobs found** overnight.
+
+---
+
+## 🌟 STANDOUTS (Application Packages Ready)
+
+I've drafted full application packages for these 5 roles:
+
+### 1. Study and career advice
+**City of Rockingham** · Rockingham, WA
+🔗 https://rockingham.wa.gov.au/community/education-and-training/study-and-career-advice
+
+**Why this one:** High match score (6/10). Full application package generated and attached.
+
+📎 **Attached files:**
+- City-of-Rockingham-Study-and-career-advice-CoverLetter.docx
+- City-of-Rockingham-Study-and-career-advice-CV.docx
+
+### 2. Careers and employment
+**City of Rockingham** · Rockingham, WA
+🔗 https://rockingham.wa.gov.au/your-city/careers-and-employment
+
+**Why this one:** High match score (6/10). Full application package generated and attached.
+
+📎 **Attached files:**
+- City-of-Rockingham-Careers-and-employment-CoverLetter.docx
+- City-of-Rockingham-Careers-and-employment-CV.docx
+
+### 3. Why work with us
+**City of Rockingham** · Rockingham, WA
+🔗 https://rockingham.wa.gov.au/your-city/careers-and-employment/why-work-with-us
+
+**Why this one:** High match score (6/10). Full application package generated and attached.
+
+📎 **Attached files:**
+- City-of-Rockingham-Why-work-with-us-CoverLetter.docx
+- City-of-Rockingham-Why-work-with-us-CV.docx
+
+### 4. Current job vacancies
+**City of Rockingham** · Rockingham, WA
+🔗 https://rockingham.wa.gov.au/your-city/careers-and-employment/current-job-vacancies
+
+**Why this one:** High match score (6/10). Full application package generated and attached.
+
+📎 **Attached files:**
+- City-of-Rockingham-Current-job-vacancies-CoverLetter.docx
+- City-of-Rockingham-Current-job-vacancies-CV.docx
+
+### 5. Apprenticeship and graduate program
+**City of Rockingham** · Rockingham, WA
+🔗 https://rockingham.wa.gov.au/your-city/careers-and-employment/apprenticeship-and-graduate-program
+
+**Why this one:** High match score (6/10). Full application package generated and attached.
+
+📎 **Attached files:**
+- City-of-Rockingham-Apprenticeship-and-graduate-program-CoverLetter.docx
+- City-of-Rockingham-Apprenticeship-and-graduate-program-CV.docx
+
+---
+
+Questions? Let me know what's working and what's not. I'll keep refining the search.
+
+— Jeff 🐧
+=== END EMAIL ===
+
+[SKYE JOB EMAILER] Email sent successfully.

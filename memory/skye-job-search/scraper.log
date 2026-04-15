@@ -220,3 +220,19 @@ Fontconfig error: Cannot load default config file: No such file: (null)
 [2026-04-14T22:01:24.279Z] [SKYE SCRAPER] Database updated. Total jobs in DB: 31
 [2026-04-14T22:01:24.279Z] [SKYE SCRAPER] No new jobs found today
 [2026-04-14T22:01:24.279Z] [SKYE SCRAPER] ✅ Complete
+[1120:1120:0415/185701.405842:ERROR:base/memory/shared_memory_switch.cc:289] Failed global descriptor lookup: 7
+
+DevTools listening on ws://127.0.0.1:9222/devtools/browser/ca67e9d1-48e8-4670-9783-afe7fb3829a3
+Fontconfig error: Cannot load default config file: No such file: (null)
+[1002:1103:0415/185704.945441:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR
+[1002:1103:0415/185704.946293:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR
+[1002:1103:0415/185704.976451:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR
+[1002:1103:0415/185725.874015:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[1002:1103:0415/185821.303561:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[1002:1103:0415/185950.418683:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Warning: vkCreateInstance: Found no drivers!
+Warning: vkCreateInstance failed with VK_ERROR_INCOMPATIBLE_DRIVER
+    at CheckVkSuccessImpl (../../third_party/dawn/src/dawn/native/vulkan/VulkanError.cpp:106)
+
+[1002:1103:0415/190348.656345:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[1002:1103:0415/191044.616342:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
