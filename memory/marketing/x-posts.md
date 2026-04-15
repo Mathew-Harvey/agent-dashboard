@@ -289,3 +289,10 @@
 **Message:** "Your first strict ring muscle-up is 6 weeks away. Not 2 years like it took me. 31-page PDF, 14+ videos, tracker app. $19 AUD lifetime. Start today: muscleup-landing.onrender.com #muscleup #ringmuscleup #calisthenics"
 **X Tweet ID:** 2043856789553459566
 **Status:** Posted ✅
+
+## 2026-04-15 - Handstand
+**Angle:** Sales-focused (angle 1)
+**Image:** HS_promo_square_1080.png
+**Message:** "$19 vs $150+ PT session. 24-page PDF, 12+ videos, tracker app, wrist conditioning. Lifetime access. No subscription. handstand-landingpage.onrender.com #handstand #calisthenics"
+**X Tweet ID:** 2044219176806690984
+**Status:** Posted ✅

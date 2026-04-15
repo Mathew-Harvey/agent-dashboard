@@ -404,11 +404,11 @@
       "discovered_date": "2026-04-14T01:26:23.474Z"
     }
   ],
-  "last_updated": "2026-04-14T01:26:23.474Z",
+  "last_updated": "2026-04-14T22:01:24.279Z",
   "stats": {
     "total_jobs_seen": 31,
     "jobs_this_week": 0,
     "applications_generated": 0,
-    "last_scrape_found": 7
+    "last_scrape_found": 0
   }
 }

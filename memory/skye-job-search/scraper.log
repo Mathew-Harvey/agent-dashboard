@@ -191,3 +191,32 @@ Fontconfig error: Cannot load default config file: No such file: (null)
 [2026-04-14T01:26:23.475Z]   - Score 6: Current job vacancies at City of Rockingham (rockingham_council)
 [2026-04-14T01:26:23.475Z]   - Score 6: Apprenticeship and graduate program at City of Rockingham (rockingham_council)
 [2026-04-14T01:26:23.475Z] [SKYE SCRAPER] ✅ Complete
+[2026-04-14T22:00:07.327Z] ======================================
+[2026-04-14T22:00:07.328Z] [SKYE SCRAPER] Starting job scrape
+[2026-04-14T22:00:07.328Z] ======================================
+[2026-04-14T22:00:07.470Z] [INDEED] Scraping for: digital project manager
+[2026-04-14T22:00:11.488Z] [INDEED] Found 6 jobs
+[2026-04-14T22:00:16.508Z] [INDEED] Scraping for: product owner
+[2026-04-14T22:00:19.568Z] [INDEED] ⚠️  Blocked by anti-bot (unusual traffic detected)
+[2026-04-14T22:00:24.575Z] [INDEED] Scraping for: event manager
+[2026-04-14T22:00:27.638Z] [INDEED] ⚠️  Blocked by anti-bot (unusual traffic detected)
+[2026-04-14T22:00:32.645Z] [SEEK] Scraping for: digital project manager
+[2026-04-14T22:00:36.610Z] [SEEK] Found 0 jobs
+[2026-04-14T22:00:41.619Z] [SEEK] Scraping for: product owner
+[2026-04-14T22:00:45.442Z] [SEEK] Found 0 jobs
+[2026-04-14T22:00:50.457Z] [SEEK] Scraping for: event manager
+[2026-04-14T22:00:54.291Z] [SEEK] Found 0 jobs
+[2026-04-14T22:00:59.307Z] [WEWORKREMOTELY] Scraping project management jobs...
+[2026-04-14T22:01:03.791Z] [WEWORKREMOTELY] Found 0 jobs
+[2026-04-14T22:01:03.810Z] [MANDURAH COUNCIL] Scraping jobs...
+[2026-04-14T22:01:07.115Z] [MANDURAH COUNCIL] Found 0 jobs
+[2026-04-14T22:01:07.120Z] [ROCKINGHAM COUNCIL] Scraping jobs...
+[2026-04-14T22:01:14.134Z] [ROCKINGHAM COUNCIL] Found 0 jobs
+[2026-04-14T22:01:14.143Z] [PERTH CITY] Scraping jobs...
+[2026-04-14T22:01:24.225Z] [PERTH CITY] Found 0 jobs
+[2026-04-14T22:01:24.279Z] [SKYE SCRAPER] Total jobs scraped: 6
+[2026-04-14T22:01:24.279Z] [SKYE SCRAPER] New jobs after deduplication: 0
+[2026-04-14T22:01:24.279Z] [SKYE SCRAPER] Results saved to: /home/mat/.openclaw/workspace/memory/skye-job-search/daily-results/2026-04-14.json
+[2026-04-14T22:01:24.279Z] [SKYE SCRAPER] Database updated. Total jobs in DB: 31
+[2026-04-14T22:01:24.279Z] [SKYE SCRAPER] No new jobs found today
+[2026-04-14T22:01:24.279Z] [SKYE SCRAPER] ✅ Complete
