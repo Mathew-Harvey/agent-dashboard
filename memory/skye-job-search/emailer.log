@@ -186,3 +186,38 @@ Questions? Let me know what's working and what's not. I'll keep refining the sea
 === END EMAIL ===
 
 [SKYE JOB EMAILER] Email sent successfully.
+[SKYE JOB EMAILER] Starting at 2026-04-15T23:00:00.449Z
+[SKYE JOB EMAILER] Found 7 jobs discovered yesterday (2026-04-14).
+[SKYE JOB EMAILER] 7 NEW jobs (0 already sent).
+[SKYE JOB EMAILER] Generating 5 application packages (DOCX format)...
+[PACKAGE GENERATOR] Found 5 standout jobs
+
+[PACKAGE] Generating for: Study and career advice at City of Rockingham
+(node:120784) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓ Cover letter: City-of-Rockingham-Study-and-career-advice-CoverLetter.docx
+  ✓ CV: City-of-Rockingham-Study-and-career-advice-CV.docx (digital-pm)
+
+[PACKAGE] Generating for: Careers and employment at City of Rockingham
+  ✓ Cover letter: City-of-Rockingham-Careers-and-employment-CoverLetter.docx
+  ✓ CV: City-of-Rockingham-Careers-and-employment-CV.docx (digital-pm)
+
+[PACKAGE] Generating for: Why work with us at City of Rockingham
+  ✓ Cover letter: City-of-Rockingham-Why-work-with-us-CoverLetter.docx
+  ✓ CV: City-of-Rockingham-Why-work-with-us-CV.docx (digital-pm)
+
+[PACKAGE] Generating for: Current job vacancies at City of Rockingham
+  ✓ Cover letter: City-of-Rockingham-Current-job-vacancies-CoverLetter.docx
+  ✓ CV: City-of-Rockingham-Current-job-vacancies-CV.docx (digital-pm)
+
+[PACKAGE] Generating for: Apprenticeship and graduate program at City of Rockingham
+  ✓ Cover letter: City-of-Rockingham-Apprenticeship-and-graduate-program-CoverLetter.docx
+  ✓ CV: City-of-Rockingham-Apprenticeship-and-graduate-program-CV.docx (digital-pm)
+
+[PACKAGE GENERATOR] Complete. Generated 5 packages.
+[PACKAGE GENERATOR] Manifest saved: /home/mat/.openclaw/workspace/memory/skye-job-search/application-packages/2026-04-15/manifest.json
+[SKYE JOB EMAILER] Application packages generated.
+[EMAIL] Preparing to send email...
+[EMAIL] Sent successfully. Message ID: <0100019d935f7b73-431c24b4-ab6e-4664-83fb-644dff062c30-000000@email.amazonses.com>
+[SKYE JOB EMAILER] Marked 7 jobs as sent.
+[SKYE JOB EMAILER] Email sent successfully.
