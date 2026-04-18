@@ -310,3 +310,10 @@
 **Message:** "Still can't balance or your wrists hurt? This 6-level programme fixes it: 24-page PDF, 12+ videos, tracker app, wrist conditioning. $19 AUD lifetime. handstand-landingpage.onrender.com #handstand #calisthenics"
 **X Tweet ID:** 2044943957831057729
 **Status:** Posted ✅
+
+## 2026-04-18 - Ring Muscle Up
+**Angle:** Sales-focused (angle 4)
+**Image:** MU_promo_square_1080.png
+**Message:** "What you get: 31-page PDF, 14+ videos, tracker app. $19 AUD one-time. Lifetime access. Start now: muscleup-landing.onrender.com #muscleup #ringmuscleup #calisthenics"
+**X Tweet ID:** 2045306341850518005
+**Status:** Posted ✅
