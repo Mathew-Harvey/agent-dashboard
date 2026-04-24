@@ -317,3 +317,10 @@
 **Message:** "What you get: 31-page PDF, 14+ videos, tracker app. $19 AUD one-time. Lifetime access. Start now: muscleup-landing.onrender.com #muscleup #ringmuscleup #calisthenics"
 **X Tweet ID:** 2045306341850518005
 **Status:** Posted ✅
+
+## 2026-04-24 - Ring Muscle Up
+**Angle:** Sales-focused (angle 2)
+**Image:** MU_whats_inside_1080.png
+**Message:** "Built from coaching hundreds through their first strict ring muscle-up. Every mistake solved. 31-page PDF, 14+ videos, tracker app. $19 AUD: muscleup-landing.onrender.com #muscleup #ringmuscleup #calisthenics"
+**X Tweet ID:** 2047586344634065396
+**Status:** Posted ✅
