@@ -324,3 +324,10 @@
 **Message:** "Built from coaching hundreds through their first strict ring muscle-up. Every mistake solved. 31-page PDF, 14+ videos, tracker app. $19 AUD: muscleup-landing.onrender.com #muscleup #ringmuscleup #calisthenics"
 **X Tweet ID:** 2047586344634065396
 **Status:** Posted ✅
+
+## 2026-04-25 - Handstand
+**Angle:** Sales-focused (angle 3)
+**Image:** MOCKUP_HS_app_detail_1080.png
+**Message:** "Still can't balance or your wrists hurt? This 6-level programme fixes it: 24-page PDF, 12+ videos, tracker app, wrist conditioning. $19 AUD lifetime. handstand-landingpage.onrender.com #handstand #calisthenics"
+**X Tweet ID:** 2047843060411924602
+**Status:** Posted ✅
