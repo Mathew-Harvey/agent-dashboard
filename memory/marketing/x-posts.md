@@ -338,3 +338,10 @@
 **Message:** "What you get: 31-page PDF, 14+ videos, tracker app. $19 AUD one-time. Lifetime access. Start now: muscleup-landing.onrender.com #muscleup #ringmuscleup #calisthenics"
 **X Tweet ID:** 2048205449443611107
 **Status:** Posted ✅
+
+## 2026-04-27 - Handstand
+**Angle:** Sales-focused (angle 5)
+**Image:** MOCKUP_HS_banner_1200x628.png
+**Message:** "Zero gymnastics background. Learned as an adult. Years of coaching distilled into 6 levels. 24-page PDF, 12+ videos, tracker app, wrist conditioning. $19 AUD: handstand-landingpage.onrender.com #handstand #calisthenics"
+**X Tweet ID:** 2048567833177788861
+**Status:** Posted ✅
