@@ -261,3 +261,4 @@ Warning: vkCreateInstance failed with VK_ERROR_INCOMPATIBLE_DRIVER
 [1006:1141:0424/235505.505667:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
 [1006:1141:0430/121527.621741:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
 [1006:1141:0501/155635.962429:ERROR:google_apis/gcm/engine/mcs_client.cc:748] Received close command, resetting connection.
+[1006:1141:0505/111343.001863:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
