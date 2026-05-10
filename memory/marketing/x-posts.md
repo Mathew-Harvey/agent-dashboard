@@ -429,3 +429,10 @@
 **Message:** "$19 vs $150+ PT session. 24-page PDF, 12+ videos, tracker app, wrist conditioning. Lifetime access. No subscription. handstand-landingpage.onrender.com #handstand #calisthenics"
 **X Tweet ID:** 2052916490308038842
 **Status:** Posted ✅
+
+## 2026-05-10 - Ring Muscle Up
+**Angle:** Sales-focused (angle 2)
+**Image:** MU_whats_inside_1080.png
+**Message:** "Built from coaching hundreds through their first strict ring muscle-up. Every mistake solved. 31-page PDF, 14+ videos, tracker app. $19 AUD: muscleup-landing.onrender.com #muscleup #ringmuscleup #calisthenics"
+**X Tweet ID:** 2053278919068176538
+**Status:** Posted ✅
