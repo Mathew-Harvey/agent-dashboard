@@ -50,6 +50,20 @@ TWEET="$TEMPLATE"
 TWEET="${TWEET//\{URL\}/$URL}"
 TWEET="${TWEET//\{HASHTAGS\}/$HASHTAGS}"
 
+# Rotate media: images on even days, videos on odd days
+MEDIA_OPTIONS=(
+  "assets/choreboard/og-image.png"
+  "assets/choreboard/twitter-short.mp4"
+  "assets/choreboard/screenshots/landing-full.png"
+  "assets/choreboard/twitter-app-demo.mp4"
+  "assets/choreboard/product-showcase.mp4"
+)
+
+MEDIA_INDEX=$((DAY_OF_YEAR % ${#MEDIA_OPTIONS[@]}))
+MEDIA_FILE="${MEDIA_OPTIONS[$MEDIA_INDEX]}"
+
+echo "Using media: $MEDIA_FILE"
+
 # Post using Node.js (handles media upload + posting correctly)
 echo "Posting to X: $TWEET"
 RESULT=$(cd "$WORKSPACE" && node -e "
@@ -65,7 +79,7 @@ const client = new TwitterApi({
 
 (async () => {
   try {
-    const mediaId = await client.v1.uploadMedia('assets/choreboard/og-image.png');
+    const mediaId = await client.v1.uploadMedia('$MEDIA_FILE');
     const tweet = await client.v2.tweet({
       text: \`$TWEET\`,
       media: { media_ids: [mediaId] }
@@ -73,7 +87,8 @@ const client = new TwitterApi({
     console.log(JSON.stringify({
       success: true,
       tweetId: tweet.data.id,
-      mediaId: mediaId
+      mediaId: mediaId,
+      mediaFile: '$MEDIA_FILE'
     }));
   } catch (e) {
     console.error(JSON.stringify({
@@ -94,10 +109,12 @@ if [ "$SUCCESS" = "true" ]; then
   echo "✅ Posted to X! Tweet ID: $X_TWEET_ID"
   
   # Log to marketing file
+  MEDIA_FILE_USED=$(echo "$RESULT" | jq -r '.mediaFile')
   mkdir -p "$(dirname "$LOG_FILE")"
   echo "" >> "$LOG_FILE"
   echo "## $DATE - $PRODUCT" >> "$LOG_FILE"
   echo "**Angle:** Sales-focused (angle $ANGLE_INDEX)" >> "$LOG_FILE"
+  echo "**Media:** $MEDIA_FILE_USED" >> "$LOG_FILE"
   echo "**Message:** \"$TWEET\"" >> "$LOG_FILE"
   echo "**X Tweet ID:** $X_TWEET_ID" >> "$LOG_FILE"
   echo "**Media ID:** $MEDIA_ID" >> "$LOG_FILE"
