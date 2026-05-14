@@ -74,20 +74,23 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
   - Docs: https://docs.tavily.com
   - Use for: AI-optimized web research
 
-## The Bodyweight Gym
+## Choreboard.io (PRIMARY REVENUE FOCUS)
 
-- **Skill**: `~/.openclaw/skills/tbg-management/SKILL.md`
+- **Site**: https://choreboard.io
+- **Stack**: Vite.js frontend + Node.js backend
+- **Hosting**: Render
+- **Pricing**: Free beta → $5/month subscription
+- **Repo**: *(Mat to provide)*
+- **Marketing**: X (Twitter) — daily posts at 9am AWST
+- **Assets**: `/home/mat/.openclaw/workspace/assets/choreboard/`
+- **X Posts Log**: `memory/choreboard/x-posts.md`
+- **Script**: `/home/mat/.openclaw/workspace/scripts/choreboard-x-post.sh`
+
+## The Bodyweight Gym (ARCHIVED — marketing paused)
+
 - **Site**: https://thebodyweightgym.org
 - **Runs on**: Mat's local machine (MatMiniDel) via Docker + Cloudflare Tunnel
   - Repo: /home/mat/dev/TheBodyweightGymOnline2025 (GitHub: Mathew-Harvey/TheBodyweightGymOnline2025)
-  - To deploy changes:
-    ```bash
-    ssh to home server
-    cd ~/TheBodyweightGymOnline2025
-    git pull
-    pm2 restart bodyweight-gym
-    ```
-  - Or just: `pm2 restart bodyweight-gym` if already in the directory
 
 ## Philips Hue
 

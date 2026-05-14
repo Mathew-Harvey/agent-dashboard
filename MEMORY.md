@@ -1,32 +1,45 @@
 # MEMORY.md - Long-term Memory
 
-## NEW REVENUE STREAM: The Bodyweight Gym Digital Products
+## PRIMARY REVENUE STREAM: Choreboard.io (May 2026)
 
-### Products Live (Feb 2026)
+**Product:** Family chore management SaaS — real-time Kanban, kid PIN sign-in, auto-renewing chores, Sunday payouts, gamification (XP, badges, leaderboards), ambient TV mode for kitchen wall.
+
+**Site:** https://choreboard.io
+
+**Target Audience:** Parents with kids doing chores
+
+**Pricing:** 
+- Free during beta
+- Post-beta: $5/month subscription (credit card required)
+
+**Tech Stack:**
+- Frontend: Vite.js
+- Backend: Node.js
+- Hosting: Render
+
+**Marketing Focus:** X (Twitter) primarily
+
+**Asset Strategy:** Extract images from landing page → ffmpeg to create video content → post on X
+
+**GitHub Repo:** *(Mat to provide)*
+
+**My Mission:**
+- Generate X marketing content from landing page assets
+- Post daily sales-focused content
+- Drive signups during beta
+- Convert beta users to paid subscribers at launch
+
+---
+
+## ARCHIVED: The Bodyweight Gym Digital Products (Feb–May 2026)
+
+Marketing paused May 2026 to focus on Choreboard.io. Products remain live but no active promotion.
+
 1. **Ring Muscle Up Training Guide + Tracker App** - $19 AUD one-time
    - Landing: https://muscleup-landing.onrender.com
-   - App: https://muscleup-web.onrender.com
-   - Checkout: https://muscleup-landing.onrender.com/api/create-checkout
-   - 31-page PDF, 6 progressive levels, 14+ videos
 
-2. **Handstand Complete Training Guide + Tracker App** - $19 AUD (launch pricing)
+2. **Handstand Complete Training Guide + Tracker App** - $19 AUD
    - Landing: https://handstand-landingpage.onrender.com
-   - App: https://handstand-web.onrender.com
-   - Checkout: https://handstand-landingpage.onrender.com/api/create-checkout
-   - 24-page PDF, 6 levels to 60-sec freestanding handstand, 12+ videos
-
-### Social Accounts
-- Instagram: https://www.instagram.com/the_bodyweight_gym/
-- Facebook: https://www.facebook.com/thebodyweightgym.com.au/
-
-### Marketing Strategy
-- Start with free (Reddit, community engagement)
-- Paid ads once Stripe has funds
-
-### My Mission
-- Market and sell these products
-- Primary money-making mission
-- Set up cron jobs for marketing automation
 
 ## Mistakes & Learnings (One Mistake = Document Forever)
 
