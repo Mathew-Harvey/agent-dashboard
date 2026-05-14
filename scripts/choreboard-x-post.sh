@@ -8,11 +8,6 @@ WORKSPACE="/home/mat/.openclaw/workspace"
 LOG_FILE="$WORKSPACE/memory/choreboard/x-posts.md"
 DATE=$(date +%Y-%m-%d)
 
-# Load env
-if [ -f "$WORKSPACE/.env" ]; then
-  source "$WORKSPACE/.env"
-fi
-
 # Product details
 PRODUCT="Choreboard.io"
 URL="choreboard.io"
@@ -55,41 +50,63 @@ TWEET="$TEMPLATE"
 TWEET="${TWEET//\{URL\}/$URL}"
 TWEET="${TWEET//\{HASHTAGS\}/$HASHTAGS}"
 
-# Upload image first
-echo "Uploading image..."
-MEDIA_RESULT=$(xurl media upload "$WORKSPACE/assets/choreboard/og-image.png")
-MEDIA_ID=$(echo "$MEDIA_RESULT" | grep -o '"media_id_string":"[^"]*"' | cut -d'"' -f4)
-
-if [ -z "$MEDIA_ID" ]; then
-  echo "❌ Image upload failed:"
-  echo "$MEDIA_RESULT"
-  exit 1
-fi
-
-echo "✅ Image uploaded! Media ID: $MEDIA_ID"
-
-# Post to X with image
+# Post using Node.js (handles media upload + posting correctly)
 echo "Posting to X: $TWEET"
-X_RESULT=$(xurl post "$TWEET" --media-id "$MEDIA_ID")
-X_TWEET_ID=$(echo "$X_RESULT" | grep -o '"id":"[0-9]*"' | head -1 | cut -d'"' -f4)
+RESULT=$(cd "$WORKSPACE" && node -e "
+const {TwitterApi} = require('twitter-api-v2');
+require('dotenv').config({path: '.env', override: true});
 
-if [ -n "$X_TWEET_ID" ]; then
+const client = new TwitterApi({
+  appKey: process.env.X_CONSUMER_KEY,
+  appSecret: process.env.X_CONSUMER_SECRET,
+  accessToken: process.env.X_ACCESS_TOKEN,
+  accessSecret: process.env.X_ACCESS_TOKEN_SECRET,
+});
+
+(async () => {
+  try {
+    const mediaId = await client.v1.uploadMedia('assets/choreboard/og-image.png');
+    const tweet = await client.v2.tweet({
+      text: \`$TWEET\`,
+      media: { media_ids: [mediaId] }
+    });
+    console.log(JSON.stringify({
+      success: true,
+      tweetId: tweet.data.id,
+      mediaId: mediaId
+    }));
+  } catch (e) {
+    console.error(JSON.stringify({
+      success: false,
+      error: e.data || e.message
+    }));
+    process.exit(1);
+  }
+})();
+" 2>&1 | grep -v 'dotenv')
+
+# Parse result
+SUCCESS=$(echo "$RESULT" | jq -r '.success' 2>/dev/null || echo "false")
+
+if [ "$SUCCESS" = "true" ]; then
+  X_TWEET_ID=$(echo "$RESULT" | jq -r '.tweetId')
+  MEDIA_ID=$(echo "$RESULT" | jq -r '.mediaId')
   echo "✅ Posted to X! Tweet ID: $X_TWEET_ID"
+  
+  # Log to marketing file
+  mkdir -p "$(dirname "$LOG_FILE")"
+  echo "" >> "$LOG_FILE"
+  echo "## $DATE - $PRODUCT" >> "$LOG_FILE"
+  echo "**Angle:** Sales-focused (angle $ANGLE_INDEX)" >> "$LOG_FILE"
+  echo "**Message:** \"$TWEET\"" >> "$LOG_FILE"
+  echo "**X Tweet ID:** $X_TWEET_ID" >> "$LOG_FILE"
+  echo "**Media ID:** $MEDIA_ID" >> "$LOG_FILE"
+  echo "**Status:** Posted ✅" >> "$LOG_FILE"
+  
+  echo ""
+  echo "✅ Choreboard.io X post complete!"
 else
-  echo "❌ X post failed"
-  echo "$X_RESULT"
+  echo "❌ X post failed:"
+  echo "$RESULT"
   exit 1
 fi
-
-# Log to marketing file
-mkdir -p "$(dirname "$LOG_FILE")"
-echo "" >> "$LOG_FILE"
-echo "## $DATE - $PRODUCT" >> "$LOG_FILE"
-echo "**Angle:** Sales-focused (angle $ANGLE_INDEX)" >> "$LOG_FILE"
-echo "**Message:** \"$TWEET\"" >> "$LOG_FILE"
-echo "**X Tweet ID:** $X_TWEET_ID" >> "$LOG_FILE"
-echo "**Media ID:** $MEDIA_ID" >> "$LOG_FILE"
-echo "**Status:** Posted ✅" >> "$LOG_FILE"
-
-echo ""
-echo "✅ Choreboard.io X post complete!"
