@@ -1,3 +1,4 @@
 .openclaw
 .env
 node_modules/
+.choreboard-credentials
