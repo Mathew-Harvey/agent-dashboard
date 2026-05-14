@@ -50,13 +50,13 @@ TWEET="$TEMPLATE"
 TWEET="${TWEET//\{URL\}/$URL}"
 TWEET="${TWEET//\{HASHTAGS\}/$HASHTAGS}"
 
-# Rotate media: images on even days, videos on odd days
+# Rotate media: mix of images and engaging videos
 MEDIA_OPTIONS=(
   "assets/choreboard/og-image.png"
-  "assets/choreboard/twitter-short.mp4"
-  "assets/choreboard/screenshots/landing-full.png"
-  "assets/choreboard/twitter-app-demo.mp4"
-  "assets/choreboard/product-showcase.mp4"
+  "assets/choreboard/product-demo-engaging.mp4"
+  "assets/choreboard/app-demo-with-text.mp4"
+  "assets/choreboard/quick-demo.mp4"
+  "assets/choreboard/screenshots/app-main.png"
 )
 
 MEDIA_INDEX=$((DAY_OF_YEAR % ${#MEDIA_OPTIONS[@]}))
