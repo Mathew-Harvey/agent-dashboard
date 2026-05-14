@@ -77,11 +77,16 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ## Choreboard.io (PRIMARY REVENUE FOCUS)
 
 - **Site**: https://choreboard.io
+- **Admin Dashboard**: https://app.choreboard.io/admin/dash
 - **Stack**: Vite.js frontend + Node.js backend
 - **Hosting**: Render
 - **Pricing**: Free beta → $5/month subscription
-- **Repo**: *(Mat to provide)*
+- **Repos**:
+  - Landing: https://github.com/Mathew-Harvey/ChoreBoard-Landing
+  - Web App: https://github.com/Mathew-Harvey/ChoreBoard-Web
+  - API: https://github.com/Mathew-Harvey/ChoreBoard-Api
 - **Marketing**: X (Twitter) — daily posts at 9am AWST
+- **Jeff's Account**: jeff-assistant@agentmail.to (admin whitelisted)
 - **Assets**: `/home/mat/.openclaw/workspace/assets/choreboard/`
 - **X Posts Log**: `memory/choreboard/x-posts.md`
 - **Script**: `/home/mat/.openclaw/workspace/scripts/choreboard-x-post.sh`

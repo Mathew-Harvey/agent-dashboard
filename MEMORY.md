@@ -21,7 +21,12 @@
 
 **Asset Strategy:** Extract images from landing page → ffmpeg to create video content → post on X
 
-**GitHub Repo:** *(Mat to provide)*
+**GitHub Repos:**
+- Landing: https://github.com/Mathew-Harvey/ChoreBoard-Landing
+- Web App: https://github.com/Mathew-Harvey/ChoreBoard-Web  
+- API: https://github.com/Mathew-Harvey/ChoreBoard-Api
+
+**Admin Dashboard:** https://app.choreboard.io/admin/dash (jeff-assistant@agentmail.to whitelisted)
 
 **My Mission:**
 - Generate X marketing content from landing page assets
