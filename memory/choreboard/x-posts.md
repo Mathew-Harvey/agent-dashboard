@@ -26,3 +26,19 @@ Daily sales-focused X posts to drive beta signups.
 **Media ID:** 2054892125691785216
 **Status:** Posted ✅ (manual test)
 **Link:** https://x.com/JeffAssistant/status/2054892136559210953
+
+## 2026-05-15 - Choreboard.io
+**Angle:** Sales-focused (angle 7)
+**Media:** assets/choreboard/og-image.png
+**Message:** "What you get: Real-time board on all devices. Kid PIN sign-in. Auto-renewing chores. Sunday payout ledger. XP, badges, leaderboards. TV mode for the kitchen wall. Free beta: choreboard.io #parenting #chores #familytech #productivity"
+**X Tweet ID:** 2055126284246929695
+**Media ID:** 2055126277728952320
+**Status:** Posted ✅
+
+## 2026-05-15 - Choreboard.io
+**Angle:** Sales-focused (angle 7)
+**Media:** assets/choreboard/og-image.png
+**Message:** "What you get: Real-time board on all devices. Kid PIN sign-in. Auto-renewing chores. Sunday payout ledger. XP, badges, leaderboards. TV mode for the kitchen wall. Free beta: choreboard.io #parenting #chores #familytech #productivity"
+**X Tweet ID:** 2055126342610632817
+**Media ID:** 2055126336189169664
+**Status:** Posted ✅
