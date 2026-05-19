@@ -273,3 +273,6 @@ Warning: vkCreateInstance failed with VK_ERROR_INCOMPATIBLE_DRIVER
 [1006:1141:0515/091105.754855:ERROR:google_apis/gcm/engine/mcs_client.cc:748] Received close command, resetting connection.
 [1006:1141:0515/102909.819523:ERROR:google_apis/gcm/engine/mcs_client.cc:748] Received close command, resetting connection.
 [1006:1141:0517/013125.456149:ERROR:google_apis/gcm/engine/mcs_client.cc:748] Received close command, resetting connection.
+[1006:1141:0519/033906.119632:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+[1006:1141:0519/033926.142316:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+[1006:1141:0519/034007.564816:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
