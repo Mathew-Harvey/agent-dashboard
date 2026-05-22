@@ -48,6 +48,12 @@ Marketing paused May 2026 to focus on Choreboard.io. Products remain live but no
 
 ## Mistakes & Learnings (One Mistake = Document Forever)
 
+### 2026-05-22: Email check cron failing - missing agentmail module
+- **Mistake**: Email check script failed with "No module named 'agentmail'" - Python environment was broken
+- **Problem**: Script was trying to activate `/tmp/agentmail-env` which didn't exist, then falling back to system Python which doesn't have the module
+- **Solution**: Created dedicated venv at `/home/mat/.openclaw/workspace/.venv-email`, installed agentmail there, updated script to use venv Python directly
+- **Learn**: Don't rely on system Python or temporary venvs for cron jobs. Use a permanent, workspace-relative venv and reference it with absolute paths.
+
 ### 2026-04-14: Job emailer missed yesterday's new jobs
 - **Mistake**: The morning emailer only checked the most recent scraper result file instead of aggregating ALL jobs discovered yesterday
 - **Problem**: Scraper ran twice on April 13 (00:51 found 2 new jobs, 22:00 found 0 new). Emailer only saw the 22:00 run (0 jobs) and reported "no new jobs"

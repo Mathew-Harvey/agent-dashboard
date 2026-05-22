@@ -4,11 +4,7 @@
 AGENTMAIL_KEY="am_0c4fe254a60572f60c1535b9b6ffd1861616a29401f103cb9b5089d41740dcab"
 
 echo "=== AgentMail (jeff-assistant@agentmail.to) ==="
-cd /tmp
-if [ -f agentmail-env/bin/activate ]; then
-    source agentmail-env/bin/activate 2>/dev/null
-fi
-python3 -c "
+/home/mat/.openclaw/workspace/.venv-email/bin/python3 -c "
 import sys
 try:
     from agentmail import AgentMail
