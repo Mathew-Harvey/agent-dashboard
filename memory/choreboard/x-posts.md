@@ -146,3 +146,19 @@ Daily sales-focused X posts to drive beta signups.
 **X Tweet ID:** 2057989915242353008
 **Media ID:** 2057989908283969537
 **Status:** Posted ✅
+
+## 2026-05-24 - Choreboard.io
+**Angle:** Sales-focused (angle 0)
+**Media:** assets/choreboard/og-image.png
+**Message:** "Tired of nagging your kids about chores? ChoreBoard makes it a game. Real-time Kanban on every device. Sunday payouts. Kids claim, parents approve, everyone wins. Free beta: choreboard.io #parenting #chores #familytech #productivity"
+**X Tweet ID:** 2058231492241994222
+**Media ID:** 2058231483144572928
+**Status:** Posted ✅
+
+## 2026-05-24 - Choreboard.io
+**Angle:** Sales-focused (angle 0)
+**Media:** assets/choreboard/og-image.png
+**Message:** "Tired of nagging your kids about chores? ChoreBoard makes it a game. Real-time Kanban on every device. Sunday payouts. Kids claim, parents approve, everyone wins. Free beta: choreboard.io #parenting #chores #familytech #productivity"
+**X Tweet ID:** 2058352306555658340
+**Media ID:** 2058352298204790784
+**Status:** Posted ✅
