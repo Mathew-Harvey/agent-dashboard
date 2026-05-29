@@ -278,3 +278,17 @@ Warning: vkCreateInstance failed with VK_ERROR_INCOMPATIBLE_DRIVER
 [1006:1141:0519/034007.564816:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
 [1006:1141:0521/085050.981497:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
 [1006:1141:0525/195153.657730:ERROR:google_apis/gcm/engine/mcs_client.cc:748] Received close command, resetting connection.
+[1203:1203:0529/114411.315678:ERROR:base/memory/shared_memory_switch.cc:289] Failed global descriptor lookup: 7
+
+DevTools listening on ws://127.0.0.1:9222/devtools/browser/c9e5cac3-025b-43f0-8303-9ae2d5e8b993
+Fontconfig error: Cannot load default config file: No such file: (null)
+[990:1165:0529/114444.715329:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[990:1165:0529/114513.036524:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[990:1165:0529/114600.539840:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Warning: vkCreateInstance: Found no drivers!
+Warning: vkCreateInstance failed with VK_ERROR_INCOMPATIBLE_DRIVER
+    at CheckVkSuccessImpl (../../third_party/dawn/src/dawn/native/vulkan/VulkanError.cpp:106)
+
+[990:1165:0529/114737.418722:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[990:1165:0529/115042.338975:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[990:1165:0529/115654.599204:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
