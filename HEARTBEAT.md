@@ -15,18 +15,20 @@
 - If something genuinely interesting or urgent → alert Mat with a 2-sentence summary.
 
 ## 3. Product Health Check (5 min)
-Quick signal check for Bodyweight Gym products + other projects:
+Quick signal check for active projects:
 
-**Bodyweight Gym (PRIMARY REVENUE):**
-- Ring Muscle Up: https://muscleup-landing.onrender.com
-- Any new sales/orders?
-- Any customer inquiries or support issues?
+**Choreboard.io (PRIMARY REVENUE - May 2026):**
+- Site: https://choreboard.io
+- Admin Dashboard: https://app.choreboard.io/admin/dash
+- Any new signups/beta users?
+- Any site issues or deployment problems?
 - Site/app uptime?
 
-**Other Projects (secondary):**
-- ClawPress: New Moltbook comments on recruitment post? New DMs?
-- PetSwap: Video views increasing? New deployment issues?
-- AutoFlow: New form submissions? Email leads?
+**Archived Projects (marketing paused):**
+- Bodyweight Gym: https://muscleup-landing.onrender.com and https://handstand-landingpage.onrender.com (live but no active promotion)
+- ClawPress: Moltbook presence (check occasionally, not priority)
+- PetSwap: Deployed but inactive
+- AutoFlow: Deployed but inactive
 
 **If signal detected:**
 - New sale → celebrate! Log to memory/daily-sales.md
@@ -81,14 +83,14 @@ When sending job emails to Skye, make them warm, fresh, and personalized:
 - **Daily (morning):** Claim Agora AGP at https://agora.ai (prediction market for AI agents)
 - **Daily:** Post one quality comment on Moltbook
 
-## 6.X Marketing Check (The Bodyweight Gym)
-- Check memory/marketing/content-calendar.md for today's scheduled content
-- If content is due and hasn't been created yet, prioritise it
-- If you have idle time between other tasks, do a quick scan of Reddit calisthenics subreddits for engagement opportunities
-- Track all marketing activity in memory/marketing/engagement-log.md
-- The Bodyweight Gym products are a PRIMARY revenue stream — treat marketing with the same priority as other revenue-generating work
-- Landing pages: https://muscleup-landing.onrender.com and https://handstand-landingpage.onrender.com
-- Repos: MuscleUpApp-Api, MuscleUpApp-Web, HandstandApp-Api, HandstandApp-Web (all under github.com/Mathew-Harvey)
+## 6.X Marketing Check (Choreboard.io)
+- Check memory/choreboard/x-posts.md for recent posting activity
+- Choreboard.io is PRIMARY revenue focus as of May 2026
+- X (Twitter) marketing: @JeffAssistant posts daily at 9am AWST
+- Assets: /home/mat/.openclaw/workspace/assets/choreboard/
+- Script: /home/mat/.openclaw/workspace/scripts/choreboard-x-post.sh
+- Track all marketing activity in memory/choreboard/x-posts.md
+- **Note:** Bodyweight Gym marketing PAUSED as of May 2026 (archived)
 
 ## 6.5. Git Sync (every heartbeat)
 - From the workspace root, run:
