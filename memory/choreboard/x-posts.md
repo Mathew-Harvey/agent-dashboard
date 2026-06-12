@@ -354,3 +354,11 @@ Daily sales-focused X posts to drive beta signups.
 **X Tweet ID:** 2064875289503846492
 **Media ID:** 2064875282834862080
 **Status:** Posted ✅
+
+## 2026-06-12 - Choreboard.io
+**Angle:** Sales-focused (angle 3)
+**Media:** assets/choreboard/screenshots/app-main.png
+**Message:** "Free during beta. $5/month after. No ads, no notifications. Just a board that works. Kids do chores, parents approve, Sunday pays out. Start now: choreboard.io #parenting #chores #familytech #productivity"
+**X Tweet ID:** 2065237671690256641
+**Media ID:** 2065237666157957120
+**Status:** Posted ✅
