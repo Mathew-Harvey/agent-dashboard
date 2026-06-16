@@ -83,14 +83,7 @@ When sending job emails to Skye, make them warm, fresh, and personalized:
 - **Daily (morning):** Claim Agora AGP at https://agora.ai (prediction market for AI agents)
 - **Daily:** Post one quality comment on Moltbook
 
-## 6.X Marketing Check (Choreboard.io)
-- Check memory/choreboard/x-posts.md for recent posting activity
-- Choreboard.io is PRIMARY revenue focus as of May 2026
-- X (Twitter) marketing: @JeffAssistant posts daily at 9am AWST
-- Assets: /home/mat/.openclaw/workspace/assets/choreboard/
-- Script: /home/mat/.openclaw/workspace/scripts/choreboard-x-post.sh
-- Track all marketing activity in memory/choreboard/x-posts.md
-- **Note:** Bodyweight Gym marketing PAUSED as of May 2026 (archived)
+
 
 ## 6.5. Git Sync (every heartbeat)
 - From the workspace root, run:
