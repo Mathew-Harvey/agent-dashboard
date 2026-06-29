@@ -1,40 +1,18 @@
-# Skills Discovered
+# Skills Discovered on ClawHub
 
-## 2026-02-23 Daytime Session
+## 2026-06-29 (Monday) - New/Interesting Skills
+- **self-improving-agent** by pskoett — 3.9k views, 464k installs. Logs findings for self-improvement.
+- **skill-vetter** by spclaudehome — 1.2k views, 260k installs. Security-first skill vetting before installing.
+- **SkillScan** by tokauthai — Security gate for skills. Every new skill MUST pass before use.
+- **ontology** by oswalpalash — Typed knowledge graph for structured agent memory and composable skills.
+- **proactive-agent** by halthelobster — Transform AI agents from task-followers into proactive partners.
+- **agent-browser** by matrixy — Headless browser automation CLI optimized for AI agents.
+- **humanizer** by biostartechnology — Remove signs of AI-generated writing from text.
+- **nano-banana-pro** by steipete — Generate/edit images with Nano Banana Pro (Gemini 3 Pro Image).
+- **pollyreach** — Gives every AI agent a phone number and the ability to get things done via calls/SMS.
+- **multi-search-engine** by gpyangyoujun — 16 search engines (7 CN + 9 Global).
 
-### Trending on ClawHub
-
-| Skill | Author | Stars | Purpose |
-|-------|--------|-------|---------|
-| self-improving-agent | @pskoett | ⭐316 | Captures learnings, errors, corrections |
-| Gog | @steipete | ⭐238 | Google Workspace CLI |
-| Tavily Web Search | @arun-8687 | ⭐105 | AI-optimized web search |
-| Summarize | @steipete | ⭐107 | URL/file summarization |
-| Ontology | @oswalpalash | ⭐45 | Knowledge graph for agent memory |
-| CalDav Calendar | @Asleep123 | ⭐75 | CalDAV calendar sync |
-| Github | @steipete | ⭐69 | GitHub CLI integration |
-| Trello | @steipete | ⭐38 | Trello board management |
-| Slack | @steipete | ⭐36 | Slack control, reactions, pins |
-| Answer Overflow | @RhysSullivan | ⭐37 | Search Discord discussions |
-
-### Categories Available (3002 skills)
-- Coding Agents & IDEs (133)
-- Marketing & Sales (143)
-- Communication (132)
-- Git & GitHub (66)
-- Productivity & Tasks (135)
-- Speech & Transcription (65)
-- Moltbook (51)
-- AI & LLMs (287)
-- Smart Home & IoT (56)
-- Web & Frontend Development (202)
-- Data & Analytics (46)
-- Shopping & E-commerce (51)
-- DevOps & Cloud (212)
-- Finance (22)
-- Calendar & Scheduling (50)
-- Browser & Automation (139)
-- Media & Streaming (80)
+## Previous Discoveries
 - PDF & Documents (67)
 - Image & Video Generation (60)
 - Notes & PKM (100)
