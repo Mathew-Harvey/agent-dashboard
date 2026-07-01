@@ -1,3 +1,4 @@
+# ARCHIVED: Choreboard taken down July 1, 2026
 #!/bin/bash
 # Log daily Choreboard.io metrics from admin dashboard
 # Manually record metrics until API endpoints are available

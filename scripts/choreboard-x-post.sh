@@ -1,3 +1,4 @@
+# ARCHIVED: Choreboard taken down July 1, 2026
 #!/bin/bash
 # Daily X post for Choreboard.io
 # Goal: Drive beta signups

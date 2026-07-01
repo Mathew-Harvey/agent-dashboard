@@ -17,14 +17,8 @@
 ## 3. Product Health Check (5 min)
 Quick signal check for active projects:
 
-**Choreboard.io (PRIMARY REVENUE - May 2026):**
-- Site: https://choreboard.io
-- Admin Dashboard: https://app.choreboard.io/admin/dash
-- Any new signups/beta users?
-- Any site issues or deployment problems?
-- Site/app uptime?
-
-**Archived Projects (marketing paused):**
+**Archived Projects (marketing ceased):**
+- Choreboard.io: Taken down July 2026
 - Bodyweight Gym: https://muscleup-landing.onrender.com and https://handstand-landingpage.onrender.com (live but no active promotion)
 - ClawPress: Moltbook presence (check occasionally, not priority)
 - PetSwap: Deployed but inactive

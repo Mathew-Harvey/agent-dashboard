@@ -1,38 +1,17 @@
 # MEMORY.md - Long-term Memory
 
-## PRIMARY REVENUE STREAM: Choreboard.io (May 2026)
+## ARCHIVED: Choreboard.io (May–July 2026)
+
+**Status:** Taken down July 1, 2026. Marketing ceased.
 
 **Product:** Family chore management SaaS — real-time Kanban, kid PIN sign-in, auto-renewing chores, Sunday payouts, gamification (XP, badges, leaderboards), ambient TV mode for kitchen wall.
 
-**Site:** https://choreboard.io
-
-**Target Audience:** Parents with kids doing chores
-
-**Pricing:** 
-- Free during beta
-- Post-beta: $5/month subscription (credit card required)
-
-**Tech Stack:**
-- Frontend: Vite.js
-- Backend: Node.js
-- Hosting: Render
-
-**Marketing Focus:** X (Twitter) primarily
-
-**Asset Strategy:** Extract images from landing page → ffmpeg to create video content → post on X
+**Site:** ~~https://choreboard.io~~ (offline)
 
 **GitHub Repos:**
 - Landing: https://github.com/Mathew-Harvey/ChoreBoard-Landing
 - Web App: https://github.com/Mathew-Harvey/ChoreBoard-Web  
 - API: https://github.com/Mathew-Harvey/ChoreBoard-Api
-
-**Admin Dashboard:** https://app.choreboard.io/admin/dash (jeff-assistant@agentmail.to whitelisted)
-
-**My Mission:**
-- Generate X marketing content from landing page assets
-- Post daily sales-focused content
-- Drive signups during beta
-- Convert beta users to paid subscribers at launch
 
 ---
 

@@ -1,3 +1,4 @@
+# ARCHIVED: Choreboard taken down July 1, 2026
 #!/bin/bash
 # Check Choreboard.io for new signups
 # Requires admin API access (TBD)
