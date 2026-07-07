@@ -336,3 +336,4 @@ Warning: vkCreateInstance failed with VK_ERROR_INCOMPATIBLE_DRIVER
 [1048:1242:0703/175336.832464:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
 [1048:1242:0703/181900.273508:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
 [1048:1242:0703/182058.763733:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+[1048:1242:0707/113658.221170:ERROR:google_apis/gcm/engine/mcs_client.cc:748] Received close command, resetting connection.
